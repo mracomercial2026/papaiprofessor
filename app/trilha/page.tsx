@@ -5,12 +5,12 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 import {
-  getQuestionsForTopic,
   getMonsters,
   TOPICS_BY_SUBJECT,
   type Question,
   type Monster,
 } from "../data/questions";
+import { getQuestionsFromBank } from "../data/questionLoader";
 
 // ── 🔊 Sons 8-bit via Web Audio API (sem arquivos externos) ─────────────────
 type SoundName = "correct" | "wrong" | "monsterDefeated" | "playerHit" | "gameover" | "worldclear" | "levelup";
@@ -310,7 +310,7 @@ function TrilhaContent() {
   // ─── GAME INIT ───────────────────────────────────────────────────────────────
 
   function initGameLocal(subj: string, top: string) {
-    const qs = getQuestionsForTopic(subj, top);
+    const qs = getQuestionsFromBank(subj, top, 100) ?? [];
     const ms = getMonsters(subj);
     setSubject(subj);
     setTopic(top);
