@@ -44,36 +44,47 @@ function parseGameButton(content: string): { text: string; game: GameButton | nu
   return { text, game: { materia: match[1].trim(), tema: match[2].trim() } };
 }
 
+// Escapa HTML para evitar XSS antes de processar markdown
+function escapeHtml(str: string): string {
+  return str.replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] ?? c)
+  );
+}
+
+function applyInline(str: string): string {
+  return escapeHtml(str)
+    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.*?)\*/g, "<em>$1</em>");
+}
+
 function MarkdownText({ text }: { text: string }) {
   const lines = text.split("\n");
   const html = lines
     .map((line) => {
       if (/^#{1,3} /.test(line)) {
         const content = line.replace(/^#{1,3} /, "");
-        return `<div class="md-heading">${content.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</div>`;
+        return `<div class="md-heading">${applyInline(content)}</div>`;
       }
       if (line.startsWith("**") && line.endsWith("**") && line.length > 4) {
-        return `<div class="md-section-title">${line.slice(2, -2)}</div>`;
+        return `<div class="md-section-title">${escapeHtml(line.slice(2, -2))}</div>`;
       }
       if (/^\*\*.*\*\*/.test(line)) {
-        return `<div class="md-line">${line.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</div>`;
+        return `<div class="md-line">${applyInline(line)}</div>`;
       }
       if (line.startsWith("- ") || line.startsWith("• ")) {
-        return `<div class="md-bullet">▸ ${line.slice(2).replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</div>`;
+        return `<div class="md-bullet">▸ ${applyInline(line.slice(2))}</div>`;
       }
       if (/^\d+\. /.test(line)) {
-        return `<div class="md-numbered">${line.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")}</div>`;
+        return `<div class="md-numbered">${applyInline(line)}</div>`;
       }
       if (line.startsWith("> ")) {
-        return `<div class="md-quote">${line.slice(2)}</div>`;
+        return `<div class="md-quote">${escapeHtml(line.slice(2))}</div>`;
       }
       if (line === "---" || line === "***") {
         return `<div class="md-divider"></div>`;
       }
       if (line.trim() === "") return `<div class="md-spacer"></div>`;
-      return `<div class="md-line">${line
-        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-        .replace(/\*(.*?)\*/g, "<em>$1</em>")}</div>`;
+      return `<div class="md-line">${applyInline(line)}</div>`;
     })
     .join("");
 
@@ -91,6 +102,14 @@ export default function AprenderPage() {
   const [coins, setCoins] = useState(0);
   const [coinPop, setCoinPop] = useState(false);
   const chatEndRef = useRef<HTMLDivElement>(null);
+  const coinPopTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Cleanup timers on unmount
+  useEffect(() => {
+    return () => {
+      if (coinPopTimer.current) clearTimeout(coinPopTimer.current);
+    };
+  }, []);
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -100,6 +119,10 @@ export default function AprenderPage() {
     async (text?: string) => {
       const content = text || input.trim();
       if (!content || loading) return;
+      if (content.length > 4000) {
+        alert("Pergunta muito longa. Por favor, reduza para até 4000 caracteres.");
+        return;
+      }
 
       const userMsg: Message = { role: "user", content };
       const newMessages = [...messages, userMsg];
@@ -139,7 +162,8 @@ export default function AprenderPage() {
 
         setCoins((prev) => prev + 5);
         setCoinPop(true);
-        setTimeout(() => setCoinPop(false), 1500);
+        if (coinPopTimer.current) clearTimeout(coinPopTimer.current);
+        coinPopTimer.current = setTimeout(() => setCoinPop(false), 1500);
       } catch {
         setMessages((prev) => [
           ...prev,

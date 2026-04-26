@@ -32,10 +32,6 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Bloqueia imports de módulos não usados nas respostas de produção
-  experimental: {
-    serverComponentsHmrCache: false,
-  },
 };
 
 export default nextConfig;

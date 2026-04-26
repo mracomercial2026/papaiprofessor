@@ -249,7 +249,18 @@ function TrilhaContent() {
   const [combo, setCombo] = useState(0);
   const [feedbackOverlay, setFeedbackOverlay] = useState<null | "correct" | "wrong">(null);
 
-  const shakeT = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const shakePlayerT = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const shakeMonsterT = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const feedbackTimers = useRef<ReturnType<typeof setTimeout>[]>([]);
+
+  // Cleanup all pending timers on unmount
+  useEffect(() => {
+    return () => {
+      if (shakePlayerT.current) clearTimeout(shakePlayerT.current);
+      if (shakeMonsterT.current) clearTimeout(shakeMonsterT.current);
+      feedbackTimers.current.forEach((t) => clearTimeout(t));
+    };
+  }, []);
 
   // Read URL params from chat JOGAR button
   useEffect(() => {
@@ -308,6 +319,7 @@ function TrilhaContent() {
     setClearedMonsters([]);
     setPlayerHp(6);
     setTotalXp(0);
+    setCombo(0);
     setUsedIndices(new Set()); // reset only at game start
     setScreen("map");
   }
@@ -368,12 +380,12 @@ function TrilhaContent() {
   const triggerShake = useCallback((who: "player" | "monster") => {
     if (who === "player") {
       setShakePlayer(true);
-      if (shakeT.current) clearTimeout(shakeT.current);
-      shakeT.current = setTimeout(() => setShakePlayer(false), 600);
+      if (shakePlayerT.current) clearTimeout(shakePlayerT.current);
+      shakePlayerT.current = setTimeout(() => setShakePlayer(false), 600);
     } else {
       setShakeMonster(true);
-      if (shakeT.current) clearTimeout(shakeT.current);
-      shakeT.current = setTimeout(() => setShakeMonster(false), 600);
+      if (shakeMonsterT.current) clearTimeout(shakeMonsterT.current);
+      shakeMonsterT.current = setTimeout(() => setShakeMonster(false), 600);
     }
   }, []);
 
@@ -384,38 +396,46 @@ function TrilhaContent() {
       const correct = idx === currentQ.correct;
       setLastCorrect(correct);
 
+      // Cancel any pending feedback timers before starting new ones
+      feedbackTimers.current.forEach((t) => clearTimeout(t));
+      feedbackTimers.current = [];
+
       if (correct) {
         setCombo((c) => c + 1);
         playSound("correct");
         setFeedbackOverlay("correct");
-        setTimeout(() => {
+        const t1 = setTimeout(() => {
           setFeedbackOverlay(null);
           setPhase("result");
           setAttackFlash("hit");
           setShowEffect("⚔️");
-          setTimeout(() => {
+          const t2 = setTimeout(() => {
             setAttackFlash(null);
             setShowEffect(null);
             triggerShake("monster");
             setMonsterHp((p) => p - 1);
           }, 400);
+          feedbackTimers.current.push(t2);
         }, 1100);
+        feedbackTimers.current.push(t1);
       } else {
         setCombo(0);
         playSound("wrong");
         setFeedbackOverlay("wrong");
-        setTimeout(() => {
+        const t1 = setTimeout(() => {
           setFeedbackOverlay(null);
           setPhase("result");
           setAttackFlash("player-hit");
           setShowEffect("💥");
-          setTimeout(() => {
+          const t2 = setTimeout(() => {
             setAttackFlash(null);
             setShowEffect(null);
             triggerShake("player");
             setPlayerHp((p) => Math.max(0, p - 1));
           }, 400);
+          feedbackTimers.current.push(t2);
         }, 1100);
+        feedbackTimers.current.push(t1);
       }
     },
     [selectedAnswer, currentQ, feedbackOverlay, triggerShake, playSound]
@@ -440,6 +460,7 @@ function TrilhaContent() {
       }, 800);
     } else if (playerHp <= 0) {
       setTimeout(() => {
+        setCombo(0);
         playSound("gameover");
         setScreen("gameover");
       }, 800);

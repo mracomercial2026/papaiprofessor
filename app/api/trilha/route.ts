@@ -1,11 +1,17 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextRequest, NextResponse } from "next/server";
 
-const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
-
 export async function POST(req: NextRequest) {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    return NextResponse.json(
+      { error: "Serviço temporariamente indisponível." },
+      { status: 503 }
+    );
+  }
+
+  const client = new Anthropic({ apiKey });
+
   try {
     const { subject, topic, gradeLevel, type } = await req.json();
 
