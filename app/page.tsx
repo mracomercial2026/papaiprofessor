@@ -263,7 +263,7 @@ export default function Home() {
               Entrar
             </button>
             <Link
-              href="/aprender"
+              href="/jogar"
               style={{
                 background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
                 color: "#fff", borderRadius: 8, fontSize: 14, fontWeight: 600,
@@ -368,7 +368,7 @@ export default function Home() {
         {/* CTAs */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "center", marginBottom: 60 }}>
           <Link
-            href="/aprender"
+            href="/jogar"
             style={{
               background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
               color: "#fff", borderRadius: 10, fontSize: 16, fontWeight: 700,
@@ -742,6 +742,7 @@ export default function Home() {
             >
               Começar grátis
             </Link>
+
             <Link
               href="/trilha"
               style={{

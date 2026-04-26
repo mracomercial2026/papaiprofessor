@@ -245,6 +245,10 @@ function TrilhaContent() {
   const [monsterEnter, setMonsterEnter] = useState(false);
   const [showEffect, setShowEffect] = useState<string | null>(null);
 
+  // Imersão extra
+  const [combo, setCombo] = useState(0);
+  const [feedbackOverlay, setFeedbackOverlay] = useState<null | "correct" | "wrong">(null);
+
   const shakeT = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Read URL params from chat JOGAR button
@@ -375,35 +379,46 @@ function TrilhaContent() {
 
   const handleAnswer = useCallback(
     (idx: number) => {
-      if (selectedAnswer !== null || !currentQ) return;
+      if (selectedAnswer !== null || !currentQ || feedbackOverlay) return;
       setSelectedAnswer(idx);
       const correct = idx === currentQ.correct;
       setLastCorrect(correct);
-      setPhase("result");
 
       if (correct) {
+        setCombo((c) => c + 1);
         playSound("correct");
-        setAttackFlash("hit");
-        setShowEffect("⚔️");
+        setFeedbackOverlay("correct");
         setTimeout(() => {
-          setAttackFlash(null);
-          setShowEffect(null);
-          triggerShake("monster");
-          setMonsterHp((p) => p - 1);
-        }, 500);
+          setFeedbackOverlay(null);
+          setPhase("result");
+          setAttackFlash("hit");
+          setShowEffect("⚔️");
+          setTimeout(() => {
+            setAttackFlash(null);
+            setShowEffect(null);
+            triggerShake("monster");
+            setMonsterHp((p) => p - 1);
+          }, 400);
+        }, 1100);
       } else {
+        setCombo(0);
         playSound("wrong");
-        setAttackFlash("player-hit");
-        setShowEffect("💥");
+        setFeedbackOverlay("wrong");
         setTimeout(() => {
-          setAttackFlash(null);
-          setShowEffect(null);
-          triggerShake("player");
-          setPlayerHp((p) => Math.max(0, p - 1));
-        }, 500);
+          setFeedbackOverlay(null);
+          setPhase("result");
+          setAttackFlash("player-hit");
+          setShowEffect("💥");
+          setTimeout(() => {
+            setAttackFlash(null);
+            setShowEffect(null);
+            triggerShake("player");
+            setPlayerHp((p) => Math.max(0, p - 1));
+          }, 400);
+        }, 1100);
       }
     },
-    [selectedAnswer, currentQ, triggerShake, playSound]
+    [selectedAnswer, currentQ, feedbackOverlay, triggerShake, playSound]
   );
 
   useEffect(() => {
@@ -655,150 +670,340 @@ function TrilhaContent() {
 
   // ─── BATTLE ──────────────────────────────────────────────────────────────────
   if (screen === "battle" && currentMonster && currentQ) {
-    const monsterPct = Math.max(0, (monsterHp / currentMonster.hp) * 100);
-    const playerPct = Math.max(0, (playerHp / 6) * 100);
-    void monsterPct; void playerPct;
+    const arenaColors: Record<string, string> = {
+      "Matemática":  "linear-gradient(180deg,#0a0a2e 0%,#0f0f3a 60%,#1a1060 100%)",
+      "Português":   "linear-gradient(180deg,#1a0a0a 0%,#2a0a1a 60%,#3a0f2e 100%)",
+      "Ciências":    "linear-gradient(180deg,#001a0a 0%,#002a14 60%,#003320 100%)",
+      "História":    "linear-gradient(180deg,#1a0a00 0%,#2a1400 60%,#3a1f00 100%)",
+      "Geografia":   "linear-gradient(180deg,#001a1a 0%,#002020 60%,#003030 100%)",
+    };
+    const arenaBg = arenaColors[subject ?? ""] ?? "linear-gradient(180deg,#0a0318 0%,#0f0720 60%,#1a0a2e 100%)";
 
     return (
-      <div className="min-h-screen stars-bg flex flex-col overflow-hidden"
+      <div
+        className="min-h-screen flex flex-col overflow-hidden"
         style={{
-          background: attackFlash === "hit"
-            ? "linear-gradient(135deg, rgba(220,20,60,0.2), #16082e)"
-            : attackFlash === "player-hit"
-            ? "linear-gradient(135deg, rgba(30,30,120,0.3), #16082e)"
-            : undefined,
-          transition: "background 0.3s",
-        }}>
-
-        <div className="border-b border-purple-900/50 px-4 py-2 flex items-center justify-between shrink-0">
-          <button onClick={() => setScreen("map")} className="font-pixel text-purple-400 text-[8px] hover:text-yellow-400">✕ FUGIR</button>
-          <div className="text-center">
-            <div className="font-pixel text-[7px]" style={{ color: subjectColor }}>{topic}</div>
-            {isBoss && <div className="font-pixel text-[6px] text-red-400 animate-blink">⚠️ BOSS BATTLE!</div>}
-          </div>
-          <span className="font-pixel text-yellow-400 text-[8px]">⭐{totalXp}</span>
-        </div>
-
-        <div className="flex-1 flex flex-col p-3 gap-3 max-w-2xl mx-auto w-full">
-          {/* HP bars */}
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <div className="flex justify-between mb-1">
-                <span className="font-pixel text-[6px] text-green-400">PAI HERÓI</span>
-                <span className="font-pixel text-[6px] text-green-400">{playerHp}/6</span>
-              </div>
-              <HpBar current={playerHp} max={6} color="#059669" />
-            </div>
-            <div>
-              <div className="flex justify-between mb-1">
-                <span className="font-pixel text-[6px] truncate" style={{ color: currentMonster.color }}>
-                  {currentMonster.name.split(":")[0]}
-                </span>
-                <span className="font-pixel text-[6px]" style={{ color: currentMonster.color }}>
-                  {monsterHp}/{currentMonster.hp}
-                </span>
-              </div>
-              <HpBar current={monsterHp} max={currentMonster.hp} color={currentMonster.color} />
-            </div>
-          </div>
-
-          {/* Arena */}
-          <div className="relative flex items-end justify-between px-4 py-4 overflow-hidden flex-shrink-0"
+          background: arenaBg,
+          transition: "background 0.4s",
+        }}
+      >
+        {/* ── Overlay de feedback (tela cheia) ─────────────────────────────── */}
+        {feedbackOverlay && (
+          <div
+            className="fixed inset-0 z-50 flex flex-col items-center justify-center pointer-events-none"
             style={{
-              background: "linear-gradient(180deg, #0a0318 0%, #0f0720 50%, #1a0a2e 100%)",
-              border: `3px solid ${isBoss ? "#dc2626" : "#4c1d95"}`,
-              boxShadow: isBoss ? "0 0 30px rgba(220,20,60,0.3)" : undefined,
-              minHeight: 160,
-            }}>
-            <div className="absolute bottom-0 left-0 right-0 h-4"
-              style={{ background: "repeating-linear-gradient(90deg,#4c1d95 0,#4c1d95 8px,#2e1065 8px,#2e1065 16px)" }} />
-            {[...Array(8)].map((_, i) => (
-              <div key={i} className="absolute w-1 h-1 bg-white rounded-full animate-blink"
-                style={{ left:`${10+i*12}%`, top:`${10+((i*17)%40)}%`, animationDelay:`${i*0.3}s`, opacity:0.4 }} />
-            ))}
-
-            <div className={`flex flex-col items-center gap-1 z-10 transition-transform duration-200 ${attackFlash==="hit"?"translate-x-6":""}`}>
-              <div className={`text-5xl ${shakePlayer?"animate-shake":""}`}>👨‍🏫</div>
-              <div className="font-pixel text-[5px] text-green-400">PAI HERÓI</div>
-              <div className="flex gap-0.5">
-                {Array.from({length:6}).map((_,i)=>(
-                  <div key={i} className="w-1.5 h-1.5 rounded-sm" style={{background:i<playerHp?"#059669":"#1a0a2e"}} />
-                ))}
-              </div>
+              background: feedbackOverlay === "correct"
+                ? "rgba(5,150,105,0.88)"
+                : "rgba(185,28,28,0.88)",
+              animation: "pop-in 0.15s ease-out",
+            }}
+          >
+            <div style={{ fontSize: "clamp(64px,15vw,120px)", lineHeight: 1 }}>
+              {feedbackOverlay === "correct" ? "⚔️" : "💥"}
             </div>
-
-            {showEffect && (
-              <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl animate-pop-in z-20 pointer-events-none">
-                {showEffect}
+            <div
+              className="font-pixel glow-yellow mt-4"
+              style={{ fontSize: "clamp(18px,5vw,40px)", color: "#fff", letterSpacing: 2 }}
+            >
+              {feedbackOverlay === "correct" ? "CORRETO!" : "ERRADO!"}
+            </div>
+            {feedbackOverlay === "correct" && combo > 1 && (
+              <div className="font-pixel text-yellow-400 mt-3" style={{ fontSize: "clamp(10px,3vw,20px)" }}>
+                🔥 COMBO x{combo}!
               </div>
             )}
+          </div>
+        )}
 
-            <div className="font-pixel text-[10px] text-red-400 animate-blink z-10 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">VS</div>
+        {/* ── HUD topo ──────────────────────────────────────────────────────── */}
+        <div
+          className="shrink-0 px-4 py-3 flex items-center justify-between gap-2"
+          style={{ background: "rgba(0,0,0,0.5)", borderBottom: `2px solid ${isBoss ? "#dc2626" : "#4c1d95"}` }}
+        >
+          <button onClick={() => setScreen("map")} className="font-pixel text-purple-500 text-[7px] hover:text-red-400 transition-colors">
+            ✕ FUGIR
+          </button>
+          <div className="text-center flex-1">
+            <div className="font-pixel text-[7px]" style={{ color: subjectColor }}>{topic?.toUpperCase()}</div>
+            {isBoss && (
+              <div className="font-pixel text-[6px] text-red-400 animate-blink">⚠️ CHEFE FINAL!</div>
+            )}
+          </div>
+          <div className="flex items-center gap-3">
+            {combo > 1 && (
+              <span className="font-pixel text-orange-400 text-[7px] animate-blink">🔥x{combo}</span>
+            )}
+            <span className="font-pixel text-yellow-400 text-[8px]">⭐ {totalXp}</span>
+          </div>
+        </div>
 
-            <div className={`flex flex-col items-center gap-1 z-10 transition-all duration-500
-              ${monsterEnter ? "translate-x-full opacity-0" : "translate-x-0 opacity-100"}
-              ${attackFlash==="player-hit"?"-translate-x-6":""}`}>
-              <div className={`${shakeMonster?"animate-shake":""} ${monsterHp<=0?"opacity-0 scale-0":"opacity-100 scale-100"} transition-all duration-300`}>
-                <div style={{ fontSize:"clamp(48px,8vw,72px)", filter:`drop-shadow(0 0 12px ${currentMonster.color})` }}>
-                  {currentMonster.emoji}
-                </div>
+        {/* ── Arena ─────────────────────────────────────────────────────────── */}
+        <div
+          className="relative flex items-end justify-between overflow-hidden shrink-0"
+          style={{
+            minHeight: "clamp(160px,35vh,260px)",
+            borderBottom: `3px solid ${isBoss ? "#dc2626" : "#4c1d95"}`,
+            boxShadow: isBoss
+              ? `0 0 60px rgba(220,38,38,0.5), inset 0 -20px 60px rgba(220,38,38,0.15)`
+              : `inset 0 -20px 60px rgba(124,58,237,0.1)`,
+            padding: "0 5% 20px",
+          }}
+        >
+          {/* Estrelas de fundo */}
+          {[...Array(12)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute rounded-full bg-white animate-blink"
+              style={{
+                width: (i % 3) + 1,
+                height: (i % 3) + 1,
+                left: `${(i * 137) % 90 + 5}%`,
+                top: `${(i * 73) % 60 + 5}%`,
+                opacity: 0.3 + (i % 4) * 0.1,
+                animationDelay: `${i * 0.4}s`,
+              }}
+            />
+          ))}
+
+          {/* Chão pixelado */}
+          <div
+            className="absolute bottom-0 left-0 right-0"
+            style={{
+              height: 16,
+              background: `repeating-linear-gradient(90deg, ${subjectColor}66 0, ${subjectColor}66 8px, ${subjectColor}33 8px, ${subjectColor}33 16px)`,
+            }}
+          />
+
+          {/* Jogador */}
+          <div
+            className={`flex flex-col items-center gap-1 z-10 transition-transform duration-200 ${attackFlash === "hit" ? "translate-x-8" : ""}`}
+          >
+            <div style={{ position: "relative" }}>
+              <div
+                className={`${shakePlayer ? "animate-shake" : ""}`}
+                style={{ fontSize: "clamp(48px,10vw,72px)", filter: `drop-shadow(0 4px 8px rgba(5,150,105,0.6))` }}
+              >
+                👨‍🏫
               </div>
-              <div className="font-pixel text-[5px] text-center" style={{ color: currentMonster.color }}>
-                {currentMonster.name.replace("BOSS: ","")}
-              </div>
-              <div className="flex gap-0.5">
-                {Array.from({length:currentMonster.hp}).map((_,i)=>(
-                  <div key={i} className="w-1.5 h-1.5 rounded-sm transition-all"
-                    style={{background:i<monsterHp?currentMonster.color:"#1a0a2e"}} />
-                ))}
-              </div>
+              {attackFlash === "player-hit" && (
+                <div className="absolute -top-2 -right-2 text-2xl animate-pop-in">💢</div>
+              )}
+            </div>
+            <div className="font-pixel text-[5px] text-green-400">PAI HERÓI</div>
+            <div className="flex gap-0.5">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div
+                  key={i}
+                  className="w-2 h-2 rounded-sm transition-all duration-300"
+                  style={{ background: i < playerHp ? "#059669" : "#1a0a2e", boxShadow: i < playerHp ? "0 0 4px #059669" : "none" }}
+                />
+              ))}
             </div>
           </div>
 
-          {/* Question */}
+          {/* VS central */}
+          <div className="font-pixel text-[11px] text-red-500 animate-blink z-10" style={{ textShadow: "0 0 12px rgba(220,38,38,0.8)" }}>VS</div>
+
+          {/* Monstro */}
+          <div
+            className={`flex flex-col items-center gap-1 z-10 transition-all duration-500
+              ${monsterEnter ? "translate-x-full opacity-0" : "translate-x-0 opacity-100"}
+              ${attackFlash === "player-hit" ? "-translate-x-8" : ""}`}
+          >
+            <div
+              className={`${shakeMonster ? "animate-shake" : ""} ${monsterHp <= 0 ? "opacity-0 scale-0" : "opacity-100 scale-100"} transition-all duration-300`}
+              style={{
+                fontSize: isBoss ? "clamp(64px,13vw,100px)" : "clamp(48px,10vw,80px)",
+                filter: `drop-shadow(0 0 20px ${currentMonster.color}) drop-shadow(0 4px 8px rgba(0,0,0,0.5))`,
+                animation: feedbackOverlay ? "none" : "float 2.5s ease-in-out infinite",
+              }}
+            >
+              {currentMonster.emoji}
+            </div>
+            <div className="font-pixel text-[5px] text-center" style={{ color: currentMonster.color }}>
+              {currentMonster.name.replace("BOSS: ", "")}
+            </div>
+            <div className="flex gap-0.5">
+              {Array.from({ length: currentMonster.hp }).map((_, i) => (
+                <div
+                  key={i}
+                  className="w-2 h-2 rounded-sm transition-all duration-500"
+                  style={{
+                    background: i < monsterHp ? currentMonster.color : "#1a0a2e",
+                    boxShadow: i < monsterHp ? `0 0 4px ${currentMonster.color}` : "none",
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Efeito de ataque central */}
+          {showEffect && (
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl animate-pop-in z-20 pointer-events-none">
+              {showEffect}
+            </div>
+          )}
+        </div>
+
+        {/* ── HP bars ───────────────────────────────────────────────────────── */}
+        <div className="grid grid-cols-2 gap-3 px-4 py-2 shrink-0" style={{ background: "rgba(0,0,0,0.4)" }}>
+          <div>
+            <div className="flex justify-between mb-1">
+              <span className="font-pixel text-[6px] text-green-400">PAI HERÓI</span>
+              <span className="font-pixel text-[6px] text-green-400">{playerHp}/6</span>
+            </div>
+            <HpBar current={playerHp} max={6} color="#059669" />
+          </div>
+          <div>
+            <div className="flex justify-between mb-1">
+              <span className="font-pixel text-[6px] truncate" style={{ color: currentMonster.color }}>
+                {currentMonster.name.replace("BOSS: ", "")}
+              </span>
+              <span className="font-pixel text-[6px]" style={{ color: currentMonster.color }}>{monsterHp}/{currentMonster.hp}</span>
+            </div>
+            <HpBar current={monsterHp} max={currentMonster.hp} color={currentMonster.color} />
+          </div>
+        </div>
+
+        {/* ── Área da pergunta / resultado ──────────────────────────────────── */}
+        <div className="flex-1 flex flex-col max-w-2xl mx-auto w-full px-4 py-4 gap-3 overflow-y-auto">
+
+          {/* Pergunta */}
           {phase === "question" && (
-            <div className="pixel-card p-4 animate-pop-in flex-1" style={{ borderColor: currentMonster.color }}>
-              <div className="font-pixel text-[7px] mb-2" style={{ color: currentMonster.color }}>
-                ❓ RESPONDA PARA ATACAR!
+            <div className="flex flex-col gap-4 animate-pop-in">
+              {/* Card da pergunta */}
+              <div
+                className="p-5 rounded-xl"
+                style={{
+                  background: "rgba(0,0,0,0.5)",
+                  border: `2px solid ${currentMonster.color}66`,
+                  boxShadow: `0 0 20px ${currentMonster.color}22`,
+                }}
+              >
+                <div className="font-pixel mb-3 text-center" style={{ fontSize: 7, color: currentMonster.color, letterSpacing: 1 }}>
+                  ❓ RESPONDA PARA ATACAR
+                </div>
+                <p className="font-retro text-white leading-snug text-center" style={{ fontSize: "clamp(17px,3.5vw,22px)" }}>
+                  {currentQ.question}
+                </p>
               </div>
-              <div className="font-retro text-white text-xl leading-snug mb-4">{currentQ.question}</div>
-              <div className="grid grid-cols-2 gap-2">
+
+              {/* Botões de resposta — empilhados, grandes */}
+              <div className="flex flex-col gap-2">
                 {currentQ.options.map((opt, idx) => (
-                  <button key={idx} onClick={() => handleAnswer(idx)}
-                    className="pixel-card p-3 text-left hover:scale-105 transition-all cursor-pointer"
-                    style={{ borderColor:"#4c1d95" }}>
-                    <span className="font-pixel text-[6px] text-purple-400 mr-2">{["A","B","C","D"][idx]}</span>
-                    <span className="font-retro text-purple-100 text-lg">{opt}</span>
+                  <button
+                    key={idx}
+                    onClick={() => handleAnswer(idx)}
+                    disabled={!!feedbackOverlay}
+                    className="flex items-center gap-4 text-left transition-all duration-150 cursor-pointer"
+                    style={{
+                      background: "rgba(255,255,255,0.04)",
+                      border: "2px solid rgba(124,58,237,0.35)",
+                      borderRadius: 12,
+                      padding: "14px 18px",
+                      opacity: feedbackOverlay ? 0.5 : 1,
+                    }}
+                    onMouseEnter={e => {
+                      if (!feedbackOverlay) {
+                        (e.currentTarget as HTMLButtonElement).style.background = `${currentMonster.color}18`;
+                        (e.currentTarget as HTMLButtonElement).style.borderColor = `${currentMonster.color}80`;
+                        (e.currentTarget as HTMLButtonElement).style.transform = "scale(1.02)";
+                      }
+                    }}
+                    onMouseLeave={e => {
+                      (e.currentTarget as HTMLButtonElement).style.background = "rgba(255,255,255,0.04)";
+                      (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(124,58,237,0.35)";
+                      (e.currentTarget as HTMLButtonElement).style.transform = "";
+                    }}
+                  >
+                    <span
+                      className="font-pixel shrink-0 flex items-center justify-center rounded-md"
+                      style={{
+                        fontSize: 8, width: 32, height: 32,
+                        background: `${currentMonster.color}22`,
+                        border: `1px solid ${currentMonster.color}55`,
+                        color: currentMonster.color,
+                      }}
+                    >
+                      {["A", "B", "C", "D"][idx]}
+                    </span>
+                    <span className="font-retro text-purple-100" style={{ fontSize: "clamp(16px,3vw,20px)" }}>
+                      {opt}
+                    </span>
                   </button>
                 ))}
               </div>
             </div>
           )}
 
-          {/* Result */}
+          {/* Resultado */}
           {phase === "result" && (
-            <div className={`pixel-card p-4 animate-pop-in flex-1 ${lastCorrect?"pixel-border-green":"pixel-border-yellow"}`}>
-              <div className="font-pixel text-[8px] mb-2" style={{ color: lastCorrect?"#10b981":"#FFD700" }}>
-                {lastCorrect
-                  ? `⚔️ ATAQUE CERTEIRO! ${currentMonster.name} perdeu 1 HP!`
-                  : `${currentMonster.attackEmoji} O monstro atacou! Você perdeu 1 HP!`}
+            <div className="flex flex-col gap-3 animate-pop-in">
+              {/* Banner de resultado */}
+              <div
+                className="p-4 rounded-xl text-center"
+                style={{
+                  background: lastCorrect ? "rgba(5,150,105,0.2)" : "rgba(185,28,28,0.2)",
+                  border: `2px solid ${lastCorrect ? "#059669" : "#dc2626"}`,
+                  boxShadow: `0 0 24px ${lastCorrect ? "rgba(5,150,105,0.3)" : "rgba(185,28,28,0.3)"}`,
+                }}
+              >
+                <div className="font-pixel mb-1" style={{ fontSize: 9, color: lastCorrect ? "#10b981" : "#f87171" }}>
+                  {lastCorrect
+                    ? `⚔️ ATAQUE CERTEIRO! ${currentMonster.name.replace("BOSS: ", "")} perdeu 1 HP!`
+                    : `${currentMonster.attackEmoji} Monstro contra-atacou! Você perdeu 1 HP!`}
+                </div>
+                {lastCorrect && combo > 1 && (
+                  <div className="font-pixel text-yellow-400 animate-blink" style={{ fontSize: 7 }}>🔥 COMBO x{combo}!</div>
+                )}
               </div>
-              <div className="grid grid-cols-2 gap-1 mb-3">
-                {currentQ.options.map((opt, idx) => (
-                  <div key={idx} className="p-2 pixel-card font-retro text-sm"
-                    style={{
-                      borderColor: idx===currentQ.correct?"#059669":idx===selectedAnswer&&idx!==currentQ.correct?"#DC143C":"#4c1d95",
-                      background: idx===currentQ.correct?"#0a2e1e":idx===selectedAnswer&&idx!==currentQ.correct?"#2d0a0a":undefined,
-                    }}>
-                    <span className="font-pixel text-[6px] text-purple-400 mr-1">{["A","B","C","D"][idx]}</span>
-                    {opt}{idx===currentQ.correct?" ✅":""}{idx===selectedAnswer&&idx!==currentQ.correct?" ❌":""}
-                  </div>
-                ))}
+
+              {/* Gabarito */}
+              <div className="flex flex-col gap-2">
+                {currentQ.options.map((opt, idx) => {
+                  const isCorrect = idx === currentQ.correct;
+                  const isWrong   = idx === selectedAnswer && !isCorrect;
+                  return (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-3 rounded-xl px-4 py-3 transition-all"
+                      style={{
+                        background: isCorrect ? "rgba(5,150,105,0.2)" : isWrong ? "rgba(185,28,28,0.15)" : "rgba(0,0,0,0.2)",
+                        border: `2px solid ${isCorrect ? "#059669" : isWrong ? "#dc2626" : "rgba(124,58,237,0.2)"}`,
+                      }}
+                    >
+                      <span className="font-pixel shrink-0" style={{ fontSize: 7, color: isCorrect ? "#10b981" : isWrong ? "#f87171" : "#6d28d9" }}>
+                        {["A","B","C","D"][idx]}
+                      </span>
+                      <span className="font-retro text-purple-100 flex-1" style={{ fontSize: "clamp(15px,2.8vw,19px)" }}>{opt}</span>
+                      <span>{isCorrect ? "✅" : isWrong ? "❌" : ""}</span>
+                    </div>
+                  );
+                })}
               </div>
-              <div className="font-retro text-purple-200 text-lg mb-3 leading-snug">{currentQ.explanation}</div>
-              <button onClick={nextQuestion}
-                className={`pixel-btn w-full py-3 ${lastCorrect?"pixel-btn-green":"pixel-btn-primary"}`}>
-                {monsterHp<=1&&lastCorrect ? "🏆 DERROTA O MONSTRO!" : playerHp<=1&&!lastCorrect ? "💀 PERIGO!" : "PRÓXIMA PERGUNTA →"}
+
+              {/* Explicação */}
+              <div
+                className="p-4 rounded-xl"
+                style={{ background: "rgba(0,0,0,0.35)", border: "1px solid rgba(124,58,237,0.2)" }}
+              >
+                <div className="font-pixel text-purple-400 mb-2" style={{ fontSize: 6 }}>💡 EXPLICAÇÃO</div>
+                <p className="font-retro text-purple-200 leading-relaxed" style={{ fontSize: "clamp(15px,2.8vw,18px)" }}>
+                  {currentQ.explanation}
+                </p>
+              </div>
+
+              {/* Botão próxima */}
+              <button
+                onClick={nextQuestion}
+                className={`pixel-btn w-full py-4 ${lastCorrect ? "pixel-btn-green" : "pixel-btn-primary"}`}
+                style={{ fontSize: 10 }}
+              >
+                {monsterHp <= 1 && lastCorrect
+                  ? "🏆 DERROTE O MONSTRO!"
+                  : playerHp <= 1 && !lastCorrect
+                  ? "💀 PERIGO! PRÓXIMA..."
+                  : "PRÓXIMA PERGUNTA →"}
               </button>
             </div>
           )}
