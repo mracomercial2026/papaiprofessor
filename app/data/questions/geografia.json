@@ -1,0 +1,3237 @@
+{
+  "Mapas e Cartografia": [
+    {
+      "question": "O que é um mapa?",
+      "options": [
+        "Um livro de geografia",
+        "Um desenho de um lugar",
+        "Um quadro de cores",
+        "Um instrumento para medir distâncias"
+      ],
+      "correct": 1,
+      "explanation": "Um mapa é uma representação gráfica de um lugar ou região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do símbolo que representa a escala em um mapa?",
+      "options": [
+        "Lenda",
+        "Escala",
+        "Compasso",
+        "Legenda"
+      ],
+      "correct": 1,
+      "explanation": "A escala é o símbolo que representa a relação entre as distâncias no mapa e as distâncias reais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Para que serve um mapa?",
+      "options": [
+        "Para decorar a parede",
+        "Para encontrar o caminho para a escola",
+        "Para aprender sobre a história do Brasil",
+        "Para todos os itens acima"
+      ],
+      "correct": 3,
+      "explanation": "Um mapa serve para encontrar o caminho, aprender sobre a geografia de um lugar e muitas outras coisas.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mapa que mostra a localização de cidades e países?",
+      "options": [
+        "Mapa físico",
+        "Mapa político",
+        "Mapa turístico",
+        "Mapa climático"
+      ],
+      "correct": 1,
+      "explanation": "Um mapa político mostra a localização de cidades e países.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é a legenda de um mapa?",
+      "options": [
+        "A escala do mapa",
+        "A lista de cidades do mapa",
+        "A explicação dos símbolos do mapa",
+        "A cor do mapa"
+      ],
+      "correct": 2,
+      "explanation": "A legenda é a explicação dos símbolos e cores usados no mapa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do instrumento que ajuda a encontrar o norte?",
+      "options": [
+        "Bússola",
+        "Compasso",
+        "Globo terrestre",
+        "Mapa"
+      ],
+      "correct": 0,
+      "explanation": "A bússola é o instrumento que ajuda a encontrar o norte.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Um mapa não pode ser usado para:",
+      "options": [
+        "Encontrar o caminho para a escola",
+        "Aprender sobre a história do Brasil",
+        "Decorar a parede",
+        "Prever o tempo"
+      ],
+      "correct": 3,
+      "explanation": "Um mapa não é usado para prever o tempo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Um mapa é uma representação gráfica de um _______.",
+      "options": [
+        "Lugar",
+        "País",
+        "Cidade",
+        "Região"
+      ],
+      "correct": 0,
+      "explanation": "Um mapa é uma representação gráfica de um lugar.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um mapa tem uma escala de 1:1000, isso significa que:",
+      "options": [
+        "1 cm no mapa é igual a 1000 cm no mundo real",
+        "1 cm no mapa é igual a 100 cm no mundo real",
+        "1 cm no mapa é igual a 10 cm no mundo real",
+        "1 cm no mapa é igual a 1000 m no mundo real"
+      ],
+      "correct": 0,
+      "explanation": "Se um mapa tem uma escala de 1:1000, isso significa que 1 cm no mapa é igual a 1000 cm no mundo real.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome do mapa que mostra a forma como o terreno é?",
+      "options": [
+        "Mapa físico",
+        "Mapa político",
+        "Mapa turístico",
+        "Mapa climático"
+      ],
+      "correct": 0,
+      "explanation": "Um mapa físico mostra a forma como o terreno é.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um mapa pode ser usado para:",
+      "options": [
+        "Encontrar o caminho para a escola",
+        "Aprender sobre a história do Brasil",
+        "Decorar a parede",
+        "Todas as opções acima"
+      ],
+      "correct": 3,
+      "explanation": "Um mapa pode ser usado para encontrar o caminho, aprender sobre a história do Brasil e decorar a parede.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome do símbolo que representa a direção norte em um mapa?",
+      "options": [
+        "Seta",
+        "Estrela",
+        "Flecha",
+        "Compasso"
+      ],
+      "correct": 2,
+      "explanation": "A flecha é o símbolo que representa a direção norte em um mapa.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se um mapa tem uma escala de 1:5000, isso significa que:",
+      "options": [
+        "1 cm no mapa é igual a 5000 cm no mundo real",
+        "1 cm no mapa é igual a 500 cm no mundo real",
+        "1 cm no mapa é igual a 50 cm no mundo real",
+        "1 cm no mapa é igual a 5000 m no mundo real"
+      ],
+      "correct": 0,
+      "explanation": "Se um mapa tem uma escala de 1:5000, isso significa que 1 cm no mapa é igual a 5000 cm no mundo real.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um mapa não é útil para:",
+      "options": [
+        "Encontrar o caminho para a escola",
+        "Aprender sobre a história do Brasil",
+        "Prever o tempo",
+        "Nenhuma das opções acima"
+      ],
+      "correct": 2,
+      "explanation": "Um mapa não é útil para prever o tempo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um mapa é uma ferramenta útil para _______.",
+      "options": [
+        "Encontrar o caminho",
+        "Aprender sobre a história",
+        "Decorar a parede",
+        "Todas as opções acima"
+      ],
+      "correct": 3,
+      "explanation": "Um mapa é uma ferramenta útil para encontrar o caminho, aprender sobre a história e decorar a parede.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se um mapa tem uma escala de 1:10000, isso significa que:",
+      "options": [
+        "1 cm no mapa é igual a 10000 cm no mundo real",
+        "1 cm no mapa é igual a 1000 cm no mundo real",
+        "1 cm no mapa é igual a 100 cm no mundo real",
+        "1 cm no mapa é igual a 10000 m no mundo real"
+      ],
+      "correct": 0,
+      "explanation": "Se um mapa tem uma escala de 1:10000, isso significa que 1 cm no mapa é igual a 10000 cm no mundo real.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o nome do mapa que mostra a distribuição de recursos naturais?",
+      "options": [
+        "Mapa físico",
+        "Mapa político",
+        "Mapa econômico",
+        "Mapa climático"
+      ],
+      "correct": 2,
+      "explanation": "Um mapa econômico mostra a distribuição de recursos naturais.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Um mapa pode ser usado para comparar:",
+      "options": [
+        "A população de diferentes cidades",
+        "A área de diferentes países",
+        "A altitude de diferentes montanhas",
+        "Todas as opções acima"
+      ],
+      "correct": 3,
+      "explanation": "Um mapa pode ser usado para comparar a população de diferentes cidades, a área de diferentes países e a altitude de diferentes montanhas.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se um mapa tem uma escala de 1:50000, isso significa que:",
+      "options": [
+        "1 cm no mapa é igual a 50000 cm no mundo real",
+        "1 cm no mapa é igual a 5000 cm no mundo real",
+        "1 cm no mapa é igual a 500 cm no mundo real",
+        "1 cm no mapa é igual a 50000 m no mundo real"
+      ],
+      "correct": 0,
+      "explanation": "Se um mapa tem uma escala de 1:50000, isso significa que 1 cm no mapa é igual a 50000 cm no mundo real.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: Um mapa é uma ferramenta útil para _______ e _______.",
+      "options": [
+        "Encontrar o caminho, aprender sobre a história",
+        "Decorar a parede, prever o tempo",
+        "Aprender sobre a geografia, encontrar o caminho",
+        "Todas as opções acima"
+      ],
+      "correct": 0,
+      "explanation": "Um mapa é uma ferramenta útil para encontrar o caminho e aprender sobre a história.",
+      "type": "completar",
+      "difficulty": "dificil"
+    }
+  ],
+  "Sustentabilidade Ambiental": [
+    {
+      "question": "O que é sustentabilidade ambiental?",
+      "options": [
+        "A forma como as pessoas se relacionam com o meio ambiente",
+        "A quantidade de lixo que produzimos",
+        "A forma como as empresas poluem o ar",
+        "A quantidade de água que bebemos"
+      ],
+      "correct": 0,
+      "explanation": "Sustentabilidade ambiental é a forma como as pessoas se relacionam com o meio ambiente, tentando preservá-lo para as gerações futuras.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância de reciclar?",
+      "options": [
+        "Para economizar dinheiro",
+        "Para produzir mais lixo",
+        "Para conservar os recursos naturais",
+        "Para poluir o ar"
+      ],
+      "correct": 2,
+      "explanation": "Reciclar é importante para conservar os recursos naturais e reduzir a quantidade de lixo que vai para os aterros sanitários.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é poluição?",
+      "options": [
+        "A forma como as plantas crescem",
+        "A quantidade de água que evaporamos",
+        "A contaminação do ar, água ou solo",
+        "A forma como as pessoas se vestem"
+      ],
+      "correct": 2,
+      "explanation": "Poluição é a contaminação do ar, água ou solo por substâncias nocivas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o efeito do aquecimento global?",
+      "options": [
+        "O planeta fica mais frio",
+        "O planeta fica mais quente",
+        "O planeta fica mais seco",
+        "O planeta fica mais úmido"
+      ],
+      "correct": 1,
+      "explanation": "O aquecimento global é o aumento da temperatura média do planeta, causado pela emissão de gases de efeito estufa.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma forma de reduzir a poluição?",
+      "options": [
+        "Usar transporte público",
+        "Reciclar",
+        "Queimar lixo",
+        "Desligar as luzes"
+      ],
+      "correct": 2,
+      "explanation": "Queimar lixo é uma forma de aumentar a poluição, não reduzi-la.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: A _______ é uma forma de energia renovável.",
+      "options": [
+        "Queima de combustíveis fósseis",
+        "Uso de energia nuclear",
+        "Uso de painéis solares",
+        "Uso de carvão"
+      ],
+      "correct": 2,
+      "explanation": "A energia solar é uma forma de energia renovável e limpa.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante conservar a água?",
+      "options": [
+        "Para ter mais água para beber",
+        "Para ter mais água para nadar",
+        "Para manter os ecossistemas saudáveis",
+        "Para produzir mais lixo"
+      ],
+      "correct": 2,
+      "explanation": "A água é essencial para a vida e para manter os ecossistemas saudáveis.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um ecossistema?",
+      "options": [
+        "Um grupo de animais",
+        "Um grupo de plantas",
+        "Um conjunto de seres vivos e não vivos que interagem",
+        "Um tipo de rocha"
+      ],
+      "correct": 2,
+      "explanation": "Um ecossistema é um conjunto de seres vivos e não vivos que interagem entre si.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de cortar árvores sem replantá-las?",
+      "options": [
+        "Aumento da biodiversidade",
+        "Redução da poluição",
+        "Desmatamento e perda de habitats",
+        "Aumento da produção de oxigênio"
+      ],
+      "correct": 2,
+      "explanation": "Cortar árvores sem replantá-las pode levar ao desmatamento e perda de habitats para muitas espécies.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a importância de reduzir o uso de plásticos?",
+      "options": [
+        "Para produzir mais lixo",
+        "Para poluir o oceano",
+        "Para reduzir a poluição e conservar os recursos naturais",
+        "Para aumentar a produção de plásticos"
+      ],
+      "correct": 2,
+      "explanation": "Reduzir o uso de plásticos é importante para reduzir a poluição e conservar os recursos naturais.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: A _______ é uma forma de transporte sustentável.",
+      "options": [
+        "Bicicleta",
+        "Carro",
+        "Avião",
+        "Barco"
+      ],
+      "correct": 0,
+      "explanation": "A bicicleta é uma forma de transporte sustentável e ecológica.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de sustentabilidade ambiental?",
+      "options": [
+        "Reciclar",
+        "Usar transporte público",
+        "Queimar lixo",
+        "Desligar as luzes"
+      ],
+      "correct": 2,
+      "explanation": "Queimar lixo é uma forma de poluir o meio ambiente, não de sustentá-lo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que é importante proteger os animais em extinção?",
+      "options": [
+        "Para ter mais animais para caçar",
+        "Para ter mais animais para domesticar",
+        "Para manter a biodiversidade e os ecossistemas saudáveis",
+        "Para produzir mais lixo"
+      ],
+      "correct": 2,
+      "explanation": "Proteger os animais em extinção é importante para manter a biodiversidade e os ecossistemas saudáveis.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é biodiversidade?",
+      "options": [
+        "A quantidade de água no planeta",
+        "A quantidade de ar no planeta",
+        "A variedade de seres vivos no planeta",
+        "A quantidade de lixo no planeta"
+      ],
+      "correct": 2,
+      "explanation": "Biodiversidade é a variedade de seres vivos no planeta, incluindo plantas, animais e microorganismos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de não reciclar?",
+      "options": [
+        "Redução da poluição",
+        "Conservação dos recursos naturais",
+        "Aumento da quantidade de lixo nos aterros sanitários",
+        "Produção de mais energia"
+      ],
+      "correct": 2,
+      "explanation": "Não reciclar pode levar ao aumento da quantidade de lixo nos aterros sanitários e à perda de recursos naturais.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A _______ é uma forma de energia limpa.",
+      "options": [
+        "Queima de combustíveis fósseis",
+        "Uso de energia nuclear",
+        "Uso de painéis solares",
+        "Uso de carvão"
+      ],
+      "correct": 2,
+      "explanation": "A energia solar é uma forma de energia limpa e renovável.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância de conservar os solos?",
+      "options": [
+        "Para produzir mais lixo",
+        "Para poluir o ar",
+        "Para manter a fertilidade e a produtividade dos solos",
+        "Para aumentar a erosão"
+      ],
+      "correct": 2,
+      "explanation": "Conservar os solos é importante para manter a fertilidade e a produtividade dos solos, além de prevenir a erosão.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um aterro sanitário?",
+      "options": [
+        "Um local para reciclar lixo",
+        "Um local para queimar lixo",
+        "Um local para depositar lixo de forma controlada",
+        "Um local para produzir energia"
+      ],
+      "correct": 2,
+      "explanation": "Um aterro sanitário é um local para depositar lixo de forma controlada, com o objetivo de minimizar os impactos ambientais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de poluir o oceano?",
+      "options": [
+        "Aumento da biodiversidade marinha",
+        "Redução da poluição do ar",
+        "Morte de animais marinhos e destruição de habitats",
+        "Aumento da produção de oxigênio"
+      ],
+      "correct": 2,
+      "explanation": "Poluir o oceano pode levar à morte de animais marinhos e à destruição de habitats.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A _______ é uma forma de reduzir a poluição do ar.",
+      "options": [
+        "Queima de combustíveis fósseis",
+        "Uso de energia nuclear",
+        "Uso de veículos elétricos",
+        "Uso de carvão"
+      ],
+      "correct": 2,
+      "explanation": "O uso de veículos elétricos é uma forma de reduzir a poluição do ar, pois não emite gases de efeito estufa.",
+      "type": "completar",
+      "difficulty": "medio"
+    }
+  ],
+  "Orientação e Rosa dos Ventos": [
+    {
+      "question": "O que é o sentido em que o sol nasce?",
+      "options": [
+        "Leste",
+        "Oeste",
+        "Norte",
+        "Sul"
+      ],
+      "correct": 0,
+      "explanation": "O sol nasce no leste e se põe no oeste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está frio?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 0,
+      "explanation": "O vento frio geralmente sopra do norte.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o norte, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "Se o vento está soprando para o norte, você está no sul.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o sol se põe?",
+      "options": [
+        "Leste",
+        "Oeste",
+        "Norte",
+        "Sul"
+      ],
+      "correct": 1,
+      "explanation": "O sol se põe no oeste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o sul, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 1,
+      "explanation": "Se o vento está soprando para o sul, você está no norte.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está quente?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "O vento quente geralmente sopra do leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o leste, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 3,
+      "explanation": "Se o vento está soprando para o leste, você está no oeste.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o sol nasce?",
+      "options": [
+        "Leste",
+        "Oeste",
+        "Norte",
+        "Sul"
+      ],
+      "correct": 0,
+      "explanation": "O sol nasce no leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o oeste, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 1,
+      "explanation": "Se o vento está soprando para o oeste, você está no leste.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está seco?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "O vento seco geralmente sopra do leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o norte, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 3,
+      "explanation": "Se o vento está soprando para o norte, você está no sul.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o sol se põe?",
+      "options": [
+        "Leste",
+        "Oeste",
+        "Norte",
+        "Sul"
+      ],
+      "correct": 1,
+      "explanation": "O sol se põe no oeste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o sul, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 0,
+      "explanation": "Se o vento está soprando para o sul, você está no norte.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está úmido?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "O vento úmido geralmente sopra do leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o leste, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 1,
+      "explanation": "Se o vento está soprando para o leste, você está no oeste.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está frio?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 0,
+      "explanation": "O vento frio geralmente sopra do norte.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o oeste, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 3,
+      "explanation": "Se o vento está soprando para o oeste, você está no leste.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o sol nasce?",
+      "options": [
+        "Leste",
+        "Oeste",
+        "Norte",
+        "Sul"
+      ],
+      "correct": 0,
+      "explanation": "O sol nasce no leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o norte, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 3,
+      "explanation": "Se o vento está soprando para o norte, você está no sul.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a direção em que o vento sopra quando está quente?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "O vento quente geralmente sopra do leste.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você está em um lugar e o vento está soprando para o sul, qual é a direção em que você está?",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 0,
+      "explanation": "Se o vento está soprando para o sul, você está no norte.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "Regiões do Brasil": [
+    {
+      "question": "O que é uma região do Brasil?",
+      "options": [
+        "Uma cidade",
+        "Um estado",
+        "Um grupo de estados",
+        "Um país"
+      ],
+      "correct": 2,
+      "explanation": "Uma região é um grupo de estados que compartilham características geográficas e culturais semelhantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a região do Brasil onde se encontra o Rio Amazonas?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 2,
+      "explanation": "O Rio Amazonas é um dos principais rios do mundo e se encontra na região Norte do Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em São Paulo, em que região do Brasil estou?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 0,
+      "explanation": "São Paulo é uma cidade localizada na região Sudeste do Brasil.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica da região Nordeste do Brasil?",
+      "options": [
+        "Clima quente e seco",
+        "Cultura afro-brasileira",
+        "Costas rochosas",
+        "Clima tropical"
+      ],
+      "correct": 1,
+      "explanation": "A região Nordeste do Brasil é conhecida por seu clima tropical e sua cultura afro-brasileira, mas não é caracterizada por climas quentes e secos.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A região Sudeste do Brasil inclui os estados de ___, ___, ___ e ___.",
+      "options": [
+        "Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo",
+        "Bahia, Sergipe, Alagoas, Pernambuco",
+        "Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso do Sul",
+        "Acre, Amazonas, Roraima, Amapá"
+      ],
+      "correct": 0,
+      "explanation": "A região Sudeste do Brasil inclui os estados de Minas Gerais, São Paulo, Rio de Janeiro e Espírito Santo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a região Norte do Brasil é conhecida por sua grande biodiversidade?",
+      "options": [
+        "Devido ao clima tropical",
+        "Devido à presença de grandes rios",
+        "Devido à presença de florestas tropicais",
+        "Devido à presença de montanhas"
+      ],
+      "correct": 2,
+      "explanation": "A região Norte do Brasil é conhecida por sua grande biodiversidade devido à presença de grandes rios e florestas tropicais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a região do Brasil onde se encontra a cidade de Porto Alegre?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 1,
+      "explanation": "Porto Alegre é uma cidade localizada na região Sul do Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em Belo Horizonte, em que região do Brasil estou?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 0,
+      "explanation": "Belo Horizonte é uma cidade localizada na região Sudeste do Brasil.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica da região Sul do Brasil?",
+      "options": [
+        "Clima temperado",
+        "Cultura gaúcha",
+        "Costas rochosas",
+        "Clima tropical"
+      ],
+      "correct": 3,
+      "explanation": "A região Sul do Brasil é conhecida por seu clima temperado e sua cultura gaúcha, mas não é caracterizada por climas tropicais.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A região Nordeste do Brasil inclui os estados de ___, ___, ___ e ___.",
+      "options": [
+        "Bahia, Sergipe, Alagoas, Pernambuco",
+        "Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo",
+        "Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso do Sul",
+        "Acre, Amazonas, Roraima, Amapá"
+      ],
+      "correct": 0,
+      "explanation": "A região Nordeste do Brasil inclui os estados de Bahia, Sergipe, Alagoas e Pernambuco.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando a região Norte do Brasil sofre com secas?",
+      "options": [
+        "Aumenta a produção de alimentos",
+        "Diminui a produção de alimentos",
+        "Não afeta a produção de alimentos",
+        "Aumenta a biodiversidade"
+      ],
+      "correct": 1,
+      "explanation": "Quando a região Norte do Brasil sofre com secas, a produção de alimentos diminui devido à falta de água.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a região do Brasil onde se encontra a cidade de Salvador?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 2,
+      "explanation": "Salvador é uma cidade localizada na região Nordeste do Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em Curitiba, em que região do Brasil estou?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 1,
+      "explanation": "Curitiba é uma cidade localizada na região Sul do Brasil.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica da região Sudeste do Brasil?",
+      "options": [
+        "Clima tropical",
+        "Cultura afro-brasileira",
+        "Costas rochosas",
+        "Clima temperado"
+      ],
+      "correct": 3,
+      "explanation": "A região Sudeste do Brasil é conhecida por seu clima tropical e sua cultura afro-brasileira, mas não é caracterizada por climas temperados.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A região Sul do Brasil inclui os estados de ___, ___, ___ e ___.",
+      "options": [
+        "Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso do Sul",
+        "Bahia, Sergipe, Alagoas, Pernambuco",
+        "Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo",
+        "Acre, Amazonas, Roraima, Amapá"
+      ],
+      "correct": 0,
+      "explanation": "A região Sul do Brasil inclui os estados de Paraná, Santa Catarina, Rio Grande do Sul e Mato Grosso do Sul.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se a região Norte do Brasil sofre com desmatamento, o que acontece com a biodiversidade?",
+      "options": [
+        "Aumenta",
+        "Diminui",
+        "Não afeta",
+        "Permanece a mesma"
+      ],
+      "correct": 1,
+      "explanation": "Quando a região Norte do Brasil sofre com desmatamento, a biodiversidade diminui devido à perda de habitats naturais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a região do Brasil onde se encontra a cidade de Florianópolis?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 1,
+      "explanation": "Florianópolis é uma cidade localizada na região Sul do Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em Recife, em que região do Brasil estou?",
+      "options": [
+        "Sudeste",
+        "Sul",
+        "Norte",
+        "Nordeste"
+      ],
+      "correct": 2,
+      "explanation": "Recife é uma cidade localizada na região Nordeste do Brasil.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica da região Norte do Brasil?",
+      "options": [
+        "Clima tropical",
+        "Cultura indígena",
+        "Costas rochosas",
+        "Clima temperado"
+      ],
+      "correct": 3,
+      "explanation": "A região Norte do Brasil é conhecida por seu clima tropical e sua cultura indígena, mas não é caracterizada por climas temperados.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A região Sudeste do Brasil inclui os estados de ___, ___, ___ e ___.",
+      "options": [
+        "Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo",
+        "Bahia, Sergipe, Alagoas, Pernambuco",
+        "Paraná, Santa Catarina, Rio Grande do Sul, Mato Grosso do Sul",
+        "Acre, Amazonas, Roraima, Amapá"
+      ],
+      "correct": 0,
+      "explanation": "A região Sudeste do Brasil inclui os estados de Minas Gerais, São Paulo, Rio de Janeiro e Espírito Santo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se a região Sul do Brasil sofre com inundações, o que acontece com a produção de alimentos?",
+      "options": [
+        "Aumenta",
+        "Diminui",
+        "Não afeta",
+        "Permanece a mesma"
+      ],
+      "correct": 1,
+      "explanation": "Quando a região Sul do Brasil sofre com inundações, a produção de alimentos diminui devido à perda de terras cultiváveis.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "Estados e Capitais do Brasil": [
+    {
+      "question": "Qual é a definição de Estado?",
+      "options": [
+        "Uma cidade grande",
+        "Um país pequeno",
+        "Uma região do Brasil",
+        "Uma unidade federativa do Brasil"
+      ],
+      "correct": 3,
+      "explanation": "Um Estado é uma unidade federativa do Brasil, que tem sua própria assembleia legislativa e governador.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "A capital do Brasil é São Paulo ou Rio de Janeiro?",
+      "options": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Brasília",
+        "Porto Alegre"
+      ],
+      "correct": 2,
+      "explanation": "A capital do Brasil é Brasília, que foi fundada em 1960.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o Rio Grande do Sul é um Estado, qual é a capital desse Estado?",
+      "options": [
+        "Porto Alegre",
+        "Curitiba",
+        "Florianópolis",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Rio Grande do Sul é Porto Alegre.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual Estado não é vizinho do Pará?",
+      "options": [
+        "Amapá",
+        "Maranhão",
+        "Bahia",
+        "Santa Catarina"
+      ],
+      "correct": 3,
+      "explanation": "O Pará é um Estado localizado na região Norte do Brasil, e o Santa Catarina é um Estado localizado na região Sul.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: Mato Grosso, Mato Grosso do Sul, ___, Paraná.",
+      "options": [
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "São Paulo",
+        "Paraná"
+      ],
+      "correct": 2,
+      "explanation": "A sequência correta é Mato Grosso, Mato Grosso do Sul, Goiás, Paraná.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que o Distrito Federal é diferente dos outros Estados?",
+      "options": [
+        "Porque é o menor Estado",
+        "Porque é o maior Estado",
+        "Porque é a capital do Brasil",
+        "Porque não tem governador"
+      ],
+      "correct": 2,
+      "explanation": "O Distrito Federal é diferente dos outros Estados porque é a capital do Brasil e não tem governador eleito, mas sim um presidente da Câmara dos Deputados que o administra.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a capital do Estado de São Paulo?",
+      "options": [
+        "São Paulo",
+        "Campinas",
+        "Ribeirão Preto",
+        "Sorocaba"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Estado de São Paulo é São Paulo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o Ceará é um Estado, qual é a capital desse Estado?",
+      "options": [
+        "Fortaleza",
+        "Natal",
+        "Recife",
+        "Salvador"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Ceará é Fortaleza.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual Estado não é vizinho do Rio de Janeiro?",
+      "options": [
+        "São Paulo",
+        "Minas Gerais",
+        "Bahia",
+        "Santa Catarina"
+      ],
+      "correct": 3,
+      "explanation": "O Rio de Janeiro é um Estado localizado na região Sudeste do Brasil, e o Santa Catarina é um Estado localizado na região Sul.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: Acre, Amapá, ___, Amazonas.",
+      "options": [
+        "Pará",
+        "Maranhão",
+        "Bahia",
+        "Amazonas"
+      ],
+      "correct": 2,
+      "explanation": "A sequência correta é Acre, Amapá, Pará, Amazonas.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se o Espírito Santo é um Estado, qual é a capital desse Estado?",
+      "options": [
+        "Vitória",
+        "Goiânia",
+        "Curitiba",
+        "Florianópolis"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Espírito Santo é Vitória.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual Estado não é vizinho do Paraná?",
+      "options": [
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "São Paulo",
+        "Bahia"
+      ],
+      "correct": 3,
+      "explanation": "O Paraná é um Estado localizado na região Sul do Brasil, e o Bahia é um Estado localizado na região Nordeste.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: Roraima, Rondônia, ___, Tocantins.",
+      "options": [
+        "Pará",
+        "Maranhão",
+        "Bahia",
+        "Tocantins"
+      ],
+      "correct": 3,
+      "explanation": "A sequência correta é Roraima, Rondônia, Acre, Tocantins.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que o Amapá é um Estado?",
+      "options": [
+        "Porque é o maior Estado",
+        "Porque é o menor Estado",
+        "Porque é um Estado da região Norte",
+        "Porque não é um Estado"
+      ],
+      "correct": 2,
+      "explanation": "O Amapá é um Estado da região Norte do Brasil.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a capital do Estado do Pará?",
+      "options": [
+        "Belém",
+        "Macapá",
+        "Manaus",
+        "Porto Velho"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Pará é Belém.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o Maranhão é um Estado, qual é a capital desse Estado?",
+      "options": [
+        "São Luís",
+        "Fortaleza",
+        "Natal",
+        "Recife"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Maranhão é São Luís.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual Estado não é vizinho do Amazonas?",
+      "options": [
+        "Acre",
+        "Pará",
+        "Bahia",
+        "Santa Catarina"
+      ],
+      "correct": 3,
+      "explanation": "O Amazonas é um Estado localizado na região Norte do Brasil, e o Santa Catarina é um Estado localizado na região Sul.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: Goiás, Mato Grosso, ___, Mato Grosso do Sul.",
+      "options": [
+        "Paraná",
+        "Santa Catarina",
+        "Rio Grande do Sul",
+        "Mato Grosso do Sul"
+      ],
+      "correct": 3,
+      "explanation": "A sequência correta é Goiás, Mato Grosso, Mato Grosso do Sul.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se o Ceará é um Estado, qual é a capital desse Estado?",
+      "options": [
+        "Fortaleza",
+        "Natal",
+        "Recife",
+        "Salvador"
+      ],
+      "correct": 0,
+      "explanation": "A capital do Ceará é Fortaleza.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que o Tocantins é um Estado?",
+      "options": [
+        "Porque é o maior Estado",
+        "Porque é o menor Estado",
+        "Porque é um Estado da região Norte",
+        "Porque não é um Estado"
+      ],
+      "correct": 2,
+      "explanation": "O Tocantins é um Estado da região Norte do Brasil.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Rios do Brasil": [
+    {
+      "question": "O que é um rio?",
+      "options": [
+        "Um rio é um tipo de montanha",
+        "Um rio é um corpo de água que flui em uma direção",
+        "Um rio é um tipo de lago",
+        "Um rio é um tipo de oceano"
+      ],
+      "correct": 1,
+      "explanation": "Um rio é um corpo de água que flui em uma direção, geralmente de uma região montanhosa para um oceano ou um lago.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o maior rio do Brasil?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Tocantins"
+      ],
+      "correct": 0,
+      "explanation": "O Rio Amazonas é o maior rio do Brasil e um dos maiores do mundo, com uma extensão de cerca de 6.400 km.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os rios são importantes para a vida dos seres humanos?",
+      "options": [
+        "Porque eles são bonitos",
+        "Porque eles fornecem água para beber",
+        "Porque eles são usados para transporte",
+        "Todas as alternativas"
+      ],
+      "correct": 3,
+      "explanation": "Os rios são importantes porque fornecem água para beber, são usados para transporte e são fontes de energia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que banha a cidade de São Paulo?",
+      "options": [
+        "Rio Tietê",
+        "Rio Pinheiros",
+        "Rio Paraná",
+        "Rio São Francisco"
+      ],
+      "correct": 0,
+      "explanation": "O Rio Tietê é o rio que banha a cidade de São Paulo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quais são os principais usos dos rios?",
+      "options": [
+        "Agricultura, pesca e transporte",
+        "Agricultura, pesca e lazer",
+        "Pesca, lazer e energia",
+        "Agricultura, transporte e energia"
+      ],
+      "correct": 0,
+      "explanation": "Os principais usos dos rios incluem agricultura, pesca, transporte e energia.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais poluídos do mundo?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Tietê"
+      ],
+      "correct": 3,
+      "explanation": "O Rio Tietê é considerado um dos mais poluídos do mundo devido à grande quantidade de resíduos industriais e domésticos que são lançados nele.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que os rios são importantes para a biodiversidade?",
+      "options": [
+        "Porque eles fornecem habitat para muitas espécies de plantas e animais",
+        "Porque eles são usados para transporte",
+        "Porque eles fornecem água para beber",
+        "Todas as alternativas"
+      ],
+      "correct": 0,
+      "explanation": "Os rios são importantes porque fornecem habitat para muitas espécies de plantas e animais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais longos do mundo?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Nilo"
+      ],
+      "correct": 0,
+      "explanation": "O Rio Amazonas é considerado um dos mais longos do mundo, com uma extensão de cerca de 6.400 km.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quais são os principais problemas relacionados aos rios?",
+      "options": [
+        "Poluição, erosão e sedimentação",
+        "Poluição, erosão e desmatamento",
+        "Erosão, sedimentação e desmatamento",
+        "Poluição, desmatamento e assoreamento"
+      ],
+      "correct": 0,
+      "explanation": "Os principais problemas relacionados aos rios incluem poluição, erosão e sedimentação.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais importantes para a economia do Brasil?",
+      "options": [
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Amazonas",
+        "Rio Tocantins"
+      ],
+      "correct": 1,
+      "explanation": "O Rio São Francisco é considerado um dos mais importantes para a economia do Brasil, pois é usado para irrigação e geração de energia.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que os rios são importantes para a agricultura?",
+      "options": [
+        "Porque eles fornecem água para irrigação",
+        "Porque eles são usados para transporte",
+        "Porque eles fornecem nutrientes para as plantas",
+        "Todas as alternativas"
+      ],
+      "correct": 0,
+      "explanation": "Os rios são importantes porque fornecem água para irrigação.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais antigos do mundo?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Nilo"
+      ],
+      "correct": 3,
+      "explanation": "O Rio Nilo é considerado um dos mais antigos do mundo, com uma história de cerca de 6 milhões de anos.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quais são os principais usos da água dos rios?",
+      "options": [
+        "Agricultura, pesca e lazer",
+        "Agricultura, pesca e energia",
+        "Pesca, lazer e energia",
+        "Agricultura, transporte e energia"
+      ],
+      "correct": 0,
+      "explanation": "Os principais usos da água dos rios incluem agricultura, pesca e energia.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais importantes para a biodiversidade do Brasil?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Tocantins"
+      ],
+      "correct": 0,
+      "explanation": "O Rio Amazonas é considerado um dos mais importantes para a biodiversidade do Brasil, pois é lar de muitas espécies de plantas e animais.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que os rios são importantes para a saúde humana?",
+      "options": [
+        "Porque eles fornecem água potável",
+        "Porque eles são usados para transporte",
+        "Porque eles fornecem nutrientes para as plantas",
+        "Todas as alternativas"
+      ],
+      "correct": 0,
+      "explanation": "Os rios são importantes porque fornecem água potável.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais longos do Brasil?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Tocantins"
+      ],
+      "correct": 0,
+      "explanation": "O Rio Amazonas é considerado um dos mais longos do Brasil, com uma extensão de cerca de 6.400 km.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quais são os principais problemas relacionados à poluição dos rios?",
+      "options": [
+        "Erosão, sedimentação e desmatamento",
+        "Poluição, erosão e sedimentação",
+        "Poluição, desmatamento e assoreamento",
+        "Erosão, sedimentação e assoreamento"
+      ],
+      "correct": 1,
+      "explanation": "Os principais problemas relacionados à poluição dos rios incluem poluição, erosão e sedimentação.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais importantes para a economia do Brasil?",
+      "options": [
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Amazonas",
+        "Rio Tocantins"
+      ],
+      "correct": 1,
+      "explanation": "O Rio São Francisco é considerado um dos mais importantes para a economia do Brasil, pois é usado para irrigação e geração de energia.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que os rios são importantes para a biodiversidade?",
+      "options": [
+        "Porque eles fornecem habitat para muitas espécies de plantas e animais",
+        "Porque eles são usados para transporte",
+        "Porque eles fornecem água para beber",
+        "Todas as alternativas"
+      ],
+      "correct": 0,
+      "explanation": "Os rios são importantes porque fornecem habitat para muitas espécies de plantas e animais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o rio que é considerado um dos mais antigos do mundo?",
+      "options": [
+        "Rio Amazonas",
+        "Rio São Francisco",
+        "Rio Paraná",
+        "Rio Nilo"
+      ],
+      "correct": 3,
+      "explanation": "O Rio Nilo é considerado um dos mais antigos do mundo, com uma história de cerca de 6 milhões de anos.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Biomas Brasileiros": [
+    {
+      "question": "O que é um bioma?",
+      "options": [
+        "Um tipo de animal",
+        "Um tipo de planta",
+        "Um ecossistema grande e complexo",
+        "Um tipo de rocha"
+      ],
+      "correct": 2,
+      "explanation": "Um bioma é um ecossistema grande e complexo que abrange muitas espécies de plantas e animais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o bioma mais grande do Brasil?",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 0,
+      "explanation": "A Amazônia é o bioma mais grande do Brasil, cobrindo cerca de 60% do território nacional.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que caracteriza o bioma Caatinga?",
+      "options": [
+        "Vegetação densa e úmida",
+        "Vegetação seca e espinhosa",
+        "Vegetação alta e florestal",
+        "Vegetação baixa e gramínea"
+      ],
+      "correct": 1,
+      "explanation": "O bioma Caatinga é caracterizado por uma vegetação seca e espinhosa, adaptada às condições áridas da região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual bioma é conhecido como 'o pulmão do mundo'?",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 0,
+      "explanation": "A Amazônia é conhecida como 'o pulmão do mundo' devido à sua grande capacidade de produzir oxigênio.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é o Cerrado?",
+      "options": [
+        "Um tipo de floresta",
+        "Um tipo de savana",
+        "Um bioma de vegetação aberta",
+        "Um bioma de vegetação fechada"
+      ],
+      "correct": 2,
+      "explanation": "O Cerrado é um bioma de vegetação aberta, caracterizado por uma mistura de árvores e gramíneas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o bioma mais ameaçado do Brasil?",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 1,
+      "explanation": "O Cerrado é o bioma mais ameaçado do Brasil, devido à expansão da agricultura e da pecuária.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Um fazendeiro que vive no bioma Pampa precisa se adaptar a quais condições?",
+      "options": [
+        "Chuvas frequentes e temperaturas altas",
+        "Seca e temperaturas baixas",
+        "Ventos fortes e temperaturas amenas",
+        "Chuvas escassas e temperaturas extremas"
+      ],
+      "correct": 2,
+      "explanation": "O bioma Pampa é caracterizado por ventos fortes e temperaturas amenas, o que exige adaptações específicas por parte dos fazendeiros.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o principal impacto da expansão da agricultura no bioma Amazônia?",
+      "options": [
+        "Perda de biodiversidade",
+        "Aumento da produção de alimentos",
+        "Melhoria da qualidade do solo",
+        "Redução da poluição do ar"
+      ],
+      "correct": 0,
+      "explanation": "A expansão da agricultura no bioma Amazônia pode levar à perda de biodiversidade, devido ao desmatamento e à destruição de habitats.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um turista que visita o bioma Caatinga pode observar quais características?",
+      "options": [
+        "Vegetação densa e úmida",
+        "Vegetação seca e espinhosa",
+        "Animais grandes e ferozes",
+        "Paisagens montanhosas e rochosas"
+      ],
+      "correct": 1,
+      "explanation": "O bioma Caatinga é caracterizado por uma vegetação seca e espinhosa, o que pode ser observado por turistas que visitam a região.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o papel do bioma Cerrado na regulação do clima?",
+      "options": [
+        "Armazenar carbono",
+        "Produzir oxigênio",
+        "Regular a temperatura",
+        "Influenciar a umidade do ar"
+      ],
+      "correct": 0,
+      "explanation": "O bioma Cerrado desempenha um papel importante na regulação do clima, armazenando carbono e influenciando a umidade do ar.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um bioma brasileiro?",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Tundra"
+      ],
+      "correct": 3,
+      "explanation": "A Tundra não é um bioma brasileiro, pois é característica de regiões polares e não é encontrada no Brasil.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual afirmação sobre o bioma Amazônia é falsa?",
+      "options": [
+        "É o bioma mais grande do Brasil",
+        "É caracterizado por uma vegetação densa e úmida",
+        "É conhecido como 'o pulmão do mundo'",
+        "É um bioma de vegetação aberta"
+      ],
+      "correct": 3,
+      "explanation": "A Amazônia é caracterizada por uma vegetação densa e úmida, e não é um bioma de vegetação aberta.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o bioma que não pertence ao grupo dos biomas brasileiros de vegetação aberta?",
+      "options": [
+        "Cerrado",
+        "Caatinga",
+        "Pampa",
+        "Amazônia"
+      ],
+      "correct": 3,
+      "explanation": "A Amazônia é um bioma de vegetação fechada, e não pertence ao grupo dos biomas brasileiros de vegetação aberta.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O bioma _______ é caracterizado por uma vegetação seca e espinhosa.",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 2,
+      "explanation": "O bioma Caatinga é caracterizado por uma vegetação seca e espinhosa.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O bioma _______ é conhecido como 'o pulmão do mundo'.",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 0,
+      "explanation": "O bioma Amazônia é conhecido como 'o pulmão do mundo'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O bioma _______ é o mais ameaçado do Brasil.",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 1,
+      "explanation": "O bioma Cerrado é o mais ameaçado do Brasil, devido à expansão da agricultura e da pecuária.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O bioma _______ é caracterizado por uma vegetação aberta e gramíneas.",
+      "options": [
+        "Amazônia",
+        "Cerrado",
+        "Caatinga",
+        "Pampa"
+      ],
+      "correct": 1,
+      "explanation": "O bioma Cerrado é caracterizado por uma vegetação aberta e gramíneas.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o bioma Amazônia é importante para a regulação do clima?",
+      "options": [
+        "Porque armazena carbono",
+        "Porque produz oxigênio",
+        "Porque regula a temperatura",
+        "Porque influencia a umidade do ar"
+      ],
+      "correct": 0,
+      "explanation": "O bioma Amazônia é importante para a regulação do clima porque armazena carbono e influencia a umidade do ar.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando o bioma Cerrado é desmatado?",
+      "options": [
+        "A biodiversidade aumenta",
+        "A produção de alimentos aumenta",
+        "A qualidade do solo melhora",
+        "A perda de biodiversidade e a degradação do solo aumentam"
+      ],
+      "correct": 3,
+      "explanation": "Quando o bioma Cerrado é desmatado, a perda de biodiversidade e a degradação do solo aumentam, o que pode ter consequências negativas para o meio ambiente.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se o bioma Caatinga for destruído, qual seria o resultado?",
+      "options": [
+        "Aumento da biodiversidade",
+        "Melhoria da qualidade do solo",
+        "Redução da poluição do ar",
+        "Perda de habitats e aumento da desertificação"
+      ],
+      "correct": 3,
+      "explanation": "Se o bioma Caatinga for destruído, a perda de habitats e o aumento da desertificação seriam os principais resultados, o que teria consequências negativas para o meio ambiente.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Clima e Relevo": [
+    {
+      "question": "O que é clima?",
+      "options": [
+        "O tempo que faz em um dia",
+        "A temperatura média de um lugar",
+        "A quantidade de chuva que cai em um ano",
+        "A combinação de temperatura, umidade e vento em uma região"
+      ],
+      "correct": 3,
+      "explanation": "O clima é a combinação de temperatura, umidade e vento em uma região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a definição de relevo?",
+      "options": [
+        "A forma como as pessoas vivem em uma região",
+        "A altitude e a forma como a terra está disposta em uma região",
+        "A quantidade de chuva que cai em uma região",
+        "A temperatura média de uma região"
+      ],
+      "correct": 1,
+      "explanation": "O relevo é a altitude e a forma como a terra está disposta em uma região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um planalto?",
+      "options": [
+        "Uma região montanhosa",
+        "Uma região plana e baixa",
+        "Uma região elevada e plana",
+        "Uma região costeira"
+      ],
+      "correct": 2,
+      "explanation": "Um planalto é uma região elevada e plana.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o tipo de clima que tem verões quentes e invernos frios?",
+      "options": [
+        "Tropical",
+        "Temperado",
+        "Desértico",
+        "Polar"
+      ],
+      "correct": 1,
+      "explanation": "O clima temperado tem verões quentes e invernos frios.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um vale?",
+      "options": [
+        "Uma região montanhosa",
+        "Uma região plana e baixa",
+        "Uma região entre montanhas",
+        "Uma região costeira"
+      ],
+      "correct": 2,
+      "explanation": "Um vale é uma região plana e baixa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o tipo de relevo que é formado por montanhas altas?",
+      "options": [
+        "Planalto",
+        "Serra",
+        "Planície",
+        "Delta"
+      ],
+      "correct": 1,
+      "explanation": "Uma serra é um tipo de relevo formado por montanhas altas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um delta?",
+      "options": [
+        "Uma região montanhosa",
+        "Uma região plana e baixa",
+        "Uma região onde um rio deságua no mar",
+        "Uma região costeira"
+      ],
+      "correct": 2,
+      "explanation": "Um delta é uma região onde um rio deságua no mar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o tipo de clima que é quente e úmido o ano todo?",
+      "options": [
+        "Tropical",
+        "Temperado",
+        "Desértico",
+        "Polar"
+      ],
+      "correct": 0,
+      "explanation": "O clima tropical é quente e úmido o ano todo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma região tem um clima temperado, o que podemos esperar em relação às estações do ano?",
+      "options": [
+        "Que as estações sejam muito diferentes umas das outras",
+        "Que as estações sejam muito semelhantes umas das outras",
+        "Que haja apenas duas estações",
+        "Que haja apenas uma estação"
+      ],
+      "correct": 0,
+      "explanation": "Em um clima temperado, as estações do ano são muito diferentes umas das outras.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o efeito do relevo na formação do clima?",
+      "options": [
+        "O relevo não afeta o clima",
+        "O relevo pode bloquear ou desviar ventos e influenciar a temperatura",
+        "O relevo apenas influencia a temperatura",
+        "O relevo apenas influencia a umidade"
+      ],
+      "correct": 1,
+      "explanation": "O relevo pode bloquear ou desviar ventos e influenciar a temperatura.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma região tem um clima desértico, o que podemos esperar em relação à vegetação?",
+      "options": [
+        "Que haja muita vegetação",
+        "Que haja pouca vegetação",
+        "Que haja apenas plantas aquáticas",
+        "Que haja apenas plantas carnívoras"
+      ],
+      "correct": 1,
+      "explanation": "Em um clima desértico, há pouca vegetação devido à falta de chuva.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o tipo de clima que é frio e seco o ano todo?",
+      "options": [
+        "Tropical",
+        "Temperado",
+        "Desértico",
+        "Polar"
+      ],
+      "correct": 3,
+      "explanation": "O clima polar é frio e seco o ano todo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um platô?",
+      "options": [
+        "Uma região montanhosa",
+        "Uma região plana e baixa",
+        "Uma região elevada e plana",
+        "Uma região costeira"
+      ],
+      "correct": 2,
+      "explanation": "Um platô é uma região elevada e plana.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o efeito do clima na formação de um ecossistema?",
+      "options": [
+        "O clima não afeta a formação de um ecossistema",
+        "O clima pode influenciar a tipo de vegetação e animais que vivem em um ecossistema",
+        "O clima apenas influencia a temperatura",
+        "O clima apenas influencia a umidade"
+      ],
+      "correct": 1,
+      "explanation": "O clima pode influenciar o tipo de vegetação e animais que vivem em um ecossistema.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma região tem um relevo montanhoso, o que podemos esperar em relação ao clima?",
+      "options": [
+        "Que o clima seja uniforme em toda a região",
+        "Que o clima varie de acordo com a altitude",
+        "Que o clima seja sempre quente",
+        "Que o clima seja sempre frio"
+      ],
+      "correct": 1,
+      "explanation": "Em uma região montanhosa, o clima pode variar de acordo com a altitude.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um tipo de clima?",
+      "options": [
+        "Tropical",
+        "Temperado",
+        "Desértico",
+        "Oceânico"
+      ],
+      "correct": 3,
+      "explanation": "Oceânico não é um tipo de clima, mas sim um tipo de corpo d'água.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: O clima é influenciado pelo _______.",
+      "options": [
+        "Relevo",
+        "Vegetação",
+        "Animais",
+        "Sol"
+      ],
+      "correct": 0,
+      "explanation": "O clima é influenciado pelo relevo.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma região tem um clima polar, o que podemos esperar em relação à vida selvagem?",
+      "options": [
+        "Que haja muita vida selvagem",
+        "Que haja pouca vida selvagem",
+        "Que haja apenas animais aquáticos",
+        "Que haja apenas animais terrestres"
+      ],
+      "correct": 1,
+      "explanation": "Em um clima polar, há pouca vida selvagem devido ao clima frio e seco.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado da combinação de um clima quente e úmido com um relevo plano?",
+      "options": [
+        "Um deserto",
+        "Uma floresta tropical",
+        "Uma montanha",
+        "Um oceano"
+      ],
+      "correct": 1,
+      "explanation": "A combinação de um clima quente e úmido com um relevo plano pode resultar em uma floresta tropical.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se uma região tem um relevo montanhoso e um clima temperado, o que podemos esperar em relação às estações do ano?",
+      "options": [
+        "Que as estações sejam muito diferentes umas das outras",
+        "Que as estações sejam muito semelhantes umas das outras",
+        "Que haja apenas duas estações",
+        "Que haja apenas uma estação"
+      ],
+      "correct": 0,
+      "explanation": "Em uma região montanhosa com clima temperado, as estações do ano podem ser muito diferentes umas das outras devido à variação de altitude.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Espaço Urbano e Rural": [
+    {
+      "question": "O que é um espaço urbano?",
+      "options": [
+        "Um lugar com muitas árvores",
+        "Um lugar com muitas casas e ruas",
+        "Um lugar com muitos animais",
+        "Um lugar com muita água"
+      ],
+      "correct": 1,
+      "explanation": "Um espaço urbano é um lugar com muitas casas e ruas, onde as pessoas vivem em cidades ou vilas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um espaço urbano e um espaço rural?",
+      "options": [
+        "Um espaço urbano tem mais árvores, um espaço rural tem mais casas",
+        "Um espaço urbano tem mais casas, um espaço rural tem mais ruas",
+        "Um espaço urbano tem mais casas e ruas, um espaço rural tem mais árvores e animais",
+        "Um espaço urbano tem mais animais, um espaço rural tem mais casas"
+      ],
+      "correct": 2,
+      "explanation": "Um espaço urbano tem mais casas e ruas, enquanto um espaço rural tem mais árvores e animais.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um característico de um espaço urbano?",
+      "options": [
+        "Muitas casas",
+        "Muitas ruas",
+        "Muitos animais",
+        "Muitas lojas"
+      ],
+      "correct": 2,
+      "explanation": "Os animais não são comuns em um espaço urbano, pois os lugares são mais pequenos e as pessoas têm mais dificuldade em cuidar deles.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um espaço urbano é um lugar com muitas casas e ruas, onde as pessoas vivem em _______ ou _______.",
+      "options": [
+        "vila",
+        "cidade",
+        "fazenda",
+        "sítio"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas vivem em cidades ou vilas em um espaço urbano.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as pessoas preferem viver em um espaço urbano?",
+      "options": [
+        "Porque há mais árvores",
+        "Porque há mais animais",
+        "Porque há mais casas e ruas",
+        "Porque há mais lojas"
+      ],
+      "correct": 3,
+      "explanation": "As pessoas preferem viver em um espaço urbano porque há mais casas e ruas, onde elas podem viver e trabalhar.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um espaço rural?",
+      "options": [
+        "Um lugar com muitas casas e ruas",
+        "Um lugar com muitas árvores e animais",
+        "Um lugar com muitas lojas e restaurantes",
+        "Um lugar com muita água"
+      ],
+      "correct": 1,
+      "explanation": "Um espaço rural é um lugar com muitas árvores e animais, onde as pessoas vivem em fazendas ou sítios.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um espaço rural e um espaço urbano?",
+      "options": [
+        "Um espaço rural tem mais casas, um espaço urbano tem mais ruas",
+        "Um espaço rural tem mais árvores, um espaço urbano tem mais animais",
+        "Um espaço rural tem mais árvores e animais, um espaço urbano tem mais casas e ruas",
+        "Um espaço rural tem mais lojas, um espaço urbano tem mais restaurantes"
+      ],
+      "correct": 2,
+      "explanation": "Um espaço rural tem mais árvores e animais, enquanto um espaço urbano tem mais casas e ruas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um característico de um espaço rural?",
+      "options": [
+        "Muitas árvores",
+        "Muitos animais",
+        "Muitas lojas",
+        "Muitas ruas"
+      ],
+      "correct": 3,
+      "explanation": "As lojas não são comuns em um espaço rural, pois os lugares são mais pequenos e as pessoas têm mais dificuldade em acessar elas.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um espaço rural é um lugar com muitas árvores e animais, onde as pessoas vivem em _______ ou _______.",
+      "options": [
+        "fazenda",
+        "sítio",
+        "vila",
+        "cidade"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas vivem em fazendas ou sítios em um espaço rural.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as pessoas preferem viver em um espaço rural?",
+      "options": [
+        "Porque há mais casas e ruas",
+        "Porque há mais lojas e restaurantes",
+        "Porque há mais árvores e animais",
+        "Porque há mais água"
+      ],
+      "correct": 3,
+      "explanation": "As pessoas preferem viver em um espaço rural porque há mais árvores e animais, onde elas podem viver e trabalhar.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a diferença entre um espaço urbano e um espaço rural em termos de população?",
+      "options": [
+        "Um espaço urbano tem mais pessoas, um espaço rural tem menos",
+        "Um espaço urbano tem menos pessoas, um espaço rural tem mais",
+        "Um espaço urbano tem a mesma quantidade de pessoas, um espaço rural tem a mesma quantidade",
+        "Um espaço urbano tem mais animais, um espaço rural tem mais pessoas"
+      ],
+      "correct": 0,
+      "explanation": "Um espaço urbano tem mais pessoas, enquanto um espaço rural tem menos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um característico de um espaço urbano em termos de transporte?",
+      "options": [
+        "Muitos carros",
+        "Muitos ônibus",
+        "Muitos trens",
+        "Muitos animais"
+      ],
+      "correct": 3,
+      "explanation": "Os animais não são comuns em um espaço urbano em termos de transporte, pois os lugares são mais pequenos e as pessoas têm mais dificuldade em cuidar deles.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um espaço urbano é um lugar com muitas casas e ruas, onde as pessoas vivem em _______ ou _______, e têm acesso a _______ e _______.",
+      "options": [
+        "fazenda, sítio, ônibus, trens",
+        "vila, cidade, carros, animais",
+        "lojas, restaurantes, água, animais",
+        "ruas, casas, lojas, restaurantes"
+      ],
+      "correct": 3,
+      "explanation": "As pessoas vivem em cidades ou vilas em um espaço urbano, e têm acesso a ruas, casas, lojas e restaurantes.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as pessoas preferem viver em um espaço urbano em termos de trabalho?",
+      "options": [
+        "Porque há mais árvores",
+        "Porque há mais animais",
+        "Porque há mais casas e ruas",
+        "Porque há mais lojas e restaurantes"
+      ],
+      "correct": 3,
+      "explanation": "As pessoas preferem viver em um espaço urbano porque há mais casas e ruas, onde elas podem trabalhar em lojas e restaurantes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a diferença entre um espaço rural e um espaço urbano em termos de meio ambiente?",
+      "options": [
+        "Um espaço rural tem mais poluição, um espaço urbano tem menos",
+        "Um espaço rural tem menos poluição, um espaço urbano tem mais",
+        "Um espaço rural tem a mesma quantidade de poluição, um espaço urbano tem a mesma quantidade",
+        "Um espaço rural tem mais árvores, um espaço urbano tem mais animais"
+      ],
+      "correct": 0,
+      "explanation": "Um espaço rural tem menos poluição, enquanto um espaço urbano tem mais.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um característico de um espaço rural em termos de meio ambiente?",
+      "options": [
+        "Muitas árvores",
+        "Muitos animais",
+        "Muita poluição",
+        "Muita água"
+      ],
+      "correct": 2,
+      "explanation": "A poluição não é comum em um espaço rural, pois os lugares são mais pequenos e as pessoas têm mais dificuldade em causar poluição.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um espaço rural é um lugar com muitas árvores e animais, onde as pessoas vivem em _______ ou _______, e têm acesso a _______ e _______.",
+      "options": [
+        "fazenda, sítio, ônibus, trens",
+        "vila, cidade, carros, animais",
+        "lojas, restaurantes, água, animais",
+        "ruas, casas, lojas, restaurantes"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas vivem em fazendas ou sítios em um espaço rural, e têm acesso a árvores e animais.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as pessoas preferem viver em um espaço rural em termos de meio ambiente?",
+      "options": [
+        "Porque há mais poluição",
+        "Porque há mais árvores e animais",
+        "Porque há mais casas e ruas",
+        "Porque há mais lojas e restaurantes"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas preferem viver em um espaço rural porque há mais árvores e animais, onde elas podem viver e trabalhar de forma mais sustentável.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a diferença entre um espaço urbano e um espaço rural em termos de infraestrutura?",
+      "options": [
+        "Um espaço urbano tem mais infraestrutura, um espaço rural tem menos",
+        "Um espaço rural tem mais infraestrutura, um espaço urbano tem menos",
+        "Um espaço urbano tem a mesma quantidade de infraestrutura, um espaço rural tem a mesma quantidade",
+        "Um espaço urbano tem mais árvores, um espaço rural tem mais animais"
+      ],
+      "correct": 0,
+      "explanation": "Um espaço urbano tem mais infraestrutura, enquanto um espaço rural tem menos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um característico de um espaço rural em termos de infraestrutura?",
+      "options": [
+        "Muitas ruas",
+        "Muitas casas",
+        "Muita poluição",
+        "Muita água"
+      ],
+      "correct": 2,
+      "explanation": "A poluição não é comum em um espaço rural, pois os lugares são mais pequenos e as pessoas têm mais dificuldade em causar poluição.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um espaço rural é um lugar com muitas árvores e animais, onde as pessoas vivem em _______ ou _______, e têm acesso a _______ e _______.",
+      "options": [
+        "fazenda, sítio, ônibus, trens",
+        "vila, cidade, carros, animais",
+        "lojas, restaurantes, água, animais",
+        "ruas, casas, lojas, restaurantes"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas vivem em fazendas ou sítios em um espaço rural, e têm acesso a árvores e animais.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as pessoas preferem viver em um espaço rural em termos de infraestrutura?",
+      "options": [
+        "Porque há mais poluição",
+        "Porque há mais árvores e animais",
+        "Porque há mais casas e ruas",
+        "Porque há mais lojas e restaurantes"
+      ],
+      "correct": 1,
+      "explanation": "As pessoas preferem viver em um espaço rural porque há mais árvores e animais, onde elas podem viver e trabalhar de forma mais sustentável.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Recursos Naturais": [
+    {
+      "question": "O que são recursos naturais?",
+      "options": [
+        "Coisas que podemos comprar em lojas",
+        "Coisas que a natureza nos fornece para uso",
+        "Coisas que somos capazes de criar",
+        "Coisas que não existem na Terra"
+      ],
+      "correct": 1,
+      "explanation": "Recursos naturais são coisas que a natureza nos fornece para uso, como água, ar, solo, minerais e energia solar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de recurso natural renovável?",
+      "options": [
+        "Petroleo",
+        "Ar",
+        "Sólo",
+        "Água"
+      ],
+      "correct": 2,
+      "explanation": "O ar é um exemplo de recurso natural renovável, pois é reciclado constantemente na atmosfera.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em uma floresta e preciso de madeira para construir uma casa, qual recurso natural estou usando?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Madeira"
+      ],
+      "correct": 3,
+      "explanation": "Você está usando o recurso natural madeira, que é uma fonte de energia renovável.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de recurso natural?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Computador"
+      ],
+      "correct": 3,
+      "explanation": "O computador não é um exemplo de recurso natural, pois é uma coisa criada pelo homem.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: água, solo, ar, _______.",
+      "options": [
+        "Energia solar",
+        "Petroleo",
+        "Minerais",
+        "Floresta"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de recursos naturais renováveis, e a energia solar é a próxima na sequência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a água é importante para a vida?",
+      "options": [
+        "Porque é um recurso natural renovável",
+        "Porque é usada para construir casas",
+        "Porque é necessária para a sobrevivência dos seres vivos",
+        "Porque é usada para produzir energia"
+      ],
+      "correct": 2,
+      "explanation": "A água é importante para a vida porque é necessária para a sobrevivência dos seres vivos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou em uma região seca e preciso de água para beber, qual recurso natural estou procurando?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Energia solar"
+      ],
+      "correct": 2,
+      "explanation": "Você está procurando por água, que é um recurso natural renovável e essencial para a vida.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de recurso natural renovável?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Petroleo"
+      ],
+      "correct": 3,
+      "explanation": "O petroleo não é um exemplo de recurso natural renovável, pois é um recurso natural não renovável.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: solo, água, ar, _______.",
+      "options": [
+        "Energia solar",
+        "Minerais",
+        "Floresta",
+        "Petroleo"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de recursos naturais renováveis, e a energia solar é a próxima na sequência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando a água é usada de forma irresponsável?",
+      "options": [
+        "Ela se renova mais rápido",
+        "Ela se torna mais escassa",
+        "Ela não é mais necessária",
+        "Ela não é mais importante"
+      ],
+      "correct": 1,
+      "explanation": "A água se torna mais escassa quando é usada de forma irresponsável.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou em uma região com muita chuva e preciso de água para irrigar minhas plantas, qual recurso natural estou usando?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Energia solar"
+      ],
+      "correct": 2,
+      "explanation": "Você está usando o recurso natural água, que é renovável e essencial para a vida.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de recurso natural não renovável?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Petroleo"
+      ],
+      "correct": 2,
+      "explanation": "O ar não é um exemplo de recurso natural não renovável, pois é renovável e reciclado constantemente na atmosfera.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: água, solo, ar, _______.",
+      "options": [
+        "Energia solar",
+        "Minerais",
+        "Floresta",
+        "Petroleo"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de recursos naturais renováveis, e a energia solar é a próxima na sequência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a conservação dos recursos naturais é importante?",
+      "options": [
+        "Porque é necessário para a sobrevivência dos seres vivos",
+        "Porque é necessário para a produção de energia",
+        "Porque é necessário para a construção de casas",
+        "Porque é necessário para a manutenção da saúde"
+      ],
+      "correct": 1,
+      "explanation": "A conservação dos recursos naturais é importante porque é necessário para a sobrevivência dos seres vivos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou em uma região com muita seca e preciso de água para beber, qual recurso natural estou procurando?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Energia solar"
+      ],
+      "correct": 2,
+      "explanation": "Você está procurando por água, que é um recurso natural renovável e essencial para a vida.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de recurso natural renovável?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Minerais"
+      ],
+      "correct": 3,
+      "explanation": "Os minerais não são um exemplo de recurso natural renovável, pois são recursos naturais não renováveis.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: solo, água, ar, _______.",
+      "options": [
+        "Energia solar",
+        "Minerais",
+        "Floresta",
+        "Petroleo"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de recursos naturais renováveis, e a energia solar é a próxima na sequência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando os recursos naturais são explorados de forma irresponsável?",
+      "options": [
+        "Eles se tornam mais abundantes",
+        "Eles se tornam mais escassos",
+        "Eles não são mais necessários",
+        "Eles não são mais importantes"
+      ],
+      "correct": 1,
+      "explanation": "Os recursos naturais se tornam mais escassos quando são explorados de forma irresponsável.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou em uma região com muita chuva e preciso de água para irrigar minhas plantas, qual recurso natural estou usando?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Energia solar"
+      ],
+      "correct": 2,
+      "explanation": "Você está usando o recurso natural água, que é renovável e essencial para a vida.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de recurso natural renovável?",
+      "options": [
+        "Ar",
+        "Sólo",
+        "Água",
+        "Energia solar"
+      ],
+      "correct": 3,
+      "explanation": "A energia solar não é um exemplo de recurso natural renovável, pois é um recurso natural renovável.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: água, solo, ar, _______.",
+      "options": [
+        "Energia solar",
+        "Minerais",
+        "Floresta",
+        "Petroleo"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de recursos naturais renováveis, e a energia solar é a próxima na sequência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a conservação dos recursos naturais é importante?",
+      "options": [
+        "Porque é necessário para a sobrevivência dos seres vivos",
+        "Porque é necessário para a produção de energia",
+        "Porque é necessário para a construção de casas",
+        "Porque é necessário para a manutenção da saúde"
+      ],
+      "correct": 1,
+      "explanation": "A conservação dos recursos naturais é importante porque é necessário para a sobrevivência dos seres vivos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Brasil no Mundo": [
+    {
+      "question": "O que significa a expressão 'Brasil no Mundo'?",
+      "options": [
+        "Um país vizinho ao Brasil",
+        "Um continente onde o Brasil está localizado",
+        "A presença do Brasil em diferentes partes do mundo",
+        "A língua portuguesa falada apenas no Brasil"
+      ],
+      "correct": 2,
+      "explanation": "A expressão 'Brasil no Mundo' refere-se à presença e influência do Brasil em diferentes partes do mundo, como a cultura, a economia e a política.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o continente onde se localiza o Brasil?",
+      "options": [
+        "África",
+        "América do Norte",
+        "América do Sul",
+        "Oceania"
+      ],
+      "correct": 3,
+      "explanation": "O Brasil é o maior país da América do Sul, localizado na costa leste do continente.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é considerado um país multicultural?",
+      "options": [
+        "Porque tem apenas uma língua oficial",
+        "Porque tem apenas uma religião oficial",
+        "Porque tem uma grande diversidade de culturas e etnias",
+        "Porque é um país pequeno"
+      ],
+      "correct": 2,
+      "explanation": "O Brasil é considerado um país multicultural devido à sua grande diversidade de culturas e etnias, como a africana, indígena e europeia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal atividade econômica do Brasil?",
+      "options": [
+        "Agricultura",
+        "Indústria",
+        "Serviços",
+        "Comércio"
+      ],
+      "correct": 1,
+      "explanation": "A principal atividade econômica do Brasil é a agricultura, especialmente a produção de soja, milho e café.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o Brasil participa de organismos internacionais?",
+      "options": [
+        "Perde sua soberania",
+        "Perde sua identidade cultural",
+        "Se torna mais conhecido no mundo",
+        "Se torna mais independente"
+      ],
+      "correct": 2,
+      "explanation": "Quando o Brasil participa de organismos internacionais, como a ONU, se torna mais conhecido no mundo e pode influenciar decisões globais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal língua oficial do Brasil?",
+      "options": [
+        "Inglês",
+        "Espanhol",
+        "Francês",
+        "Português"
+      ],
+      "correct": 3,
+      "explanation": "A principal língua oficial do Brasil é o português, que é falado por mais de 200 milhões de pessoas no mundo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é um país importante na América do Sul?",
+      "options": [
+        "Porque é o maior país da região",
+        "Porque é o mais rico da região",
+        "Porque é um país democrático e estável",
+        "Porque é um país com uma grande diversidade de culturas"
+      ],
+      "correct": 3,
+      "explanation": "O Brasil é um país importante na América do Sul devido à sua grande diversidade de culturas, sua economia estável e sua democracia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal atividade econômica da região Norte do Brasil?",
+      "options": [
+        "Agricultura",
+        "Indústria",
+        "Serviços",
+        "Mineração"
+      ],
+      "correct": 3,
+      "explanation": "A principal atividade econômica da região Norte do Brasil é a mineração, especialmente a extração de ouro e diamantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o Brasil é afetado por uma crise econômica?",
+      "options": [
+        "Perde sua soberania",
+        "Perde sua identidade cultural",
+        "Se torna mais pobre",
+        "Se torna mais dependente de outros países"
+      ],
+      "correct": 3,
+      "explanation": "Quando o Brasil é afetado por uma crise econômica, se torna mais pobre e pode perder sua capacidade de investir em projetos importantes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal língua indígena do Brasil?",
+      "options": [
+        "Nheengatu",
+        "Tupi",
+        "Guarani",
+        "Kichwa"
+      ],
+      "correct": 1,
+      "explanation": "A principal língua indígena do Brasil é o Nheengatu, que é falado por mais de 10 mil pessoas no país.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é um país importante na política internacional?",
+      "options": [
+        "Porque é um dos cinco membros permanentes do Conselho de Segurança da ONU",
+        "Porque é um dos principais produtores de petróleo do mundo",
+        "Porque é um país democrático e estável",
+        "Porque é um país com uma grande diversidade de culturas"
+      ],
+      "correct": 3,
+      "explanation": "O Brasil é um país importante na política internacional devido à sua democracia, estabilidade e diversidade de culturas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal atividade econômica da região Sudeste do Brasil?",
+      "options": [
+        "Agricultura",
+        "Indústria",
+        "Serviços",
+        "Comércio"
+      ],
+      "correct": 2,
+      "explanation": "A principal atividade econômica da região Sudeste do Brasil é a indústria, especialmente a produção de automóveis e aeronaves.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o Brasil é afetado por uma crise ambiental?",
+      "options": [
+        "Perde sua soberania",
+        "Perde sua identidade cultural",
+        "Se torna mais pobre",
+        "Se torna mais dependente de outros países"
+      ],
+      "correct": 3,
+      "explanation": "Quando o Brasil é afetado por uma crise ambiental, se torna mais pobre e pode perder sua capacidade de investir em projetos importantes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal língua africana do Brasil?",
+      "options": [
+        "Yoruba",
+        "Nigeriano",
+        "Angolano",
+        "Moçambicano"
+      ],
+      "correct": 1,
+      "explanation": "A principal língua africana do Brasil é o Yoruba, que é falado por mais de 1 milhão de pessoas no país.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é um país importante na economia internacional?",
+      "options": [
+        "Porque é um dos principais produtores de petróleo do mundo",
+        "Porque é um dos principais exportadores de soja do mundo",
+        "Porque é um país democrático e estável",
+        "Porque é um país com uma grande diversidade de culturas"
+      ],
+      "correct": 2,
+      "explanation": "O Brasil é um país importante na economia internacional devido à sua produção de soja e outros produtos agrícolas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal atividade econômica da região Nordeste do Brasil?",
+      "options": [
+        "Agricultura",
+        "Indústria",
+        "Serviços",
+        "Mineração"
+      ],
+      "correct": 1,
+      "explanation": "A principal atividade econômica da região Nordeste do Brasil é a agricultura, especialmente a produção de cana-de-açúcar e algodão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o Brasil é afetado por uma crise política?",
+      "options": [
+        "Perde sua soberania",
+        "Perde sua identidade cultural",
+        "Se torna mais pobre",
+        "Se torna mais dependente de outros países"
+      ],
+      "correct": 3,
+      "explanation": "Quando o Brasil é afetado por uma crise política, se torna mais pobre e pode perder sua capacidade de investir em projetos importantes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal língua indígena da Amazônia?",
+      "options": [
+        "Nheengatu",
+        "Tupi",
+        "Guarani",
+        "Kichwa"
+      ],
+      "correct": 1,
+      "explanation": "A principal língua indígena da Amazônia é o Nheengatu, que é falado por mais de 10 mil pessoas na região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é um país importante na política internacional?",
+      "options": [
+        "Porque é um dos cinco membros permanentes do Conselho de Segurança da ONU",
+        "Porque é um dos principais produtores de petróleo do mundo",
+        "Porque é um país democrático e estável",
+        "Porque é um país com uma grande diversidade de culturas"
+      ],
+      "correct": 3,
+      "explanation": "O Brasil é um país importante na política internacional devido à sua democracia, estabilidade e diversidade de culturas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal atividade econômica da região Sul do Brasil?",
+      "options": [
+        "Agricultura",
+        "Indústria",
+        "Serviços",
+        "Comércio"
+      ],
+      "correct": 2,
+      "explanation": "A principal atividade econômica da região Sul do Brasil é a indústria, especialmente a produção de automóveis e aeronaves.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o Brasil é afetado por uma crise ambiental?",
+      "options": [
+        "Perde sua soberania",
+        "Perde sua identidade cultural",
+        "Se torna mais pobre",
+        "Se torna mais dependente de outros países"
+      ],
+      "correct": 3,
+      "explanation": "Quando o Brasil é afetado por uma crise ambiental, se torna mais pobre e pode perder sua capacidade de investir em projetos importantes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a principal língua africana do Brasil?",
+      "options": [
+        "Yoruba",
+        "Nigeriano",
+        "Angolano",
+        "Moçambicano"
+      ],
+      "correct": 1,
+      "explanation": "A principal língua africana do Brasil é o Yoruba, que é falado por mais de 1 milhão de pessoas no país.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o Brasil é um país importante na economia internacional?",
+      "options": [
+        "Porque é um dos principais produtores de petróleo do mundo",
+        "Porque é um dos principais exportadores de soja do mundo",
+        "Porque é um país democrático e estável",
+        "Porque é um país com uma grande diversidade de culturas"
+      ],
+      "correct": 2,
+      "explanation": "O Brasil é um país importante na economia internacional devido à sua produção de soja e outros produtos agrícolas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "Fusos Horários": [
+    {
+      "question": "O que é um fuso horário?",
+      "options": [
+        "Uma unidade de medida de tempo",
+        "Um grupo de países que compartilham o mesmo horário",
+        "Uma região do mundo que segue o mesmo horário",
+        "Uma forma de calcular a diferença de tempo entre lugares"
+      ],
+      "correct": 2,
+      "explanation": "Um fuso horário é uma região do mundo que segue o mesmo horário, considerando a diferença de tempo em relação a um meridiano de referência.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o fuso horário do Brasil?",
+      "options": [
+        "UTC-2",
+        "UTC-3",
+        "UTC-4",
+        "UTC-5"
+      ],
+      "correct": 1,
+      "explanation": "O Brasil está localizado no fuso horário UTC-3, que é o horário oficial do país.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero saber a hora em Nova York, qual é a diferença de tempo?",
+      "options": [
+        "-1 hora",
+        "+1 hora",
+        "-5 horas",
+        "+5 horas"
+      ],
+      "correct": 3,
+      "explanation": "Nova York está no fuso horário UTC-5, então há uma diferença de 5 horas em relação ao Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual NÃO é um fuso horário?",
+      "options": [
+        "UTC-3",
+        "UTC+1",
+        "UTC-5",
+        "Fuso Horário de Verão"
+      ],
+      "correct": 3,
+      "explanation": "O Fuso Horário de Verão é uma variação do horário, não um fuso horário fixo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero ligar para um amigo em Londres, qual é o horário correto?",
+      "options": [
+        "Manhã",
+        "Tarde",
+        "Noite",
+        "Não sei"
+      ],
+      "correct": 2,
+      "explanation": "Londres está no fuso horário UTC+0, então é melhor ligar durante a tarde brasileira.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: UTC-3, UTC-2, ___",
+      "options": [
+        "UTC-1",
+        "UTC-4",
+        "UTC-5",
+        "UTC-6"
+      ],
+      "correct": 1,
+      "explanation": "A sequência de fusos horários é UTC-3, UTC-2, UTC-1.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante saber os fusos horários?",
+      "options": [
+        "Para calcular a diferença de tempo entre lugares",
+        "Para saber a hora em diferentes países",
+        "Para planejar viagens internacionais",
+        "Para tudo isso"
+      ],
+      "correct": 4,
+      "explanation": "Saber os fusos horários é importante para calcular a diferença de tempo entre lugares, saber a hora em diferentes países e planejar viagens internacionais.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero saber a hora em Paris, qual é a diferença de tempo?",
+      "options": [
+        "-1 hora",
+        "+1 hora",
+        "-5 horas",
+        "+5 horas"
+      ],
+      "correct": 3,
+      "explanation": "Paris está no fuso horário UTC+1, então há uma diferença de 5 horas em relação ao Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o fuso horário do Egito?",
+      "options": [
+        "UTC-2",
+        "UTC-3",
+        "UTC+2",
+        "UTC+3"
+      ],
+      "correct": 2,
+      "explanation": "O Egito está localizado no fuso horário UTC+2.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero ligar para um amigo em Sydney, qual é o horário correto?",
+      "options": [
+        "Manhã",
+        "Tarde",
+        "Noite",
+        "Não sei"
+      ],
+      "correct": 1,
+      "explanation": "Sydney está no fuso horário UTC+10, então é melhor ligar durante a manhã brasileira.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: UTC+1, UTC+2, ___",
+      "options": [
+        "UTC+3",
+        "UTC+4",
+        "UTC+5",
+        "UTC+6"
+      ],
+      "correct": 1,
+      "explanation": "A sequência de fusos horários é UTC+1, UTC+2, UTC+3.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de saber os fusos horários?",
+      "options": [
+        "Planejar viagens internacionais",
+        "Calcular a diferença de tempo entre lugares",
+        "Saber a hora em diferentes países",
+        "Tudo isso"
+      ],
+      "correct": 4,
+      "explanation": "Saber os fusos horários permite planejar viagens internacionais, calcular a diferença de tempo entre lugares e saber a hora em diferentes países.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero saber a hora em Moscou, qual é a diferença de tempo?",
+      "options": [
+        "-1 hora",
+        "+1 hora",
+        "-5 horas",
+        "+5 horas"
+      ],
+      "correct": 3,
+      "explanation": "Moscou está no fuso horário UTC+3, então há uma diferença de 5 horas em relação ao Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando eu viajo para um país com um fuso horário diferente?",
+      "options": [
+        "Eu perco uma hora",
+        "Eu ganho uma hora",
+        "Eu não perco ou ganho hora",
+        "Eu não sei"
+      ],
+      "correct": 3,
+      "explanation": "Quando você viaja para um país com um fuso horário diferente, você não perde ou ganha hora, apenas ajusta o relógio para o novo horário.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero saber a hora em Tóquio, qual é a diferença de tempo?",
+      "options": [
+        "-1 hora",
+        "+1 hora",
+        "-5 horas",
+        "+5 horas"
+      ],
+      "correct": 3,
+      "explanation": "Tóquio está no fuso horário UTC+9, então há uma diferença de 5 horas em relação ao Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um fuso horário de verão?",
+      "options": [
+        "Um fuso horário fixo",
+        "Um fuso horário que varia ao longo do ano",
+        "Um fuso horário que é usado apenas em países específicos",
+        "Um fuso horário que é usado apenas em regiões específicas"
+      ],
+      "correct": 2,
+      "explanation": "Um fuso horário de verão é um fuso horário que varia ao longo do ano, geralmente adiantando o relógio em 1 hora durante o verão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou no Brasil e quero saber a hora em Pequim, qual é a diferença de tempo?",
+      "options": [
+        "-1 hora",
+        "+1 hora",
+        "-5 horas",
+        "+5 horas"
+      ],
+      "correct": 3,
+      "explanation": "Pequim está no fuso horário UTC+8, então há uma diferença de 5 horas em relação ao Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de não saber os fusos horários?",
+      "options": [
+        "Planejar viagens internacionais",
+        "Calcular a diferença de tempo entre lugares",
+        "Saber a hora em diferentes países",
+        "Não saber nada"
+      ],
+      "correct": 4,
+      "explanation": "Não saber os fusos horários pode levar a problemas ao planejar viagens internacionais, calcular a diferença de tempo entre lugares e saber a hora em diferentes países.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ]
+}

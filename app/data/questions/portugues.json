@@ -1,0 +1,4660 @@
+{
+  "Verbo": [
+    {
+      "question": "O que é um verbo?",
+      "options": [
+        "Uma palavra que descreve um objeto",
+        "Uma palavra que descreve uma ação",
+        "Uma palavra que descreve um lugar",
+        "Uma palavra que descreve um tempo"
+      ],
+      "correct": 1,
+      "explanation": "Um verbo é uma palavra que descreve uma ação ou estado de ser.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está dançando. Qual é o verbo nessa frase?",
+      "options": [
+        "Maria",
+        "está",
+        "dançando",
+        "é"
+      ],
+      "correct": 2,
+      "explanation": "O verbo é a palavra que descreve a ação, que é 'dançando'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um verbo?",
+      "options": [
+        "Casa",
+        "Correr",
+        "Verde",
+        "Andar"
+      ],
+      "correct": 0,
+      "explanation": "Casa é um substantivo, não um verbo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Eu __________ no parque.",
+      "options": [
+        "vou",
+        "estou",
+        "fui",
+        "serei"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'vou', pois é um verbo no presente do indicativo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o verbo é importante em uma frase?",
+      "options": [
+        "Porque descreve um objeto",
+        "Porque descreve uma ação",
+        "Porque descreve um lugar",
+        "Porque descreve um tempo"
+      ],
+      "correct": 2,
+      "explanation": "O verbo é importante porque descreve a ação ou estado de ser em uma frase.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um verbo transitivo?",
+      "options": [
+        "Um verbo que descreve uma ação sem objeto",
+        "Um verbo que descreve uma ação com objeto",
+        "Um verbo que descreve um lugar",
+        "Um verbo que descreve um tempo"
+      ],
+      "correct": 1,
+      "explanation": "Um verbo transitivo é um verbo que descreve uma ação com objeto.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Maria está escrevendo uma carta. Qual é o verbo transitivo nessa frase?",
+      "options": [
+        "Maria",
+        "está",
+        "escrevendo",
+        "uma carta"
+      ],
+      "correct": 2,
+      "explanation": "O verbo transitivo é 'escrevendo', pois descreve a ação com o objeto 'carta'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um verbo intransitivo?",
+      "options": [
+        "Correr",
+        "Andar",
+        "Falar",
+        "Estar"
+      ],
+      "correct": 2,
+      "explanation": "Falar é um verbo transitivo, pois descreve a ação com o objeto 'palavras'.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Eu _______ um livro sobre história.",
+      "options": [
+        "leio",
+        "li",
+        "lê",
+        "lêrei"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'leio', pois é um verbo no presente do indicativo.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um verbo é conjugado?",
+      "options": [
+        "Muda a ação",
+        "Muda o objeto",
+        "Muda o tempo",
+        "Muda a forma"
+      ],
+      "correct": 3,
+      "explanation": "Quando um verbo é conjugado, muda a forma para indicar o tempo, pessoa ou número.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um verbo irregular?",
+      "options": [
+        "Um verbo que segue as regras de conjugação",
+        "Um verbo que não segue as regras de conjugação",
+        "Um verbo que descreve um lugar",
+        "Um verbo que descreve um tempo"
+      ],
+      "correct": 1,
+      "explanation": "Um verbo irregular é um verbo que não segue as regras de conjugação.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Maria está falando português. Qual é o verbo irregular nessa frase?",
+      "options": [
+        "Maria",
+        "está",
+        "falar",
+        "português"
+      ],
+      "correct": 2,
+      "explanation": "O verbo irregular é 'falar', pois não segue as regras de conjugação.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um verbo regular?",
+      "options": [
+        "Correr",
+        "Andar",
+        "Falar",
+        "Estar"
+      ],
+      "correct": 2,
+      "explanation": "Falar é um verbo irregular, pois não segue as regras de conjugação.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: Eu _______ um livro sobre história.",
+      "options": [
+        "leio",
+        "li",
+        "lê",
+        "lêrei"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'leio', pois é um verbo no presente do indicativo.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se um verbo é conjugado no presente do indicativo, o que acontece com o tempo?",
+      "options": [
+        "Muda para o passado",
+        "Muda para o futuro",
+        "Não muda",
+        "Muda para o presente"
+      ],
+      "correct": 2,
+      "explanation": "Quando um verbo é conjugado no presente do indicativo, o tempo não muda.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um verbo auxiliar?",
+      "options": [
+        "Um verbo que descreve uma ação sem objeto",
+        "Um verbo que descreve uma ação com objeto",
+        "Um verbo que ajuda a formar a conjugação de outro verbo",
+        "Um verbo que descreve um lugar"
+      ],
+      "correct": 2,
+      "explanation": "Um verbo auxiliar é um verbo que ajuda a formar a conjugação de outro verbo.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Maria está falando português. Qual é o verbo auxiliar nessa frase?",
+      "options": [
+        "Maria",
+        "está",
+        "falar",
+        "português"
+      ],
+      "correct": 2,
+      "explanation": "O verbo auxiliar é 'estar', pois ajuda a formar a conjugação do verbo 'falar'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um verbo auxiliar?",
+      "options": [
+        "Correr",
+        "Andar",
+        "Falar",
+        "Estar"
+      ],
+      "correct": 2,
+      "explanation": "Falar é um verbo transitivo, não um verbo auxiliar.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Tipos de Texto": [
+    {
+      "question": "O que é um texto descritivo?",
+      "options": [
+        "Um texto que conta uma história",
+        "Um texto que descreve uma pessoa, lugar ou objeto",
+        "Um texto que explica um processo",
+        "Um texto que apresenta uma opinião"
+      ],
+      "correct": 1,
+      "explanation": "Um texto descritivo é usado para descrever algo ou alguém de forma detalhada.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o objetivo de um texto instrucional?",
+      "options": [
+        "Entreter o leitor",
+        "Informar o leitor sobre um fato",
+        "Ensinar o leitor a fazer algo",
+        "Descrever um lugar"
+      ],
+      "correct": 2,
+      "explanation": "Um texto instrucional tem como objetivo ensinar o leitor a realizar uma tarefa ou processo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um texto narrativo?",
+      "options": [
+        "Um texto que descreve um objeto",
+        "Um texto que explica um processo",
+        "Um texto que conta uma história",
+        "Um texto que apresenta uma opinião"
+      ],
+      "correct": 2,
+      "explanation": "Um texto narrativo é usado para contar uma história ou relatar um evento.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o tipo de texto que apresenta uma opinião ou ponto de vista?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto argumentativo"
+      ],
+      "correct": 3,
+      "explanation": "Um texto argumentativo é usado para apresentar uma opinião ou ponto de vista sobre um tema.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Um texto que descreve um lugar é um exemplo de?",
+      "options": [
+        "Texto narrativo",
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto argumentativo"
+      ],
+      "correct": 1,
+      "explanation": "Um texto que descreve um lugar é um exemplo de texto descritivo.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um tipo de texto?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto musical"
+      ],
+      "correct": 3,
+      "explanation": "Texto musical não é um tipo de texto, pois se refere a uma forma de expressão artística.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Um texto que explica como fazer algo é um exemplo de ___",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto argumentativo"
+      ],
+      "correct": 1,
+      "explanation": "Um texto que explica como fazer algo é um exemplo de texto instrucional.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os textos descritivos são importantes?",
+      "options": [
+        "Porque eles contam histórias",
+        "Porque eles ensinam a fazer algo",
+        "Porque eles ajudam a entender melhor um objeto ou pessoa",
+        "Porque eles apresentam opiniões"
+      ],
+      "correct": 2,
+      "explanation": "Os textos descritivos são importantes porque ajudam a entender melhor um objeto ou pessoa.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um texto não é claro?",
+      "options": [
+        "O leitor entende facilmente o que está sendo dito",
+        "O leitor se perde e não entende o que está sendo dito",
+        "O leitor se diverte mais",
+        "O leitor aprende mais"
+      ],
+      "correct": 1,
+      "explanation": "Quando um texto não é claro, o leitor se perde e não entende o que está sendo dito.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de um texto bem estruturado?",
+      "options": [
+        "O leitor se perde",
+        "O leitor se diverte mais",
+        "O leitor entende melhor o que está sendo dito",
+        "O leitor aprende menos"
+      ],
+      "correct": 2,
+      "explanation": "Um texto bem estruturado ajuda o leitor a entender melhor o que está sendo dito.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um texto que compara dois objetos é um exemplo de?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto comparativo"
+      ],
+      "correct": 3,
+      "explanation": "Um texto que compara dois objetos é um exemplo de texto comparativo, que é um tipo de texto descritivo.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o objetivo de um texto que apresenta uma opinião?",
+      "options": [
+        "Convencer o leitor a concordar com a opinião",
+        "Informar o leitor sobre um fato",
+        "Descrever um objeto",
+        "Ensinar o leitor a fazer algo"
+      ],
+      "correct": 0,
+      "explanation": "Um texto que apresenta uma opinião tem como objetivo convencer o leitor a concordar com a opinião.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um texto que explica um processo é um exemplo de?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto argumentativo"
+      ],
+      "correct": 1,
+      "explanation": "Um texto que explica um processo é um exemplo de texto instrucional.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um tipo de texto que se encontra em um jornal?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto poético"
+      ],
+      "correct": 3,
+      "explanation": "Texto poético não é um tipo de texto comum em jornais, que geralmente apresentam textos descritivos, instrucionais e narrativos.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um texto que conta uma história é um exemplo de ___",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto argumentativo"
+      ],
+      "correct": 2,
+      "explanation": "Um texto que conta uma história é um exemplo de texto narrativo.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que os textos narrativos são importantes?",
+      "options": [
+        "Porque eles ensinam a fazer algo",
+        "Porque eles ajudam a entender melhor um objeto ou pessoa",
+        "Porque eles contam histórias e entretem o leitor",
+        "Porque eles apresentam opiniões"
+      ],
+      "correct": 2,
+      "explanation": "Os textos narrativos são importantes porque contam histórias e entretem o leitor.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando um texto é muito longo e complexo?",
+      "options": [
+        "O leitor se diverte mais",
+        "O leitor entende melhor o que está sendo dito",
+        "O leitor se perde e não entende o que está sendo dito",
+        "O leitor aprende mais"
+      ],
+      "correct": 2,
+      "explanation": "Quando um texto é muito longo e complexo, o leitor se perde e não entende o que está sendo dito.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de um texto que não é bem organizado?",
+      "options": [
+        "O leitor entende melhor o que está sendo dito",
+        "O leitor se diverte mais",
+        "O leitor se perde e não entende o que está sendo dito",
+        "O leitor aprende mais"
+      ],
+      "correct": 2,
+      "explanation": "Um texto que não é bem organizado pode levar o leitor a se perder e não entender o que está sendo dito.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Um texto que apresenta uma opinião e tenta convencer o leitor é um exemplo de?",
+      "options": [
+        "Texto descritivo",
+        "Texto instrucional",
+        "Texto narrativo",
+        "Texto argumentativo"
+      ],
+      "correct": 3,
+      "explanation": "Um texto que apresenta uma opinião e tenta convencer o leitor é um exemplo de texto argumentativo.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o objetivo de um texto que descreve um objeto?",
+      "options": [
+        "Convencer o leitor a concordar com uma opinião",
+        "Informar o leitor sobre um fato",
+        "Descrever um objeto",
+        "Ensinar o leitor a fazer algo"
+      ],
+      "correct": 2,
+      "explanation": "Um texto que descreve um objeto tem como objetivo informar o leitor sobre o objeto.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Adjetivo": [
+    {
+      "question": "O que é um adjetivo?",
+      "options": [
+        "Uma palavra que nomeia um objeto",
+        "Uma palavra que descreve um objeto",
+        "Uma palavra que indica ação",
+        "Uma palavra que indica quantidade"
+      ],
+      "correct": 1,
+      "explanation": "Um adjetivo é uma palavra que descreve ou caracteriza um substantivo, indicando suas qualidades ou propriedades.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do adjetivo 'grande' na frase 'O carro grande está na garagem'?",
+      "options": [
+        "Indicar a cor do carro",
+        "Indicar o tamanho do carro",
+        "Indicar a marca do carro",
+        "Indicar o modelo do carro"
+      ],
+      "correct": 1,
+      "explanation": "O adjetivo 'grande' descreve o tamanho do carro, indicando que ele é de grande porte.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra não é um adjetivo?",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Correr",
+        "Lindo"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'correr' é um verbo, não um adjetivo, pois indica uma ação e não descreve um substantivo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: O adjetivo _______ descreve a cor do céu.",
+      "options": [
+        "Azul",
+        "Feliz",
+        "Grande",
+        "Quente"
+      ],
+      "correct": 0,
+      "explanation": "O adjetivo 'azul' descreve a cor do céu, que é uma característica física.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que usamos adjetivos em nossas frases?",
+      "options": [
+        "Para indicar a quantidade de objetos",
+        "Para descrever as características dos objetos",
+        "Para indicar a ação dos objetos",
+        "Para indicar a localização dos objetos"
+      ],
+      "correct": 1,
+      "explanation": "Usamos adjetivos para descrever as características dos objetos, tornando as frases mais detalhadas e interessantes.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um adjetivo qualificativo?",
+      "options": [
+        "Um adjetivo que indica quantidade",
+        "Um adjetivo que indica cor",
+        "Um adjetivo que descreve uma característica",
+        "Um adjetivo que indica ação"
+      ],
+      "correct": 2,
+      "explanation": "Um adjetivo qualificativo é um tipo de adjetivo que descreve uma característica de um substantivo, como 'feliz', 'triste', 'grande', etc.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre os adjetivos 'grande' e 'pequeno'?",
+      "options": [
+        "Um indica cor e o outro indica tamanho",
+        "Um indica quantidade e o outro indica ação",
+        "Um indica tamanho e o outro indica quantidade",
+        "Um indica tamanho e o outro indica tamanho, mas de forma oposta"
+      ],
+      "correct": 3,
+      "explanation": "Os adjetivos 'grande' e 'pequeno' ambos indicam tamanho, mas de forma oposta, um indicando algo de grande porte e o outro indicando algo de pequeno porte.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual palavra não é um adjetivo qualificativo?",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Lindo",
+        "Três"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'três' é um numeral, não um adjetivo qualificativo, pois indica quantidade e não descreve uma característica.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: O adjetivo _______ descreve a personalidade de uma pessoa.",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Grande",
+        "Lindo"
+      ],
+      "correct": 0,
+      "explanation": "O adjetivo 'feliz' descreve a personalidade de uma pessoa, indicando que ela é alegre e contente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando usamos adjetivos para descrever objetos?",
+      "options": [
+        "As frases ficam mais curtas",
+        "As frases ficam mais longas e detalhadas",
+        "As frases ficam mais confusas",
+        "As frases ficam mais simples"
+      ],
+      "correct": 1,
+      "explanation": "Quando usamos adjetivos para descrever objetos, as frases ficam mais longas e detalhadas, tornando a comunicação mais eficaz.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a função dos adjetivos em uma frase?",
+      "options": [
+        "Indicar a ação",
+        "Indicar a quantidade",
+        "Descrever as características",
+        "Indicar a localização"
+      ],
+      "correct": 2,
+      "explanation": "A função dos adjetivos em uma frase é descrever as características dos substantivos, tornando as frases mais detalhadas e interessantes.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o efeito de usar adjetivos em uma história?",
+      "options": [
+        "Torna a história mais curta",
+        "Torna a história mais longa e detalhada",
+        "Torna a história mais confusa",
+        "Torna a história mais simples"
+      ],
+      "correct": 1,
+      "explanation": "Usar adjetivos em uma história torna a narrativa mais longa e detalhada, capturando a atenção do leitor e tornando a história mais interessante.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual palavra não é um adjetivo?",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Lindo",
+        "E"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'e' é uma conjunção, não um adjetivo, pois serve para ligar palavras ou frases.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: O adjetivo _______ descreve a textura de um objeto.",
+      "options": [
+        "Liso",
+        "Feliz",
+        "Grande",
+        "Quente"
+      ],
+      "correct": 0,
+      "explanation": "O adjetivo 'liso' descreve a textura de um objeto, indicando que sua superfície é suave e uniforme.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que é importante usar adjetivos em nossas frases?",
+      "options": [
+        "Para tornar as frases mais curtas",
+        "Para tornar as frases mais longas e detalhadas",
+        "Para tornar as frases mais confusas",
+        "Para tornar as frases mais simples"
+      ],
+      "correct": 1,
+      "explanation": "Usar adjetivos em nossas frases é importante porque torna as frases mais longas e detalhadas, permitindo uma comunicação mais eficaz e interessante.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre os adjetivos 'quente' e 'frio'?",
+      "options": [
+        "Um indica cor e o outro indica temperatura",
+        "Um indica quantidade e o outro indica ação",
+        "Um indica temperatura e o outro indica quantidade",
+        "Um indica temperatura e o outro indica temperatura, mas de forma oposta"
+      ],
+      "correct": 3,
+      "explanation": "Os adjetivos 'quente' e 'frio' ambos indicam temperatura, mas de forma oposta, um indicando algo de alta temperatura e o outro indicando algo de baixa temperatura.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual palavra não é um adjetivo que descreve uma característica física?",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Lindo",
+        "Grande"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'feliz' é um adjetivo que descreve uma característica emocional, não física, pois indica um estado de espírito.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: O adjetivo _______ descreve a forma de um objeto.",
+      "options": [
+        "Redondo",
+        "Feliz",
+        "Grande",
+        "Quente"
+      ],
+      "correct": 0,
+      "explanation": "O adjetivo 'redondo' descreve a forma de um objeto, indicando que ele tem uma forma circular.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando usamos adjetivos para descrever objetos de forma exagerada?",
+      "options": [
+        "As frases ficam mais realistas",
+        "As frases ficam mais interessantes e atraentes",
+        "As frases ficam mais confusas",
+        "As frases ficam mais simples"
+      ],
+      "correct": 1,
+      "explanation": "Quando usamos adjetivos para descrever objetos de forma exagerada, as frases ficam mais interessantes e atraentes, capturando a atenção do leitor ou ouvinte.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o efeito de usar adjetivos em uma descrição de um lugar?",
+      "options": [
+        "Torna a descrição mais curta e simples",
+        "Torna a descrição mais longa e detalhada",
+        "Torna a descrição mais confusa",
+        "Torna a descrição mais realista"
+      ],
+      "correct": 1,
+      "explanation": "Usar adjetivos em uma descrição de um lugar torna a descrição mais longa e detalhada, permitindo que o leitor ou ouvinte imagine o local de forma mais clara.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Sílabas e Separação Silábica": [
+    {
+      "question": "O que é uma sílaba?",
+      "options": [
+        "Uma palavra com apenas uma letra",
+        "Uma palavra com várias letras",
+        "Um grupo de letras que faz um som único",
+        "Uma palavra com apenas duas letras"
+      ],
+      "correct": 2,
+      "explanation": "Uma sílaba é um grupo de letras que faz um som único.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'casa':",
+      "options": [
+        "ca-sa",
+        "cas-a",
+        "ca-sa",
+        "cas-a"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'casa' é dividida em duas sílabas: 'ca' e 'sa'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra NÃO tem sílaba?",
+      "options": [
+        "casa",
+        "carro",
+        "um",
+        "cachorro"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'um' não tem sílaba, pois é um artigo que não é dividido em grupos de letras.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: a-ma-___",
+      "options": [
+        "l",
+        "r",
+        "s",
+        "o"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'amor' é dividida em sílabas: 'a-ma-or'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a palavra 'casa' é dividida em duas sílabas?",
+      "options": [
+        "Porque tem apenas duas letras",
+        "Porque faz um som único",
+        "Porque é uma palavra comum",
+        "Porque é uma palavra que faz um som único"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'casa' é dividida em duas sílabas porque faz um som único.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'computador':",
+      "options": [
+        "com-pu-ta-dor",
+        "com-pu-ta-dor",
+        "com-pu-ta-dor",
+        "com-pu-ta-dor"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'computador' é dividida em quatro sílabas: 'com-pu-ta-dor'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual palavra tem mais sílabas: 'casa' ou 'computador'?",
+      "options": [
+        "casa",
+        "computador",
+        "casa",
+        "computador"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'computador' tem mais sílabas do que a palavra 'casa'.",
+      "type": "comparacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'felicidade':",
+      "options": [
+        "fe-li-ci-dade",
+        "fe-li-ci-dade",
+        "fe-li-ci-dade",
+        "fe-li-ci-dade"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'felicidade' é dividida em quatro sílabas: 'fe-li-ci-dade'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual palavra NÃO tem sílaba em comum com a palavra 'casa'?",
+      "options": [
+        "casa",
+        "carro",
+        "felicidade",
+        "cachorro"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'carro' não tem sílaba em comum com a palavra 'casa'.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: ___-ma-___",
+      "options": [
+        "a",
+        "o",
+        "e",
+        "i"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'amor' é dividida em sílabas: 'a-ma-or'.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que a palavra 'felicidade' é dividida em quatro sílabas?",
+      "options": [
+        "Porque faz um som único",
+        "Porque é uma palavra comum",
+        "Porque faz um som único e é uma palavra longa",
+        "Porque é uma palavra que faz um som único"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'felicidade' é dividida em quatro sílabas porque faz um som único e é uma palavra longa.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'arquiteto':",
+      "options": [
+        "ar-qu-i-te-to",
+        "ar-qu-i-te-to",
+        "ar-qu-i-te-to",
+        "ar-qu-i-te-to"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'arquiteto' é dividida em quatro sílabas: 'ar-qu-i-te-to'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual palavra tem mais sílabas: 'arquiteto' ou 'felicidade'?",
+      "options": [
+        "arquiteto",
+        "felicidade",
+        "arquiteto",
+        "felicidade"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'arquiteto' tem mais sílabas do que a palavra 'felicidade'.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'biologia':",
+      "options": [
+        "bi-ol-o-gia",
+        "bi-ol-o-gia",
+        "bi-ol-o-gia",
+        "bi-ol-o-gia"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'biologia' é dividida em quatro sílabas: 'bi-ol-o-gia'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual palavra NÃO tem sílaba em comum com a palavra 'arquiteto'?",
+      "options": [
+        "arquiteto",
+        "biologia",
+        "felicidade",
+        "cachorro"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'felicidade' não tem sílaba em comum com a palavra 'arquiteto'.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: ___-bi-___",
+      "options": [
+        "a",
+        "o",
+        "e",
+        "i"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'biologia' é dividida em sílabas: 'bi-ol-o-gia'.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a palavra 'arquiteto' é dividida em quatro sílabas?",
+      "options": [
+        "Porque faz um som único",
+        "Porque é uma palavra comum",
+        "Porque faz um som único e é uma palavra longa",
+        "Porque é uma palavra que faz um som único e é uma palavra complicada"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'arquiteto' é dividida em quatro sílabas porque faz um som único e é uma palavra complicada.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'geografia':",
+      "options": [
+        "ge-og-ra-fia",
+        "ge-og-ra-fia",
+        "ge-og-ra-fia",
+        "ge-og-ra-fia"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'geografia' é dividida em quatro sílabas: 'ge-og-ra-fia'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual palavra tem mais sílabas: 'geografia' ou 'arquiteto'?",
+      "options": [
+        "geografia",
+        "arquiteto",
+        "geografia",
+        "arquiteto"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'geografia' tem mais sílabas do que a palavra 'arquiteto'.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Separe as sílabas na palavra 'psicologia':",
+      "options": [
+        "psi-co-lo-gia",
+        "psi-co-lo-gia",
+        "psi-co-lo-gia",
+        "psi-co-lo-gia"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'psicologia' é dividida em quatro sílabas: 'psi-co-lo-gia'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual palavra NÃO tem sílaba em comum com a palavra 'geografia'?",
+      "options": [
+        "geografia",
+        "psicologia",
+        "felicidade",
+        "cachorro"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'felicidade' não tem sílaba em comum com a palavra 'geografia'.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: ___-psi-___",
+      "options": [
+        "a",
+        "o",
+        "e",
+        "i"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'psicologia' é dividida em sílabas: 'psi-co-lo-gia'.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a palavra 'geografia' é dividida em quatro sílabas?",
+      "options": [
+        "Porque faz um som único",
+        "Porque é uma palavra comum",
+        "Porque faz um som único e é uma palavra longa",
+        "Porque é uma palavra que faz um som único e é uma palavra complicada"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'geografia' é dividida em quatro sílabas porque faz um som único e é uma palavra complicada.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Ortografia": [
+    {
+      "question": "O que é a ortografia?",
+      "options": [
+        "A forma de escrever as palavras",
+        "A forma de pronunciar as palavras",
+        "A forma de ler as palavras",
+        "A forma de falar as palavras"
+      ],
+      "correct": 0,
+      "explanation": "A ortografia é a forma de escrever as palavras corretamente, seguindo as regras da língua portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu a palavra 'casa' com uma 's' ou uma 'z' no final. Qual é a forma correta?",
+      "options": [
+        "casa",
+        "cazu",
+        "casaz",
+        "casazs"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'casa' termina em 's', não em 'z'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de palavra que termina em 'ção'?",
+      "options": [
+        "ação",
+        "ação",
+        "ação",
+        "ação"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'ação' é um exemplo de palavra que termina em 'ção'.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: a, e, i, o, ___",
+      "options": [
+        "u",
+        "o",
+        "i",
+        "e"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é a ordem alfabética das vogais do português.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante escrever corretamente?",
+      "options": [
+        "Para que as pessoas entendam o que estamos dizendo",
+        "Para que as pessoas sejam mais inteligentes",
+        "Para que as pessoas sejam mais felizes",
+        "Para que as pessoas sejam mais respeitadas"
+      ],
+      "correct": 0,
+      "explanation": "É importante escrever corretamente para que as pessoas entendam o que estamos dizendo e para evitar erros que possam causar confusão.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "A palavra 'papel' é um exemplo de palavra que termina em qual sufixo?",
+      "options": [
+        "ção",
+        "ção",
+        "ção",
+        "ção"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'papel' é um exemplo de palavra que termina em 'ção'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu a palavra 'cachorro' com uma 'c' ou uma 'q' no início. Qual é a forma correta?",
+      "options": [
+        "cachorro",
+        "qachorro",
+        "cachorro",
+        "qachorro"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'cachorro' começa com uma 'c', não com uma 'q'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o significado da palavra 'ortografia'?",
+      "options": [
+        "A forma de escrever as palavras",
+        "A forma de pronunciar as palavras",
+        "A forma de ler as palavras",
+        "A forma de falar as palavras"
+      ],
+      "correct": 0,
+      "explanation": "A ortografia é a forma de escrever as palavras corretamente, seguindo as regras da língua portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 1, 2, 4, 8, ___",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é a sequência de números que se multiplicam por 2.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu escrever a palavra 'casa' com uma 's' no final, qual seria o resultado?",
+      "options": [
+        "A palavra 'casa' seria correta",
+        "A palavra 'casa' seria incorreta",
+        "A palavra 'casa' seria ambígua",
+        "A palavra 'casa' seria neutra"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'casa' é incorreta quando escrita com uma 's' no final.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "A palavra 'papel' é um exemplo de palavra que termina em qual sufixo?",
+      "options": [
+        "ção",
+        "ção",
+        "ção",
+        "ção"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'papel' é um exemplo de palavra que termina em 'ção'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu a palavra 'cachorro' com uma 'c' ou uma 'q' no início. Qual é a forma correta?",
+      "options": [
+        "cachorro",
+        "qachorro",
+        "cachorro",
+        "qachorro"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'cachorro' começa com uma 'c', não com uma 'q'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o significado da palavra 'ortografia'?",
+      "options": [
+        "A forma de escrever as palavras",
+        "A forma de pronunciar as palavras",
+        "A forma de ler as palavras",
+        "A forma de falar as palavras"
+      ],
+      "correct": 0,
+      "explanation": "A ortografia é a forma de escrever as palavras corretamente, seguindo as regras da língua portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: a, e, i, o, ___",
+      "options": [
+        "u",
+        "o",
+        "i",
+        "e"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é a ordem alfabética das vogais do português.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu escrever a palavra 'casa' com uma 's' no final, qual seria o resultado?",
+      "options": [
+        "A palavra 'casa' seria correta",
+        "A palavra 'casa' seria incorreta",
+        "A palavra 'casa' seria ambígua",
+        "A palavra 'casa' seria neutra"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'casa' é incorreta quando escrita com uma 's' no final.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "A palavra 'papel' é um exemplo de palavra que termina em qual sufixo?",
+      "options": [
+        "ção",
+        "ção",
+        "ção",
+        "ção"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'papel' é um exemplo de palavra que termina em 'ção'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu a palavra 'cachorro' com uma 'c' ou uma 'q' no início. Qual é a forma correta?",
+      "options": [
+        "cachorro",
+        "qachorro",
+        "cachorro",
+        "qachorro"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'cachorro' começa com uma 'c', não com uma 'q'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o significado da palavra 'ortografia'?",
+      "options": [
+        "A forma de escrever as palavras",
+        "A forma de pronunciar as palavras",
+        "A forma de ler as palavras",
+        "A forma de falar as palavras"
+      ],
+      "correct": 0,
+      "explanation": "A ortografia é a forma de escrever as palavras corretamente, seguindo as regras da língua portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 1, 2, 4, 8, ___",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é a sequência de números que se multiplicam por 2.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu escrever a palavra 'casa' com uma 's' no final, qual seria o resultado?",
+      "options": [
+        "A palavra 'casa' seria correta",
+        "A palavra 'casa' seria incorreta",
+        "A palavra 'casa' seria ambígua",
+        "A palavra 'casa' seria neutra"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'casa' é incorreta quando escrita com uma 's' no final.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Encontro Vocálico": [
+    {
+      "question": "O que é um ditongo?",
+      "options": [
+        "Dois sons diferentes em uma sílaba",
+        "Um som único em uma sílaba",
+        "Dois sons diferentes em sílabas diferentes",
+        "Um som único em sílabas diferentes"
+      ],
+      "correct": 1,
+      "explanation": "Um ditongo é um som único que é formado por uma vogal e uma semivogal (ou vice-versa) na mesma sílaba.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra contém um ditongo?",
+      "options": [
+        "casa",
+        "pai",
+        "mãe",
+        "carro"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'pai' contém um ditongo, pois tem a vogal 'a' e a semivogal 'i' na mesma sílaba.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de ditongo?",
+      "options": [
+        "pai",
+        "leão",
+        "casa",
+        "mãe"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'casa' não é um exemplo de ditongo, pois não tem uma semivogal e uma vogal na mesma sílaba.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de ditongo.",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'e' é um exemplo de ditongo, pois tem a vogal 'e' e a semivogal 'i' na mesma sílaba.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a palavra 'rei' é um exemplo de ditongo?",
+      "options": [
+        "Porque tem a vogal 'e' e a semivogal 'i' na mesma sílaba",
+        "Porque tem a vogal 'i' e a semivogal 'e' na mesma sílaba",
+        "Porque tem a vogal 'e' e a semivogal 'a' na mesma sílaba",
+        "Porque tem a vogal 'a' e a semivogal 'e' na mesma sílaba"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'rei' é um exemplo de ditongo porque tem a vogal 'e' e a semivogal 'i' na mesma sílaba.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra contém um tritongo?",
+      "options": [
+        "saída",
+        "Paraguai",
+        "casa",
+        "mãe"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'Paraguai' contém um tritongo, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de tritongo?",
+      "options": [
+        "Paraguai",
+        "saída",
+        "casa",
+        "mãe"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'saída' não é um exemplo de tritongo, pois não tem três sons na mesma sílaba.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de tritongo.",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'i' é um exemplo de tritongo, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a palavra 'Paraguai' é um exemplo de tritongo?",
+      "options": [
+        "Porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba",
+        "Porque tem a vogal 'a' e a semivogal 'i' na mesma sílaba",
+        "Porque tem a vogal 'u' e a semivogal 'a' na mesma sílaba",
+        "Porque tem a vogal 'i' e a semivogal 'u' na mesma sílaba"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'Paraguai' é um exemplo de tritongo porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um hiato?",
+      "options": [
+        "Dois sons diferentes em uma sílaba",
+        "Um som único em uma sílaba",
+        "Dois sons diferentes em sílabas diferentes",
+        "Um som único em sílabas diferentes"
+      ],
+      "correct": 3,
+      "explanation": "Um hiato é quando dois sons diferentes estão em sílabas diferentes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra contém um hiato?",
+      "options": [
+        "casa",
+        "pai",
+        "mãe",
+        "saída"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'saída' contém um hiato, pois tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de hiato?",
+      "options": [
+        "saída",
+        "pai",
+        "casa",
+        "mãe"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'pai' não é um exemplo de hiato, pois tem os sons 'a' e 'i' na mesma sílaba.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de hiato.",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'o' é um exemplo de hiato, pois tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a palavra 'saída' é um exemplo de hiato?",
+      "options": [
+        "Porque tem os sons 'a' e 'i' na mesma sílaba",
+        "Porque tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem os sons 'i' e 'a' na mesma sílaba",
+        "Porque tem os sons 'i' e 'a' em sílabas diferentes"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'saída' é um exemplo de hiato porque tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual palavra contém um ditongo e um hiato?",
+      "options": [
+        "saída",
+        "Paraguai",
+        "casa",
+        "mãe"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'Paraguai' contém um ditongo e um hiato, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de ditongo e hiato?",
+      "options": [
+        "Paraguai",
+        "saída",
+        "casa",
+        "mãe"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'saída' não é um exemplo de ditongo e hiato, pois não tem um ditongo e um hiato ao mesmo tempo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de ditongo e hiato.",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'i' é um exemplo de ditongo e hiato, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que a palavra 'Paraguai' é um exemplo de ditongo e hiato?",
+      "options": [
+        "Porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'a' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'u' e a semivogal 'a' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'i' e a semivogal 'u' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'Paraguai' é um exemplo de ditongo e hiato porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual palavra contém um tritongo e um hiato?",
+      "options": [
+        "saída",
+        "Paraguai",
+        "casa",
+        "mãe"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'Paraguai' contém um tritongo e um hiato, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um exemplo de tritongo e hiato?",
+      "options": [
+        "Paraguai",
+        "saída",
+        "casa",
+        "mãe"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'saída' não é um exemplo de tritongo e hiato, pois não tem um tritongo e um hiato ao mesmo tempo.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de tritongo e hiato.",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'i' é um exemplo de tritongo e hiato, pois tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a palavra 'Paraguai' é um exemplo de tritongo e hiato?",
+      "options": [
+        "Porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'a' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'u' e a semivogal 'a' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes",
+        "Porque tem a vogal 'i' e a semivogal 'u' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'Paraguai' é um exemplo de tritongo e hiato porque tem a semivogal 'a', a vogal 'u' e a semivogal 'i' na mesma sílaba, e também tem os sons 'a' e 'i' em sílabas diferentes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Dígrafo e Encontro Consonantal": [
+    {
+      "question": "O que é um dígrafo?",
+      "options": [
+        "Duas letras que representam um som único",
+        "Duas letras que representam dois sons diferentes",
+        "Duas letras que representam um som diferente em cada palavra",
+        "Duas letras que representam um som igual em todas as palavras"
+      ],
+      "correct": 0,
+      "explanation": "Um dígrafo é uma combinação de duas letras que representam um som único, como 'ch' em 'chave'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um encontro consonantal?",
+      "options": [
+        "ch",
+        "br",
+        "ss",
+        "qu"
+      ],
+      "correct": 1,
+      "explanation": "Um encontro consonantal é quando duas consoantes têm sons diferentes, como 'br' em 'bravo'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um dígrafo e um encontro consonantal?",
+      "options": [
+        "Um dígrafo tem um som único e um encontro consonantal tem dois sons diferentes",
+        "Um dígrafo tem dois sons diferentes e um encontro consonantal tem um som único",
+        "Um dígrafo é usado em palavras estrangeiras e um encontro consonantal é usado em palavras brasileiras",
+        "Um dígrafo é usado em palavras brasileiras e um encontro consonantal é usado em palavras estrangeiras"
+      ],
+      "correct": 0,
+      "explanation": "Um dígrafo é uma combinação de duas letras que representam um som único, enquanto um encontro consonantal é quando duas consoantes têm sons diferentes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um dígrafo em uma palavra?",
+      "options": [
+        "br",
+        "ch",
+        "ss",
+        "qu"
+      ],
+      "correct": 1,
+      "explanation": "Um exemplo de um dígrafo em uma palavra é 'ch' em 'chave'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um encontro consonantal em uma palavra?",
+      "options": [
+        "ch",
+        "ss",
+        "qu",
+        "br"
+      ],
+      "correct": 3,
+      "explanation": "Um exemplo de um encontro consonantal em uma palavra é 'br' em 'bravo'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a palavra que contém o dígrafo 'ch'?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "grama"
+      ],
+      "correct": 0,
+      "explanation": "A palavra que contém o dígrafo 'ch' é 'chave'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a palavra que contém o encontro consonantal 'br'?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "grama"
+      ],
+      "correct": 1,
+      "explanation": "A palavra que contém o encontro consonantal 'br' é 'bravo'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a palavra que NÃO contém um dígrafo?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "grama"
+      ],
+      "correct": 3,
+      "explanation": "As palavras 'claro' e 'grama' NÃO contêm um dígrafo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: ch, lh, nh, ___",
+      "options": [
+        "ss",
+        "qu",
+        "br",
+        "rr"
+      ],
+      "correct": 2,
+      "explanation": "A sequência de dígrafos é: ch, lh, nh, qu.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma palavra contém o dígrafo 'ch', qual é o som que ela representa?",
+      "options": [
+        "um som único",
+        "dois sons diferentes",
+        "um som igual em todas as palavras",
+        "um som diferente em cada palavra"
+      ],
+      "correct": 0,
+      "explanation": "Um dígrafo representa um som único, como 'ch' em 'chave'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a palavra que contém o encontro consonantal 'fl'?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "flor"
+      ],
+      "correct": 3,
+      "explanation": "A palavra que contém o encontro consonantal 'fl' é 'flor'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a palavra que NÃO contém um encontro consonantal?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "flor"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'chave' NÃO contém um encontro consonantal.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: br, fl, pr, ___",
+      "options": [
+        "gr",
+        "cl",
+        "ss",
+        "qu"
+      ],
+      "correct": 2,
+      "explanation": "A sequência de encontros consonantais é: br, fl, pr, gr.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma palavra contém o encontro consonantal 'br', qual é o som que ela representa?",
+      "options": [
+        "um som único",
+        "dois sons diferentes",
+        "um som igual em todas as palavras",
+        "um som diferente em cada palavra"
+      ],
+      "correct": 1,
+      "explanation": "Um encontro consonantal representa dois sons diferentes, como 'br' em 'bravo'.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a palavra que contém o dígrafo 'qu'?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "guia"
+      ],
+      "correct": 3,
+      "explanation": "A palavra que contém o dígrafo 'qu' é 'guia'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a palavra que NÃO contém um dígrafo ou um encontro consonantal?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "grama"
+      ],
+      "correct": 3,
+      "explanation": "As palavras 'claro' e 'grama' NÃO contêm um dígrafo ou um encontro consonantal.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: ch, lh, nh, qu, ___",
+      "options": [
+        "ss",
+        "br",
+        "gr",
+        "fl"
+      ],
+      "correct": 3,
+      "explanation": "A sequência de dígrafos e encontros consonantais é: ch, lh, nh, qu, gr.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se uma palavra contém o dígrafo 'qu', qual é o som que ela representa?",
+      "options": [
+        "um som único",
+        "dois sons diferentes",
+        "um som igual em todas as palavras",
+        "um som diferente em cada palavra"
+      ],
+      "correct": 0,
+      "explanation": "Um dígrafo representa um som único, como 'qu' em 'guia'.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a palavra que contém o encontro consonantal 'gr'?",
+      "options": [
+        "chave",
+        "bravo",
+        "claro",
+        "grama"
+      ],
+      "correct": 3,
+      "explanation": "A palavra que contém o encontro consonantal 'gr' é 'grama'.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Substantivo": [
+    {
+      "question": "O que é um substantivo?",
+      "options": [
+        "Uma palavra que descreve um verbo",
+        "Uma palavra que nomeia uma pessoa, lugar ou coisa",
+        "Uma palavra que indica um tempo",
+        "Uma palavra que indica um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é uma palavra que nomeia uma pessoa, lugar ou coisa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'A casa é azul'?",
+      "options": [
+        "casa",
+        "azul",
+        "é",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'casa' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "correr",
+        "amigo",
+        "ser"
+      ],
+      "correct": 1,
+      "explanation": "O verbo 'correr' não é um substantivo, pois é uma palavra que indica uma ação.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O gato é um animal de estimação, como o ___",
+      "options": [
+        "cachorro",
+        "gato",
+        "cavalo",
+        "elefante"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'cachorro', pois é outro animal de estimação.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um substantivo é importante?",
+      "options": [
+        "Porque ajuda a descrever um verbo",
+        "Porque ajuda a nomear uma pessoa, lugar ou coisa",
+        "Porque ajuda a indicar um tempo",
+        "Porque ajuda a indicar um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é importante porque ajuda a nomear uma pessoa, lugar ou coisa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'A cidade é linda'?",
+      "options": [
+        "cidade",
+        "é",
+        "linda",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'cidade' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "amigo",
+        "ser",
+        "correr"
+      ],
+      "correct": 2,
+      "explanation": "O verbo 'ser' e o verbo 'correr' não são substantivos, pois são palavras que indicam ações.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O livro é um objeto de ___",
+      "options": [
+        "leitura",
+        "escrita",
+        "estudo",
+        "jogo"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'leitura', pois é um objeto relacionado à leitura.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um substantivo nomeia uma pessoa, o que ele faz?",
+      "options": [
+        "Descreve uma ação",
+        "Nomeia uma coisa",
+        "Indica um tempo",
+        "Indica um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo que nomeia uma pessoa ajuda a nomear essa pessoa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'O livro é azul'?",
+      "options": [
+        "livro",
+        "é",
+        "azul",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'livro' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "amigo",
+        "ser",
+        "correr"
+      ],
+      "correct": 2,
+      "explanation": "O verbo 'ser' e o verbo 'correr' não são substantivos, pois são palavras que indicam ações.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um substantivo é importante?",
+      "options": [
+        "Porque ajuda a descrever um verbo",
+        "Porque ajuda a nomear uma pessoa, lugar ou coisa",
+        "Porque ajuda a indicar um tempo",
+        "Porque ajuda a indicar um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é importante porque ajuda a nomear uma pessoa, lugar ou coisa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'A cidade é linda'?",
+      "options": [
+        "cidade",
+        "é",
+        "linda",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'cidade' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um substantivo nomeia um lugar, o que ele faz?",
+      "options": [
+        "Descreve uma ação",
+        "Nomeia uma coisa",
+        "Indica um tempo",
+        "Indica um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo que nomeia um lugar ajuda a nomear esse lugar.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "amigo",
+        "ser",
+        "correr"
+      ],
+      "correct": 2,
+      "explanation": "O verbo 'ser' e o verbo 'correr' não são substantivos, pois são palavras que indicam ações.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O livro é um objeto de ___",
+      "options": [
+        "leitura",
+        "escrita",
+        "estudo",
+        "jogo"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'leitura', pois é um objeto relacionado à leitura.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um substantivo é importante?",
+      "options": [
+        "Porque ajuda a descrever um verbo",
+        "Porque ajuda a nomear uma pessoa, lugar ou coisa",
+        "Porque ajuda a indicar um tempo",
+        "Porque ajuda a indicar um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é importante porque ajuda a nomear uma pessoa, lugar ou coisa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'O parque é lindo'?",
+      "options": [
+        "parque",
+        "é",
+        "lindo",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'parque' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um substantivo nomeia uma pessoa, o que ele faz?",
+      "options": [
+        "Descreve uma ação",
+        "Nomeia uma coisa",
+        "Indica um tempo",
+        "Indica um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo que nomeia uma pessoa ajuda a nomear essa pessoa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "amigo",
+        "ser",
+        "correr"
+      ],
+      "correct": 2,
+      "explanation": "O verbo 'ser' e o verbo 'correr' não são substantivos, pois são palavras que indicam ações.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um substantivo é importante?",
+      "options": [
+        "Porque ajuda a descrever um verbo",
+        "Porque ajuda a nomear uma pessoa, lugar ou coisa",
+        "Porque ajuda a indicar um tempo",
+        "Porque ajuda a indicar um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é importante porque ajuda a nomear uma pessoa, lugar ou coisa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o substantivo na frase 'A cidade é linda'?",
+      "options": [
+        "cidade",
+        "é",
+        "linda",
+        "um"
+      ],
+      "correct": 0,
+      "explanation": "O substantivo é a palavra que nomeia uma coisa, que é 'cidade' nessa frase.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um substantivo nomeia um lugar, o que ele faz?",
+      "options": [
+        "Descreve uma ação",
+        "Nomeia uma coisa",
+        "Indica um tempo",
+        "Indica um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo que nomeia um lugar ajuda a nomear esse lugar.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um substantivo?",
+      "options": [
+        "casa",
+        "amigo",
+        "ser",
+        "correr"
+      ],
+      "correct": 2,
+      "explanation": "O verbo 'ser' e o verbo 'correr' não são substantivos, pois são palavras que indicam ações.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O livro é um objeto de ___",
+      "options": [
+        "leitura",
+        "escrita",
+        "estudo",
+        "jogo"
+      ],
+      "correct": 0,
+      "explanation": "A resposta correta é 'leitura', pois é um objeto relacionado à leitura.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um substantivo é importante?",
+      "options": [
+        "Porque ajuda a descrever um verbo",
+        "Porque ajuda a nomear uma pessoa, lugar ou coisa",
+        "Porque ajuda a indicar um tempo",
+        "Porque ajuda a indicar um lugar"
+      ],
+      "correct": 1,
+      "explanation": "Um substantivo é importante porque ajuda a nomear uma pessoa, lugar ou coisa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    }
+  ],
+  "Pontuação": [
+    {
+      "question": "O que é um ponto no contexto da pontuação?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar um número",
+        "Um símbolo usado para indicar um nome"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto é usado para marcar o fim de uma frase ou de uma lista.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu uma carta para o seu amigo. Ela colocou um ponto ao final da carta. O que ela fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da carta",
+        "Colocou um ponto para marcar o início da carta"
+      ],
+      "correct": 3,
+      "explanation": "Maria colocou um ponto para marcar o fim da carta.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um símbolo de pontuação?",
+      "options": [
+        "Ponto (.)",
+        "Virgula (,)",
+        "Ponto de interrogação (?)",
+        "Ponto de exclamação (!)"
+      ],
+      "correct": 1,
+      "explanation": "A virgula é um símbolo de pontuação, mas não é um ponto.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O número 5 é maior que o número ___.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "O número 5 é maior que o número 4.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que usamos um ponto para marcar o fim de uma frase?",
+      "options": [
+        "Para indicar um número",
+        "Para indicar um nome",
+        "Para marcar o fim da frase",
+        "Para marcar o início da frase"
+      ],
+      "correct": 3,
+      "explanation": "Usamos um ponto para marcar o fim de uma frase para indicar que a frase acabou.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um ponto de interrogação?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar uma pergunta",
+        "Um símbolo usado para indicar um nome"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto de interrogação é usado para indicar uma pergunta.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "João escreveu uma frase com um ponto de interrogação ao final. O que ele fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da frase",
+        "Colocou um ponto de interrogação para indicar uma pergunta"
+      ],
+      "correct": 3,
+      "explanation": "João colocou um ponto de interrogação para indicar uma pergunta.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um ponto de interrogação?",
+      "options": [
+        "?",
+        "!",
+        ".",
+        ","
+      ],
+      "correct": 3,
+      "explanation": "O ponto é um símbolo de pontuação, mas não é um ponto de interrogação.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O número 3 é menor que o número ___.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "explanation": "O número 3 é menor que o número 4.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma frase termina com um ponto de interrogação, o que isso indica?",
+      "options": [
+        "Que a frase acabou",
+        "Que a frase está incompleta",
+        "Que a frase é uma pergunta",
+        "Que a frase é um comando"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto de interrogação indica que a frase é uma pergunta.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um ponto de exclamação?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar uma pergunta",
+        "Um símbolo usado para indicar um comando"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto de exclamação é usado para indicar um comando ou uma afirmação enfática.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria escreveu uma frase com um ponto de exclamação ao final. O que ela fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da frase",
+        "Colocou um ponto de exclamação para indicar um comando"
+      ],
+      "correct": 3,
+      "explanation": "Maria colocou um ponto de exclamação para indicar um comando.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um ponto de exclamação?",
+      "options": [
+        "?",
+        "!",
+        ".",
+        ","
+      ],
+      "correct": 0,
+      "explanation": "O ponto de interrogação é um símbolo de pontuação, mas não é um ponto de exclamação.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O número 5 é maior que o número ___.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "O número 5 é maior que o número 4.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma frase termina com um ponto de exclamação, o que isso indica?",
+      "options": [
+        "Que a frase acabou",
+        "Que a frase está incompleta",
+        "Que a frase é uma pergunta",
+        "Que a frase é um comando"
+      ],
+      "correct": 3,
+      "explanation": "Um ponto de exclamação indica que a frase é um comando ou uma afirmação enfática.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um ponto de parágrafo?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar um parágrafo",
+        "Um símbolo usado para indicar um nome"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto de parágrafo é usado para indicar o início de um novo parágrafo.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "João escreveu um texto com pontos de parágrafo ao longo do texto. O que ele fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da frase",
+        "Colocou pontos de parágrafo para indicar novos parágrafos"
+      ],
+      "correct": 3,
+      "explanation": "João colocou pontos de parágrafo para indicar novos parágrafos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um ponto de parágrafo?",
+      "options": [
+        "?",
+        "!",
+        ".",
+        ","
+      ],
+      "correct": 3,
+      "explanation": "O ponto é um símbolo de pontuação, mas não é um ponto de parágrafo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: O número 3 é menor que o número ___.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "explanation": "O número 3 é menor que o número 4.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se um texto é dividido em parágrafos com pontos de parágrafo, o que isso indica?",
+      "options": [
+        "Que o texto está incompleto",
+        "Que o texto é uma pergunta",
+        "Que o texto é um comando",
+        "Que o texto está dividido em parágrafos"
+      ],
+      "correct": 3,
+      "explanation": "Pontos de parágrafo indicam que o texto está dividido em parágrafos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um ponto de vírgula?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar uma pausa",
+        "Um símbolo usado para indicar um nome"
+      ],
+      "correct": 3,
+      "explanation": "Um ponto de vírgula é usado para indicar uma pausa ou para separar elementos em uma lista.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Maria escreveu uma frase com um ponto de vírgula ao final. O que ela fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da frase",
+        "Colocou um ponto de vírgula para indicar uma pausa"
+      ],
+      "correct": 3,
+      "explanation": "Maria colocou um ponto de vírgula para indicar uma pausa.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um ponto de vírgula?",
+      "options": [
+        "?",
+        "!",
+        ".",
+        ","
+      ],
+      "correct": 3,
+      "explanation": "O ponto é um símbolo de pontuação, mas não é um ponto de vírgula.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: O número 5 é maior que o número ___.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "O número 5 é maior que o número 4.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma frase termina com um ponto de vírgula, o que isso indica?",
+      "options": [
+        "Que a frase acabou",
+        "Que a frase está incompleta",
+        "Que a frase é uma pergunta",
+        "Que a frase é uma pausa"
+      ],
+      "correct": 3,
+      "explanation": "Um ponto de vírgula indica que a frase é uma pausa ou que os elementos estão separados em uma lista.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um ponto de intercalação?",
+      "options": [
+        "Um símbolo usado para marcar o início de uma frase",
+        "Um símbolo usado para marcar o fim de uma frase",
+        "Um símbolo usado para indicar uma pausa",
+        "Um símbolo usado para indicar um nome"
+      ],
+      "correct": 3,
+      "explanation": "Um ponto de intercalação é usado para indicar uma pausa ou para separar elementos em uma lista.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "João escreveu uma frase com um ponto de intercalação ao final. O que ele fez?",
+      "options": [
+        "Colocou um ponto para indicar um número",
+        "Colocou um ponto para indicar um nome",
+        "Colocou um ponto para marcar o fim da frase",
+        "Colocou um ponto de intercalação para indicar uma pausa"
+      ],
+      "correct": 3,
+      "explanation": "João colocou um ponto de intercalação para indicar uma pausa.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um ponto de intercalação?",
+      "options": [
+        "?",
+        "!",
+        ".",
+        ","
+      ],
+      "correct": 3,
+      "explanation": "O ponto é um símbolo de pontuação, mas não é um ponto de intercalação.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: O número 5 é maior que o número ___.",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "O número 5 é maior que o número 4.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se uma frase termina com um ponto de intercalação, o que isso indica?",
+      "options": [
+        "Que a frase acabou",
+        "Que a frase está incompleta",
+        "Que a frase é uma pergunta",
+        "Que a frase é uma pausa"
+      ],
+      "correct": 3,
+      "explanation": "Um ponto de intercalação indica que a frase é uma pausa ou que os elementos estão separados em uma lista.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Interpretação de Texto": [
+    {
+      "question": "O que é um texto?",
+      "options": [
+        "Uma palavra",
+        "Uma frase",
+        "Uma sequência de palavras e frases",
+        "Um número"
+      ],
+      "correct": 2,
+      "explanation": "Um texto é uma sequência de palavras e frases que transmitem uma ideia ou mensagem.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um livro. Ela está interpretando o que está escrito no livro. O que ela está fazendo?",
+      "options": [
+        "Ela está escrevendo um livro",
+        "Ela está lendo um número",
+        "Ela está interpretando o que está escrito no livro",
+        "Ela está contando histórias"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando o que está escrito no livro, ou seja, ela está entendendo o significado das palavras e frases.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um tipo de texto?",
+      "options": [
+        "Um poema",
+        "Uma história",
+        "Um número",
+        "Um artigo de jornal"
+      ],
+      "correct": 2,
+      "explanation": "Um número não é um tipo de texto, pois é uma sequência de dígitos que representam uma quantidade.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Uma história é um tipo de texto que conta uma _______.",
+      "options": [
+        "palavra",
+        "frase",
+        "história",
+        "número"
+      ],
+      "correct": 2,
+      "explanation": "Uma história é um tipo de texto que conta uma história, ou seja, uma sequência de eventos e personagens.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante interpretar um texto?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para ler um número"
+      ],
+      "correct": 0,
+      "explanation": "É importante interpretar um texto para entender o significado das palavras e frases, o que ajuda a entender melhor o que está sendo comunicado.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa interpretar um texto?",
+      "options": [
+        "Ler as palavras e frases",
+        "Escrever um livro",
+        "Contar histórias",
+        "Entender o significado das palavras e frases"
+      ],
+      "correct": 3,
+      "explanation": "Interpretar um texto significa entender o significado das palavras e frases, o que ajuda a entender melhor o que está sendo comunicado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um texto e encontrou a palavra 'amor'. O que ela está fazendo?",
+      "options": [
+        "Ela está contando histórias",
+        "Ela está lendo um número",
+        "Ela está interpretando a palavra 'amor'",
+        "Ela está escrevendo um livro"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando a palavra 'amor', o que significa que ela está entendendo o significado da palavra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o objetivo de interpretar um texto?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para ler um número"
+      ],
+      "correct": 0,
+      "explanation": "O objetivo de interpretar um texto é entender o significado das palavras e frases, o que ajuda a entender melhor o que está sendo comunicado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou lendo um texto e não entendo o significado de uma palavra, o que devo fazer?",
+      "options": [
+        "Continuar lendo",
+        "Perguntar a alguém",
+        "Interpretar a palavra",
+        "Escrever um livro"
+      ],
+      "correct": 1,
+      "explanation": "Se você não entende o significado de uma palavra, é melhor perguntar a alguém ou procurar ajuda para entender melhor o texto.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um texto literário?",
+      "options": [
+        "Um texto que conta uma história",
+        "Um texto que explica uma ideia",
+        "Um texto que descreve um lugar",
+        "Um texto que é um número"
+      ],
+      "correct": 0,
+      "explanation": "Um texto literário é um texto que conta uma história, ou seja, uma sequência de eventos e personagens.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um texto e encontrou a palavra 'amizade'. O que ela está fazendo?",
+      "options": [
+        "Ela está contando histórias",
+        "Ela está lendo um número",
+        "Ela está interpretando a palavra 'amizade'",
+        "Ela está escrevendo um livro"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando a palavra 'amizade', o que significa que ela está entendendo o significado da palavra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um texto literário e um texto não literário?",
+      "options": [
+        "Um texto literário é um texto que conta uma história, enquanto um texto não literário é um texto que explica uma ideia",
+        "Um texto literário é um texto que explica uma ideia, enquanto um texto não literário é um texto que conta uma história",
+        "Um texto literário é um texto que descreve um lugar, enquanto um texto não literário é um texto que conta uma história",
+        "Um texto literário é um texto que é um número, enquanto um texto não literário é um texto que conta uma história"
+      ],
+      "correct": 0,
+      "explanation": "Um texto literário é um texto que conta uma história, enquanto um texto não literário é um texto que explica uma ideia ou descreve um lugar.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Um texto literário é um tipo de texto que conta uma _______.",
+      "options": [
+        "palavra",
+        "frase",
+        "história",
+        "número"
+      ],
+      "correct": 2,
+      "explanation": "Um texto literário é um tipo de texto que conta uma história, ou seja, uma sequência de eventos e personagens.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante ler textos literários?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para entender melhor a vida e a sociedade"
+      ],
+      "correct": 3,
+      "explanation": "É importante ler textos literários para entender melhor a vida e a sociedade, pois eles nos permitem ver o mundo de diferentes perspectivas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa ler um texto literário?",
+      "options": [
+        "Ler as palavras e frases",
+        "Escrever um livro",
+        "Contar histórias",
+        "Entender o significado das palavras e frases"
+      ],
+      "correct": 3,
+      "explanation": "Ler um texto literário significa entender o significado das palavras e frases, o que ajuda a entender melhor a vida e a sociedade.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um texto literário e encontrou a palavra 'amor'. O que ela está fazendo?",
+      "options": [
+        "Ela está contando histórias",
+        "Ela está lendo um número",
+        "Ela está interpretando a palavra 'amor'",
+        "Ela está escrevendo um livro"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando a palavra 'amor', o que significa que ela está entendendo o significado da palavra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o objetivo de ler um texto literário?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para entender melhor a vida e a sociedade"
+      ],
+      "correct": 3,
+      "explanation": "O objetivo de ler um texto literário é entender melhor a vida e a sociedade, pois eles nos permitem ver o mundo de diferentes perspectivas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou lendo um texto literário e não entendo o significado de uma palavra, o que devo fazer?",
+      "options": [
+        "Continuar lendo",
+        "Perguntar a alguém",
+        "Interpretar a palavra",
+        "Escrever um livro"
+      ],
+      "correct": 1,
+      "explanation": "Se você não entende o significado de uma palavra, é melhor perguntar a alguém ou procurar ajuda para entender melhor o texto.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um texto não literário?",
+      "options": [
+        "Um texto que conta uma história",
+        "Um texto que explica uma ideia",
+        "Um texto que descreve um lugar",
+        "Um texto que é um número"
+      ],
+      "correct": 1,
+      "explanation": "Um texto não literário é um texto que explica uma ideia ou descreve um lugar, mas não conta uma história.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um texto não literário e encontrou a palavra 'amor'. O que ela está fazendo?",
+      "options": [
+        "Ela está contando histórias",
+        "Ela está lendo um número",
+        "Ela está interpretando a palavra 'amor'",
+        "Ela está escrevendo um livro"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando a palavra 'amor', o que significa que ela está entendendo o significado da palavra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um texto literário e um texto não literário?",
+      "options": [
+        "Um texto literário é um texto que conta uma história, enquanto um texto não literário é um texto que explica uma ideia",
+        "Um texto literário é um texto que explica uma ideia, enquanto um texto não literário é um texto que conta uma história",
+        "Um texto literário é um texto que descreve um lugar, enquanto um texto não literário é um texto que conta uma história",
+        "Um texto literário é um texto que é um número, enquanto um texto não literário é um texto que conta uma história"
+      ],
+      "correct": 0,
+      "explanation": "Um texto literário é um texto que conta uma história, enquanto um texto não literário é um texto que explica uma ideia ou descreve um lugar.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Um texto não literário é um tipo de texto que _______.",
+      "options": [
+        "conta uma história",
+        "explica uma ideia",
+        "descreve um lugar",
+        "é um número"
+      ],
+      "correct": 1,
+      "explanation": "Um texto não literário é um tipo de texto que explica uma ideia ou descreve um lugar, mas não conta uma história.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante ler textos não literários?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para entender melhor a vida e a sociedade"
+      ],
+      "correct": 3,
+      "explanation": "É importante ler textos não literários para entender melhor a vida e a sociedade, pois eles nos permitem ver o mundo de diferentes perspectivas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa ler um texto não literário?",
+      "options": [
+        "Ler as palavras e frases",
+        "Escrever um livro",
+        "Contar histórias",
+        "Entender o significado das palavras e frases"
+      ],
+      "correct": 3,
+      "explanation": "Ler um texto não literário significa entender o significado das palavras e frases, o que ajuda a entender melhor a vida e a sociedade.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está lendo um texto não literário e encontrou a palavra 'amor'. O que ela está fazendo?",
+      "options": [
+        "Ela está contando histórias",
+        "Ela está lendo um número",
+        "Ela está interpretando a palavra 'amor'",
+        "Ela está escrevendo um livro"
+      ],
+      "correct": 2,
+      "explanation": "Maria está interpretando a palavra 'amor', o que significa que ela está entendendo o significado da palavra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o objetivo de ler um texto não literário?",
+      "options": [
+        "Para entender o significado das palavras",
+        "Para contar histórias",
+        "Para escrever um livro",
+        "Para entender melhor a vida e a sociedade"
+      ],
+      "correct": 3,
+      "explanation": "O objetivo de ler um texto não literário é entender melhor a vida e a sociedade, pois eles nos permitem ver o mundo de diferentes perspectivas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Acentuação": [
+    {
+      "question": "O que é acentuação em português?",
+      "options": [
+        "É a forma de escrever as palavras",
+        "É a forma de pronunciar as palavras",
+        "É a marcação de símbolos nas palavras para indicar a pronúncia",
+        "É a forma de dividir as palavras em sílabas"
+      ],
+      "correct": 2,
+      "explanation": "A acentuação é a marcação de símbolos nas palavras para indicar a pronúncia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o símbolo de acentuação que indica que a palavra deve ser pronunciada com o acento agudo?",
+      "options": [
+        "ê",
+        "é",
+        "á",
+        "í"
+      ],
+      "correct": 1,
+      "explanation": "O símbolo 'é' indica que a palavra deve ser pronunciada com o acento agudo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que situações é necessário colocar acento nas palavras?",
+      "options": [
+        "Quando a palavra termina em 'e' ou 'o'",
+        "Quando a palavra tem mais de uma sílaba",
+        "Quando a palavra termina em 'a' ou 'i'",
+        "Quando a palavra é um nome próprio"
+      ],
+      "correct": 1,
+      "explanation": "É necessário colocar acento nas palavras quando elas têm mais de uma sílaba.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de não colocar acento em uma palavra que deve ter?",
+      "options": [
+        "A palavra fica mais fácil de ler",
+        "A palavra fica mais difícil de ler",
+        "A palavra não muda de significado",
+        "A palavra não é mais reconhecida"
+      ],
+      "correct": 2,
+      "explanation": "Não colocar acento em uma palavra que deve ter pode torná-la mais difícil de ler.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A palavra ___ é um exemplo de palavra que deve ter acento.",
+      "options": [
+        "casa",
+        "cachorro",
+        "cachoeira",
+        "cachorro"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'cachoeira' é um exemplo de palavra que deve ter acento.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante colocar acento em palavras que devem ter?",
+      "options": [
+        "Para tornar a palavra mais fácil de ler",
+        "Para tornar a palavra mais difícil de ler",
+        "Para evitar confusão entre palavras semelhantes",
+        "Para indicar a pronúncia correta"
+      ],
+      "correct": 3,
+      "explanation": "É importante colocar acento em palavras que devem ter para evitar confusão entre palavras semelhantes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o símbolo de acentuação que indica que a palavra deve ser pronunciada com o acento circunflexo?",
+      "options": [
+        "â",
+        "ê",
+        "ô",
+        "û"
+      ],
+      "correct": 0,
+      "explanation": "O símbolo 'â' indica que a palavra deve ser pronunciada com o acento circunflexo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que situações é necessário usar o acento agudo em palavras que terminam em 'e'?",
+      "options": [
+        "Quando a palavra é um nome próprio",
+        "Quando a palavra é um substantivo",
+        "Quando a palavra é um verbo",
+        "Quando a palavra é um adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "É necessário usar o acento agudo em palavras que terminam em 'e' quando elas são substantivos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de colocar acento em uma palavra que não deve ter?",
+      "options": [
+        "A palavra fica mais fácil de ler",
+        "A palavra fica mais difícil de ler",
+        "A palavra não muda de significado",
+        "A palavra não é mais reconhecida"
+      ],
+      "correct": 1,
+      "explanation": "Colocar acento em uma palavra que não deve ter pode torná-la mais difícil de ler.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A palavra ___ é um exemplo de palavra que não deve ter acento.",
+      "options": [
+        "cachorro",
+        "cachoeira",
+        "casa",
+        "cachorro"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'cachorro' é um exemplo de palavra que não deve ter acento.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante evitar colocar acento em palavras que não devem ter?",
+      "options": [
+        "Para tornar a palavra mais fácil de ler",
+        "Para tornar a palavra mais difícil de ler",
+        "Para evitar confusão entre palavras semelhantes",
+        "Para indicar a pronúncia correta"
+      ],
+      "correct": 1,
+      "explanation": "É importante evitar colocar acento em palavras que não devem ter para evitar confusão entre palavras semelhantes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o símbolo de acentuação que indica que a palavra deve ser pronunciada com o acento grave?",
+      "options": [
+        "à",
+        "é",
+        "ô",
+        "û"
+      ],
+      "correct": 0,
+      "explanation": "O símbolo 'à' indica que a palavra deve ser pronunciada com o acento grave.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que situações é necessário usar o acento circunflexo em palavras que terminam em 'e'?",
+      "options": [
+        "Quando a palavra é um nome próprio",
+        "Quando a palavra é um substantivo",
+        "Quando a palavra é um verbo",
+        "Quando a palavra é um adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "É necessário usar o acento circunflexo em palavras que terminam em 'e' quando elas são substantivos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de não usar acento em palavras que devem ter?",
+      "options": [
+        "A palavra fica mais fácil de ler",
+        "A palavra fica mais difícil de ler",
+        "A palavra não muda de significado",
+        "A palavra não é mais reconhecida"
+      ],
+      "correct": 2,
+      "explanation": "Não usar acento em palavras que devem ter pode torná-las mais difíceis de ler.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A palavra ___ é um exemplo de palavra que deve ter acento circunflexo.",
+      "options": [
+        "casa",
+        "cachorro",
+        "cachoeira",
+        "cachorro"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'cachoeira' é um exemplo de palavra que deve ter acento circunflexo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante usar acento em palavras que devem ter?",
+      "options": [
+        "Para tornar a palavra mais fácil de ler",
+        "Para tornar a palavra mais difícil de ler",
+        "Para evitar confusão entre palavras semelhantes",
+        "Para indicar a pronúncia correta"
+      ],
+      "correct": 3,
+      "explanation": "É importante usar acento em palavras que devem ter para evitar confusão entre palavras semelhantes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o símbolo de acentuação que indica que a palavra deve ser pronunciada com o acento til?",
+      "options": [
+        "ã",
+        "ê",
+        "ô",
+        "û"
+      ],
+      "correct": 0,
+      "explanation": "O símbolo 'ã' indica que a palavra deve ser pronunciada com o acento til.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que situações é necessário usar o acento agudo em palavras que terminam em 'a'?",
+      "options": [
+        "Quando a palavra é um nome próprio",
+        "Quando a palavra é um substantivo",
+        "Quando a palavra é um verbo",
+        "Quando a palavra é um adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "É necessário usar o acento agudo em palavras que terminam em 'a' quando elas são substantivos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de usar acento em palavras que não devem ter?",
+      "options": [
+        "A palavra fica mais fácil de ler",
+        "A palavra fica mais difícil de ler",
+        "A palavra não muda de significado",
+        "A palavra não é mais reconhecida"
+      ],
+      "correct": 1,
+      "explanation": "Usar acento em palavras que não devem ter pode torná-las mais difíceis de ler.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A palavra ___ é um exemplo de palavra que deve ter acento agudo.",
+      "options": [
+        "casa",
+        "cachorro",
+        "cachoeira",
+        "cachorro"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'cachoeira' é um exemplo de palavra que deve ter acento agudo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante evitar usar acento em palavras que não devem ter?",
+      "options": [
+        "Para tornar a palavra mais fácil de ler",
+        "Para tornar a palavra mais difícil de ler",
+        "Para evitar confusão entre palavras semelhantes",
+        "Para indicar a pronúncia correta"
+      ],
+      "correct": 1,
+      "explanation": "É importante evitar usar acento em palavras que não devem ter para evitar confusão entre palavras semelhantes.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o símbolo de acentuação que indica que a palavra deve ser pronunciada com o acento circunflexo?",
+      "options": [
+        "â",
+        "ê",
+        "ô",
+        "û"
+      ],
+      "correct": 0,
+      "explanation": "O símbolo 'â' indica que a palavra deve ser pronunciada com o acento circunflexo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que situações é necessário usar o acento circunflexo em palavras que terminam em 'o'?",
+      "options": [
+        "Quando a palavra é um nome próprio",
+        "Quando a palavra é um substantivo",
+        "Quando a palavra é um verbo",
+        "Quando a palavra é um adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "É necessário usar o acento circunflexo em palavras que terminam em 'o' quando elas são substantivos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de não usar acento em palavras que devem ter?",
+      "options": [
+        "A palavra fica mais fácil de ler",
+        "A palavra fica mais difícil de ler",
+        "A palavra não muda de significado",
+        "A palavra não é mais reconhecida"
+      ],
+      "correct": 2,
+      "explanation": "Não usar acento em palavras que devem ter pode torná-las mais difíceis de ler.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Figuras de Linguagem": [
+    {
+      "question": "O que é uma metáfora?",
+      "options": [
+        "Uma comparação direta entre duas coisas",
+        "Uma figura de linguagem que compara duas coisas sem usar 'como'",
+        "Uma forma de dizer algo de forma indireta",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Uma metáfora é uma figura de linguagem que compara duas coisas sem usar 'como', como 'o coração é uma flor'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria disse que a cidade estava 'um oceano de gente'. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Hipérbole"
+      ],
+      "correct": 0,
+      "explanation": "Maria usou uma metáfora para comparar a cidade a um oceano de gente.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica de uma metáfora?",
+      "options": [
+        "Usa 'como' para comparar",
+        "Compara duas coisas sem usar 'como'",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos"
+      ],
+      "correct": 0,
+      "explanation": "Uma metáfora não usa 'como' para comparar, ao contrário de uma símile.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A casa é uma ______________ de amor.",
+      "options": [
+        "jardim",
+        "floresta",
+        "oceano",
+        "montanha"
+      ],
+      "correct": 0,
+      "explanation": "A casa é uma metáfora de amor, pois compara a casa a um oceano de amor.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que uma metáfora é usada em vez de uma símile?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque não usa 'como'",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Uma metáfora é usada em vez de uma símile porque não usa 'como', o que a torna mais poética e criativa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma metonímia?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que substitui uma parte por um todo",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Uma metonímia é uma figura de linguagem que substitui uma parte por um todo, como 'o sol nasceu' em vez de 'o dia nasceu'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "João disse que a cidade é um 'laboratório de sonhos'. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Metonímia"
+      ],
+      "correct": 0,
+      "explanation": "João usou uma metáfora para comparar a cidade a um laboratório de sonhos.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica de uma metonímia?",
+      "options": [
+        "Substitui uma parte por um todo",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos",
+        "Não é uma figura de linguagem"
+      ],
+      "correct": 3,
+      "explanation": "Uma metonímia é uma figura de linguagem, portanto não é caracterizada por não ser uma figura de linguagem.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A cidade é um ______________ de oportunidades.",
+      "options": [
+        "jardim",
+        "floresta",
+        "oceano",
+        "laboratório"
+      ],
+      "correct": 3,
+      "explanation": "A cidade é uma metonímia de oportunidades, pois substitui a parte (oportunidades) por um todo (a cidade).",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que uma metonímia é usada em vez de uma metáfora?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque substitui uma parte por um todo",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Uma metonímia é usada em vez de uma metáfora porque substitui uma parte por um todo, o que a torna mais criativa e expressiva.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma personificação?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que atribui características humanas a coisas inanimadas",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Uma personificação é uma figura de linguagem que atribui características humanas a coisas inanimadas, como 'o vento sussurou' em vez de 'o vento soprou'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria disse que a casa 'sussurou' para ela. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Metonímia"
+      ],
+      "correct": 2,
+      "explanation": "Maria usou uma personificação para atribuir a característica de sussurrar a uma casa inanimada.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica de uma personificação?",
+      "options": [
+        "Atribui características humanas a coisas inanimadas",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos",
+        "Não é uma figura de linguagem"
+      ],
+      "correct": 3,
+      "explanation": "Uma personificação é uma figura de linguagem, portanto não é caracterizada por não ser uma figura de linguagem.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sol ______________ para mim.",
+      "options": [
+        "sussurou",
+        "soprou",
+        "brilhou",
+        "chamou"
+      ],
+      "correct": 1,
+      "explanation": "O sol sussurou para mim é uma personificação, pois atribui a característica de sussurrar a um sol inanimado.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que uma personificação é usada em vez de uma metáfora?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque atribui características humanas a coisas inanimadas",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Uma personificação é usada em vez de uma metáfora porque atribui características humanas a coisas inanimadas, o que a torna mais criativa e expressiva.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma hipérbole?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que exagera a realidade",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Uma hipérbole é uma figura de linguagem que exagera a realidade, como 'eu estou morrendo de fome' em vez de 'eu estou com fome'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "João disse que ele 'está morrendo de fome'. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Hipérbole"
+      ],
+      "correct": 3,
+      "explanation": "João usou uma hipérbole para exagerar a realidade e expressar sua fome.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica de uma hipérbole?",
+      "options": [
+        "Exagera a realidade",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos",
+        "Não é uma figura de linguagem"
+      ],
+      "correct": 3,
+      "explanation": "Uma hipérbole é uma figura de linguagem, portanto não é caracterizada por não ser uma figura de linguagem.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Eu ______________ de cansaço.",
+      "options": [
+        "estou morrendo",
+        "estou morrendo de",
+        "estou com",
+        "estou com fome"
+      ],
+      "correct": 0,
+      "explanation": "Eu estou morrendo de cansaço é uma hipérbole, pois exagera a realidade e expressa o cansaço.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que uma hipérbole é usada em vez de uma metáfora?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque exagera a realidade",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Uma hipérbole é usada em vez de uma metáfora porque exagera a realidade, o que a torna mais expressiva e criativa.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um símile?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que compara duas coisas usando 'como'",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Um símile é uma figura de linguagem que compara duas coisas usando 'como', como 'o coração é como um pássaro'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria disse que a cidade é 'como um oceano de gente'. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Metonímia"
+      ],
+      "correct": 1,
+      "explanation": "Maria usou um símile para comparar a cidade a um oceano de gente usando 'como'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma característica de um símile?",
+      "options": [
+        "Usa 'como' para comparar",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos",
+        "Não é uma figura de linguagem"
+      ],
+      "correct": 3,
+      "explanation": "Um símile é uma figura de linguagem, portanto não é caracterizada por não ser uma figura de linguagem.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A cidade é ______________ um oceano de gente.",
+      "options": [
+        "como",
+        "um",
+        "o",
+        "a"
+      ],
+      "correct": 0,
+      "explanation": "A cidade é como um oceano de gente é um símile, pois compara a cidade a um oceano de gente usando 'como'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um símile é usado em vez de uma metáfora?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque usa 'como' para comparar",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Um símile é usado em vez de uma metáfora porque usa 'como' para comparar, o que a torna mais clara e expressiva.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma ironia?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que é contraditória ou surpreendente",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Uma ironia é uma figura de linguagem que é contraditória ou surpreendente, como 'o tempo bom está chovendo'.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "João disse que 'o tempo bom está chovendo'. Qual é a figura de linguagem usada?",
+      "options": [
+        "Metáfora",
+        "Símile",
+        "Personificação",
+        "Ironia"
+      ],
+      "correct": 3,
+      "explanation": "João usou uma ironia para expressar a contradição entre o tempo bom e a chuva.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é uma característica de uma ironia?",
+      "options": [
+        "É contraditória ou surpreendente",
+        "É uma forma de dizer algo de forma indireta",
+        "Pode ser usada para descrever sentimentos",
+        "Não é uma figura de linguagem"
+      ],
+      "correct": 3,
+      "explanation": "Uma ironia é uma figura de linguagem, portanto não é caracterizada por não ser uma figura de linguagem.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: O que é ______________ que o tempo bom está chovendo?",
+      "options": [
+        "uma ironia",
+        "uma metáfora",
+        "um símile",
+        "uma personificação"
+      ],
+      "correct": 0,
+      "explanation": "O que é uma ironia que o tempo bom está chovendo? é uma ironia, pois é contraditória ou surpreendente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que uma ironia é usada em vez de uma metáfora?",
+      "options": [
+        "Porque é mais fácil de entender",
+        "Porque é mais poética",
+        "Porque é contraditória ou surpreendente",
+        "Porque é mais direta"
+      ],
+      "correct": 2,
+      "explanation": "Uma ironia é usada em vez de uma metáfora porque é contraditória ou surpreendente, o que a torna mais expressiva e criativa.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um oxímoro?",
+      "options": [
+        "Uma forma de dizer algo de forma indireta",
+        "Uma figura de linguagem que combina palavras ou conceitos contraditórios",
+        "Uma comparação direta entre duas coisas",
+        "Uma palavra que tem mais de uma definição"
+      ],
+      "correct": 1,
+      "explanation": "Um oxímoro é uma figura de linguagem que combina palavras ou conceitos contraditórios, como 'sombra clara'.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Concordância Nominal e Verbal": [
+    {
+      "question": "O que é concordância nominal?",
+      "options": [
+        "A concordância entre o verbo e o sujeito",
+        "A concordância entre o adjetivo e o substantivo",
+        "A concordância entre o pronome e o verbo",
+        "A concordância entre o advérbio e o adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal é a concordância entre o adjetivo e o substantivo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a definição de concordância verbal?",
+      "options": [
+        "A concordância entre o verbo e o sujeito",
+        "A concordância entre o adjetivo e o substantivo",
+        "A concordância entre o pronome e o verbo",
+        "A concordância entre o advérbio e o adjetivo"
+      ],
+      "correct": 0,
+      "explanation": "A concordância verbal é a concordância entre o verbo e o sujeito.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: O menino _______ (ser) alto e forte.",
+      "options": [
+        "é",
+        "são",
+        "era",
+        "eram"
+      ],
+      "correct": 0,
+      "explanation": "A concordância verbal exige que o verbo 'ser' concorde com o sujeito 'menino', que é singular.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual das seguintes frases está correta em termos de concordância nominal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "As meninas são altas e fortes"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal exige que o adjetivo 'altos' concorde com o substantivo 'meninos', que é plural masculino.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função da concordância nominal?",
+      "options": [
+        "Indicar a relação entre o sujeito e o verbo",
+        "Indicar a relação entre o adjetivo e o substantivo",
+        "Indicar a relação entre o pronome e o verbo",
+        "Indicar a relação entre o advérbio e o adjetivo"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal indica a relação entre o adjetivo e o substantivo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: As meninas _______ (ser) muito simpáticas.",
+      "options": [
+        "é",
+        "são",
+        "era",
+        "eram"
+      ],
+      "correct": 1,
+      "explanation": "A concordância verbal exige que o verbo 'ser' concorde com o sujeito 'meninas', que é plural.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual das seguintes frases está incorreta em termos de concordância verbal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "O menino são alto e forte"
+      ],
+      "correct": 3,
+      "explanation": "A concordância verbal exige que o verbo 'ser' concorde com o sujeito 'menino', que é singular.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre concordância nominal e concordância verbal?",
+      "options": [
+        "A concordância nominal é entre o adjetivo e o substantivo, enquanto a concordância verbal é entre o verbo e o sujeito",
+        "A concordância nominal é entre o verbo e o sujeito, enquanto a concordância verbal é entre o adjetivo e o substantivo",
+        "A concordância nominal é entre o pronome e o verbo, enquanto a concordância verbal é entre o advérbio e o adjetivo",
+        "A concordância nominal é entre o advérbio e o adjetivo, enquanto a concordância verbal é entre o pronome e o verbo"
+      ],
+      "correct": 0,
+      "explanation": "A concordância nominal é entre o adjetivo e o substantivo, enquanto a concordância verbal é entre o verbo e o sujeito.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: O professor _______ (dar) uma aula muito interessante.",
+      "options": [
+        "dá",
+        "dão",
+        "deu",
+        "deram"
+      ],
+      "correct": 0,
+      "explanation": "A concordância verbal exige que o verbo 'dar' concorde com o sujeito 'professor', que é singular.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual das seguintes frases está correta em termos de concordância nominal e verbal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "As meninas são altas e fortes"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal exige que o adjetivo 'altos' concorde com o substantivo 'meninos', que é plural masculino, e a concordância verbal exige que o verbo 'ser' concorde com o sujeito 'meninos', que é plural.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a função da concordância verbal?",
+      "options": [
+        "Indicar a relação entre o sujeito e o verbo",
+        "Indicar a relação entre o adjetivo e o substantivo",
+        "Indicar a relação entre o pronome e o verbo",
+        "Indicar a relação entre o advérbio e o adjetivo"
+      ],
+      "correct": 0,
+      "explanation": "A concordância verbal indica a relação entre o sujeito e o verbo.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: As professoras _______ (dar) uma aula muito interessante.",
+      "options": [
+        "dá",
+        "dão",
+        "deu",
+        "deram"
+      ],
+      "correct": 1,
+      "explanation": "A concordância verbal exige que o verbo 'dar' concorde com o sujeito 'professoras', que é plural.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual das seguintes frases está incorreta em termos de concordância nominal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "O menino são alto e forte"
+      ],
+      "correct": 3,
+      "explanation": "A concordância nominal exige que o adjetivo 'alto' concorde com o substantivo 'menino', que é singular masculino.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre concordância nominal e concordância verbal em termos de função?",
+      "options": [
+        "A concordância nominal indica a relação entre o sujeito e o verbo, enquanto a concordância verbal indica a relação entre o adjetivo e o substantivo",
+        "A concordância nominal indica a relação entre o adjetivo e o substantivo, enquanto a concordância verbal indica a relação entre o sujeito e o verbo",
+        "A concordância nominal indica a relação entre o pronome e o verbo, enquanto a concordância verbal indica a relação entre o advérbio e o adjetivo",
+        "A concordância nominal indica a relação entre o advérbio e o adjetivo, enquanto a concordância verbal indica a relação entre o pronome e o verbo"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal indica a relação entre o adjetivo e o substantivo, enquanto a concordância verbal indica a relação entre o sujeito e o verbo.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: O aluno _______ (ser) muito inteligente e _______ (ter) uma grande capacidade de aprendizado.",
+      "options": [
+        "é",
+        "tem",
+        "era",
+        "tinha"
+      ],
+      "correct": 0,
+      "explanation": "A concordância verbal exige que o verbo 'ser' concorde com o sujeito 'aluno', que é singular, e o verbo 'ter' também concorde com o sujeito 'aluno', que é singular.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual das seguintes frases está correta em termos de concordância nominal e verbal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "As meninas são altas e fortes"
+      ],
+      "correct": 1,
+      "explanation": "A concordância nominal exige que o adjetivo 'altos' concorde com o substantivo 'meninos', que é plural masculino, e a concordância verbal exige que o verbo 'ser' concorde com o sujeito 'meninos', que é plural.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a função da concordância nominal e verbal em termos de comunicação?",
+      "options": [
+        "Indicar a relação entre o sujeito e o verbo, e entre o adjetivo e o substantivo",
+        "Indicar a relação entre o pronome e o verbo, e entre o advérbio e o adjetivo",
+        "Indicar a relação entre o sujeito e o verbo, e entre o advérbio e o adjetivo",
+        "Indicar a relação entre o pronome e o verbo, e entre o adjetivo e o substantivo"
+      ],
+      "correct": 0,
+      "explanation": "A concordância nominal e verbal indica a relação entre o sujeito e o verbo, e entre o adjetivo e o substantivo, respectivamente.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: As alunas _______ (ser) muito inteligentes e _______ (ter) uma grande capacidade de aprendizado.",
+      "options": [
+        "é",
+        "tem",
+        "era",
+        "tinha"
+      ],
+      "correct": 1,
+      "explanation": "A concordância verbal exige que o verbo 'ser' concorde com o sujeito 'alunas', que é plural, e o verbo 'ter' também concorde com o sujeito 'alunas', que é plural.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual das seguintes frases está incorreta em termos de concordância nominal e verbal?",
+      "options": [
+        "O menino é alto e forte",
+        "Os meninos são altos e fortes",
+        "A menina é alta e forte",
+        "O menino são alto e forte"
+      ],
+      "correct": 3,
+      "explanation": "A concordância nominal exige que o adjetivo 'alto' concorde com o substantivo 'menino', que é singular masculino, e a concordância verbal exige que o verbo 'ser' concorde com o sujeito 'menino', que é singular.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Vogais e Consoantes": [
+    {
+      "question": "O que são as vogais?",
+      "options": [
+        "São as letras que não fazem som",
+        "São as letras que fazem som",
+        "São as letras que são maiúsculas",
+        "São as letras que são minúsculas"
+      ],
+      "correct": 1,
+      "explanation": "As vogais são as letras que fazem som, como a, e, i, o e u.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a vogal que começa a palavra 'casa'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'casa' começa com a vogal 'a'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma vogal?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "b"
+      ],
+      "correct": 3,
+      "explanation": "A letra 'b' não é uma vogal, é uma consoante.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: a, e, i, ___",
+      "options": [
+        "o",
+        "u",
+        "b",
+        "c"
+      ],
+      "correct": 0,
+      "explanation": "A sequência de vogais é: a, e, i, o.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a letra 'a' é uma vogal?",
+      "options": [
+        "Porque é uma consoante",
+        "Porque faz som",
+        "Porque é uma letra",
+        "Porque é uma palavra"
+      ],
+      "correct": 1,
+      "explanation": "A letra 'a' é uma vogal porque faz som.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a consoante que faz som na palavra 'casa'?",
+      "options": [
+        "s",
+        "a",
+        "c",
+        "a"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'casa' tem a consoante 's' e a vogal 'a'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que são as consoantes?",
+      "options": [
+        "São as letras que fazem som",
+        "São as letras que não fazem som",
+        "São as letras que são maiúsculas",
+        "São as letras que são minúsculas"
+      ],
+      "correct": 1,
+      "explanation": "As consoantes são as letras que não fazem som, como b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y e z.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a vogal que aparece na palavra 'elefante'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'elefante' tem a vogal 'e'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma consoante?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "e"
+      ],
+      "correct": 0,
+      "explanation": "As letras 'a' e 'e' são vogais, não consoantes.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: b, c, d, ___",
+      "options": [
+        "e",
+        "i",
+        "o",
+        "f"
+      ],
+      "correct": 3,
+      "explanation": "A sequência de consoantes é: b, c, d, f.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando uma palavra tem apenas consoantes?",
+      "options": [
+        "Ela faz som",
+        "Ela não faz som",
+        "Ela é uma palavra",
+        "Ela é uma vogal"
+      ],
+      "correct": 1,
+      "explanation": "Uma palavra que tem apenas consoantes não faz som.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a vogal que aparece na palavra 'cachorro'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "A palavra 'cachorro' tem a vogal 'a'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma vogal que aparece na palavra 'amor'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 2,
+      "explanation": "A palavra 'amor' tem as vogais 'a' e 'o', mas não 'e' e 'i'.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: a, e, i, o, ___",
+      "options": [
+        "u",
+        "b",
+        "c",
+        "d"
+      ],
+      "correct": 0,
+      "explanation": "A sequência de vogais é: a, e, i, o, u.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a letra 'e' é uma vogal?",
+      "options": [
+        "Porque é uma consoante",
+        "Porque faz som",
+        "Porque é uma letra",
+        "Porque é uma palavra"
+      ],
+      "correct": 1,
+      "explanation": "A letra 'e' é uma vogal porque faz som.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a consoante que faz som na palavra 'tigre'?",
+      "options": [
+        "t",
+        "i",
+        "g",
+        "e"
+      ],
+      "correct": 0,
+      "explanation": "A palavra 'tigre' tem a consoante 't' e a vogal 'i'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que são as vogais e consoantes?",
+      "options": [
+        "São as letras que fazem e não fazem som",
+        "São as letras que são maiúsculas e minúsculas",
+        "São as letras que são vogais e consoantes",
+        "São as letras que são palavras"
+      ],
+      "correct": 0,
+      "explanation": "As vogais são as letras que fazem som, e as consoantes são as letras que não fazem som.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a vogal que aparece na palavra 'casa' e 'cachorro'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 0,
+      "explanation": "As palavras 'casa' e 'cachorro' têm a vogal 'a'.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a consoante que faz som na palavra 'casa' e 'tigre'?",
+      "options": [
+        "s",
+        "t",
+        "i",
+        "g"
+      ],
+      "correct": 0,
+      "explanation": "As palavras 'casa' e 'tigre' têm a consoante 's' e 't', respectivamente.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando uma palavra tem apenas vogais?",
+      "options": [
+        "Ela faz som",
+        "Ela não faz som",
+        "Ela é uma palavra",
+        "Ela é uma vogal"
+      ],
+      "correct": 1,
+      "explanation": "Uma palavra que tem apenas vogais faz som.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a vogal que aparece na palavra 'amor' e 'cachorro'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "As palavras 'amor' e 'cachorro' têm a vogal 'a' e 'o', respectivamente.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a consoante que faz som na palavra 'casa' e 'tigre' e 'cachorro'?",
+      "options": [
+        "s",
+        "t",
+        "i",
+        "g"
+      ],
+      "correct": 0,
+      "explanation": "As palavras 'casa', 'tigre' e 'cachorro' têm a consoante 's', 't' e 'c', respectivamente.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando uma palavra tem apenas consoantes e vogais?",
+      "options": [
+        "Ela faz som",
+        "Ela não faz som",
+        "Ela é uma palavra",
+        "Ela é uma vogal"
+      ],
+      "correct": 1,
+      "explanation": "Uma palavra que tem apenas consoantes e vogais faz som.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a vogal que aparece na palavra 'amor' e 'cachorro' e 'tigre'?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "As palavras 'amor', 'cachorro' e 'tigre' têm a vogal 'a' e 'o' e 'i', respectivamente.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a consoante que faz som na palavra 'casa' e 'tigre' e 'cachorro' e 'amor'?",
+      "options": [
+        "s",
+        "t",
+        "i",
+        "g"
+      ],
+      "correct": 0,
+      "explanation": "As palavras 'casa', 'tigre', 'cachorro' e 'amor' têm a consoante 's', 't', 'c' e 'm', respectivamente.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Artigo e Pronome": [
+    {
+      "question": "O que é um artigo em português?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica o tempo de um substantivo"
+      ],
+      "correct": 2,
+      "explanation": "O artigo indica o gênero e o número de um substantivo, como 'o' para masculino singular e 'os' para masculino plural.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o artigo correto para o substantivo 'cachorro'?",
+      "options": [
+        "O",
+        "Os",
+        "Um",
+        "Um"
+      ],
+      "correct": 0,
+      "explanation": "O artigo 'o' é usado para substantivos masculinos singulares, como 'o cachorro'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um artigo em português?",
+      "options": [
+        "O",
+        "Os",
+        "Um",
+        "A"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'a' é um artigo feminino singular, mas 'a' é uma palavra que indica o gênero de um substantivo e não é um artigo em si.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O ______ é um animal muito amigável.",
+      "options": [
+        "cachorro",
+        "gato",
+        "rato",
+        "passarinho"
+      ],
+      "correct": 0,
+      "explanation": "O artigo 'o' é usado para substantivos masculinos singulares, como 'o cachorro'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o artigo 'o' é usado antes de 'cachorro'?",
+      "options": [
+        "Porque o cachorro é um animal muito grande",
+        "Porque o cachorro é um animal muito amigável",
+        "Porque o cachorro é um substantivo masculino singular",
+        "Porque o cachorro é um animal muito veloz"
+      ],
+      "correct": 2,
+      "explanation": "O artigo 'o' é usado para substantivos masculinos singulares, como 'o cachorro'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o artigo correto para o substantivo 'casa'?",
+      "options": [
+        "O",
+        "Os",
+        "Uma",
+        "Um"
+      ],
+      "correct": 3,
+      "explanation": "O artigo 'uma' é usado para substantivos femininos singulares, como 'uma casa'.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa o pronome 'ele'?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica uma pessoa ou animal masculino"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'ele' é usado para indicar uma pessoa ou animal masculino, como 'ele é um homem'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'A menina está brincando com _______ cachorro'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'cachorro' é masculino, então o pronome 'ele' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um pronome em português?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'o' é um artigo, não um pronome.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ______ é um animal muito amigável.",
+      "options": [
+        "Ela",
+        "Ele",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ele' é usado para indicar uma pessoa ou animal masculino, como 'ele é um homem'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o pronome 'ele' é usado antes de 'cachorro'?",
+      "options": [
+        "Porque o cachorro é um animal muito grande",
+        "Porque o cachorro é um animal muito amigável",
+        "Porque o cachorro é um substantivo masculino singular",
+        "Porque o cachorro é um animal muito veloz"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'ele' é usado para indicar uma pessoa ou animal masculino, como 'ele é um homem'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'A menina está brincando com _______ gato'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'gato' é masculino, então o pronome 'ele' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que significa o pronome 'ela'?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica uma pessoa ou animal feminino"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, como 'ela é uma mulher'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'O menino está brincando com _______ boneca'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'boneca' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um pronome pessoal em português?",
+      "options": [
+        "Eu",
+        "Tu",
+        "Ele",
+        "Ela"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'ela' é um pronome pessoal, mas 'ela' é um pronome, não um pronome pessoal.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ______ é uma pessoa muito amigável.",
+      "options": [
+        "Ela",
+        "Ele",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, como 'ela é uma mulher'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o pronome 'ela' é usado antes de 'boneca'?",
+      "options": [
+        "Porque a boneca é um objeto muito grande",
+        "Porque a boneca é um objeto muito amigável",
+        "Porque a boneca é um objeto feminino",
+        "Porque a boneca é um objeto muito veloz"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, como 'ela é uma mulher'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'A menina está brincando com _______ boneca'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'boneca' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que significa o pronome 'nós'?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica uma pessoa ou grupo de pessoas"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'nós' é usado para indicar uma pessoa ou grupo de pessoas, como 'nós somos amigos'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'Nós estamos brincando com _______ bonecas'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'bonecas' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um pronome pessoal em português?",
+      "options": [
+        "Eu",
+        "Tu",
+        "Ele",
+        "Nós"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'nós' é um pronome pessoal, mas 'nós' é um pronome, não um pronome pessoal.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ______ é uma pessoa muito amigável.",
+      "options": [
+        "Ela",
+        "Ele",
+        "O",
+        "Nós"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, como 'ela é uma mulher'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o pronome 'nós' é usado antes de 'bonecas'?",
+      "options": [
+        "Porque as bonecas são objetos muito grandes",
+        "Porque as bonecas são objetos muito amigáveis",
+        "Porque as bonecas são objetos femininos",
+        "Porque as bonecas são objetos muito velozes"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'nós' é usado para indicar uma pessoa ou grupo de pessoas, como 'nós somos amigos'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'A menina está brincando com _______ bonecas'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Nós"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'bonecas' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que significa o pronome 'você'?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica uma pessoa ou grupo de pessoas"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'você' é usado para indicar uma pessoa ou grupo de pessoas, como 'você é meu amigo'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'Você está brincando com _______ bonecas'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'bonecas' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um pronome pessoal em português?",
+      "options": [
+        "Eu",
+        "Tu",
+        "Ele",
+        "Vocês"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'você' é um pronome pessoal, mas 'você' é um pronome, não um pronome pessoal.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ______ é uma pessoa muito amigável.",
+      "options": [
+        "Ela",
+        "Ele",
+        "O",
+        "Vocês"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, como 'ela é uma mulher'.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o pronome 'você' é usado antes de 'bonecas'?",
+      "options": [
+        "Porque as bonecas são objetos muito grandes",
+        "Porque as bonecas são objetos muito amigáveis",
+        "Porque as bonecas são objetos femininos",
+        "Porque as bonecas são objetos muito velozes"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'você' é usado para indicar uma pessoa ou grupo de pessoas, como 'você é meu amigo'.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'Você está brincando com _______ bonecas'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Vocês"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'bonecas' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que significa o pronome 'eles'?",
+      "options": [
+        "Uma palavra que indica o gênero de um substantivo",
+        "Uma palavra que indica o número de um substantivo",
+        "Uma palavra que indica o gênero e o número de um substantivo",
+        "Uma palavra que indica uma pessoa ou grupo de pessoas"
+      ],
+      "correct": 3,
+      "explanation": "O pronome 'eles' é usado para indicar uma pessoa ou grupo de pessoas, como 'eles são meus amigos'.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o pronome correto para a frase 'Eles estão brincando com _______ bonecas'?",
+      "options": [
+        "Ele",
+        "Ela",
+        "O",
+        "Os"
+      ],
+      "correct": 1,
+      "explanation": "O pronome 'ela' é usado para indicar uma pessoa ou animal feminino, mas nesse caso, o substantivo 'bonecas' é feminino, então o pronome 'ela' é usado.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um pronome pessoal em português?",
+      "options": [
+        "Eu",
+        "Tu",
+        "Ele",
+        "Eles"
+      ],
+      "correct": 3,
+      "explanation": "A palavra 'eles' é um pronome pessoal, mas 'eles' é um pronome, não um pronome pessoal.",
+      "type": "negacao",
+      "difficulty": "facil"
+    }
+  ]
+}

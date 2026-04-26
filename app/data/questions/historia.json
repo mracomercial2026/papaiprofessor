@@ -1,0 +1,3432 @@
+{
+  "Pré-história": [
+    {
+      "question": "O que é a Pré-história?",
+      "options": [
+        "Período da história com registros escritos",
+        "Período da história antes dos registros escritos",
+        "Período da história com apenas registros orais",
+        "Período da história com apenas registros visuais"
+      ],
+      "correct": 1,
+      "explanation": "A Pré-história é o período da história da humanidade que ocorreu antes do desenvolvimento da escrita.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual era a principal forma de obtenção de alimentos dos homens pré-históricos?",
+      "options": [
+        "Agricultura",
+        "Pecuária",
+        "Caça e coleta",
+        "Pesca"
+      ],
+      "correct": 2,
+      "explanation": "Os homens pré-históricos obtinham alimentos principalmente através da caça e coleta de frutas, vegetais e animais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um fóssil?",
+      "options": [
+        "Um tipo de rocha",
+        "Um tipo de mineral",
+        "Um resto ou impressão de um organismo que viveu no passado",
+        "Um tipo de planta"
+      ],
+      "correct": 2,
+      "explanation": "Um fóssil é o que resta de um organismo que viveu no passado, como ossos, conchas ou impressões de plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual era o material mais comum usado para fazer ferramentas pelos homens pré-históricos?",
+      "options": [
+        "Pedra",
+        "Madeira",
+        "Osso",
+        "Metal"
+      ],
+      "correct": 0,
+      "explanation": "Os homens pré-históricos usavam principalmente pedras para fazer ferramentas, como facas, lanças e machados.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma caverna?",
+      "options": [
+        "Um tipo de montanha",
+        "Um tipo de rio",
+        "Um espaço natural na rocha",
+        "Um tipo de floresta"
+      ],
+      "correct": 2,
+      "explanation": "Uma caverna é um espaço natural na rocha, muitas vezes usado como abrigo pelos homens pré-históricos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual era a principal forma de abrigo dos homens pré-históricos?",
+      "options": [
+        "Casas de madeira",
+        "Tendas de pele",
+        "Cavernas",
+        "Cabanas de palha"
+      ],
+      "correct": 2,
+      "explanation": "Os homens pré-históricos usavam principalmente cavernas como abrigo, devido à sua disponibilidade e proteção.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um megafauna?",
+      "options": [
+        "Um tipo de planta",
+        "Um tipo de animal grande que viveu no passado",
+        "Um tipo de rocha",
+        "Um tipo de mineral"
+      ],
+      "correct": 1,
+      "explanation": "Um megafauna é um animal grande que viveu no passado, como mamutes, tigres dentes de sabre e ursos gigantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual era a principal forma de comunicação dos homens pré-históricos?",
+      "options": [
+        "Linguagem escrita",
+        "Linguagem oral",
+        "Gestos e expressões faciais",
+        "Desenhos e pinturas"
+      ],
+      "correct": 2,
+      "explanation": "Os homens pré-históricos se comunicavam principalmente através de gestos e expressões faciais, pois não havia linguagem escrita.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um homem pré-histórico encontrasse um mamute, o que ele provavelmente faria?",
+      "options": [
+        "Tentaria domesticá-lo",
+        "Tentaria caçá-lo",
+        "Tentaria fugir",
+        "Tentaria se esconder"
+      ],
+      "correct": 1,
+      "explanation": "Os homens pré-históricos caçavam animais grandes, como mamutes, para obter comida e outros recursos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de ferramenta pré-histórica?",
+      "options": [
+        "Facas de pedra",
+        "Lanças de madeira",
+        "Machados de osso",
+        "Computadores"
+      ],
+      "correct": 3,
+      "explanation": "Computadores são uma tecnologia moderna e não existiam na pré-história.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: Pedra, Osso, ___",
+      "options": [
+        "Madeira",
+        "Metal",
+        "Rocha",
+        "Mineral"
+      ],
+      "correct": 1,
+      "explanation": "A sequência mostra a evolução dos materiais usados para fazer ferramentas, e madeira é o próximo material lógico.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que os homens pré-históricos viviam em grupos?",
+      "options": [
+        "Para ter mais espaço",
+        "Para ter mais comida",
+        "Para se proteger de predadores e ter ajuda mútua",
+        "Para ter mais ferramentas"
+      ],
+      "correct": 2,
+      "explanation": "Viver em grupos proporcionava aos homens pré-históricos proteção contra predadores e permitia a cooperação para caçar e coletar alimentos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se um grupo de homens pré-históricos não tivesse ferramentas, o que aconteceria?",
+      "options": [
+        "Eles seriam mais saudáveis",
+        "Eles seriam mais fortes",
+        "Eles teriam mais dificuldade em obter comida e se proteger",
+        "Eles seriam mais inteligentes"
+      ],
+      "correct": 2,
+      "explanation": "Sem ferramentas, os homens pré-históricos teriam mais dificuldade em caçar, coletar e se proteger, o que afetaria sua sobrevivência.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome do período da pré-história caracterizado pelo uso de ferramentas de pedra?",
+      "options": [
+        "Paleolítico",
+        "Mesolítico",
+        "Neolítico",
+        "Idade do Bronze"
+      ],
+      "correct": 0,
+      "explanation": "O Paleolítico é o período da pré-história caracterizado pelo uso de ferramentas de pedra.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um sítio arqueológico?",
+      "options": [
+        "Um local onde se encontram fósseis",
+        "Um local onde se encontram ruínas de uma cidade antiga",
+        "Um local onde se encontram artefatos pré-históricos",
+        "Um local onde se encontram minerais"
+      ],
+      "correct": 2,
+      "explanation": "Um sítio arqueológico é um local onde se encontram artefatos pré-históricos, como ferramentas, ossos e outros restos de atividades humanas.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se um homem pré-histórico encontrasse um rio, o que ele provavelmente faria?",
+      "options": [
+        "Tentaria atravessá-lo",
+        "Tentaria beber água dele",
+        "Tentaria pescar nele",
+        "Tentaria seguir o curso dele"
+      ],
+      "correct": 2,
+      "explanation": "Os homens pré-históricos usavam rios como fonte de água e alimento, e pescar era uma forma comum de obter comida.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um exemplo de adaptação dos homens pré-históricos ao ambiente?",
+      "options": [
+        "Uso de peles de animais para se aquecer",
+        "Uso de ferramentas para caçar",
+        "Uso de cavernas como abrigo",
+        "Uso de aviões para viajar"
+      ],
+      "correct": 3,
+      "explanation": "Aviões são uma tecnologia moderna e não existiam na pré-história, portanto, não são um exemplo de adaptação.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: Caça, Coleta, ___",
+      "options": [
+        "Agricultura",
+        "Pecuária",
+        "Pesca",
+        "Mineração"
+      ],
+      "correct": 0,
+      "explanation": "A sequência mostra a evolução das formas de obtenção de alimentos, e a agricultura é o próximo passo lógico após a caça e coleta.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que os homens pré-históricos desenvolveram a linguagem?",
+      "options": [
+        "Para se comunicar com animais",
+        "Para se comunicar com outros humanos",
+        "Para se expressar artisticamente",
+        "Para se lembrar de eventos passados"
+      ],
+      "correct": 1,
+      "explanation": "A linguagem permitiu aos homens pré-históricos se comunicar entre si, cooperar e compartilhar informações, o que foi essencial para a sobrevivência e o desenvolvimento da sociedade.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se um grupo de homens pré-históricos tivesse uma grande quantidade de comida, o que aconteceria?",
+      "options": [
+        "Eles seriam mais propensos a migrar para outras áreas",
+        "Eles seriam mais propensos a lutar entre si",
+        "Eles seriam mais propensos a se estabelecer em um local fixo",
+        "Eles seriam mais propensos a morrer de fome"
+      ],
+      "correct": 2,
+      "explanation": "Ter uma grande quantidade de comida permitiria aos homens pré-históricos se estabelecer em um local fixo, em vez de precisar migrar constantemente em busca de alimentos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Imigração no Brasil": [
+    {
+      "question": "O que é imigração?",
+      "options": [
+        "Quando alguém viaja para outro país para visitar",
+        "Quando alguém se muda para outro país para viver",
+        "Quando alguém volta para o seu país de origem",
+        "Quando alguém não quer mais viver em seu país"
+      ],
+      "correct": 1,
+      "explanation": "Imigração é quando alguém deixa seu país para viver em outro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o principal motivo que levou muitos imigrantes a vir para o Brasil?",
+      "options": [
+        "Para visitar parentes",
+        "Para trabalhar em fazendas e indústrias",
+        "Para estudar em universidades",
+        "Para fugir de guerras"
+      ],
+      "correct": 1,
+      "explanation": "Muitos imigrantes vieram para o Brasil para trabalhar em fazendas e indústrias.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de grupo de imigrantes que veio para o Brasil?",
+      "options": [
+        "Italianos",
+        "Japoneses",
+        "Africanos",
+        "Marcianos"
+      ],
+      "correct": 3,
+      "explanation": "Não há registros de imigrantes marcianos no Brasil.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: Os imigrantes italianos se estabeleceram principalmente em _______.",
+      "options": [
+        "Norte do Brasil",
+        "Sul do Brasil",
+        "Nordeste do Brasil",
+        "Sudeste do Brasil"
+      ],
+      "correct": 1,
+      "explanation": "Muitos imigrantes italianos se estabeleceram no Sul do Brasil.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os imigrantes japoneses se estabeleceram principalmente em São Paulo?",
+      "options": [
+        "Porque era mais fácil chegar lá",
+        "Porque havia mais trabalho em fazendas",
+        "Porque era mais barato viver lá",
+        "Porque era mais perto do Japão"
+      ],
+      "correct": 1,
+      "explanation": "Os imigrantes japoneses se estabeleceram em São Paulo porque era mais fácil chegar lá e havia oportunidades de trabalho.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é colonização?",
+      "options": [
+        "Quando um país é invadido por outro",
+        "Quando um grupo de pessoas se estabelece em um novo lugar",
+        "Quando um país se torna independente",
+        "Quando um grupo de pessoas volta para seu país de origem"
+      ],
+      "correct": 1,
+      "explanation": "Colonização é quando um grupo de pessoas se estabelece em um novo lugar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do movimento de pessoas que deixam seu país para viver em outro?",
+      "options": [
+        "Imigração",
+        "Emigração",
+        "Colonização",
+        "Imperialismo"
+      ],
+      "correct": 0,
+      "explanation": "Imigração é o movimento de pessoas que entram em um país para viver lá.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: A imigração no Brasil começou a aumentar no final do _______.",
+      "options": [
+        "Século XVIII",
+        "Século XIX",
+        "Século XX",
+        "Século XXI"
+      ],
+      "correct": 1,
+      "explanation": "A imigração no Brasil começou a aumentar no final do século XIX.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o principal legado dos imigrantes italianos no Brasil?",
+      "options": [
+        "A culinária",
+        "A arquitetura",
+        "A música",
+        "A dança"
+      ],
+      "correct": 0,
+      "explanation": "Os imigrantes italianos trouxeram consigo sua culinária, que se tornou parte da cultura brasileira.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de contribuição dos imigrantes para a economia brasileira?",
+      "options": [
+        "Trabalho em fazendas",
+        "Trabalho em indústrias",
+        "Comércio",
+        "Turismo"
+      ],
+      "correct": 3,
+      "explanation": "Os imigrantes não contribuíram significativamente para o turismo no Brasil.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: Os imigrantes japoneses se estabeleceram principalmente em _______ de São Paulo.",
+      "options": [
+        "Norte",
+        "Sul",
+        "Leste",
+        "Oeste"
+      ],
+      "correct": 3,
+      "explanation": "Os imigrantes japoneses se estabeleceram principalmente no Oeste de São Paulo.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que os imigrantes europeus se estabeleceram principalmente no Sul do Brasil?",
+      "options": [
+        "Porque era mais fácil chegar lá",
+        "Porque havia mais trabalho em fazendas",
+        "Porque era mais barato viver lá",
+        "Porque era mais perto da Europa"
+      ],
+      "correct": 1,
+      "explanation": "Os imigrantes europeus se estabeleceram no Sul do Brasil porque era mais fácil chegar lá e havia oportunidades de trabalho.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é assimilação?",
+      "options": [
+        "Quando um grupo de pessoas se integra à cultura de outro país",
+        "Quando um grupo de pessoas mantém sua cultura de origem",
+        "Quando um grupo de pessoas se torna independente",
+        "Quando um grupo de pessoas volta para seu país de origem"
+      ],
+      "correct": 0,
+      "explanation": "Assimilação é quando um grupo de pessoas se integra à cultura de outro país.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome do processo de integração de imigrantes à sociedade brasileira?",
+      "options": [
+        "Assimilação",
+        "Integração",
+        "Colonização",
+        "Imperialismo"
+      ],
+      "correct": 0,
+      "explanation": "Assimilação é o processo de integração de imigrantes à sociedade brasileira.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: A imigração no Brasil _______ a economia do país.",
+      "options": [
+        "Ajudou a crescer",
+        "Ajudou a diminuir",
+        "Não afetou",
+        "Afectou negativamente"
+      ],
+      "correct": 0,
+      "explanation": "A imigração no Brasil ajudou a crescer a economia do país.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o principal desafio enfrentado pelos imigrantes no Brasil?",
+      "options": [
+        "Aprender a língua portuguesa",
+        "Encontrar trabalho",
+        "Se adaptar à cultura brasileira",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "Os imigrantes no Brasil enfrentam vários desafios, incluindo aprender a língua portuguesa, encontrar trabalho e se adaptar à cultura brasileira.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um exemplo de direito dos imigrantes no Brasil?",
+      "options": [
+        "Direito à educação",
+        "Direito à saúde",
+        "Direito ao voto",
+        "Direito à propriedade de terras"
+      ],
+      "correct": 3,
+      "explanation": "Os imigrantes no Brasil não têm direito à propriedade de terras.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: A imigração no Brasil _______ a diversidade cultural do país.",
+      "options": [
+        "Aumentou",
+        "Diminuiu",
+        "Manteve",
+        "Não afetou"
+      ],
+      "correct": 0,
+      "explanation": "A imigração no Brasil aumentou a diversidade cultural do país.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a imigração é importante para o desenvolvimento do Brasil?",
+      "options": [
+        "Porque traz novas ideias e habilidades",
+        "Porque aumenta a população do país",
+        "Porque melhora a economia do país",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A imigração é importante para o desenvolvimento do Brasil porque traz novas ideias e habilidades, aumenta a população do país e melhora a economia do país.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Noção de Tempo e Calendário": [
+    {
+      "question": "O que é um ano?",
+      "options": [
+        "Um mês",
+        "Um dia",
+        "Um ano",
+        "Uma semana"
+      ],
+      "correct": 2,
+      "explanation": "Um ano é um período de tempo que passa entre uma data de nascimento e outra.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que nascemos?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Abril"
+      ],
+      "correct": 0,
+      "explanation": "O mês em que nascemos é um dos 12 meses do ano.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é segunda-feira e amanhã é terça-feira, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é terça-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o dia da semana em que nascemos?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O dia da semana em que nascemos é um dos 7 dias da semana.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 15 de janeiro e amanhã é 16 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é terça-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que o Brasil celebra o Dia das Crianças?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Junho"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia das Crianças em junho.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 1 de janeiro e amanhã é 2 de janeiro, qual é o mês de ontem?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Abril"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é fevereiro, ontem deve ter sido janeiro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do dia da semana em que o Brasil celebra o Dia de Finados?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de Finados em outubro, que é um mês de outono.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 1 de janeiro e amanhã é 2 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é segunda-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que o Brasil celebra o Dia de Independência?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Setembro"
+      ],
+      "correct": 3,
+      "explanation": "O Brasil celebra o Dia de Independência em setembro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 15 de janeiro e amanhã é 16 de janeiro, qual é o mês de ontem?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Abril"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é fevereiro, ontem deve ter sido janeiro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do dia da semana em que o Brasil celebra o Dia de Tiradentes?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de Tiradentes em abril, que é um mês de primavera.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 1 de janeiro e amanhã é 2 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é segunda-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que o Brasil celebra o Dia do Trabalho?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Maio"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia do Trabalho em maio.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 15 de janeiro e amanhã é 16 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é terça-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do dia da semana em que o Brasil celebra o Dia de São João?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de São João em junho, que é um mês de verão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 1 de janeiro e amanhã é 2 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é segunda-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que o Brasil celebra o Dia de Nossa Senhora Aparecida?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Outubro"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de Nossa Senhora Aparecida em outubro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 15 de janeiro e amanhã é 16 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é terça-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do dia da semana em que o Brasil celebra o Dia de São Pedro?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de São Pedro em junho, que é um mês de verão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 1 de janeiro e amanhã é 2 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é segunda-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do mês em que o Brasil celebra o Dia de São Sebastião?",
+      "options": [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Janeiro"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de São Sebastião em janeiro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se hoje é 15 de janeiro e amanhã é 16 de janeiro, qual é o dia da semana de ontem?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "Se amanhã é terça-feira, ontem deve ter sido segunda-feira.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do dia da semana em que o Brasil celebra o Dia de São João Batista?",
+      "options": [
+        "Segunda-feira",
+        "Terça-feira",
+        "Quarta-feira",
+        "Quinta-feira"
+      ],
+      "correct": 0,
+      "explanation": "O Brasil celebra o Dia de São João Batista em junho, que é um mês de verão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Descobrimento e Colonização do Brasil": [
+    {
+      "question": "Qual foi o nome do navio que levou Pedro Álvares Cabral ao Brasil?",
+      "options": [
+        "Berrio",
+        "São Cristóvão",
+        "Santa Maria",
+        "Nossa Senhora do Bom Parto"
+      ],
+      "correct": 1,
+      "explanation": "O navio São Cristóvão foi o que levou Pedro Álvares Cabral ao Brasil em 1500.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o objetivo principal da viagem de Pedro Álvares Cabral ao Brasil?",
+      "options": [
+        "Encontrar ouro",
+        "Estabelecer uma rota marítima para a Ásia",
+        "Descobrir uma nova rota para a Europa",
+        "Procurar novas terras para colonizar"
+      ],
+      "correct": 2,
+      "explanation": "A viagem de Pedro Álvares Cabral ao Brasil tinha como objetivo principal encontrar uma nova rota marítima para a Ásia, que era mais curta e mais rápida do que a rota tradicional.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da viagem de Pedro Álvares Cabral ao Brasil?",
+      "options": [
+        "A descoberta do Brasil",
+        "A perda de uma frota de navios",
+        "A morte de Pedro Álvares Cabral",
+        "A não descoberta do Brasil"
+      ],
+      "correct": 0,
+      "explanation": "A viagem de Pedro Álvares Cabral ao Brasil resultou na descoberta do Brasil em 1500.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do rei português que patrocinou a viagem de Pedro Álvares Cabral ao Brasil?",
+      "options": [
+        "D. Manuel I",
+        "D. João II",
+        "D. Afonso V",
+        "D. Fernando"
+      ],
+      "correct": 0,
+      "explanation": "O rei português que patrocinou a viagem de Pedro Álvares Cabral ao Brasil foi D. Manuel I.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi a principal atividade econômica da colônia portuguesa no Brasil?",
+      "options": [
+        "Agricultura",
+        "Comércio",
+        "Mineração",
+        "Pescaria"
+      ],
+      "correct": 2,
+      "explanation": "A principal atividade econômica da colônia portuguesa no Brasil foi a mineração, especialmente a extração de ouro e diamantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro governador-geral do Brasil?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 0,
+      "explanation": "O primeiro governador-geral do Brasil foi Tomé de Sousa, que governou de 1549 a 1553.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal problema enfrentado pelos colonos portugueses no Brasil?",
+      "options": [
+        "A falta de recursos naturais",
+        "A resistência dos índios",
+        "A concorrência com os espanhóis",
+        "A falta de apoio do governo português"
+      ],
+      "correct": 2,
+      "explanation": "O principal problema enfrentado pelos colonos portugueses no Brasil foi a resistência dos índios, que opunham-se à colonização portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da resistência dos índios contra a colonização portuguesa?",
+      "options": [
+        "A vitória dos índios",
+        "A derrota dos índios",
+        "A paz entre os índios e os portugueses",
+        "A não resistência dos índios"
+      ],
+      "correct": 1,
+      "explanation": "A resistência dos índios contra a colonização portuguesa resultou na derrota dos índios e na conquista da terra pelos portugueses.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro presidente da Câmara Municipal de Salvador?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 2,
+      "explanation": "O primeiro presidente da Câmara Municipal de Salvador foi Francisco de Sousa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal objetivo da política de colonização portuguesa no Brasil?",
+      "options": [
+        "Estabelecer uma colônia para a produção de alimentos",
+        "Estabelecer uma colônia para a extração de recursos naturais",
+        "Estabelecer uma colônia para a produção de ouro e diamantes",
+        "Estabelecer uma colônia para a produção de açúcar"
+      ],
+      "correct": 2,
+      "explanation": "O principal objetivo da política de colonização portuguesa no Brasil foi estabelecer uma colônia para a extração de recursos naturais, especialmente ouro e diamantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da política de colonização portuguesa no Brasil?",
+      "options": [
+        "A prosperidade da colônia",
+        "A falência da colônia",
+        "A independência da colônia",
+        "A não colonização do Brasil"
+      ],
+      "correct": 0,
+      "explanation": "A política de colonização portuguesa no Brasil resultou na prosperidade da colônia, que se tornou uma das principais fontes de riqueza da coroa portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro governador-geral do Brasil que estabeleceu a capital na Bahia?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 0,
+      "explanation": "O primeiro governador-geral do Brasil que estabeleceu a capital na Bahia foi Tomé de Sousa, em 1549.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal problema enfrentado pela colônia portuguesa no Brasil durante o século XVI?",
+      "options": [
+        "A falta de recursos naturais",
+        "A resistência dos índios",
+        "A concorrência com os espanhóis",
+        "A falta de apoio do governo português"
+      ],
+      "correct": 2,
+      "explanation": "O principal problema enfrentado pela colônia portuguesa no Brasil durante o século XVI foi a concorrência com os espanhóis, que também estavam interessados em colonizar a região.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da concorrência com os espanhóis na colônia portuguesa no Brasil?",
+      "options": [
+        "A vitória dos portugueses",
+        "A derrota dos portugueses",
+        "A paz entre os portugueses e os espanhóis",
+        "A não concorrência"
+      ],
+      "correct": 0,
+      "explanation": "A concorrência com os espanhóis na colônia portuguesa no Brasil resultou na vitória dos portugueses, que conseguiram manter a região sob seu controle.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro presidente da Câmara Municipal de Pernambuco?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 1,
+      "explanation": "O primeiro presidente da Câmara Municipal de Pernambuco foi Duarte Coelho.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal objetivo da política de colonização portuguesa no Brasil durante o século XVII?",
+      "options": [
+        "Estabelecer uma colônia para a produção de alimentos",
+        "Estabelecer uma colônia para a extração de recursos naturais",
+        "Estabelecer uma colônia para a produção de ouro e diamantes",
+        "Estabelecer uma colônia para a produção de açúcar"
+      ],
+      "correct": 3,
+      "explanation": "O principal objetivo da política de colonização portuguesa no Brasil durante o século XVII foi estabelecer uma colônia para a produção de açúcar, que se tornou uma das principais fontes de riqueza da coroa portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da política de colonização portuguesa no Brasil durante o século XVII?",
+      "options": [
+        "A prosperidade da colônia",
+        "A falência da colônia",
+        "A independência da colônia",
+        "A não colonização do Brasil"
+      ],
+      "correct": 0,
+      "explanation": "A política de colonização portuguesa no Brasil durante o século XVII resultou na prosperidade da colônia, que se tornou uma das principais fontes de riqueza da coroa portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro governador-geral do Brasil que estabeleceu a capital em Salvador?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 0,
+      "explanation": "O primeiro governador-geral do Brasil que estabeleceu a capital em Salvador foi Tomé de Sousa, em 1549.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal problema enfrentado pela colônia portuguesa no Brasil durante o século XVIII?",
+      "options": [
+        "A falta de recursos naturais",
+        "A resistência dos índios",
+        "A concorrência com os espanhóis",
+        "A falta de apoio do governo português"
+      ],
+      "correct": 3,
+      "explanation": "O principal problema enfrentado pela colônia portuguesa no Brasil durante o século XVIII foi a falta de apoio do governo português, que não fornecia recursos suficientes para a manutenção da colônia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da falta de apoio do governo português para a colônia portuguesa no Brasil?",
+      "options": [
+        "A prosperidade da colônia",
+        "A falência da colônia",
+        "A independência da colônia",
+        "A não colonização do Brasil"
+      ],
+      "correct": 1,
+      "explanation": "A falta de apoio do governo português para a colônia portuguesa no Brasil resultou na falência da colônia, que enfrentou graves problemas financeiros e econômicos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro presidente da Câmara Municipal de Recife?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 1,
+      "explanation": "O primeiro presidente da Câmara Municipal de Recife foi Duarte Coelho.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal objetivo da política de colonização portuguesa no Brasil durante o século XIX?",
+      "options": [
+        "Estabelecer uma colônia para a produção de alimentos",
+        "Estabelecer uma colônia para a extração de recursos naturais",
+        "Estabelecer uma colônia para a produção de ouro e diamantes",
+        "Estabelecer uma colônia para a produção de açúcar"
+      ],
+      "correct": 2,
+      "explanation": "O principal objetivo da política de colonização portuguesa no Brasil durante o século XIX foi estabelecer uma colônia para a extração de recursos naturais, especialmente ouro e diamantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da política de colonização portuguesa no Brasil durante o século XIX?",
+      "options": [
+        "A prosperidade da colônia",
+        "A falência da colônia",
+        "A independência da colônia",
+        "A não colonização do Brasil"
+      ],
+      "correct": 0,
+      "explanation": "A política de colonização portuguesa no Brasil durante o século XIX resultou na prosperidade da colônia, que se tornou uma das principais fontes de riqueza da coroa portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do primeiro governador-geral do Brasil que estabeleceu a capital em Rio de Janeiro?",
+      "options": [
+        "Tomé de Sousa",
+        "Duarte Coelho",
+        "Francisco de Sousa",
+        "Martim Afonso de Sousa"
+      ],
+      "correct": 0,
+      "explanation": "O primeiro governador-geral do Brasil que estabeleceu a capital em Rio de Janeiro foi Tomé de Sousa, em 1549.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o principal problema enfrentado pela colônia portuguesa no Brasil durante o século XX?",
+      "options": [
+        "A falta de recursos naturais",
+        "A resistência dos índios",
+        "A concorrência com os espanhóis",
+        "A falta de apoio do governo português"
+      ],
+      "correct": 3,
+      "explanation": "O principal problema enfrentado pela colônia portuguesa no Brasil durante o século XX foi a falta de apoio do governo português, que não fornecia recursos suficientes para a manutenção da colônia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da falta de apoio do governo português para a colônia portuguesa no Brasil durante o século XX?",
+      "options": [
+        "A prosperidade da colônia",
+        "A falência da colônia",
+        "A independência da colônia",
+        "A não colonização do Brasil"
+      ],
+      "correct": 1,
+      "explanation": "A falta de apoio do governo português para a colônia portuguesa no Brasil durante o século XX resultou na falência da colônia, que enfrentou graves problemas financeiros e econômicos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Escravidão no Brasil": [
+    {
+      "question": "O que é escravidão?",
+      "options": [
+        "Uma forma de trabalho voluntário",
+        "Uma forma de trabalho pago",
+        "Uma forma de trabalho forçado",
+        "Uma forma de trabalho cooperativo"
+      ],
+      "correct": 2,
+      "explanation": "A escravidão é quando alguém é forçado a trabalhar sem escolha ou recompensa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o período em que a escravidão foi mais comum no Brasil?",
+      "options": [
+        "Século XVI",
+        "Século XVII",
+        "Século XVIII",
+        "Século XIX"
+      ],
+      "correct": 3,
+      "explanation": "A escravidão foi mais comum no Brasil durante o século XIX, quando o Brasil era um grande produtor de café e outros produtos agrícolas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os africanos foram levados para o Brasil como escravos?",
+      "options": [
+        "Porque eram mais fortes do que os europeus",
+        "Porque eram mais inteligentes do que os europeus",
+        "Porque eram capturados em guerras e vendidos como escravos",
+        "Porque eram voluntários"
+      ],
+      "correct": 2,
+      "explanation": "Os africanos foram levados para o Brasil como escravos porque eram capturados em guerras e vendidos como escravos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal produto que os escravos produziam no Brasil?",
+      "options": [
+        "Café",
+        "Algodão",
+        "Fumo",
+        "Caná de açúcar"
+      ],
+      "correct": 1,
+      "explanation": "Os escravos produziam principalmente algodão no Brasil, que era exportado para outros países.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quem foi o primeiro governador-geral do Brasil a abolir a escravidão?",
+      "options": [
+        "D. Pedro II",
+        "D. João VI",
+        "D. Pedro I",
+        "D. Luís de Vasconcelos"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro II foi o primeiro governador-geral do Brasil a abolir a escravidão, em 1888.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal argumento utilizado para justificar a escravidão no Brasil?",
+      "options": [
+        "A escravidão era uma forma de civilizar os africanos",
+        "A escravidão era uma forma de proteger os africanos de guerras",
+        "A escravidão era uma forma de aumentar a produção agrícola",
+        "A escravidão era uma forma de aumentar a riqueza dos proprietários de escravos"
+      ],
+      "correct": 3,
+      "explanation": "O principal argumento utilizado para justificar a escravidão no Brasil era que ela era uma forma de aumentar a produção agrícola.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quais foram as principais consequências da escravidão no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da desigualdade social"
+      ],
+      "correct": 3,
+      "explanation": "As principais consequências da escravidão no Brasil foram o aumento da desigualdade social e a perda de direitos e liberdades para os escravos.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual foi o principal movimento que lutou pela abolição da escravidão no Brasil?",
+      "options": [
+        "Movimento Abolicionista",
+        "Movimento Libertador",
+        "Movimento Nacionalista",
+        "Movimento Socialista"
+      ],
+      "correct": 0,
+      "explanation": "O Movimento Abolicionista foi o principal movimento que lutou pela abolição da escravidão no Brasil.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o principal líder do Movimento Abolicionista no Brasil?",
+      "options": [
+        "José Bonifácio",
+        "D. Pedro II",
+        "Abolitionistas como Joaquim Nabuco e André Rebouças",
+        "Dom Pedro I"
+      ],
+      "correct": 2,
+      "explanation": "Abolitionistas como Joaquim Nabuco e André Rebouças foram os principais líderes do Movimento Abolicionista no Brasil.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal resultado da abolição da escravidão no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da igualdade social"
+      ],
+      "correct": 3,
+      "explanation": "O principal resultado da abolição da escravidão no Brasil foi o aumento da igualdade social.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual foi o principal desafio enfrentado pelos escravos no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Perda de direitos e liberdades"
+      ],
+      "correct": 3,
+      "explanation": "O principal desafio enfrentado pelos escravos no Brasil foi a perda de direitos e liberdades.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o primeiro presidente do Brasil a abolir a escravidão?",
+      "options": [
+        "D. Pedro II",
+        "D. João VI",
+        "D. Pedro I",
+        "D. Luís de Vasconcelos"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro II foi o primeiro presidente do Brasil a abolir a escravidão, em 1888.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal argumento utilizado para justificar a manutenção da escravidão no Brasil?",
+      "options": [
+        "A escravidão era uma forma de civilizar os africanos",
+        "A escravidão era uma forma de proteger os africanos de guerras",
+        "A escravidão era uma forma de aumentar a produção agrícola",
+        "A escravidão era uma forma de aumentar a riqueza dos proprietários de escravos"
+      ],
+      "correct": 3,
+      "explanation": "O principal argumento utilizado para justificar a manutenção da escravidão no Brasil era que ela era uma forma de aumentar a produção agrícola.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quais foram as principais consequências da abolição da escravidão no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da igualdade social"
+      ],
+      "correct": 3,
+      "explanation": "As principais consequências da abolição da escravidão no Brasil foram o aumento da igualdade social e a perda de direitos e liberdades para os escravos.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual foi o principal resultado da manutenção da escravidão no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da desigualdade social"
+      ],
+      "correct": 3,
+      "explanation": "O principal resultado da manutenção da escravidão no Brasil foi o aumento da desigualdade social.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o principal líder do Movimento Libertador no Brasil?",
+      "options": [
+        "José Bonifácio",
+        "D. Pedro II",
+        "Abolitionistas como Joaquim Nabuco e André Rebouças",
+        "Dom Pedro I"
+      ],
+      "correct": 2,
+      "explanation": "Abolitionistas como Joaquim Nabuco e André Rebouças foram os principais líderes do Movimento Libertador no Brasil.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal desafio enfrentado pelos libertos no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Perda de direitos e liberdades"
+      ],
+      "correct": 3,
+      "explanation": "O principal desafio enfrentado pelos libertos no Brasil foi a perda de direitos e liberdades.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o primeiro presidente do Brasil a promulgar a Lei Áurea?",
+      "options": [
+        "D. Pedro II",
+        "D. João VI",
+        "D. Pedro I",
+        "D. Luís de Vasconcelos"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro II foi o primeiro presidente do Brasil a promulgar a Lei Áurea, em 1888.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal resultado da promulgação da Lei Áurea?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da igualdade social"
+      ],
+      "correct": 3,
+      "explanation": "O principal resultado da promulgação da Lei Áurea foi o aumento da igualdade social.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o principal líder do Movimento Nacionalista no Brasil?",
+      "options": [
+        "José Bonifácio",
+        "D. Pedro II",
+        "Abolitionistas como Joaquim Nabuco e André Rebouças",
+        "Dom Pedro I"
+      ],
+      "correct": 2,
+      "explanation": "Abolitionistas como Joaquim Nabuco e André Rebouças foram os principais líderes do Movimento Nacionalista no Brasil.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal desafio enfrentado pelo Movimento Nacionalista no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Perda de direitos e liberdades"
+      ],
+      "correct": 3,
+      "explanation": "O principal desafio enfrentado pelo Movimento Nacionalista no Brasil foi a perda de direitos e liberdades.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o primeiro presidente do Brasil a promulgar a Lei de Terras?",
+      "options": [
+        "D. Pedro II",
+        "D. João VI",
+        "D. Pedro I",
+        "D. Luís de Vasconcelos"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro II foi o primeiro presidente do Brasil a promulgar a Lei de Terras, em 1850.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal resultado da promulgação da Lei de Terras?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Aumento da igualdade social"
+      ],
+      "correct": 3,
+      "explanation": "O principal resultado da promulgação da Lei de Terras foi o aumento da igualdade social.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o principal líder do Movimento Socialista no Brasil?",
+      "options": [
+        "José Bonifácio",
+        "D. Pedro II",
+        "Abolitionistas como Joaquim Nabuco e André Rebouças",
+        "Dom Pedro I"
+      ],
+      "correct": 2,
+      "explanation": "Abolitionistas como Joaquim Nabuco e André Rebouças foram os principais líderes do Movimento Socialista no Brasil.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o principal desafio enfrentado pelo Movimento Socialista no Brasil?",
+      "options": [
+        "Aumento da produção agrícola",
+        "Aumento da riqueza dos proprietários de escravos",
+        "Aumento da população negra no Brasil",
+        "Perda de direitos e liberdades"
+      ],
+      "correct": 3,
+      "explanation": "O principal desafio enfrentado pelo Movimento Socialista no Brasil foi a perda de direitos e liberdades.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    }
+  ],
+  "Independência do Brasil": [
+    {
+      "question": "O que significa Independência do Brasil?",
+      "options": [
+        "O dia em que o Brasil foi colonizado",
+        "O dia em que o Brasil se tornou uma nação livre",
+        "O dia em que o Brasil foi conquistado pelos portugueses",
+        "O dia em que o Brasil se tornou uma colônia da Espanha"
+      ],
+      "correct": 1,
+      "explanation": "A Independência do Brasil é o momento em que o país se tornou uma nação livre e soberana, após a luta contra a colonização portuguesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quem foi o líder que liderou a luta pela Independência do Brasil?",
+      "options": [
+        "D. Pedro I",
+        "João VI",
+        "Pernambuco",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro I foi o líder que liderou a luta pela Independência do Brasil, declarando a independência em 7 de setembro de 1822.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da Batalha de Ipiranga?",
+      "options": [
+        "A vitória dos portugueses",
+        "A vitória dos brasileiros",
+        "A derrota dos brasileiros",
+        "A Batalha foi cancelada"
+      ],
+      "correct": 1,
+      "explanation": "A Batalha de Ipiranga foi uma vitória dos brasileiros, liderados por D. Pedro I, que declarou a Independência do Brasil em 7 de setembro de 1822.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um dos principais motivos da Independência do Brasil?",
+      "options": [
+        "A luta pela liberdade",
+        "A busca por recursos naturais",
+        "A desigualdade social",
+        "A colonização portuguesa"
+      ],
+      "correct": 2,
+      "explanation": "A desigualdade social não é um dos principais motivos da Independência do Brasil, embora tenha sido um fator importante na luta pela liberdade.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: Brasil, Portugal, ______, Independência.",
+      "options": [
+        "Colônia",
+        "Império",
+        "República",
+        "Monarquia"
+      ],
+      "correct": 1,
+      "explanation": "A sequência correta é: Brasil, Portugal, Colônia, Independência.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Independência do Brasil foi importante?",
+      "options": [
+        "Porque foi uma vitória dos portugueses",
+        "Porque foi uma derrota dos brasileiros",
+        "Porque foi um momento de liberdade e soberania para o país",
+        "Porque foi um momento de colonização"
+      ],
+      "correct": 2,
+      "explanation": "A Independência do Brasil foi importante porque foi um momento de liberdade e soberania para o país, marcando o início de uma nova era na história do Brasil.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o responsável por declarar a Independência do Brasil?",
+      "options": [
+        "D. Pedro I",
+        "João VI",
+        "Pernambuco",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro I foi o responsável por declarar a Independência do Brasil em 7 de setembro de 1822.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da luta pela Independência do Brasil?",
+      "options": [
+        "A vitória dos portugueses",
+        "A vitória dos brasileiros",
+        "A derrota dos brasileiros",
+        "A Batalha foi cancelada"
+      ],
+      "correct": 1,
+      "explanation": "A luta pela Independência do Brasil resultou na vitória dos brasileiros, liderados por D. Pedro I.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um dos principais líderes da luta pela Independência do Brasil?",
+      "options": [
+        "D. Pedro I",
+        "João VI",
+        "Pernambuco",
+        "São Paulo"
+      ],
+      "correct": 1,
+      "explanation": "João VI não foi um dos principais líderes da luta pela Independência do Brasil, pois era o rei de Portugal na época.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: Brasil, ______, Independência, República.",
+      "options": [
+        "Colônia",
+        "Império",
+        "Monarquia",
+        "República"
+      ],
+      "correct": 1,
+      "explanation": "A sequência correta é: Brasil, Colônia, Independência, República.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Independência do Brasil foi um momento importante na história do país?",
+      "options": [
+        "Porque foi uma vitória dos portugueses",
+        "Porque foi uma derrota dos brasileiros",
+        "Porque foi um momento de liberdade e soberania para o país",
+        "Porque foi um momento de colonização"
+      ],
+      "correct": 2,
+      "explanation": "A Independência do Brasil foi um momento importante na história do país porque foi um momento de liberdade e soberania para o país, marcando o início de uma nova era.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o líder que liderou a luta pela Independência do Brasil em 1822?",
+      "options": [
+        "D. Pedro I",
+        "João VI",
+        "Pernambuco",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro I foi o líder que liderou a luta pela Independência do Brasil em 1822.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da Batalha de Ipiranga em 1822?",
+      "options": [
+        "A vitória dos portugueses",
+        "A vitória dos brasileiros",
+        "A derrota dos brasileiros",
+        "A Batalha foi cancelada"
+      ],
+      "correct": 1,
+      "explanation": "A Batalha de Ipiranga em 1822 foi uma vitória dos brasileiros, liderados por D. Pedro I.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um dos principais motivos da Independência do Brasil em 1822?",
+      "options": [
+        "A luta pela liberdade",
+        "A busca por recursos naturais",
+        "A desigualdade social",
+        "A colonização portuguesa"
+      ],
+      "correct": 2,
+      "explanation": "A desigualdade social não é um dos principais motivos da Independência do Brasil em 1822, embora tenha sido um fator importante na luta pela liberdade.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: Brasil, ______, Independência, República, Democracia.",
+      "options": [
+        "Colônia",
+        "Império",
+        "Monarquia",
+        "República"
+      ],
+      "correct": 1,
+      "explanation": "A sequência correta é: Brasil, Colônia, Independência, República, Democracia.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Independência do Brasil em 1822 foi um momento importante na história do país?",
+      "options": [
+        "Porque foi uma vitória dos portugueses",
+        "Porque foi uma derrota dos brasileiros",
+        "Porque foi um momento de liberdade e soberania para o país",
+        "Porque foi um momento de colonização"
+      ],
+      "correct": 2,
+      "explanation": "A Independência do Brasil em 1822 foi um momento importante na história do país porque foi um momento de liberdade e soberania para o país, marcando o início de uma nova era.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o líder que liderou a luta pela Independência do Brasil em 1822?",
+      "options": [
+        "D. Pedro I",
+        "João VI",
+        "Pernambuco",
+        "São Paulo"
+      ],
+      "correct": 0,
+      "explanation": "D. Pedro I foi o líder que liderou a luta pela Independência do Brasil em 1822.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o resultado da Batalha de Ipiranga em 1822?",
+      "options": [
+        "A vitória dos portugueses",
+        "A vitória dos brasileiros",
+        "A derrota dos brasileiros",
+        "A Batalha foi cancelada"
+      ],
+      "correct": 1,
+      "explanation": "A Batalha de Ipiranga em 1822 foi uma vitória dos brasileiros, liderados por D. Pedro I.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um dos principais motivos da Independência do Brasil em 1822?",
+      "options": [
+        "A luta pela liberdade",
+        "A busca por recursos naturais",
+        "A desigualdade social",
+        "A colonização portuguesa"
+      ],
+      "correct": 2,
+      "explanation": "A desigualdade social não é um dos principais motivos da Independência do Brasil em 1822, embora tenha sido um fator importante na luta pela liberdade.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: Brasil, ______, Independência, República, Democracia.",
+      "options": [
+        "Colônia",
+        "Império",
+        "Monarquia",
+        "República"
+      ],
+      "correct": 1,
+      "explanation": "A sequência correta é: Brasil, Colônia, Independência, República, Democracia.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Independência do Brasil em 1822 foi um momento importante na história do país?",
+      "options": [
+        "Porque foi uma vitória dos portugueses",
+        "Porque foi uma derrota dos brasileiros",
+        "Porque foi um momento de liberdade e soberania para o país",
+        "Porque foi um momento de colonização"
+      ],
+      "correct": 2,
+      "explanation": "A Independência do Brasil em 1822 foi um momento importante na história do país porque foi um momento de liberdade e soberania para o país, marcando o início de uma nova era.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Monarquia Brasileira": [
+    {
+      "question": "Qual foi o primeiro imperador do Brasil?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 0,
+      "explanation": "Dom Pedro I foi o primeiro imperador do Brasil, após a independência do país.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa a palavra 'monarquia'?",
+      "options": [
+        "Um governo com um rei ou rainha",
+        "Um governo com um presidente",
+        "Um governo com um conselho",
+        "Um governo com um parlamento"
+      ],
+      "correct": 0,
+      "explanation": "A monarquia é um sistema de governo em que um rei ou rainha tem o poder máximo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quem foi a rainha do Brasil durante o período da monarquia?",
+      "options": [
+        "Maria I",
+        "Maria II",
+        "Teresa Cristina",
+        "Leopoldina"
+      ],
+      "correct": 1,
+      "explanation": "Maria II foi a rainha do Brasil durante o período da monarquia, esposa de Pedro II.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a monarquia foi abolida no Brasil?",
+      "options": [
+        "Porque o povo queria uma república",
+        "Porque o imperador morreu",
+        "Porque a monarquia era muito cara",
+        "Porque a monarquia era muito forte"
+      ],
+      "correct": 0,
+      "explanation": "A monarquia foi abolida no Brasil porque o povo queria uma república e mais democracia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do imperador que aboliu a escravidão no Brasil?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II foi o imperador que aboliu a escravidão no Brasil, em 1888.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro I se tornou imperador?",
+      "options": [
+        "Ele mudou a capital para Rio de Janeiro",
+        "Ele criou um novo sistema de governo",
+        "Ele aboliu a escravidão",
+        "Ele se tornou um republicano"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro I se tornou imperador, ele mudou a capital para Rio de Janeiro.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do imperador que governou o Brasil por mais tempo?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II governou o Brasil por mais tempo, de 1841 a 1889.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a monarquia foi considerada uma forma de governo 'feudal'?",
+      "options": [
+        "Porque o imperador era muito poderoso",
+        "Porque o imperador era muito rico",
+        "Porque o imperador era muito justo",
+        "Porque o imperador era muito débil"
+      ],
+      "correct": 0,
+      "explanation": "A monarquia foi considerada uma forma de governo 'feudal' porque o imperador tinha muito poder e controle sobre o povo.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do movimento que lutou pela abolição da monarquia no Brasil?",
+      "options": [
+        "Movimento Republicano",
+        "Movimento Monárquico",
+        "Movimento Abolicionista",
+        "Movimento Imperial"
+      ],
+      "correct": 0,
+      "explanation": "O Movimento Republicano foi o que lutou pela abolição da monarquia no Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro II morreu?",
+      "options": [
+        "Ele foi substituído por um novo imperador",
+        "Ele foi substituído por um novo presidente",
+        "Ele foi substituído por um novo conselho",
+        "Ele foi substituído por uma nova monarquia"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro II morreu, a monarquia foi abolida e o Brasil se tornou uma república.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do imperador que governou o Brasil durante a Guerra do Paraguai?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II governou o Brasil durante a Guerra do Paraguai, de 1864 a 1870.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a monarquia foi considerada uma forma de governo 'aristocrático'?",
+      "options": [
+        "Porque o imperador era muito poderoso",
+        "Porque o imperador era muito rico",
+        "Porque o imperador era muito justo",
+        "Porque o imperador era muito débil"
+      ],
+      "correct": 0,
+      "explanation": "A monarquia foi considerada uma forma de governo 'aristocrático' porque o imperador tinha muito poder e controle sobre o povo.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do imperador que aboliu a escravidão no Brasil em 1888?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II aboliu a escravidão no Brasil em 1888, com a Lei Áurea.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro I se tornou imperador?",
+      "options": [
+        "Ele mudou a capital para Rio de Janeiro",
+        "Ele criou um novo sistema de governo",
+        "Ele aboliu a escravidão",
+        "Ele se tornou um republicano"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro I se tornou imperador, ele mudou a capital para Rio de Janeiro.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do movimento que lutou pela abolição da escravidão no Brasil?",
+      "options": [
+        "Movimento Republicano",
+        "Movimento Monárquico",
+        "Movimento Abolicionista",
+        "Movimento Imperial"
+      ],
+      "correct": 2,
+      "explanation": "O Movimento Abolicionista foi o que lutou pela abolição da escravidão no Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro II morreu?",
+      "options": [
+        "Ele foi substituído por um novo imperador",
+        "Ele foi substituído por um novo presidente",
+        "Ele foi substituído por um novo conselho",
+        "Ele foi substituído por uma nova monarquia"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro II morreu, a monarquia foi abolida e o Brasil se tornou uma república.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do imperador que governou o Brasil durante a Guerra do Paraguai?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II governou o Brasil durante a Guerra do Paraguai, de 1864 a 1870.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual foi o nome do imperador que aboliu a escravidão no Brasil em 1888?",
+      "options": [
+        "Pedro I",
+        "Pedro II",
+        "Dom João VI",
+        "Dom Pedro II"
+      ],
+      "correct": 1,
+      "explanation": "Dom Pedro II aboliu a escravidão no Brasil em 1888, com a Lei Áurea.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro I se tornou imperador?",
+      "options": [
+        "Ele mudou a capital para Rio de Janeiro",
+        "Ele criou um novo sistema de governo",
+        "Ele aboliu a escravidão",
+        "Ele se tornou um republicano"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro I se tornou imperador, ele mudou a capital para Rio de Janeiro.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual foi o nome do movimento que lutou pela abolição da escravidão no Brasil?",
+      "options": [
+        "Movimento Republicano",
+        "Movimento Monárquico",
+        "Movimento Abolicionista",
+        "Movimento Imperial"
+      ],
+      "correct": 2,
+      "explanation": "O Movimento Abolicionista foi o que lutou pela abolição da escravidão no Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que aconteceu quando o imperador Pedro II morreu?",
+      "options": [
+        "Ele foi substituído por um novo imperador",
+        "Ele foi substituído por um novo presidente",
+        "Ele foi substituído por um novo conselho",
+        "Ele foi substituído por uma nova monarquia"
+      ],
+      "correct": 0,
+      "explanation": "Quando o imperador Pedro II morreu, a monarquia foi abolida e o Brasil se tornou uma república.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "República Brasileira": [
+    {
+      "question": "O que é a República Brasileira?",
+      "options": [
+        "Um governo com um rei",
+        "Um governo com um presidente",
+        "Um governo sem um chefe",
+        "Um governo com um conselho de líderes"
+      ],
+      "correct": 1,
+      "explanation": "A República Brasileira é um governo com um presidente como chefe.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Em que ano a República Brasileira foi proclamada?",
+      "options": [
+        "1822",
+        "1889",
+        "1930",
+        "1945"
+      ],
+      "correct": 1,
+      "explanation": "A República Brasileira foi proclamada em 1889, com a queda da monarquia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a bandeira da República Brasileira?",
+      "options": [
+        "Bandeira azul e branca",
+        "Bandeira vermelha e verde",
+        "Bandeira amarela e azul",
+        "Bandeira verde e amarela"
+      ],
+      "correct": 0,
+      "explanation": "A bandeira da República Brasileira é composta por um fundo verde, com uma faixa amarela no meio e uma estrela branca no canto esquerdo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Quem foi o primeiro presidente da República Brasileira?",
+      "options": [
+        "Deodoro da Fonseca",
+        "Prudente de Morais",
+        "Marechal Floriano Peixoto",
+        "Rui Barbosa"
+      ],
+      "correct": 0,
+      "explanation": "Deodoro da Fonseca foi o primeiro presidente da República Brasileira, eleito em 1889.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a capital da República Brasileira?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília",
+        "Salvador"
+      ],
+      "correct": 2,
+      "explanation": "A capital da República Brasileira é Brasília, desde 1960.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a República Brasileira foi proclamada?",
+      "options": [
+        "Por causa da guerra com os países vizinhos",
+        "Por causa da crise econômica",
+        "Por causa da queda da monarquia",
+        "Por causa da independência do Brasil"
+      ],
+      "correct": 2,
+      "explanation": "A República Brasileira foi proclamada por causa da queda da monarquia, que não era popular entre os brasileiros.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre a monarquia e a república?",
+      "options": [
+        "A monarquia é um governo com um rei, enquanto a república é um governo sem um chefe",
+        "A monarquia é um governo com um conselho de líderes, enquanto a república é um governo com um presidente",
+        "A monarquia é um governo com um rei, enquanto a república é um governo com um presidente",
+        "A monarquia é um governo sem um chefe, enquanto a república é um governo com um conselho de líderes"
+      ],
+      "correct": 2,
+      "explanation": "A monarquia é um governo com um rei, enquanto a república é um governo com um presidente.",
+      "type": "comparacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o líder da Revolução de 1930?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Jânio Quadros"
+      ],
+      "correct": 0,
+      "explanation": "Getúlio Vargas foi o líder da Revolução de 1930, que levou à criação da República Nova.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a importância da Constituição de 1988?",
+      "options": [
+        "Ela estabeleceu a República Brasileira",
+        "Ela criou a capital Brasília",
+        "Ela garantiu a liberdade de expressão",
+        "Ela estabeleceu a democracia no Brasil"
+      ],
+      "correct": 3,
+      "explanation": "A Constituição de 1988 estabeleceu a democracia no Brasil, garantindo a liberdade de expressão e outros direitos fundamentais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Quem foi o presidente que implementou a Reforma Agrária?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Luís Inácio Lula da Silva"
+      ],
+      "correct": 3,
+      "explanation": "Luís Inácio Lula da Silva foi o presidente que implementou a Reforma Agrária, que visava distribuir terras para os trabalhadores rurais.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre a República Brasileira e a República dos Estados Unidos?",
+      "options": [
+        "A República Brasileira é mais antiga que a República dos Estados Unidos",
+        "A República dos Estados Unidos é mais populosa que a República Brasileira",
+        "A República Brasileira tem um sistema de governo diferente da República dos Estados Unidos",
+        "A República dos Estados Unidos tem uma economia mais forte que a República Brasileira"
+      ],
+      "correct": 2,
+      "explanation": "A República Brasileira tem um sistema de governo diferente da República dos Estados Unidos, que é baseado em uma federação de estados.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o líder da Revolução de 1932?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Mário de Andrade"
+      ],
+      "correct": 0,
+      "explanation": "Mário de Andrade foi um dos líderes da Revolução de 1932, que visava derrubar o governo de Getúlio Vargas.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a importância da Lei de Anistia de 1979?",
+      "options": [
+        "Ela estabeleceu a democracia no Brasil",
+        "Ela garantiu a liberdade de expressão",
+        "Ela concedeu anistia aos militares que cometeram crimes durante a ditadura",
+        "Ela criou a capital Brasília"
+      ],
+      "correct": 2,
+      "explanation": "A Lei de Anistia de 1979 concedeu anistia aos militares que cometeram crimes durante a ditadura, o que gerou controvérsias e críticas.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o presidente que implementou a política de desindustrialização?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Fernando Henrique Cardoso"
+      ],
+      "correct": 3,
+      "explanation": "Fernando Henrique Cardoso foi o presidente que implementou a política de desindustrialização, que visava reduzir a dependência do Brasil em relação à indústria.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a diferença entre a República Brasileira e a República da China?",
+      "options": [
+        "A República Brasileira é mais antiga que a República da China",
+        "A República da China é mais populosa que a República Brasileira",
+        "A República Brasileira tem um sistema de governo diferente da República da China",
+        "A República da China tem uma economia mais forte que a República Brasileira"
+      ],
+      "correct": 2,
+      "explanation": "A República Brasileira tem um sistema de governo diferente da República da China, que é baseado em uma federação de estados.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o líder da Revolução de 1922?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Siqueira Campos"
+      ],
+      "correct": 3,
+      "explanation": "Siqueira Campos foi um dos líderes da Revolução de 1922, que visava derrubar o governo de Artur Bernardes.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a importância da Lei de Diretrizes e Bases da Educação de 1961?",
+      "options": [
+        "Ela estabeleceu a educação como um direito fundamental",
+        "Ela criou a Secretaria de Educação do Brasil",
+        "Ela garantiu a liberdade de expressão nos meios de comunicação",
+        "Ela concedeu anistia aos militares que cometeram crimes durante a ditadura"
+      ],
+      "correct": 0,
+      "explanation": "A Lei de Diretrizes e Bases da Educação de 1961 estabeleceu a educação como um direito fundamental, garantindo a todos o acesso à educação de qualidade.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Quem foi o presidente que implementou a política de integração regional?",
+      "options": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Tancredo Neves",
+        "Jânio Quadros"
+      ],
+      "correct": 1,
+      "explanation": "Juscelino Kubitschek foi o presidente que implementou a política de integração regional, que visava unir os países da América Latina.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a diferença entre a República Brasileira e a República da África do Sul?",
+      "options": [
+        "A República Brasileira é mais antiga que a República da África do Sul",
+        "A República da África do Sul é mais populosa que a República Brasileira",
+        "A República Brasileira tem um sistema de governo diferente da República da África do Sul",
+        "A República da África do Sul tem uma economia mais forte que a República Brasileira"
+      ],
+      "correct": 2,
+      "explanation": "A República Brasileira tem um sistema de governo diferente da República da África do Sul, que é baseado em uma federação de estados.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Civilizações Antigas": [
+    {
+      "question": "O que é uma civilização?",
+      "options": [
+        "Um grupo de pessoas que vivem em uma cidade",
+        "Um grupo de pessoas que compartilham uma cultura e tecnologia",
+        "Um grupo de pessoas que falam a mesma língua",
+        "Um grupo de pessoas que vivem em uma floresta"
+      ],
+      "correct": 1,
+      "explanation": "Uma civilização é um grupo de pessoas que compartilham uma cultura, tecnologia e valores semelhantes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por construir a Grande Muralha?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Chinesa",
+        "Civilização Romana"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Chinesa construiu a Grande Muralha para proteger seu território de invasões.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Egípcia construiu as pirâmides?",
+      "options": [
+        "Para se divertir",
+        "Para se proteger de inimigos",
+        "Para honrar os deuses e os faraós",
+        "Para criar um lugar para se esconder"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Egípcia construiu as pirâmides para honrar os deuses e os faraós, e para criar um lugar para a vida após a morte.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas colônias em todo o mundo?",
+      "options": [
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa",
+        "Civilização Portuguesa"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Portuguesa é conhecida por suas colônias em todo o mundo, especialmente na África e na América Latina.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um imperador?",
+      "options": [
+        "Um líder de uma cidade",
+        "Um líder de um país",
+        "Um líder de uma civilização",
+        "Um líder de uma tribo"
+      ],
+      "correct": 2,
+      "explanation": "Um imperador é um líder de um país ou uma civilização que tem poder e autoridade sobre muitas pessoas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas conquistas militares?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Mongol"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Mongol é conhecida por suas conquistas militares, que se estenderam por grande parte da Ásia e da Europa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Grega é importante?",
+      "options": [
+        "Porque construiu a Grande Muralha",
+        "Porque conquistou a África",
+        "Porque contribuiu para a filosofia e a arte",
+        "Porque criou a pirâmide de Gizé"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Grega é importante porque contribuiu para a filosofia e a arte, e influenciou a cultura e a sociedade modernas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas invenções e descobertas?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Chinesa é conhecida por suas invenções e descobertas, como a bússola, a pólvora e a impressão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um sultão?",
+      "options": [
+        "Um líder de uma cidade",
+        "Um líder de um país",
+        "Um líder de uma civilização",
+        "Um líder de uma tribo"
+      ],
+      "correct": 3,
+      "explanation": "Um sultão é um líder de uma civilização ou um país que tem poder e autoridade sobre muitas pessoas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas conquistas na América Latina?",
+      "options": [
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa",
+        "Civilização Portuguesa"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Portuguesa é conhecida por suas conquistas na América Latina, especialmente no Brasil e em outras colônias.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Romana é importante?",
+      "options": [
+        "Porque construiu a Grande Muralha",
+        "Porque conquistou a África",
+        "Porque contribuiu para a filosofia e a arte",
+        "Porque criou a pirâmide de Gizé"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Romana é importante porque contribuiu para a filosofia e a arte, e influenciou a cultura e a sociedade modernas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas invenções e descobertas na África?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa"
+      ],
+      "correct": 1,
+      "explanation": "A Civilização Egípcia é conhecida por suas invenções e descobertas na África, como a escrita e a arquitetura das pirâmides.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um faraó?",
+      "options": [
+        "Um líder de uma cidade",
+        "Um líder de um país",
+        "Um líder de uma civilização",
+        "Um líder de uma tribo"
+      ],
+      "correct": 3,
+      "explanation": "Um faraó é um líder de uma civilização ou um país que tem poder e autoridade sobre muitas pessoas, especialmente na Civilização Egípcia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas conquistas na Ásia?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Mongol"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Mongol é conhecida por suas conquistas na Ásia, especialmente na China e na Índia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Grega é importante?",
+      "options": [
+        "Porque construiu a Grande Muralha",
+        "Porque conquistou a África",
+        "Porque contribuiu para a filosofia e a arte",
+        "Porque criou a pirâmide de Gizé"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Grega é importante porque contribuiu para a filosofia e a arte, e influenciou a cultura e a sociedade modernas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas invenções e descobertas na Europa?",
+      "options": [
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa",
+        "Civilização Mongol"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Romana é conhecida por suas invenções e descobertas na Europa, como a estrada romana e a água potável.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um califa?",
+      "options": [
+        "Um líder de uma cidade",
+        "Um líder de um país",
+        "Um líder de uma civilização",
+        "Um líder de uma tribo"
+      ],
+      "correct": 3,
+      "explanation": "Um califa é um líder de uma civilização ou um país que tem poder e autoridade sobre muitas pessoas, especialmente na Civilização Islâmica.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas conquistas na América do Norte?",
+      "options": [
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa",
+        "Civilização Mongol"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Mongol é conhecida por suas conquistas na América do Norte, especialmente nos Estados Unidos e no Canadá.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Egípcia é importante?",
+      "options": [
+        "Porque construiu a Grande Muralha",
+        "Porque conquistou a África",
+        "Porque contribuiu para a filosofia e a arte",
+        "Porque criou a pirâmide de Gizé"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Egípcia é importante porque contribuiu para a filosofia e a arte, e influenciou a cultura e a sociedade modernas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas invenções e descobertas na África?",
+      "options": [
+        "Civilização Egípcia",
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa"
+      ],
+      "correct": 1,
+      "explanation": "A Civilização Egípcia é conhecida por suas invenções e descobertas na África, como a escrita e a arquitetura das pirâmides.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um imperador chinês?",
+      "options": [
+        "Um líder de uma cidade",
+        "Um líder de um país",
+        "Um líder de uma civilização",
+        "Um líder de uma tribo"
+      ],
+      "correct": 3,
+      "explanation": "Um imperador chinês é um líder de uma civilização ou um país que tem poder e autoridade sobre muitas pessoas, especialmente na Civilização Chinesa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual civilização é conhecida por suas conquistas na América Latina?",
+      "options": [
+        "Civilização Grega",
+        "Civilização Romana",
+        "Civilização Chinesa",
+        "Civilização Portuguesa"
+      ],
+      "correct": 3,
+      "explanation": "A Civilização Portuguesa é conhecida por suas conquistas na América Latina, especialmente no Brasil e em outras colônias.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a Civilização Romana é importante?",
+      "options": [
+        "Porque construiu a Grande Muralha",
+        "Porque conquistou a África",
+        "Porque contribuiu para a filosofia e a arte",
+        "Porque criou a pirâmide de Gizé"
+      ],
+      "correct": 2,
+      "explanation": "A Civilização Romana é importante porque contribuiu para a filosofia e a arte, e influenciou a cultura e a sociedade modernas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    }
+  ],
+  "Direitos e Cidadania": [
+    {
+      "question": "O que é um direito?",
+      "options": [
+        "Uma obrigação que a gente tem de fazer",
+        "Uma coisa que a gente tem direito de ter ou fazer",
+        "Uma lei que a gente não pode quebrar",
+        "Uma regra que a gente não pode ignorar"
+      ],
+      "correct": 1,
+      "explanation": "Um direito é uma coisa que a gente tem direito de ter ou fazer, como ter comida, água e um lar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o direito de ter uma escola?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de aprender e se educar",
+        "O direito de ter um amigo"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter uma escola é um direito fundamental para aprender e se educar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um direito da criança?",
+      "options": [
+        "Ter um brinquedo",
+        "Ter um amigo",
+        "Ter uma escola",
+        "Ser maltratado"
+      ],
+      "correct": 3,
+      "explanation": "Ser maltratado não é um direito da criança, é um direito que a criança tem de ser protegida.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma cidadania?",
+      "options": [
+        "Uma obrigação que a gente tem de fazer",
+        "Uma coisa que a gente tem direito de ter ou fazer",
+        "Uma lei que a gente não pode quebrar",
+        "Uma regra que a gente não pode ignorar"
+      ],
+      "correct": 1,
+      "explanation": "Uma cidadania é a qualidade de ser um cidadão, ou seja, ter direitos e deveres em uma sociedade.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante ser um cidadão?",
+      "options": [
+        "Para ter mais dinheiro",
+        "Para ter mais amigos",
+        "Para ter mais direitos e deveres",
+        "Para ser mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "É importante ser um cidadão para ter mais direitos e deveres, e contribuir para a sociedade.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o dever de um cidadão?",
+      "options": [
+        "Ter um celular",
+        "Ter um computador",
+        "Respeitar as leis e os direitos dos outros",
+        "Ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "Respeitar as leis e os direitos dos outros é um dever fundamental de um cidadão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um cidadão não respeita as leis?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele é punido e perde direitos",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não respeita as leis, ele é punido e perde direitos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o direito de ter uma família?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de ter um lar e ser amado",
+        "O direito de ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter uma família é um direito fundamental para ter um lar e ser amado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um cidadão ativo?",
+      "options": [
+        "Alguém que não faz nada",
+        "Alguém que apenas pensa",
+        "Alguém que participa da sociedade e defende seus direitos",
+        "Alguém que é maltratado"
+      ],
+      "correct": 2,
+      "explanation": "Um cidadão ativo é alguém que participa da sociedade e defende seus direitos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante ser um cidadão ativo?",
+      "options": [
+        "Para ter mais dinheiro",
+        "Para ter mais amigos",
+        "Para defender seus direitos e contribuir para a sociedade",
+        "Para ser mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "É importante ser um cidadão ativo para defender seus direitos e contribuir para a sociedade.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o direito de ter um lar?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de ter um lar e ser amado",
+        "O direito de ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter um lar é um direito fundamental para ter um lugar seguro e ser amado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um cidadão não defende seus direitos?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele perde direitos e é prejudicado",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não defende seus direitos, ele perde direitos e é prejudicado.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o dever de um cidadão em relação ao meio ambiente?",
+      "options": [
+        "Deixar o meio ambiente degradado",
+        "Respeitar as leis e proteger o meio ambiente",
+        "Não fazer nada",
+        "Ser maltratado"
+      ],
+      "correct": 1,
+      "explanation": "É dever de um cidadão respeitar as leis e proteger o meio ambiente.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um cidadão não respeita as leis em relação ao meio ambiente?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele é punido e perde direitos",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não respeita as leis em relação ao meio ambiente, ele é punido e perde direitos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o direito de ter acesso à educação?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de aprender e se educar",
+        "O direito de ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter acesso à educação é um direito fundamental para aprender e se educar.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um cidadão não tem acesso à educação?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele perde direitos e é prejudicado",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não tem acesso à educação, ele perde direitos e é prejudicado.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o dever de um cidadão em relação à saúde?",
+      "options": [
+        "Deixar a saúde degradada",
+        "Respeitar as leis e cuidar da saúde",
+        "Não fazer nada",
+        "Ser maltratado"
+      ],
+      "correct": 1,
+      "explanation": "É dever de um cidadão respeitar as leis e cuidar da saúde.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um cidadão não cuida da saúde?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele é punido e perde direitos",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não cuida da saúde, ele é punido e perde direitos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o direito de ter uma voz na sociedade?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de expressar opiniões e participar da sociedade",
+        "O direito de ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter uma voz na sociedade é um direito fundamental para expressar opiniões e participar da sociedade.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando um cidadão não expressa suas opiniões?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele perde direitos e é prejudicado",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não expressa suas opiniões, ele perde direitos e é prejudicado.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o dever de um cidadão em relação à justiça?",
+      "options": [
+        "Deixar a justiça degradada",
+        "Respeitar as leis e defender a justiça",
+        "Não fazer nada",
+        "Ser maltratado"
+      ],
+      "correct": 1,
+      "explanation": "É dever de um cidadão respeitar as leis e defender a justiça.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando um cidadão não defende a justiça?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele é punido e perde direitos",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não defende a justiça, ele é punido e perde direitos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o direito de ter uma vida digna?",
+      "options": [
+        "O direito de ter um celular",
+        "O direito de ter um computador",
+        "O direito de viver com dignidade e respeito",
+        "O direito de ser maltratado"
+      ],
+      "correct": 2,
+      "explanation": "O direito de ter uma vida digna é um direito fundamental para viver com dignidade e respeito.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando um cidadão não vive com dignidade?",
+      "options": [
+        "Ele ganha mais dinheiro",
+        "Ele tem mais amigos",
+        "Ele perde direitos e é prejudicado",
+        "Ele se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Quando um cidadão não vive com dignidade, ele perde direitos e é prejudicado.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Família e Comunidade": [
+    {
+      "question": "O que é uma família?",
+      "options": [
+        "Um grupo de amigos",
+        "Um grupo de pessoas que vivem juntas e se amam",
+        "Um grupo de animais",
+        "Um grupo de professores"
+      ],
+      "correct": 1,
+      "explanation": "Uma família é um grupo de pessoas que vivem juntas e se amam, como pais, filhos e avós.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do lugar onde as pessoas vivem com suas famílias?",
+      "options": [
+        "Escola",
+        "Parque",
+        "Casa",
+        "Comunidade"
+      ],
+      "correct": 2,
+      "explanation": "A casa é o lugar onde as pessoas vivem com suas famílias.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma comunidade?",
+      "options": [
+        "Um grupo de pessoas que vivem juntas",
+        "Um grupo de pessoas que trabalham juntas",
+        "Um grupo de pessoas que estudam juntas",
+        "Um grupo de pessoas que vivem em um mesmo lugar e se ajudam mutuamente"
+      ],
+      "correct": 3,
+      "explanation": "Uma comunidade é um grupo de pessoas que vivem em um mesmo lugar e se ajudam mutuamente.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o papel da família na comunidade?",
+      "options": [
+        "Proteger o meio ambiente",
+        "Ensinar os filhos a ler",
+        "Ajudar os outros membros da comunidade",
+        "Todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "A família desempenha um papel importante na comunidade, ajudando os outros membros e contribuindo para o bem-estar da comunidade.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é uma característica de uma família?",
+      "options": [
+        "Amor",
+        "Respeito",
+        "Ajuda mútua",
+        "Competição"
+      ],
+      "correct": 3,
+      "explanation": "A competição não é uma característica de uma família, pois as famílias devem se ajudar e se amar mutuamente.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: Uma comunidade é formada por _______",
+      "options": [
+        "famílias",
+        "escolas",
+        "lojas",
+        "parques"
+      ],
+      "correct": 0,
+      "explanation": "Uma comunidade é formada por famílias que vivem e trabalham juntas.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as famílias são importantes para a comunidade?",
+      "options": [
+        "Porque elas pagam impostos",
+        "Porque elas contribuem para a economia",
+        "Porque elas ajudam a manter a ordem e a segurança",
+        "Porque elas proporcionam apoio emocional e ajuda mútua"
+      ],
+      "correct": 3,
+      "explanation": "As famílias são importantes para a comunidade porque elas proporcionam apoio emocional e ajuda mútua, contribuindo para o bem-estar da comunidade.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando as famílias se ajudam mutuamente?",
+      "options": [
+        "A comunidade se torna mais fraca",
+        "A comunidade se torna mais forte",
+        "A comunidade não muda",
+        "A comunidade se torna mais perigosa"
+      ],
+      "correct": 1,
+      "explanation": "Quando as famílias se ajudam mutuamente, a comunidade se torna mais forte e mais unida.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de uma comunidade que não tem famílias fortes?",
+      "options": [
+        "A comunidade se torna mais segura",
+        "A comunidade se torna mais próspera",
+        "A comunidade se torna mais desorganizada",
+        "A comunidade se torna mais feliz"
+      ],
+      "correct": 2,
+      "explanation": "Uma comunidade que não tem famílias fortes pode se tornar mais desorganizada e ter mais problemas sociais.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: As famílias devem _______ para manter a comunidade segura",
+      "options": [
+        "pagar impostos",
+        "trabalhar juntas",
+        "ajudar os outros",
+        "todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "As famílias devem trabalhar juntas e ajudar os outros para manter a comunidade segura e forte.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma característica de uma comunidade saudável?",
+      "options": [
+        "Famílias que não se ajudam mutuamente",
+        "Famílias que se respeitam mutuamente",
+        "Famílias que competem entre si",
+        "Famílias que não se importam com a comunidade"
+      ],
+      "correct": 1,
+      "explanation": "Uma característica de uma comunidade saudável é que as famílias se respeitam e se ajudam mutuamente.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o papel da comunidade na vida das famílias?",
+      "options": [
+        "Proteger as famílias",
+        "Ensinar as famílias",
+        "Ajudar as famílias",
+        "Todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "A comunidade desempenha um papel importante na vida das famílias, protegendo-as, ensinando-as e ajudando-as.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é uma forma de as famílias contribuirem para a comunidade?",
+      "options": [
+        "Ajudar os outros",
+        "Trabalhar juntas",
+        "Pagar impostos",
+        "Competir entre si"
+      ],
+      "correct": 3,
+      "explanation": "Competir entre si não é uma forma de as famílias contribuirem para a comunidade, pois pode criar conflitos e desunião.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: As famílias podem _______ para melhorar a comunidade",
+      "options": [
+        "construir parques",
+        "criar escolas",
+        "ajudar os outros",
+        "todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "As famílias podem construir parques, criar escolas e ajudar os outros para melhorar a comunidade.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as famílias devem se respeitar mutuamente?",
+      "options": [
+        "Porque elas são diferentes",
+        "Porque elas têm culturas diferentes",
+        "Porque elas têm opiniões diferentes",
+        "Porque elas são parte da mesma comunidade"
+      ],
+      "correct": 3,
+      "explanation": "As famílias devem se respeitar mutuamente porque elas são parte da mesma comunidade e precisam trabalhar juntas para o bem-estar de todos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando as famílias não se respeitam mutuamente?",
+      "options": [
+        "A comunidade se torna mais forte",
+        "A comunidade se torna mais fraca",
+        "A comunidade não muda",
+        "A comunidade se torna mais feliz"
+      ],
+      "correct": 1,
+      "explanation": "Quando as famílias não se respeitam mutuamente, a comunidade pode se tornar mais fraca e ter mais problemas sociais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de uma comunidade que tem famílias fortes e unidas?",
+      "options": [
+        "A comunidade se torna mais pobre",
+        "A comunidade se torna mais desorganizada",
+        "A comunidade se torna mais segura e próspera",
+        "A comunidade se torna mais infeliz"
+      ],
+      "correct": 2,
+      "explanation": "Uma comunidade que tem famílias fortes e unidas pode se tornar mais segura e próspera, com menos problemas sociais.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: As famílias devem _______ para manter a comunidade unida",
+      "options": [
+        "trabalhar juntas",
+        "ajudar os outros",
+        "respeitar as diferenças",
+        "todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "As famílias devem trabalhar juntas, ajudar os outros e respeitar as diferenças para manter a comunidade unida.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma característica de uma família saudável?",
+      "options": [
+        "Respeito mútuo",
+        "Competição",
+        "Desrespeito",
+        "Indiferença"
+      ],
+      "correct": 0,
+      "explanation": "Uma característica de uma família saudável é o respeito mútuo entre os membros.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o papel da família na educação das crianças?",
+      "options": [
+        "Ensinar a ler e escrever",
+        "Ensinar a respeitar os outros",
+        "Ensinar a competir",
+        "Todos os acima"
+      ],
+      "correct": 3,
+      "explanation": "A família desempenha um papel importante na educação das crianças, ensinando a ler e escrever, a respeitar os outros e a competir de forma saudável.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    }
+  ],
+  "Povos Indígenas do Brasil": [
+    {
+      "question": "O que são os Povos Indígenas do Brasil?",
+      "options": [
+        "Grupos de pessoas que vieram da Europa",
+        "Grupos de pessoas que vivem nas cidades",
+        "Grupos de pessoas que vivem nas florestas e são os primeiros habitantes do Brasil",
+        "Grupos de pessoas que vivem no litoral"
+      ],
+      "correct": 2,
+      "explanation": "Os Povos Indígenas são os primeiros habitantes do Brasil, que vivem nas florestas e têm suas próprias culturas e tradições.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a definição de aldeia?",
+      "options": [
+        "Um grupo de casas",
+        "Um local de caça",
+        "Um local de pesca",
+        "Um local de comércio"
+      ],
+      "correct": 0,
+      "explanation": "Uma aldeia é um grupo de casas onde os Povos Indígenas vivem.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é uma tribo?",
+      "options": [
+        "Um grupo de amigos",
+        "Um grupo de familiares",
+        "Um grupo de pessoas que compartilham a mesma cultura e tradição",
+        "Um grupo de pessoas que vivem na mesma cidade"
+      ],
+      "correct": 2,
+      "explanation": "Uma tribo é um grupo de pessoas que compartilham a mesma cultura e tradição.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do líder de uma tribo?",
+      "options": [
+        "Cacique",
+        "Chefe",
+        "Líder",
+        "Rei"
+      ],
+      "correct": 0,
+      "explanation": "O líder de uma tribo é chamado de cacique.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que os Povos Indígenas usam para se proteger do sol e da chuva?",
+      "options": [
+        "Casas",
+        "Tendas",
+        "Cobertores",
+        "Roupas"
+      ],
+      "correct": 1,
+      "explanation": "Os Povos Indígenas usam tendas para se proteger do sol e da chuva.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a principal fonte de alimento dos Povos Indígenas?",
+      "options": [
+        "Caça",
+        "Pesca",
+        "Agricultura",
+        "Comércio"
+      ],
+      "correct": 0,
+      "explanation": "A principal fonte de alimento dos Povos Indígenas é a caça.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que os Povos Indígenas fazem para se comunicar?",
+      "options": [
+        "Falam português",
+        "Falam inglês",
+        "Usam uma língua própria",
+        "Usam gestos"
+      ],
+      "correct": 2,
+      "explanation": "Os Povos Indígenas usam uma língua própria para se comunicar.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome da festa que os Povos Indígenas realizam para celebrar a colheita?",
+      "options": [
+        "Festa da Colheita",
+        "Festa do Sol",
+        "Festa da Lua",
+        "Festa do Milho"
+      ],
+      "correct": 0,
+      "explanation": "A festa que os Povos Indígenas realizam para celebrar a colheita é chamada de Festa da Colheita.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que não é uma característica dos Povos Indígenas?",
+      "options": [
+        "Vivem nas cidades",
+        "Vivem nas florestas",
+        "Têm suas próprias culturas e tradições",
+        "São os primeiros habitantes do Brasil"
+      ],
+      "correct": 0,
+      "explanation": "Os Povos Indígenas não vivem nas cidades.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual afirmação sobre os Povos Indígenas é falsa?",
+      "options": [
+        "São os primeiros habitantes do Brasil",
+        "Vivem nas florestas",
+        "Têm suas próprias culturas e tradições",
+        "São originários da Europa"
+      ],
+      "correct": 3,
+      "explanation": "Os Povos Indígenas não são originários da Europa.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: Os Povos Indígenas vivem em ___",
+      "options": [
+        "cidades",
+        "florestas",
+        "montanhas",
+        "praias"
+      ],
+      "correct": 1,
+      "explanation": "Os Povos Indígenas vivem em florestas.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado quando os Povos Indígenas são expulsos de suas terras?",
+      "options": [
+        "Eles se adaptam facilmente à vida nas cidades",
+        "Eles perdem sua cultura e tradição",
+        "Eles se tornam mais ricos",
+        "Eles se tornam mais felizes"
+      ],
+      "correct": 1,
+      "explanation": "Quando os Povos Indígenas são expulsos de suas terras, eles perdem sua cultura e tradição.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que os Povos Indígenas são importantes para o meio ambiente?",
+      "options": [
+        "Eles são especialistas em destruir a natureza",
+        "Eles são especialistas em proteger a natureza",
+        "Eles não têm relação com o meio ambiente",
+        "Eles são indiferentes ao meio ambiente"
+      ],
+      "correct": 1,
+      "explanation": "Os Povos Indígenas são importantes para o meio ambiente porque eles são especialistas em proteger a natureza.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando os Povos Indígenas são respeitados e valorizados?",
+      "options": [
+        "Eles se tornam mais pobres",
+        "Eles se tornam mais felizes",
+        "Eles perdem sua cultura e tradição",
+        "Eles se tornam mais agressivos"
+      ],
+      "correct": 1,
+      "explanation": "Quando os Povos Indígenas são respeitados e valorizados, eles se tornam mais felizes.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a consequência da destruição das florestas onde os Povos Indígenas vivem?",
+      "options": [
+        "Os Povos Indígenas se tornam mais ricos",
+        "Os Povos Indígenas perdem sua cultura e tradição",
+        "Os Povos Indígenas se tornam mais felizes",
+        "Os Povos Indígenas se tornam mais saudáveis"
+      ],
+      "correct": 1,
+      "explanation": "A destruição das florestas onde os Povos Indígenas vivem faz com que eles percam sua cultura e tradição.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se os Povos Indígenas forem expulsos de suas terras, o que acontecerá com sua língua?",
+      "options": [
+        "Ela se tornará mais forte",
+        "Ela se tornará mais fraca",
+        "Ela desaparecerá",
+        "Ela não será afetada"
+      ],
+      "correct": 2,
+      "explanation": "Se os Povos Indígenas forem expulsos de suas terras, sua língua desaparecerá.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o papel dos Povos Indígenas na sociedade brasileira?",
+      "options": [
+        "Eles são apenas turistas",
+        "Eles são apenas trabalhadores",
+        "Eles são os primeiros habitantes e têm uma cultura rica",
+        "Eles são apenas estudantes"
+      ],
+      "correct": 2,
+      "explanation": "Os Povos Indígenas são os primeiros habitantes do Brasil e têm uma cultura rica.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que os Povos Indígenas fazem para se defender?",
+      "options": [
+        "Eles usam armas de fogo",
+        "Eles usam armas brancas",
+        "Eles usam sua cultura e tradição",
+        "Eles usam a força física"
+      ],
+      "correct": 2,
+      "explanation": "Os Povos Indígenas usam sua cultura e tradição para se defender.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a importância da preservação da cultura indígena?",
+      "options": [
+        "Ela é importante apenas para os Povos Indígenas",
+        "Ela é importante apenas para a sociedade brasileira",
+        "Ela é importante para a humanidade",
+        "Ela não é importante"
+      ],
+      "correct": 2,
+      "explanation": "A preservação da cultura indígena é importante para a humanidade.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando a cultura indígena é destruída?",
+      "options": [
+        "Ela se torna mais forte",
+        "Ela se torna mais fraca",
+        "Ela desaparece e não pode ser recuperada",
+        "Ela não é afetada"
+      ],
+      "correct": 2,
+      "explanation": "Quando a cultura indígena é destruída, ela desaparece e não pode ser recuperada.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ]
+}

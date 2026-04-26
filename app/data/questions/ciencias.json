@@ -1,0 +1,3588 @@
+{
+  "Saúde e Higiene": [
+    {
+      "question": "O que é higiene?",
+      "options": [
+        "Limpar a casa",
+        "Lavar as mãos",
+        "Comer frutas",
+        "Jogar futebol"
+      ],
+      "correct": 1,
+      "explanation": "Higiene é a prática de manter o corpo e o ambiente limpos e saudáveis.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que devemos lavar as mãos antes de comer?",
+      "options": [
+        "Para não sujar a comida",
+        "Para não fazer barulho",
+        "Para matar os germes",
+        "Para secar as mãos"
+      ],
+      "correct": 2,
+      "explanation": "Lavar as mãos antes de comer ajuda a matar os germes e prevenir doenças.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a melhor maneira de manter os dentes saudáveis?",
+      "options": [
+        "Comer muitos doces",
+        "Não escovar os dentes",
+        "Escovar os dentes duas vezes ao dia",
+        "Beber muito café"
+      ],
+      "correct": 2,
+      "explanation": "Escovar os dentes duas vezes ao dia ajuda a manter os dentes saudáveis e fortes.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que não é uma boa maneira de manter a saúde?",
+      "options": [
+        "Comer frutas e legumes",
+        "Fazer exercícios",
+        "Dormir o suficiente",
+        "Fumar"
+      ],
+      "correct": 3,
+      "explanation": "Fumar é uma má escolha para a saúde e pode causar muitos problemas.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Para manter a saúde, é importante ___________",
+      "options": [
+        "comer muito",
+        "dormir pouco",
+        "beber água",
+        "assistir TV"
+      ],
+      "correct": 2,
+      "explanation": "Beber água é essencial para manter o corpo saudável e hidratado.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante tomar banho regularmente?",
+      "options": [
+        "Para se sentir bem",
+        "Para se vestir melhor",
+        "Para manter a pele saudável",
+        "Para fazer amigos"
+      ],
+      "correct": 2,
+      "explanation": "Tomar banho regularmente ajuda a manter a pele saudável e limpa.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma boa maneira de prevenir a propagação de doenças?",
+      "options": [
+        "Tocar em todos os objetos",
+        "Lavar as mãos frequentemente",
+        "Compartilhar objetos pessoais",
+        "Não cobrir a boca ao tossir"
+      ],
+      "correct": 1,
+      "explanation": "Lavar as mãos frequentemente é uma boa maneira de prevenir a propagação de doenças.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o benefício de comer uma dieta equilibrada?",
+      "options": [
+        "Perder peso rapidamente",
+        "Ganhar músculos",
+        "Manter a saúde e a energia",
+        "Ter mais tempo para jogar"
+      ],
+      "correct": 2,
+      "explanation": "Comer uma dieta equilibrada ajuda a manter a saúde e a energia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é um exemplo de higiene pessoal?",
+      "options": [
+        "Lavar as mãos",
+        "Tomar banho",
+        "Escovar os dentes",
+        "Comer na rua"
+      ],
+      "correct": 3,
+      "explanation": "Comer na rua não é um exemplo de higiene pessoal, pois pode ser sujo e perigoso.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Para manter a saúde dos olhos, é importante ___________",
+      "options": [
+        "ler muito",
+        "assistir TV",
+        "usar óculos de sol",
+        "não dormir"
+      ],
+      "correct": 2,
+      "explanation": "Usar óculos de sol ajuda a proteger os olhos do sol e manter a saúde dos olhos.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante fazer exercícios regularmente?",
+      "options": [
+        "Para se sentir cansado",
+        "Para se vestir melhor",
+        "Para manter a saúde e a forma física",
+        "Para fazer amigos"
+      ],
+      "correct": 2,
+      "explanation": "Fazer exercícios regularmente ajuda a manter a saúde e a forma física.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma boa maneira de manter a saúde mental?",
+      "options": [
+        "Assistir TV o dia todo",
+        "Jogar videogames",
+        "Praticar esportes",
+        "Falar com amigos e familiares"
+      ],
+      "correct": 3,
+      "explanation": "Falar com amigos e familiares é uma boa maneira de manter a saúde mental e se sentir conectado.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o benefício de dormir o suficiente?",
+      "options": [
+        "Perder peso rapidamente",
+        "Ganhar músculos",
+        "Manter a saúde e a energia",
+        "Ter mais tempo para jogar"
+      ],
+      "correct": 2,
+      "explanation": "Dormir o suficiente ajuda a manter a saúde e a energia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é um exemplo de atividade física saudável?",
+      "options": [
+        "Correr",
+        "Nadar",
+        "Caminhar",
+        "Fumar"
+      ],
+      "correct": 3,
+      "explanation": "Fumar não é um exemplo de atividade física saudável, pois é prejudicial à saúde.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Para manter a saúde dos ouvidos, é importante ___________",
+      "options": [
+        "ouvir música alta",
+        "usar protetores de ouvido",
+        "falar alto",
+        "não dormir"
+      ],
+      "correct": 1,
+      "explanation": "Usar protetores de ouvido ajuda a proteger os ouvidos do barulho e manter a saúde dos ouvidos.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante manter a casa limpa e organizada?",
+      "options": [
+        "Para se sentir bem",
+        "Para se vestir melhor",
+        "Para manter a saúde e a segurança",
+        "Para fazer amigos"
+      ],
+      "correct": 2,
+      "explanation": "Manter a casa limpa e organizada ajuda a manter a saúde e a segurança.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma boa maneira de prevenir a propagação de doenças respiratórias?",
+      "options": [
+        "Tocar em todos os objetos",
+        "Lavar as mãos frequentemente",
+        "Compartilhar objetos pessoais",
+        "Não cobrir a boca ao tossir"
+      ],
+      "correct": 1,
+      "explanation": "Lavar as mãos frequentemente é uma boa maneira de prevenir a propagação de doenças respiratórias.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o benefício de praticar esportes?",
+      "options": [
+        "Perder peso rapidamente",
+        "Ganhar músculos",
+        "Manter a saúde e a forma física",
+        "Ter mais tempo para jogar"
+      ],
+      "correct": 2,
+      "explanation": "Praticar esportes ajuda a manter a saúde e a forma física.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é um exemplo de alimento saudável?",
+      "options": [
+        "Frutas",
+        "Legumes",
+        "Nozes",
+        "Doces"
+      ],
+      "correct": 3,
+      "explanation": "Doces não são um exemplo de alimento saudável, pois são ricos em açúcar e calorias.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Para manter a saúde dos pés, é importante ___________",
+      "options": [
+        "usar sapatos apertados",
+        "não lavar os pés",
+        "usar meias limpas",
+        "não caminhar"
+      ],
+      "correct": 2,
+      "explanation": "Usar meias limpas ajuda a manter a saúde dos pés e prevenir problemas.",
+      "type": "completar",
+      "difficulty": "facil"
+    }
+  ],
+  "Ciclo da Água": [
+    {
+      "question": "O que é o Ciclo da Água?",
+      "options": [
+        "O processo de formação de montanhas",
+        "O movimento da água na Terra",
+        "A forma como as plantas crescem",
+        "A mudança das estações do ano"
+      ],
+      "correct": 1,
+      "explanation": "O Ciclo da Água é o movimento contínuo da água na Terra, incluindo evaporação, condensação e precipitação.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a primeira etapa do Ciclo da Água?",
+      "options": [
+        "Precipitação",
+        "Evaporação",
+        "Condensação",
+        "Infiltração"
+      ],
+      "correct": 1,
+      "explanation": "A evaporação é a primeira etapa do Ciclo da Água, onde a água se transforma em vapor.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece com a água quando ela evapora?",
+      "options": [
+        "Ela se transforma em gelo",
+        "Ela se transforma em vapor",
+        "Ela se transforma em poeira",
+        "Ela desaparece"
+      ],
+      "correct": 1,
+      "explanation": "Quando a água evapora, ela se transforma em vapor, que sobe para a atmosfera.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o processo pelo qual a água se transforma em vapor?",
+      "options": [
+        "Condensação",
+        "Evaporação",
+        "Precipitação",
+        "Infiltração"
+      ],
+      "correct": 1,
+      "explanation": "A evaporação é o processo pelo qual a água se transforma em vapor.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é condensação?",
+      "options": [
+        "O processo de formação de nuvens",
+        "O processo de formação de chuva",
+        "O processo de transformação de vapor em líquido",
+        "O processo de transformação de líquido em sólido"
+      ],
+      "correct": 2,
+      "explanation": "A condensação é o processo pelo qual o vapor d'água se transforma em líquido, formando gotículas de água.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado da condensação?",
+      "options": [
+        "A formação de nuvens",
+        "A formação de chuva",
+        "A formação de gelo",
+        "A formação de poeira"
+      ],
+      "correct": 0,
+      "explanation": "A condensação resulta na formação de nuvens, que podem produzir chuva ou outros tipos de precipitação.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é precipitação?",
+      "options": [
+        "O processo de formação de nuvens",
+        "O processo de formação de chuva",
+        "O processo de transformação de vapor em líquido",
+        "O processo de transformação de líquido em sólido"
+      ],
+      "correct": 1,
+      "explanation": "A precipitação é o processo pelo qual a água cai da atmosfera para a Terra, podendo ser chuva, neve, granizo, etc.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o tipo de precipitação que ocorre quando a temperatura é abaixo de 0°C?",
+      "options": [
+        "Chuva",
+        "Neve",
+        "Granizo",
+        "Gelo"
+      ],
+      "correct": 1,
+      "explanation": "A neve é o tipo de precipitação que ocorre quando a temperatura é abaixo de 0°C.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é infiltração?",
+      "options": [
+        "O processo de formação de nuvens",
+        "O processo de formação de chuva",
+        "O processo de absorção de água pelo solo",
+        "O processo de transformação de vapor em líquido"
+      ],
+      "correct": 2,
+      "explanation": "A infiltração é o processo pelo qual a água é absorvida pelo solo, tornando-se água subterrânea.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado da infiltração?",
+      "options": [
+        "A formação de nuvens",
+        "A formação de chuva",
+        "A recarga de água subterrânea",
+        "A formação de poeira"
+      ],
+      "correct": 2,
+      "explanation": "A infiltração resulta na recarga de água subterrânea, que é importante para a manutenção da vida na Terra.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma etapa do Ciclo da Água?",
+      "options": [
+        "Evaporação",
+        "Condensação",
+        "Precipitação",
+        "Fotossíntese"
+      ],
+      "correct": 3,
+      "explanation": "A fotossíntese não é uma etapa do Ciclo da Água, mas sim um processo pelo qual as plantas produzem energia.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: evaporação, condensação, ___",
+      "options": [
+        "Precipitação",
+        "Infiltração",
+        "Fotossíntese",
+        "Respiração"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: evaporação, condensação, precipitação.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece com a água subterrânea?",
+      "options": [
+        "Ela evapora",
+        "Ela se transforma em vapor",
+        "Ela é absorvida pelas plantas",
+        "Ela desaparece"
+      ],
+      "correct": 2,
+      "explanation": "A água subterrânea é absorvida pelas plantas, que a utilizam para realizar a fotossíntese.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que a evaporação é importante?",
+      "options": [
+        "Porque ela forma nuvens",
+        "Porque ela produz chuva",
+        "Porque ela ajuda a regular a temperatura da Terra",
+        "Porque ela é necessária para a vida"
+      ],
+      "correct": 3,
+      "explanation": "A evaporação é importante porque ela é necessária para a vida, pois ajuda a manter o ciclo da água em movimento.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando a água cai da atmosfera para a Terra?",
+      "options": [
+        "Ela evapora",
+        "Ela se transforma em vapor",
+        "Ela forma precipitação",
+        "Ela desaparece"
+      ],
+      "correct": 2,
+      "explanation": "Quando a água cai da atmosfera para a Terra, ela forma precipitação, que pode ser chuva, neve, granizo, etc.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado da falta de chuva?",
+      "options": [
+        "A formação de nuvens",
+        "A formação de chuva",
+        "A seca",
+        "A inundaçao"
+      ],
+      "correct": 2,
+      "explanation": "A falta de chuva pode resultar em seca, que é um período prolongado de tempo seco.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um exemplo de ciclo da água em um ecossistema?",
+      "options": [
+        "O ciclo da água em um rio",
+        "O ciclo da água em um lago",
+        "O ciclo da água em uma floresta",
+        "O ciclo da água em um deserto"
+      ],
+      "correct": 2,
+      "explanation": "Um exemplo de ciclo da água em um ecossistema é o ciclo da água em uma floresta, onde a água é absorvida pelas plantas e evapora para a atmosfera.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o papel das plantas no ciclo da água?",
+      "options": [
+        "Elas absorvem água do solo",
+        "Elas produzem água",
+        "Elas evaporam água",
+        "Elas desaparecem"
+      ],
+      "correct": 0,
+      "explanation": "As plantas absorvem água do solo e a utilizam para realizar a fotossíntese, ajudando a manter o ciclo da água em movimento.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece com a água que cai na Terra?",
+      "options": [
+        "Ela evapora",
+        "Ela se transforma em vapor",
+        "Ela forma precipitação",
+        "Ela é absorvida pelo solo"
+      ],
+      "correct": 3,
+      "explanation": "A água que cai na Terra pode ser absorvida pelo solo, tornando-se água subterrânea.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado da infiltração da água no solo?",
+      "options": [
+        "A formação de nuvens",
+        "A formação de chuva",
+        "A recarga de água subterrânea",
+        "A seca"
+      ],
+      "correct": 2,
+      "explanation": "A infiltração da água no solo resulta na recarga de água subterrânea, que é importante para a manutenção da vida na Terra.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Corpo Humano Básico": [
+    {
+      "question": "O que é o sistema circulatório?",
+      "options": [
+        "O sistema que ajuda a respirar",
+        "O sistema que ajuda a digerir alimentos",
+        "O sistema que transporta sangue e oxigênio pelo corpo",
+        "O sistema que ajuda a ouvir"
+      ],
+      "correct": 2,
+      "explanation": "O sistema circulatório é responsável por transportar sangue e oxigênio pelo corpo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do coração?",
+      "options": [
+        "Bater os pés",
+        "Comer alimentos",
+        "Transportar sangue pelo corpo",
+        "Ver o mundo ao redor"
+      ],
+      "correct": 2,
+      "explanation": "O coração é o órgão que bate e transporta sangue pelo corpo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com fome, qual é a parte do corpo que vai me ajudar a comer?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 2,
+      "explanation": "A boca é a parte do corpo que vai nos ajudar a comer.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema digestivo?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Bexiga",
+        "Estômago"
+      ],
+      "correct": 0,
+      "explanation": "O pulmão não é um órgão do sistema digestivo, ele é parte do sistema respiratório.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Cabeça, Pescoço, ___, Tronco, Braços, Pernas, Pés.",
+      "options": [
+        "Coração",
+        "Pulmão",
+        "Cabeça",
+        "Pernas"
+      ],
+      "correct": 1,
+      "explanation": "O corpo humano é composto por várias partes, incluindo a cabeça, pescoço, coração, pulmão, tronco, braços, pernas e pés.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que precisamos de alimentos para sobreviver?",
+      "options": [
+        "Para crescer",
+        "Para dormir",
+        "Para respirar",
+        "Para ter energia"
+      ],
+      "correct": 3,
+      "explanation": "Os alimentos nos dão energia para realizar as atividades diárias.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a parte do corpo que ajuda a ouvir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 1,
+      "explanation": "As orelhas são as partes do corpo que nos ajudam a ouvir.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com sede, qual é a parte do corpo que vai me ajudar a beber?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 2,
+      "explanation": "A boca é a parte do corpo que vai nos ajudar a beber.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema respiratório?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Bexiga",
+        "Estômago"
+      ],
+      "correct": 1,
+      "explanation": "O fígado não é um órgão do sistema respiratório, ele é parte do sistema digestivo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 2, 4, ___, 16.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "A sequência é de números que aumentam em 2.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que precisamos de sono para sobreviver?",
+      "options": [
+        "Para crescer",
+        "Para dormir",
+        "Para respirar",
+        "Para ter energia"
+      ],
+      "correct": 3,
+      "explanation": "O sono nos ajuda a recarregar as energias e a realizar as atividades diárias.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a parte do corpo que ajuda a ver?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 0,
+      "explanation": "Os olhos são as partes do corpo que nos ajudam a ver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com dor de cabeça, qual é a parte do corpo que vai me ajudar a sentir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 0,
+      "explanation": "Os olhos são as partes do corpo que nos ajudam a sentir e a ver.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema circulatório?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Bexiga",
+        "Estômago"
+      ],
+      "correct": 2,
+      "explanation": "O fígado não é um órgão do sistema circulatório, ele é parte do sistema digestivo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Cabeça, Pescoço, Coração, Pulmão, ___, Braços, Pernas, Pés.",
+      "options": [
+        "Tronco",
+        "Coração",
+        "Pulmão",
+        "Braços"
+      ],
+      "correct": 0,
+      "explanation": "O corpo humano é composto por várias partes, incluindo a cabeça, pescoço, coração, pulmão, tronco, braços, pernas e pés.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que precisamos de água para sobreviver?",
+      "options": [
+        "Para crescer",
+        "Para dormir",
+        "Para respirar",
+        "Para ter energia"
+      ],
+      "correct": 3,
+      "explanation": "A água nos ajuda a ter energia e a realizar as atividades diárias.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a parte do corpo que ajuda a ouvir e a sentir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 1,
+      "explanation": "As orelhas são as partes do corpo que nos ajudam a ouvir e a sentir.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com fome, qual é a parte do corpo que vai me ajudar a sentir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 2,
+      "explanation": "A boca é a parte do corpo que nos ajuda a sentir e a comer.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema digestivo?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Bexiga",
+        "Estômago"
+      ],
+      "correct": 0,
+      "explanation": "O pulmão não é um órgão do sistema digestivo, ele é parte do sistema respiratório.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 4, 8, ___, 32.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é de números que aumentam em 4.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que precisamos de sono para crescer?",
+      "options": [
+        "Para dormir",
+        "Para respirar",
+        "Para ter energia",
+        "Para recarregar as energias"
+      ],
+      "correct": 4,
+      "explanation": "O sono nos ajuda a recarregar as energias e a crescer.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a parte do corpo que ajuda a ver e a sentir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 0,
+      "explanation": "Os olhos são as partes do corpo que nos ajudam a ver e a sentir.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com sede, qual é a parte do corpo que vai me ajudar a sentir?",
+      "options": [
+        "Olhos",
+        "Orelhas",
+        "Boca",
+        "Pés"
+      ],
+      "correct": 2,
+      "explanation": "A boca é a parte do corpo que nos ajuda a sentir e a beber.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema circulatório?",
+      "options": [
+        "Pulmão",
+        "Fígado",
+        "Bexiga",
+        "Estômago"
+      ],
+      "correct": 2,
+      "explanation": "O fígado não é um órgão do sistema circulatório, ele é parte do sistema digestivo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: Cabeça, Pescoço, Coração, Pulmão, Tronco, ___, Braços, Pernas, Pés.",
+      "options": [
+        "Braços",
+        "Pernas",
+        "Coração",
+        "Pulmão"
+      ],
+      "correct": 2,
+      "explanation": "O corpo humano é composto por várias partes, incluindo a cabeça, pescoço, coração, pulmão, tronco, braços, pernas e pés.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que precisamos de água para crescer?",
+      "options": [
+        "Para dormir",
+        "Para respirar",
+        "Para ter energia",
+        "Para recarregar as energias"
+      ],
+      "correct": 4,
+      "explanation": "A água nos ajuda a recarregar as energias e a crescer.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    }
+  ],
+  "Animais Vertebrados e Invertebrados": [
+    {
+      "question": "O que significa Vertebrado?",
+      "options": [
+        "Um animal que tem quatro pernas",
+        "Um animal que tem um esqueleto interno",
+        "Um animal que tem uma cauda",
+        "Um animal que tem olhos"
+      ],
+      "correct": 1,
+      "explanation": "Os vertebrados têm um esqueleto interno que protege os órgãos internos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal invertebrado?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pássaro"
+      ],
+      "correct": 2,
+      "explanation": "A lagarta não tem um esqueleto interno, então é um exemplo de um animal invertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os peixes são vertebrados?",
+      "options": [
+        "Porque têm quatro pernas",
+        "Porque têm um esqueleto interno",
+        "Porque têm olhos",
+        "Porque nadam"
+      ],
+      "correct": 1,
+      "explanation": "Os peixes têm um esqueleto interno que protege os órgãos internos, então são vertebrados.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de um animal vertebrado?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pássaro"
+      ],
+      "correct": 2,
+      "explanation": "A lagarta não é um exemplo de um animal vertebrado porque não tem um esqueleto interno.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um animal é vertebrado?",
+      "options": [
+        "Ele tem quatro pernas",
+        "Ele tem um esqueleto interno",
+        "Ele tem olhos",
+        "Ele é invertebrado"
+      ],
+      "correct": 1,
+      "explanation": "Quando um animal é vertebrado, ele tem um esqueleto interno que protege os órgãos internos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal invertebrado que vive na água?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Salmão"
+      ],
+      "correct": 3,
+      "explanation": "O salmão não tem um esqueleto interno, então é um exemplo de um animal invertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa Invertebrado?",
+      "options": [
+        "Um animal que tem quatro pernas",
+        "Um animal que tem um esqueleto interno",
+        "Um animal que tem uma cauda",
+        "Um animal que não tem um esqueleto interno"
+      ],
+      "correct": 3,
+      "explanation": "Os invertebrados não têm um esqueleto interno que protege os órgãos internos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os insetos são invertebrados?",
+      "options": [
+        "Porque têm quatro pernas",
+        "Porque têm um esqueleto interno",
+        "Porque têm olhos",
+        "Porque não têm um esqueleto interno"
+      ],
+      "correct": 3,
+      "explanation": "Os insetos não têm um esqueleto interno, então são invertebrados.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal vertebrado que vive na água?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pinguim"
+      ],
+      "correct": 3,
+      "explanation": "O pinguim tem um esqueleto interno, então é um exemplo de um animal vertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um animal é invertebrado?",
+      "options": [
+        "Ele tem quatro pernas",
+        "Ele tem um esqueleto interno",
+        "Ele tem olhos",
+        "Ele não tem um esqueleto interno"
+      ],
+      "correct": 3,
+      "explanation": "Quando um animal é invertebrado, ele não tem um esqueleto interno que protege os órgãos internos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de um animal invertebrado?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pássaro"
+      ],
+      "correct": 0,
+      "explanation": "O gato tem um esqueleto interno, então não é um exemplo de um animal invertebrado.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal vertebrado que tem quatro pernas?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pássaro"
+      ],
+      "correct": 0,
+      "explanation": "O gato tem quatro pernas e um esqueleto interno, então é um exemplo de um animal vertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa Vertebrado?",
+      "options": [
+        "Um animal que não tem um esqueleto interno",
+        "Um animal que tem quatro pernas",
+        "Um animal que tem um esqueleto interno",
+        "Um animal que tem uma cauda"
+      ],
+      "correct": 2,
+      "explanation": "Os vertebrados têm um esqueleto interno que protege os órgãos internos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os peixes são vertebrados?",
+      "options": [
+        "Porque têm quatro pernas",
+        "Porque têm um esqueleto interno",
+        "Porque têm olhos",
+        "Porque nadam"
+      ],
+      "correct": 1,
+      "explanation": "Os peixes têm um esqueleto interno que protege os órgãos internos, então são vertebrados.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal invertebrado que vive na terra?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Sapo"
+      ],
+      "correct": 2,
+      "explanation": "A lagarta não tem um esqueleto interno, então é um exemplo de um animal invertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um animal é vertebrado?",
+      "options": [
+        "Ele tem quatro pernas",
+        "Ele tem um esqueleto interno",
+        "Ele tem olhos",
+        "Ele é invertebrado"
+      ],
+      "correct": 1,
+      "explanation": "Quando um animal é vertebrado, ele tem um esqueleto interno que protege os órgãos internos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de um animal vertebrado?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pássaro"
+      ],
+      "correct": 2,
+      "explanation": "A lagarta não é um exemplo de um animal vertebrado porque não tem um esqueleto interno.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal invertebrado que tem seis pernas?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Formiga"
+      ],
+      "correct": 3,
+      "explanation": "A formiga não tem um esqueleto interno, então é um exemplo de um animal invertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que significa Invertebrado?",
+      "options": [
+        "Um animal que tem quatro pernas",
+        "Um animal que tem um esqueleto interno",
+        "Um animal que tem uma cauda",
+        "Um animal que não tem um esqueleto interno"
+      ],
+      "correct": 3,
+      "explanation": "Os invertebrados não têm um esqueleto interno que protege os órgãos internos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os insetos são invertebrados?",
+      "options": [
+        "Porque têm quatro pernas",
+        "Porque têm um esqueleto interno",
+        "Porque têm olhos",
+        "Porque não têm um esqueleto interno"
+      ],
+      "correct": 3,
+      "explanation": "Os insetos não têm um esqueleto interno, então são invertebrados.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um animal vertebrado que tem uma cauda?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Lagarta",
+        "Pinguim"
+      ],
+      "correct": 2,
+      "explanation": "O cachorro tem uma cauda e um esqueleto interno, então é um exemplo de um animal vertebrado.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Meio Ambiente e Sustentabilidade": [
+    {
+      "question": "O que é meio ambiente?",
+      "options": [
+        "Tudo que está ao nosso redor",
+        "Apenas os animais",
+        "Apenas as plantas",
+        "Apenas a água"
+      ],
+      "correct": 0,
+      "explanation": "O meio ambiente é tudo o que está ao nosso redor, incluindo animais, plantas, água, ar e solo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância de reciclar?",
+      "options": [
+        "Para economizar dinheiro",
+        "Para ajudar o meio ambiente",
+        "Para fazer arte",
+        "Para brincar"
+      ],
+      "correct": 1,
+      "explanation": "Reciclar ajuda a reduzir a quantidade de lixo e a conservar os recursos naturais.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que não é uma forma de poluição?",
+      "options": [
+        "Lixo nas ruas",
+        "Fumaça dos carros",
+        "Água limpa",
+        "Barulho excessivo"
+      ],
+      "correct": 2,
+      "explanation": "Água limpa não é uma forma de poluição, pois é essencial para a vida.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: A _______ é um exemplo de fonte de energia renovável.",
+      "options": [
+        "Petróleo",
+        "Carvão",
+        "Energia solar",
+        "Gás natural"
+      ],
+      "correct": 2,
+      "explanation": "A energia solar é um exemplo de fonte de energia renovável, pois é obtida do sol.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante conservar a água?",
+      "options": [
+        "Para ter mais tempo para brincar",
+        "Para economizar dinheiro",
+        "Para ajudar o meio ambiente",
+        "Para ter mais água para beber"
+      ],
+      "correct": 2,
+      "explanation": "Conservar a água ajuda a manter o equilíbrio do meio ambiente e a garantir a sobrevivência dos seres vivos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é sustentabilidade?",
+      "options": [
+        "Usar todos os recursos naturais",
+        "Conservar os recursos naturais para as gerações futuras",
+        "Poluir o meio ambiente",
+        "Desmatamento"
+      ],
+      "correct": 1,
+      "explanation": "Sustentabilidade é a prática de conservar os recursos naturais para as gerações futuras.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o efeito do desmatamento?",
+      "options": [
+        "Aumento da biodiversidade",
+        "Redução da poluição",
+        "Perda de habitats",
+        "Aumento da temperatura"
+      ],
+      "correct": 2,
+      "explanation": "O desmatamento pode levar à perda de habitats e à extinção de espécies.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é uma forma de reduzir a poluição do ar?",
+      "options": [
+        "Usar transporte público",
+        "Usar bicicleta",
+        "Queimar lixo",
+        "Plantar árvores"
+      ],
+      "correct": 2,
+      "explanation": "Queimar lixo aumenta a poluição do ar, em vez de reduzi-la.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: A _______ é um exemplo de prática sustentável.",
+      "options": [
+        "Caça",
+        "Pesca excessiva",
+        "Reciclagem",
+        "Desmatamento"
+      ],
+      "correct": 2,
+      "explanation": "A reciclagem é um exemplo de prática sustentável, pois ajuda a reduzir a quantidade de lixo.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se a população mundial continuar a crescer, qual será o resultado?",
+      "options": [
+        "Aumento da disponibilidade de recursos naturais",
+        "Redução da poluição",
+        "Aumento da competição por recursos",
+        "Redução da biodiversidade"
+      ],
+      "correct": 2,
+      "explanation": "O crescimento da população mundial pode levar a um aumento da competição por recursos naturais.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é biodiversidade?",
+      "options": [
+        "A variedade de espécies no planeta",
+        "A quantidade de lixo no planeta",
+        "A temperatura do planeta",
+        "A quantidade de água no planeta"
+      ],
+      "correct": 0,
+      "explanation": "A biodiversidade se refere à variedade de espécies no planeta.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o efeito do aquecimento global?",
+      "options": [
+        "Redução da temperatura",
+        "Aumento da temperatura",
+        "Redução da poluição",
+        "Aumento da biodiversidade"
+      ],
+      "correct": 1,
+      "explanation": "O aquecimento global pode levar a um aumento da temperatura do planeta.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é uma forma de conservar a água?",
+      "options": [
+        "Usar torneiras com vazamento",
+        "Tomar banhos longos",
+        "Usar baldes para coletar água da chuva",
+        "Fechar as torneiras enquanto se lava as mãos"
+      ],
+      "correct": 0,
+      "explanation": "Usar torneiras com vazamento desperdiça água, em vez de conservá-la.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: A _______ é um exemplo de tecnologia limpa.",
+      "options": [
+        "Usina nuclear",
+        "Usina termoelétrica",
+        "Painel solar",
+        "Veículo a gasolina"
+      ],
+      "correct": 2,
+      "explanation": "O painel solar é um exemplo de tecnologia limpa, pois gera energia sem poluir o meio ambiente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma empresa decide reduzir a quantidade de embalagens, qual será o resultado?",
+      "options": [
+        "Aumento da poluição",
+        "Redução da poluição",
+        "Aumento da competição",
+        "Redução da biodiversidade"
+      ],
+      "correct": 1,
+      "explanation": "Reduzir a quantidade de embalagens pode levar a uma redução da poluição.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é ecossistema?",
+      "options": [
+        "Um grupo de espécies que vivem juntas",
+        "Um tipo de poluição",
+        "Um tipo de recurso natural",
+        "Um tipo de tecnologia limpa"
+      ],
+      "correct": 0,
+      "explanation": "Um ecossistema é um grupo de espécies que vivem juntas e interagem entre si.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o efeito da perda de habitats?",
+      "options": [
+        "Aumento da biodiversidade",
+        "Redução da poluição",
+        "Extinção de espécies",
+        "Aumento da temperatura"
+      ],
+      "correct": 2,
+      "explanation": "A perda de habitats pode levar à extinção de espécies.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que não é uma forma de promover a sustentabilidade?",
+      "options": [
+        "Reciclar",
+        "Usar transporte público",
+        "Desmatamento",
+        "Conservar a água"
+      ],
+      "correct": 2,
+      "explanation": "O desmatamento é uma prática que prejudica o meio ambiente, em vez de promover a sustentabilidade.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: A _______ é um exemplo de indicador de sustentabilidade.",
+      "options": [
+        "Taxa de desmatamento",
+        "Taxa de poluição do ar",
+        "Índice de desenvolvimento humano",
+        "Taxa de crescimento econômico"
+      ],
+      "correct": 2,
+      "explanation": "O índice de desenvolvimento humano é um exemplo de indicador de sustentabilidade, pois mede a qualidade de vida das pessoas.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se um país decide investir em energias renováveis, qual será o resultado?",
+      "options": [
+        "Aumento da dependência de fontes de energia fósseis",
+        "Redução da poluição do ar",
+        "Aumento da competição por recursos",
+        "Redução da biodiversidade"
+      ],
+      "correct": 1,
+      "explanation": "Investir em energias renováveis pode levar a uma redução da poluição do ar.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Plantas e Fotossíntese": [
+    {
+      "question": "O que é fotossíntese?",
+      "options": [
+        "Processo de respiração das plantas",
+        "Processo de crescimento das plantas",
+        "Processo de produção de alimentos pelas plantas",
+        "Processo de decomposição da matéria orgânica"
+      ],
+      "correct": 2,
+      "explanation": "A fotossíntese é o processo pelo qual as plantas produzem alimentos a partir da luz solar, água e dióxido de carbono.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função das raízes das plantas?",
+      "options": [
+        "Absorver luz solar",
+        "Produzir flores",
+        "Absorver água e nutrientes do solo",
+        "Realizar a fotossíntese"
+      ],
+      "correct": 2,
+      "explanation": "As raízes das plantas são responsáveis por absorver água e nutrientes do solo, essenciais para o crescimento e desenvolvimento da planta.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que as plantas precisam para realizar a fotossíntese?",
+      "options": [
+        "Água, dióxido de carbono e luz solar",
+        "Água, oxigênio e escuridão",
+        "Dióxido de carbono, oxigênio e calor",
+        "Luz solar, água e nutrientes"
+      ],
+      "correct": 0,
+      "explanation": "As plantas precisam de água, dióxido de carbono e luz solar para realizar a fotossíntese e produzir alimentos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o produto principal da fotossíntese?",
+      "options": [
+        "Oxigênio",
+        "Dióxido de carbono",
+        "Água",
+        "Glicose"
+      ],
+      "correct": 3,
+      "explanation": "O produto principal da fotossíntese é a glicose, um tipo de açúcar que serve de alimento para as plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da fotossíntese para os seres vivos?",
+      "options": [
+        "Produzir oxigênio para os animais",
+        "Produzir alimentos para as plantas",
+        "Produzir dióxido de carbono para as plantas",
+        "Produzir água para os animais"
+      ],
+      "correct": 0,
+      "explanation": "A fotossíntese é importante porque produz oxigênio, essencial para a respiração dos animais, e alimentos para as plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Um jardim tem muitas plantas que precisam de luz solar para crescer. Qual é a melhor posição para o jardim?",
+      "options": [
+        "Em uma área sombreada",
+        "Em uma área ensolarada",
+        "Em uma área com vento forte",
+        "Em uma área com chuva frequente"
+      ],
+      "correct": 1,
+      "explanation": "As plantas precisam de luz solar para realizar a fotossíntese e crescer, então a melhor posição para o jardim é em uma área ensolarada.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o efeito da falta de luz solar nas plantas?",
+      "options": [
+        "Elas crescem mais rápido",
+        "Elas produzem mais flores",
+        "Elas realizam a fotossíntese mais eficientemente",
+        "Elas podem morrer ou crescer mais lentamente"
+      ],
+      "correct": 3,
+      "explanation": "A falta de luz solar pode afetar negativamente o crescimento das plantas, pois elas precisam de luz solar para realizar a fotossíntese e produzir alimentos.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a frase: As plantas realizam a fotossíntese para produzir _______.",
+      "options": [
+        "Oxigênio e dióxido de carbono",
+        "Água e nutrientes",
+        "Glicose e oxigênio",
+        "Dióxido de carbono e água"
+      ],
+      "correct": 2,
+      "explanation": "As plantas realizam a fotossíntese para produzir glicose e oxigênio.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que as plantas são importantes para o meio ambiente?",
+      "options": [
+        "Elas produzem dióxido de carbono",
+        "Elas consomem oxigênio",
+        "Elas produzem oxigênio e alimentos",
+        "Elas poluem o ar"
+      ],
+      "correct": 2,
+      "explanation": "As plantas são importantes porque produzem oxigênio e alimentos, essenciais para a vida na Terra.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado da fotossíntese em uma planta?",
+      "options": [
+        "A planta produz dióxido de carbono",
+        "A planta consome oxigênio",
+        "A planta produz glicose e oxigênio",
+        "A planta morre"
+      ],
+      "correct": 2,
+      "explanation": "A fotossíntese resulta na produção de glicose e oxigênio pela planta.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Um agricultor quer aumentar a produção de alimentos em sua plantação. Qual é a melhor estratégia?",
+      "options": [
+        "Reduzir a quantidade de água",
+        "Diminuir a quantidade de luz solar",
+        "Aumentar a quantidade de nutrientes no solo",
+        "Aumentar a quantidade de dióxido de carbono no ar"
+      ],
+      "correct": 2,
+      "explanation": "Aumentar a quantidade de nutrientes no solo pode ajudar a aumentar a produção de alimentos, pois as plantas precisam de nutrientes para crescer e produzir frutos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre a respiração das plantas e a respiração dos animais?",
+      "options": [
+        "As plantas produzem dióxido de carbono, enquanto os animais produzem oxigênio",
+        "As plantas consomem oxigênio, enquanto os animais consomem dióxido de carbono",
+        "As plantas produzem oxigênio, enquanto os animais produzem dióxido de carbono",
+        "As plantas e os animais têm o mesmo tipo de respiração"
+      ],
+      "correct": 2,
+      "explanation": "As plantas produzem oxigênio durante a fotossíntese, enquanto os animais produzem dióxido de carbono durante a respiração.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um jardim tem plantas que precisam de muita água para crescer. Qual é a melhor forma de garantir que as plantas recebam água suficiente?",
+      "options": [
+        "Regar as plantas uma vez por semana",
+        "Regar as plantas todos os dias",
+        "Usar um sistema de irrigação automático",
+        "Deixar as plantas em uma área sombreada"
+      ],
+      "correct": 2,
+      "explanation": "Regar as plantas todos os dias pode garantir que elas recebam água suficiente para crescer, especialmente em climas quentes e secos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o efeito da poluição do ar na fotossíntese das plantas?",
+      "options": [
+        "A poluição do ar aumenta a eficiência da fotossíntese",
+        "A poluição do ar não afeta a fotossíntese",
+        "A poluição do ar reduz a eficiência da fotossíntese",
+        "A poluição do ar é necessária para a fotossíntese"
+      ],
+      "correct": 2,
+      "explanation": "A poluição do ar pode reduzir a eficiência da fotossíntese, pois os poluentes podem bloquear a luz solar e danificar as folhas das plantas.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: A fotossíntese é um processo que ocorre nas _______ das plantas.",
+      "options": [
+        "Raízes",
+        "Caules",
+        "Folhas",
+        "Flores"
+      ],
+      "correct": 2,
+      "explanation": "A fotossíntese ocorre nas folhas das plantas, onde a luz solar é capturada pelos cloroplastos.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que as plantas são importantes para a produção de oxigênio?",
+      "options": [
+        "Elas consomem oxigênio",
+        "Elas produzem dióxido de carbono",
+        "Elas produzem oxigênio durante a fotossíntese",
+        "Elas poluem o ar"
+      ],
+      "correct": 2,
+      "explanation": "As plantas são importantes porque produzem oxigênio durante a fotossíntese, o que é essencial para a vida na Terra.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado da falta de nutrientes no solo para as plantas?",
+      "options": [
+        "As plantas crescem mais rápido",
+        "As plantas produzem mais frutos",
+        "As plantas podem morrer ou crescer mais lentamente",
+        "As plantas não são afetadas"
+      ],
+      "correct": 2,
+      "explanation": "A falta de nutrientes no solo pode afetar negativamente o crescimento das plantas, pois elas precisam de nutrientes para produzir frutos e se desenvolver.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Um cientista quer estudar a fotossíntese em laboratório. Qual é o equipamento necessário?",
+      "options": [
+        "Luz solar, água, dióxido de carbono e uma câmara de crescimento",
+        "Oxigênio, água, nutrientes e um microscópio",
+        "Dióxido de carbono, água, luz solar e um espectrômetro",
+        "Luz solar, oxigênio, água e um termômetro"
+      ],
+      "correct": 0,
+      "explanation": "O cientista precisaria de luz solar, água, dióxido de carbono e uma câmara de crescimento para estudar a fotossíntese em laboratório.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a relação entre a temperatura e a fotossíntese?",
+      "options": [
+        "A temperatura não afeta a fotossíntese",
+        "A temperatura alta aumenta a eficiência da fotossíntese",
+        "A temperatura baixa aumenta a eficiência da fotossíntese",
+        "A temperatura ótima para a fotossíntese é entre 20-30°C"
+      ],
+      "correct": 3,
+      "explanation": "A temperatura ótima para a fotossíntese é entre 20-30°C, pois temperaturas muito altas ou baixas podem reduzir a eficiência da fotossíntese.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Um jardim tem plantas que estão morrendo devido à falta de luz solar. Qual é a melhor solução?",
+      "options": [
+        "Mudar as plantas para uma área sombreada",
+        "Aumentar a quantidade de água",
+        "Aumentar a quantidade de nutrientes no solo",
+        "Mudar as plantas para uma área ensolarada"
+      ],
+      "correct": 3,
+      "explanation": "Mudar as plantas para uma área ensolarada pode ajudar a resolver o problema, pois as plantas precisam de luz solar para realizar a fotossíntese e crescer.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o efeito da falta de dióxido de carbono no ar para as plantas?",
+      "options": [
+        "As plantas crescem mais rápido",
+        "As plantas produzem mais frutos",
+        "As plantas podem morrer ou crescer mais lentamente",
+        "As plantas não são afetadas"
+      ],
+      "correct": 2,
+      "explanation": "A falta de dióxido de carbono no ar pode afetar negativamente o crescimento das plantas, pois elas precisam de dióxido de carbono para realizar a fotossíntese e produzir alimentos.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Cadeia Alimentar": [
+    {
+      "question": "O que é uma cadeia alimentar?",
+      "options": [
+        "Um grupo de animais que vivem juntos",
+        "Uma sequência de seres vivos que se alimentam uns dos outros",
+        "Um tipo de ecossistema",
+        "Um ciclo de vida de uma planta"
+      ],
+      "correct": 1,
+      "explanation": "Uma cadeia alimentar é uma sequência de seres vivos que se alimentam uns dos outros, mostrando como a energia flui de um organismo para outro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o papel dos produtores na cadeia alimentar?",
+      "options": [
+        "Se alimentar de outros animais",
+        "Produzir seu próprio alimento",
+        "Decompor matéria orgânica",
+        "Se alimentar de plantas"
+      ],
+      "correct": 1,
+      "explanation": "Os produtores, como as plantas, produzem seu próprio alimento através da fotossíntese.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um predador come uma presa na cadeia alimentar?",
+      "options": [
+        "A presa se torna um predador",
+        "A energia flui do predador para a presa",
+        "A energia flui da presa para o predador",
+        "A cadeia alimentar é interrompida"
+      ],
+      "correct": 2,
+      "explanation": "Quando um predador come uma presa, a energia flui da presa para o predador, mostrando como a energia se transfere de um organismo para outro.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o exemplo de uma cadeia alimentar?",
+      "options": [
+        "Planta -> Herbívoro -> Carnívoro",
+        "Carnívoro -> Herbívoro -> Planta",
+        "Planta -> Carnívoro -> Herbívoro",
+        "Herbívoro -> Planta -> Carnívoro"
+      ],
+      "correct": 0,
+      "explanation": "Um exemplo de cadeia alimentar é: Planta (produtor) -> Herbívoro (consumidor primário) -> Carnívoro (consumidor secundário).",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um exemplo de produtor na cadeia alimentar?",
+      "options": [
+        "Planta",
+        "Alga",
+        "Bactéria",
+        "Carnívoro"
+      ],
+      "correct": 3,
+      "explanation": "Os produtores são organismos que produzem seu próprio alimento, como plantas, algas e bactérias. Os carnívoros são consumidores que se alimentam de outros animais.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: Planta -> ___ -> Carnívoro",
+      "options": [
+        "Herbívoro",
+        "Onívoro",
+        "Decompositor",
+        "Produtor"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: Planta (produtor) -> Herbívoro (consumidor primário) -> Carnívoro (consumidor secundário).",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que a cadeia alimentar é importante?",
+      "options": [
+        "Porque mostra a hierarquia dos animais",
+        "Porque mostra como a energia flui de um organismo para outro",
+        "Porque é um ciclo de vida de uma planta",
+        "Porque é um tipo de ecossistema"
+      ],
+      "correct": 1,
+      "explanation": "A cadeia alimentar é importante porque mostra como a energia flui de um organismo para outro, demonstrando a interconexão entre os seres vivos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um decompositor na cadeia alimentar?",
+      "options": [
+        "Um organismo que se alimenta de outros animais",
+        "Um organismo que produz seu próprio alimento",
+        "Um organismo que decompoem matéria orgânica",
+        "Um organismo que é um produtor"
+      ],
+      "correct": 2,
+      "explanation": "Os decompositores são organismos que decompoem matéria orgânica, como bactérias e fungos, liberando nutrientes para o ambiente.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um consumidor secundário na cadeia alimentar?",
+      "options": [
+        "Herbívoro",
+        "Carnívoro",
+        "Onívoro",
+        "Decompositor"
+      ],
+      "correct": 1,
+      "explanation": "Um consumidor secundário é um organismo que se alimenta de um consumidor primário, como um carnívoro que se alimenta de um herbívoro.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando um organismo é removido da cadeia alimentar?",
+      "options": [
+        "A cadeia alimentar não é afetada",
+        "A cadeia alimentar é interrompida",
+        "A energia flui de um organismo para outro de forma mais eficiente",
+        "A população de outros organismos aumenta"
+      ],
+      "correct": 1,
+      "explanation": "Quando um organismo é removido da cadeia alimentar, a cadeia alimentar pode ser interrompida, afetando a transferência de energia entre os organismos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o papel dos consumidores na cadeia alimentar?",
+      "options": [
+        "Produzir seu próprio alimento",
+        "Se alimentar de outros organismos",
+        "Decompor matéria orgânica",
+        "Ser um produtor"
+      ],
+      "correct": 1,
+      "explanation": "Os consumidores são organismos que se alimentam de outros organismos, transferindo energia de um organismo para outro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: Carnívoro -> ___ -> Planta",
+      "options": [
+        "Herbívoro",
+        "Onívoro",
+        "Decompositor",
+        "Produtor"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: Carnívoro (consumidor secundário) -> Herbívoro (consumidor primário) -> Planta (produtor).",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que os decompositores são importantes na cadeia alimentar?",
+      "options": [
+        "Porque produzem seu próprio alimento",
+        "Porque se alimentam de outros animais",
+        "Porque decompoem matéria orgânica",
+        "Porque são um tipo de ecossistema"
+      ],
+      "correct": 2,
+      "explanation": "Os decompositores são importantes porque decompoem matéria orgânica, liberando nutrientes para o ambiente e permitindo que os produtores produzam seu próprio alimento.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um onívoro na cadeia alimentar?",
+      "options": [
+        "Um organismo que se alimenta apenas de plantas",
+        "Um organismo que se alimenta apenas de animais",
+        "Um organismo que se alimenta de plantas e animais",
+        "Um organismo que produz seu próprio alimento"
+      ],
+      "correct": 2,
+      "explanation": "Um onívoro é um organismo que se alimenta de plantas e animais, como o ser humano.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de uma cadeia alimentar aquática?",
+      "options": [
+        "Planta -> Peixe -> Tubarão",
+        "Alga -> Crustáceo -> Peixe",
+        "Bactéria -> Plâncton -> Peixe",
+        "Fungo -> Inseto -> Pássaro"
+      ],
+      "correct": 1,
+      "explanation": "Um exemplo de cadeia alimentar aquática é: Alga (produtor) -> Crustáceo (consumidor primário) -> Peixe (consumidor secundário).",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando a população de um organismo aumenta na cadeia alimentar?",
+      "options": [
+        "A população de outros organismos diminui",
+        "A população de outros organismos aumenta",
+        "A cadeia alimentar é interrompida",
+        "A energia flui de um organismo para outro de forma mais eficiente"
+      ],
+      "correct": 0,
+      "explanation": "Quando a população de um organismo aumenta, a população de outros organismos pode diminuir, pois a competição por recursos aumenta.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o papel dos produtores na cadeia alimentar terrestre?",
+      "options": [
+        "Se alimentar de outros animais",
+        "Produzir seu próprio alimento",
+        "Decompor matéria orgânica",
+        "Ser um consumidor"
+      ],
+      "correct": 1,
+      "explanation": "Os produtores, como as plantas, produzem seu próprio alimento através da fotossíntese, fornecendo energia para a cadeia alimentar.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: Bactéria -> ___ -> Planta",
+      "options": [
+        "Decompositor",
+        "Produtor",
+        "Consumidor",
+        "Onívoro"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: Bactéria (decompositor) -> Decompositor (que libera nutrientes) -> Planta (produtor que absorve os nutrientes).",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a cadeia alimentar é importante para o ecossistema?",
+      "options": [
+        "Porque mostra a hierarquia dos animais",
+        "Porque mostra como a energia flui de um organismo para outro",
+        "Porque é um ciclo de vida de uma planta",
+        "Porque é um tipo de ecossistema"
+      ],
+      "correct": 1,
+      "explanation": "A cadeia alimentar é importante porque mostra como a energia flui de um organismo para outro, demonstrando a interconexão entre os seres vivos e a importância da conservação do ecossistema.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Sistema Solar": [
+    {
+      "question": "O que é o Sistema Solar?",
+      "options": [
+        "Um planeta que orbita o Sol",
+        "Um grupo de planetas que orbitam o Sol",
+        "Um satélite que orbita a Terra",
+        "Um cometa que passa pelo Sol"
+      ],
+      "correct": 1,
+      "explanation": "O Sistema Solar é um grupo de planetas, luas, asteroides e outros corpos celestes que orbitam o Sol.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o planeta mais próximo do Sol?",
+      "options": [
+        "Mercúrio",
+        "Vênus",
+        "Terra",
+        "Marte"
+      ],
+      "correct": 0,
+      "explanation": "Mercúrio é o planeta mais próximo do Sol, com uma órbita muito rápida.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou na Terra e olho para o céu, posso ver o Sol?",
+      "options": [
+        "Sim, sempre",
+        "Sim, mas apenas durante o dia",
+        "Não, porque o Sol está sempre escondido",
+        "Não, porque o Sol está muito longe"
+      ],
+      "correct": 1,
+      "explanation": "Sim, podemos ver o Sol no céu durante o dia, mas é importante lembrar de usar óculos de proteção para não danificar os olhos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o planeta mais grande do Sistema Solar?",
+      "options": [
+        "Júpiter",
+        "Saturno",
+        "Uranos",
+        "Netuno"
+      ],
+      "correct": 0,
+      "explanation": "Júpiter é o planeta mais grande do Sistema Solar, com um tamanho muito maior que a Terra.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta muito frio, como Urano, posso encontrar água líquida?",
+      "options": [
+        "Sim, porque o frio ajuda a manter a água líquida",
+        "Não, porque a água congelaria",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a água é um líquido"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a água congelaria em um planeta muito frio como Urano.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a lua mais grande do Sistema Solar?",
+      "options": [
+        "Lua",
+        "Ganimedes",
+        "Titaã",
+        "Calisto"
+      ],
+      "correct": 1,
+      "explanation": "Ganimedes é a lua mais grande do Sistema Solar, orbitando o planeta Júpiter.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito espessa, como Venus, posso ver o Sol?",
+      "options": [
+        "Sim, porque a atmosfera não interfere",
+        "Não, porque a atmosfera é muito espessa",
+        "Sim, porque a atmosfera é transparente",
+        "Não, porque o Sol está escondido"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito espessa e interfere na visibilidade do Sol.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o planeta mais distante do Sol?",
+      "options": [
+        "Netuno",
+        "Uranos",
+        "Saturno",
+        "Plutão"
+      ],
+      "correct": 3,
+      "explanation": "Plutão é o planeta mais distante do Sol, embora seja considerado um planeta anão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma gravidade muito forte, como Júpiter, posso saltar alto?",
+      "options": [
+        "Sim, porque a gravidade é fraca",
+        "Não, porque a gravidade é forte",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a gravidade é igual em todos os lugares"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a gravidade é muito forte e impede que você salte alto.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a estação do ano em que o Sol está mais alto no céu?",
+      "options": [
+        "Primavera",
+        "Verão",
+        "Outono",
+        "Inverno"
+      ],
+      "correct": 1,
+      "explanation": "Verão é a estação do ano em que o Sol está mais alto no céu.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito fria, como Marte, posso encontrar água líquida?",
+      "options": [
+        "Sim, porque a atmosfera é quente",
+        "Não, porque a atmosfera é fria",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a água é um líquido"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito fria e a água congelaria.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a lua mais próxima do Sol?",
+      "options": [
+        "Lua",
+        "Ganimedes",
+        "Titaã",
+        "Calisto"
+      ],
+      "correct": 0,
+      "explanation": "Ganimedes é a lua mais próxima do Sol, orbitando o planeta Júpiter.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito espessa, como Venus, posso ver as estrelas?",
+      "options": [
+        "Sim, porque a atmosfera não interfere",
+        "Não, porque a atmosfera é muito espessa",
+        "Sim, porque a atmosfera é transparente",
+        "Não, porque as estrelas estão escondidas"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito espessa e interfere na visibilidade das estrelas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o planeta mais quente do Sistema Solar?",
+      "options": [
+        "Marte",
+        "Vênus",
+        "Terra",
+        "Júpiter"
+      ],
+      "correct": 1,
+      "explanation": "Vênus é o planeta mais quente do Sistema Solar, com uma temperatura muito alta.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma gravidade muito fraca, como Marte, posso saltar alto?",
+      "options": [
+        "Sim, porque a gravidade é fraca",
+        "Não, porque a gravidade é forte",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a gravidade é igual em todos os lugares"
+      ],
+      "correct": 0,
+      "explanation": "Sim, porque a gravidade é muito fraca e permite que você salte alto.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a estação do ano em que o Sol está mais baixo no céu?",
+      "options": [
+        "Primavera",
+        "Verão",
+        "Outono",
+        "Inverno"
+      ],
+      "correct": 3,
+      "explanation": "Inverno é a estação do ano em que o Sol está mais baixo no céu.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito fria, como Marte, posso encontrar água líquida?",
+      "options": [
+        "Sim, porque a atmosfera é quente",
+        "Não, porque a atmosfera é fria",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a água é um líquido"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito fria e a água congelaria.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a lua mais distante do Sol?",
+      "options": [
+        "Lua",
+        "Ganimedes",
+        "Titaã",
+        "Calisto"
+      ],
+      "correct": 3,
+      "explanation": "Calisto é a lua mais distante do Sol, orbitando o planeta Júpiter.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito espessa, como Venus, posso ver as estrelas?",
+      "options": [
+        "Sim, porque a atmosfera não interfere",
+        "Não, porque a atmosfera é muito espessa",
+        "Sim, porque a atmosfera é transparente",
+        "Não, porque as estrelas estão escondidas"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito espessa e interfere na visibilidade das estrelas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o planeta mais frio do Sistema Solar?",
+      "options": [
+        "Marte",
+        "Vênus",
+        "Terra",
+        "Uranos"
+      ],
+      "correct": 3,
+      "explanation": "Uranos é o planeta mais frio do Sistema Solar, com uma temperatura muito baixa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma gravidade muito fraca, como Marte, posso saltar alto?",
+      "options": [
+        "Sim, porque a gravidade é fraca",
+        "Não, porque a gravidade é forte",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a gravidade é igual em todos os lugares"
+      ],
+      "correct": 0,
+      "explanation": "Sim, porque a gravidade é muito fraca e permite que você salte alto.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a estação do ano em que o Sol está mais alto no céu?",
+      "options": [
+        "Primavera",
+        "Verão",
+        "Outono",
+        "Inverno"
+      ],
+      "correct": 1,
+      "explanation": "Verão é a estação do ano em que o Sol está mais alto no céu.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou em um planeta com uma atmosfera muito fria, como Marte, posso encontrar água líquida?",
+      "options": [
+        "Sim, porque a atmosfera é quente",
+        "Não, porque a atmosfera é fria",
+        "Sim, porque o planeta é muito quente",
+        "Não, porque a água é um líquido"
+      ],
+      "correct": 1,
+      "explanation": "Não, porque a atmosfera é muito fria e a água congelaria.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "Estados da Matéria": [
+    {
+      "question": "O que é um sólido?",
+      "options": [
+        "Um líquido que se encontra em um recipiente",
+        "Um gás que não tem forma nem volume definido",
+        "Uma substância que tem forma e volume definidos",
+        "Um estado da matéria que não existe"
+      ],
+      "correct": 2,
+      "explanation": "Um sólido é uma substância que tem forma e volume definidos, como uma pedra ou um bloco de gelo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o estado da matéria do vapor de água?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Sólido ou líquido"
+      ],
+      "correct": 2,
+      "explanation": "O vapor de água é um gás que não tem forma nem volume definidos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem um copo de água e o deixa no congelador. Qual é o estado da matéria da água após alguns minutos?",
+      "options": [
+        "Líquido",
+        "Gás",
+        "Sólido",
+        "Líquido ou gás"
+      ],
+      "correct": 2,
+      "explanation": "A água se transformará em gelo, um sólido.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um estado da matéria?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Fogo"
+      ],
+      "correct": 3,
+      "explanation": "O fogo não é um estado da matéria, é uma forma de energia.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: sólido, líquido, ___",
+      "options": [
+        "Gás",
+        "Sólido",
+        "Líquido",
+        "Líquido ou gás"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: sólido, líquido, gás.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a água se transforma em gelo quando é colocada no congelador?",
+      "options": [
+        "Porque o congelador é frio",
+        "Porque a água é líquida",
+        "Porque a água se transforma em gelo quando é resfriada",
+        "Porque o gelo é mais pesado que a água"
+      ],
+      "correct": 2,
+      "explanation": "A água se transforma em gelo quando é resfriada, pois a temperatura diminui e a água se solidifica.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o estado da matéria do ar que entra no pulmão durante a respiração?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Líquido ou gás"
+      ],
+      "correct": 2,
+      "explanation": "O ar que entra no pulmão é um gás.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Maria tem um recipiente com água e o deixa em uma superfície plana. Qual é o estado da matéria da água?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Sólido ou líquido"
+      ],
+      "correct": 1,
+      "explanation": "A água está em um estado líquido, pois tem volume definido e forma do recipiente.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o processo pelo qual a água se transforma em gelo?",
+      "options": [
+        "Fusão",
+        "Solidificação",
+        "Vaporização",
+        "Sublimação"
+      ],
+      "correct": 1,
+      "explanation": "A solidificação é o processo pelo qual a água se transforma em gelo.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de mudança de estado da matéria?",
+      "options": [
+        "Fusão",
+        "Solidificação",
+        "Vaporização",
+        "Crescimento"
+      ],
+      "correct": 3,
+      "explanation": "O crescimento não é um exemplo de mudança de estado da matéria, é um processo de aumento de tamanho.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: líquido, gás, ___",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Líquido ou gás"
+      ],
+      "correct": 0,
+      "explanation": "A sequência correta é: líquido, gás, sólido.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que a água se transforma em vapor quando é aquecida?",
+      "options": [
+        "Porque a água é líquida",
+        "Porque a água é resfriada",
+        "Porque a água se transforma em vapor quando é aquecida",
+        "Porque o vapor é mais pesado que a água"
+      ],
+      "correct": 2,
+      "explanation": "A água se transforma em vapor quando é aquecida, pois a temperatura aumenta e a água se vaporiza.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o estado da matéria do gelo?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Líquido ou gás"
+      ],
+      "correct": 0,
+      "explanation": "O gelo é um sólido.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Maria tem um recipiente com gelo e o deixa em uma superfície plana. Qual é o estado da matéria do gelo?",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Sólido ou líquido"
+      ],
+      "correct": 0,
+      "explanation": "O gelo está em um estado sólido, pois tem forma e volume definidos.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o processo pelo qual a água se transforma em vapor diretamente?",
+      "options": [
+        "Fusão",
+        "Solidificação",
+        "Vaporização",
+        "Sublimação"
+      ],
+      "correct": 3,
+      "explanation": "A sublimação é o processo pelo qual a água se transforma em vapor diretamente.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de sublimação?",
+      "options": [
+        "Gelo",
+        "Água",
+        "Vapor",
+        "Fumo"
+      ],
+      "correct": 1,
+      "explanation": "A água não é um exemplo de sublimação, pois não se transforma em vapor diretamente.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: sólido, líquido, gás, ___",
+      "options": [
+        "Sólido",
+        "Líquido",
+        "Gás",
+        "Líquido ou gás"
+      ],
+      "correct": 3,
+      "explanation": "A sequência correta é: sólido, líquido, gás, sólido.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que a água se transforma em gelo quando é resfriada?",
+      "options": [
+        "Porque a água é líquida",
+        "Porque a água é resfriada",
+        "Porque a água se transforma em gelo quando é resfriada",
+        "Porque o gelo é mais pesado que a água"
+      ],
+      "correct": 2,
+      "explanation": "A água se transforma em gelo quando é resfriada, pois a temperatura diminui e a água se solidifica.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Solos e Rochas": [
+    {
+      "question": "O que é um solo?",
+      "options": [
+        "Um tipo de rocha",
+        "Um material orgânico que cobre a Terra",
+        "Um líquido que forma rios e oceanos",
+        "Um gás que forma a atmosfera"
+      ],
+      "correct": 1,
+      "explanation": "Um solo é um material orgânico que cobre a Terra e é formado por partículas de rochas, água e vida.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a principal função de um solo?",
+      "options": [
+        "Armazenar água",
+        "Proteger a água doce",
+        "Fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "Um solo tem várias funções importantes, incluindo armazenar água, proteger a água doce e fornecer nutrientes às plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um rochedo?",
+      "options": [
+        "Um solo é mais duro que um rochedo",
+        "Um solo é mais macio que um rochedo",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um rochedo é formado apenas por rochas",
+        "Um solo é mais pesado que um rochedo"
+      ],
+      "correct": 2,
+      "explanation": "Um solo é formado por partículas de rochas, água e vida, enquanto um rochedo é formado apenas por rochas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o processo pelo qual os solos são formados?",
+      "options": [
+        "Erosão",
+        "Deposição",
+        "Ciclagem",
+        "Dissolução"
+      ],
+      "correct": 2,
+      "explanation": "A ciclagem é o processo pelo qual os solos são formados, envolvendo a decomposição de matéria orgânica e a formação de partículas de rochas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância dos solos para a vida na Terra?",
+      "options": [
+        "Eles fornecem água para beber",
+        "Eles fornecem nutrientes para as plantas",
+        "Eles fornecem abrigo para os animais",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "Os solos são fundamentais para a vida na Terra, fornecendo água, nutrientes e abrigo para as plantas e animais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a principal característica de um solo fértil?",
+      "options": [
+        "Eles são ricos em nutrientes",
+        "Eles são pobres em nutrientes",
+        "Eles são macios e fáceis de trabalhar",
+        "Eles são duros e difíceis de trabalhar"
+      ],
+      "correct": 0,
+      "explanation": "Um solo fértil é rico em nutrientes, o que permite que as plantas cresçam e se desenvolvam de forma saudável.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser degradado?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo degradado é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da conservação dos solos?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A conservação dos solos é fundamental para manter a saúde do meio ambiente, fornecer nutrientes às plantas e prevenir a erosão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um substrato?",
+      "options": [
+        "Um solo é mais macio que um substrato",
+        "Um solo é mais duro que um substrato",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um substrato é formado apenas por rochas",
+        "Um solo é mais pesado que um substrato"
+      ],
+      "correct": 2,
+      "explanation": "Um solo é formado por partículas de rochas, água e vida, enquanto um substrato é formado apenas por rochas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o processo pelo qual os solos são classificados?",
+      "options": [
+        "Erosão",
+        "Deposição",
+        "Ciclagem",
+        "Taxonomia"
+      ],
+      "correct": 3,
+      "explanation": "A taxonomia é o processo pelo qual os solos são classificados, baseado em suas características e propriedades.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da análise de solos?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A análise de solos é fundamental para entender suas características e propriedades, o que pode ajudar a tomar decisões informadas sobre a agricultura e a conservação do meio ambiente.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo contaminado?",
+      "options": [
+        "Um solo é mais fértil que um solo contaminado",
+        "Um solo é menos fértil que um solo contaminado",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo contaminado é formado por substâncias químicas",
+        "Um solo é mais pesado que um solo contaminado"
+      ],
+      "correct": 2,
+      "explanation": "Um solo contaminado é formado por substâncias químicas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser contaminado?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo contaminado é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da remediação de solos contaminados?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A remediação de solos contaminados é fundamental para restaurar a saúde do meio ambiente e das plantas, e para prevenir a contaminação de água e solo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo salino?",
+      "options": [
+        "Um solo é mais fértil que um solo salino",
+        "Um solo é menos fértil que um solo salino",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo salino é formado por substâncias químicas",
+        "Um solo é mais pesado que um solo salino"
+      ],
+      "correct": 2,
+      "explanation": "Um solo salino é formado por substâncias químicas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser salino?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo salino é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da gestão de solos?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A gestão de solos é fundamental para manter a saúde do meio ambiente, fornecer nutrientes às plantas e prevenir a erosão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo compactado?",
+      "options": [
+        "Um solo é mais fértil que um solo compactado",
+        "Um solo é menos fértil que um solo compactado",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo compactado é formado por substâncias químicas",
+        "Um solo é mais pesado que um solo compactado"
+      ],
+      "correct": 2,
+      "explanation": "Um solo compactado é formado por substâncias químicas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser compactado?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo compactado é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da conservação de solos compactados?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A conservação de solos compactados é fundamental para manter a saúde do meio ambiente, fornecer nutrientes às plantas e prevenir a erosão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo pedregoso?",
+      "options": [
+        "Um solo é mais fértil que um solo pedregoso",
+        "Um solo é menos fértil que um solo pedregoso",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo pedregoso é formado por rochas",
+        "Um solo é mais pesado que um solo pedregoso"
+      ],
+      "correct": 2,
+      "explanation": "Um solo pedregoso é formado por rochas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser pedregoso?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo pedregoso é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da gestão de solos pedregosos?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A gestão de solos pedregosos é fundamental para manter a saúde do meio ambiente, fornecer nutrientes às plantas e prevenir a erosão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo alcalino?",
+      "options": [
+        "Um solo é mais fértil que um solo alcalino",
+        "Um solo é menos fértil que um solo alcalino",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo alcalino é formado por substâncias químicas",
+        "Um solo é mais pesado que um solo alcalino"
+      ],
+      "correct": 2,
+      "explanation": "Um solo alcalino é formado por substâncias químicas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser alcalino?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo alcalino é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a importância da gestão de solos alcalinos?",
+      "options": [
+        "Eles ajudam a prevenir a erosão",
+        "Eles ajudam a manter a água doce",
+        "Eles ajudam a fornecer nutrientes às plantas",
+        "Todas as opções"
+      ],
+      "correct": 3,
+      "explanation": "A gestão de solos alcalinos é fundamental para manter a saúde do meio ambiente, fornecer nutrientes às plantas e prevenir a erosão.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um solo e um solo ácido?",
+      "options": [
+        "Um solo é mais fértil que um solo ácido",
+        "Um solo é menos fértil que um solo ácido",
+        "Um solo é formado por partículas de rochas, água e vida, enquanto um solo ácido é formado por substâncias químicas",
+        "Um solo é mais pesado que um solo ácido"
+      ],
+      "correct": 2,
+      "explanation": "Um solo ácido é formado por substâncias químicas, o que pode afetar a saúde do meio ambiente e das plantas.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de um solo ser ácido?",
+      "options": [
+        "Ele se torna mais fértil",
+        "Ele se torna menos fértil",
+        "Ele se torna mais macio",
+        "Ele se torna mais duro"
+      ],
+      "correct": 1,
+      "explanation": "Um solo ácido é menos fértil, o que pode afetar a capacidade das plantas de crescer e se desenvolver.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Sistemas do Corpo Humano": [
+    {
+      "question": "Qual é a definição de sistema circulatório?",
+      "options": [
+        "Sistema que ajuda a respirar",
+        "Sistema que ajuda a digerir alimentos",
+        "Sistema que transporta oxigênio e nutrientes para as células",
+        "Sistema que elimina resíduos do corpo"
+      ],
+      "correct": 2,
+      "explanation": "O sistema circulatório é responsável por transportar oxigênio e nutrientes para as células e remover resíduos do corpo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou sentado em uma cadeira, qual sistema do corpo está sendo usado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema nervoso"
+      ],
+      "correct": 3,
+      "explanation": "O sistema muscular está sendo usado para manter a postura e a estabilidade do corpo enquanto estou sentado.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema digestivo?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Rim",
+        "Músculos da parede abdominal"
+      ],
+      "correct": 3,
+      "explanation": "O rim não é um órgão do sistema digestivo, mas sim do sistema urinário.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema nervoso é composto por ___, que transmitem sinais ao cérebro.",
+      "options": [
+        "Nervos",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Músculos"
+      ],
+      "correct": 0,
+      "explanation": "Os nervos são responsáveis por transmitir sinais ao cérebro.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o sistema respiratório é importante?",
+      "options": [
+        "Para digerir alimentos",
+        "Para transportar oxigênio para as células",
+        "Para eliminar resíduos do corpo",
+        "Para manter a temperatura corporal"
+      ],
+      "correct": 1,
+      "explanation": "O sistema respiratório é importante para transportar oxigênio para as células e remover dióxido de carbono do corpo.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema imunológico?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Digerir alimentos",
+        "Transportar oxigênio para as células",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 0,
+      "explanation": "O sistema imunológico é responsável por proteger o corpo de doenças e infecções.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com febre, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema imunológico"
+      ],
+      "correct": 3,
+      "explanation": "O sistema imunológico está sendo afetado, pois está tentando combater a infecção que causou a febre.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema circulatório?",
+      "options": [
+        "Coração",
+        "Pulmões",
+        "Fígado",
+        "Rim"
+      ],
+      "correct": 2,
+      "explanation": "Os pulmões não são um órgão do sistema circulatório, mas sim do sistema respiratório.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema muscular é composto por ___, que permitem o movimento do corpo.",
+      "options": [
+        "Músculos",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Nervos"
+      ],
+      "correct": 0,
+      "explanation": "Os músculos são responsáveis por permitir o movimento do corpo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando o sistema nervoso é afetado?",
+      "options": [
+        "O corpo não pode digerir alimentos",
+        "O corpo não pode transportar oxigênio para as células",
+        "O corpo não pode mover-se",
+        "O corpo não pode sentir dor"
+      ],
+      "correct": 2,
+      "explanation": "O corpo não pode mover-se quando o sistema nervoso é afetado, pois os nervos são responsáveis por transmitir sinais ao cérebro.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema digestivo?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Transportar oxigênio para as células",
+        "Digerir alimentos",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 2,
+      "explanation": "O sistema digestivo é responsável por digerir alimentos e absorver nutrientes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com dor de cabeça, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema nervoso"
+      ],
+      "correct": 3,
+      "explanation": "O sistema nervoso está sendo afetado, pois está transmitindo sinais de dor ao cérebro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema digestivo?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Rim",
+        "Músculos da parede abdominal"
+      ],
+      "correct": 3,
+      "explanation": "O rim não é um órgão do sistema digestivo, mas sim do sistema urinário.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema respiratório é composto por ___, que permitem a respiração.",
+      "options": [
+        "Pulmões",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Nervos"
+      ],
+      "correct": 0,
+      "explanation": "Os pulmões são responsáveis por permitir a respiração.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o sistema circulatório é afetado, o que acontece?",
+      "options": [
+        "O corpo não pode digerir alimentos",
+        "O corpo não pode transportar oxigênio para as células",
+        "O corpo não pode mover-se",
+        "O corpo não pode sentir dor"
+      ],
+      "correct": 1,
+      "explanation": "O corpo não pode transportar oxigênio para as células quando o sistema circulatório é afetado, pois os vasos sanguíneos não estão funcionando corretamente.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema urinário?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Transportar oxigênio para as células",
+        "Digerir alimentos",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 3,
+      "explanation": "O sistema urinário é responsável por eliminar resíduos do corpo, como urina e fezes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com diarreia, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema urinário"
+      ],
+      "correct": 3,
+      "explanation": "O sistema urinário está sendo afetado, pois está eliminando resíduos do corpo de forma anormal.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema urinário?",
+      "options": [
+        "Rim",
+        "Bexiga",
+        "Fígado",
+        "Pâncreas"
+      ],
+      "correct": 2,
+      "explanation": "O fígado e o pâncreas não são órgãos do sistema urinário, mas sim do sistema digestivo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema nervoso é composto por ___, que permitem a comunicação entre as células.",
+      "options": [
+        "Nervos",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Músculos"
+      ],
+      "correct": 0,
+      "explanation": "Os nervos são responsáveis por permitir a comunicação entre as células.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o sistema muscular é afetado, o que acontece?",
+      "options": [
+        "O corpo não pode digerir alimentos",
+        "O corpo não pode transportar oxigênio para as células",
+        "O corpo não pode mover-se",
+        "O corpo não pode sentir dor"
+      ],
+      "correct": 2,
+      "explanation": "O corpo não pode mover-se quando o sistema muscular é afetado, pois os músculos não estão funcionando corretamente.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema imunológico?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Transportar oxigênio para as células",
+        "Digerir alimentos",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 0,
+      "explanation": "O sistema imunológico é responsável por proteger o corpo de doenças e infecções.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com febre, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema imunológico"
+      ],
+      "correct": 3,
+      "explanation": "O sistema imunológico está sendo afetado, pois está tentando combater a infecção que causou a febre.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema imunológico?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Rim",
+        "Músculos da parede abdominal"
+      ],
+      "correct": 3,
+      "explanation": "O rim não é um órgão do sistema imunológico, mas sim do sistema urinário.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema respiratório é composto por ___, que permitem a respiração.",
+      "options": [
+        "Pulmões",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Nervos"
+      ],
+      "correct": 0,
+      "explanation": "Os pulmões são responsáveis por permitir a respiração.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o sistema circulatório é afetado, o que acontece?",
+      "options": [
+        "O corpo não pode digerir alimentos",
+        "O corpo não pode transportar oxigênio para as células",
+        "O corpo não pode mover-se",
+        "O corpo não pode sentir dor"
+      ],
+      "correct": 1,
+      "explanation": "O corpo não pode transportar oxigênio para as células quando o sistema circulatório é afetado, pois os vasos sanguíneos não estão funcionando corretamente.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema digestivo?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Transportar oxigênio para as células",
+        "Digerir alimentos",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 2,
+      "explanation": "O sistema digestivo é responsável por digerir alimentos e absorver nutrientes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com dor de cabeça, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema nervoso"
+      ],
+      "correct": 3,
+      "explanation": "O sistema nervoso está sendo afetado, pois está transmitindo sinais de dor ao cérebro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema digestivo?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Rim",
+        "Músculos da parede abdominal"
+      ],
+      "correct": 3,
+      "explanation": "O rim não é um órgão do sistema digestivo, mas sim do sistema urinário.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema respiratório é composto por ___, que permitem a respiração.",
+      "options": [
+        "Pulmões",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Nervos"
+      ],
+      "correct": 0,
+      "explanation": "Os pulmões são responsáveis por permitir a respiração.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o sistema muscular é afetado, o que acontece?",
+      "options": [
+        "O corpo não pode digerir alimentos",
+        "O corpo não pode transportar oxigênio para as células",
+        "O corpo não pode mover-se",
+        "O corpo não pode sentir dor"
+      ],
+      "correct": 2,
+      "explanation": "O corpo não pode mover-se quando o sistema muscular é afetado, pois os músculos não estão funcionando corretamente.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a função do sistema imunológico?",
+      "options": [
+        "Proteger o corpo de doenças",
+        "Transportar oxigênio para as células",
+        "Digerir alimentos",
+        "Eliminar resíduos do corpo"
+      ],
+      "correct": 0,
+      "explanation": "O sistema imunológico é responsável por proteger o corpo de doenças e infecções.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu estou com febre, qual sistema do corpo está sendo afetado?",
+      "options": [
+        "Sistema respiratório",
+        "Sistema circulatório",
+        "Sistema muscular",
+        "Sistema imunológico"
+      ],
+      "correct": 3,
+      "explanation": "O sistema imunológico está sendo afetado, pois está tentando combater a infecção que causou a febre.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um órgão do sistema imunológico?",
+      "options": [
+        "Fígado",
+        "Pâncreas",
+        "Rim",
+        "Músculos da parede abdominal"
+      ],
+      "correct": 3,
+      "explanation": "O rim não é um órgão do sistema imunológico, mas sim do sistema urinário.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O sistema respiratório é composto por ___, que permitem a respiração.",
+      "options": [
+        "Pulmões",
+        "Órgãos",
+        "Vasos sanguíneos",
+        "Nervos"
+      ],
+      "correct": 0,
+      "explanation": "Os pulmões são responsáveis por permitir a respiração.",
+      "type": "completar",
+      "difficulty": "facil"
+    }
+  ],
+  "Ecossistemas": [
+    {
+      "question": "O que é um ecossistema?",
+      "options": [
+        "Um grupo de animais que vivem juntos",
+        "Um lugar com árvores e animais",
+        "Um conjunto de plantas, animais e fatores físicos que interagem entre si",
+        "Um rio com peixes"
+      ],
+      "correct": 2,
+      "explanation": "Um ecossistema é um conjunto de plantas, animais e fatores físicos que interagem entre si.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um ecossistema?",
+      "options": [
+        "Uma floresta",
+        "Um parque de diversões",
+        "Um laboratório de ciências",
+        "Um aeroporto"
+      ],
+      "correct": 0,
+      "explanation": "Uma floresta é um exemplo de um ecossistema, pois é um lugar com árvores, animais e fatores físicos que interagem entre si.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um componente de um ecossistema?",
+      "options": [
+        "Planta",
+        "Animal",
+        "Fator físico",
+        "Luz solar"
+      ],
+      "correct": 3,
+      "explanation": "A luz solar é um fator que afeta o ecossistema, mas não é um componente dele.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de um ecossistema.",
+      "options": [
+        "Uma cidade",
+        "Uma floresta",
+        "Um parque de diversões",
+        "Um laboratório de ciências"
+      ],
+      "correct": 1,
+      "explanation": "Uma floresta é um exemplo de um ecossistema.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os animais precisam de um ecossistema?",
+      "options": [
+        "Para se divertir",
+        "Para se alimentar",
+        "Para se abrigar",
+        "Para se comunicar"
+      ],
+      "correct": 2,
+      "explanation": "Os animais precisam de um ecossistema para se alimentar e se abrigar.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando um animal morre em um ecossistema?",
+      "options": [
+        "O ecossistema fica mais forte",
+        "O ecossistema fica mais fraco",
+        "O ecossistema não muda",
+        "O ecossistema fica igual"
+      ],
+      "correct": 2,
+      "explanation": "Quando um animal morre em um ecossistema, o ecossistema não muda muito, pois há outros animais que podem ocupar seu lugar.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um predador em um ecossistema?",
+      "options": [
+        "Um animal que se alimenta de plantas",
+        "Um animal que se alimenta de outros animais",
+        "Um animal que se alimenta de água",
+        "Um animal que se alimenta de solo"
+      ],
+      "correct": 1,
+      "explanation": "Um predador é um animal que se alimenta de outros animais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um predador?",
+      "options": [
+        "Uma planta",
+        "Um peixe",
+        "Um leão",
+        "Um rio"
+      ],
+      "correct": 2,
+      "explanation": "Um leão é um exemplo de um predador, pois se alimenta de outros animais.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de um predador?",
+      "options": [
+        "Um leão",
+        "Um peixe",
+        "Uma planta",
+        "Um rio"
+      ],
+      "correct": 2,
+      "explanation": "Uma planta não é um exemplo de um predador, pois não se alimenta de outros animais.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de um predador.",
+      "options": [
+        "Uma planta",
+        "Um peixe",
+        "Um leão",
+        "Um rio"
+      ],
+      "correct": 2,
+      "explanation": "Um leão é um exemplo de um predador.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os predadores são importantes em um ecossistema?",
+      "options": [
+        "Para se divertir",
+        "Para se alimentar",
+        "Para controlar a população de outros animais",
+        "Para se comunicar"
+      ],
+      "correct": 2,
+      "explanation": "Os predadores são importantes em um ecossistema para controlar a população de outros animais.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando há muitos predadores em um ecossistema?",
+      "options": [
+        "A população de outros animais aumenta",
+        "A população de outros animais diminui",
+        "O ecossistema fica mais forte",
+        "O ecossistema fica mais fraco"
+      ],
+      "correct": 1,
+      "explanation": "Quando há muitos predadores em um ecossistema, a população de outros animais diminui.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um produto de decomposição em um ecossistema?",
+      "options": [
+        "Um animal que se alimenta de plantas",
+        "Um animal que se alimenta de outros animais",
+        "Um animal que se alimenta de água",
+        "Um composto orgânico que é produzido pela decomposição de matéria orgânica"
+      ],
+      "correct": 3,
+      "explanation": "Um composto orgânico que é produzido pela decomposição de matéria orgânica é um produto de decomposição em um ecossistema.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um produto de decomposição?",
+      "options": [
+        "Um peixe",
+        "Um leão",
+        "Um composto orgânico",
+        "Um rio"
+      ],
+      "correct": 2,
+      "explanation": "Um composto orgânico é um exemplo de um produto de decomposição, pois é produzido pela decomposição de matéria orgânica.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de um produto de decomposição?",
+      "options": [
+        "Um peixe",
+        "Um leão",
+        "Um composto orgânico",
+        "Um rio"
+      ],
+      "correct": 0,
+      "explanation": "Um peixe e um leão não são exemplos de produtos de decomposição, pois são animais vivos.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de um produto de decomposição.",
+      "options": [
+        "Um peixe",
+        "Um leão",
+        "Um composto orgânico",
+        "Um rio"
+      ],
+      "correct": 2,
+      "explanation": "Um composto orgânico é um exemplo de um produto de decomposição.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os produtos de decomposição são importantes em um ecossistema?",
+      "options": [
+        "Para se divertir",
+        "Para se alimentar",
+        "Para fornecer nutrientes para as plantas",
+        "Para se comunicar"
+      ],
+      "correct": 2,
+      "explanation": "Os produtos de decomposição são importantes em um ecossistema para fornecer nutrientes para as plantas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando há muitos produtos de decomposição em um ecossistema?",
+      "options": [
+        "A população de plantas aumenta",
+        "A população de plantas diminui",
+        "O ecossistema fica mais forte",
+        "O ecossistema fica mais fraco"
+      ],
+      "correct": 0,
+      "explanation": "Quando há muitos produtos de decomposição em um ecossistema, a população de plantas aumenta, pois há mais nutrientes disponíveis para elas.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um ecossistema terrestre?",
+      "options": [
+        "Um ecossistema que se encontra em água",
+        "Um ecossistema que se encontra em terra",
+        "Um ecossistema que se encontra no ar",
+        "Um ecossistema que se encontra no espaço"
+      ],
+      "correct": 1,
+      "explanation": "Um ecossistema terrestre é um ecossistema que se encontra em terra.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o exemplo de um ecossistema terrestre?",
+      "options": [
+        "Um rio",
+        "Um oceano",
+        "Uma floresta",
+        "Um parque de diversões"
+      ],
+      "correct": 2,
+      "explanation": "Uma floresta é um exemplo de um ecossistema terrestre, pois se encontra em terra.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é um exemplo de um ecossistema terrestre?",
+      "options": [
+        "Um rio",
+        "Um oceano",
+        "Uma floresta",
+        "Um parque de diversões"
+      ],
+      "correct": 0,
+      "explanation": "Um rio não é um exemplo de um ecossistema terrestre, pois se encontra em água.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: ___ é um exemplo de um ecossistema terrestre.",
+      "options": [
+        "Um rio",
+        "Um oceano",
+        "Uma floresta",
+        "Um parque de diversões"
+      ],
+      "correct": 2,
+      "explanation": "Uma floresta é um exemplo de um ecossistema terrestre.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que os ecossistemas terrestres são importantes?",
+      "options": [
+        "Para se divertir",
+        "Para se alimentar",
+        "Para fornecer habitat para os animais",
+        "Para se comunicar"
+      ],
+      "correct": 2,
+      "explanation": "Os ecossistemas terrestres são importantes porque fornecem habitat para os animais e são fonte de recursos naturais.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando há perda de biodiversidade em um ecossistema terrestre?",
+      "options": [
+        "A população de animais aumenta",
+        "A população de animais diminui",
+        "O ecossistema fica mais forte",
+        "O ecossistema fica mais fraco"
+      ],
+      "correct": 1,
+      "explanation": "Quando há perda de biodiversidade em um ecossistema terrestre, a população de animais diminui, pois há menos espécies disponíveis para se alimentar e se abrigar.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    }
+  ]
+}

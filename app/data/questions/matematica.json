@@ -1,0 +1,3945 @@
+{
+  "Numeração e Valor Posicional": [
+    {
+      "question": "O que é o valor posicional dos números?",
+      "options": [
+        "O valor do número em si",
+        "A posição do número em uma sequência",
+        "O valor do número de acordo com sua posição",
+        "A soma dos números"
+      ],
+      "correct": 2,
+      "explanation": "O valor posicional é o valor de um dígito de acordo com sua posição no número.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do sistema de numeração que usamos?",
+      "options": [
+        "Sistema binário",
+        "Sistema decimal",
+        "Sistema hexadecimal",
+        "Sistema octal"
+      ],
+      "correct": 1,
+      "explanation": "O sistema decimal é o sistema de numeração que usamos no dia a dia.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 1, 10, 100, ___",
+      "options": [
+        "1000",
+        "10000",
+        "100000",
+        "1000000"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que aumentam em uma ordem de grandeza.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um dígito?",
+      "options": [
+        "Um número inteiro",
+        "Um número decimal",
+        "Um algarismo",
+        "Um símbolo matemático"
+      ],
+      "correct": 2,
+      "explanation": "Um dígito é um algarismo que representa um número.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o valor posicional do dígito 5 no número 456?",
+      "options": [
+        "50",
+        "5",
+        "500",
+        "45"
+      ],
+      "correct": 0,
+      "explanation": "O valor posicional do dígito 5 é 50, pois ele está na posição das dezenas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual número não pertence ao grupo: 10, 20, 30, 45?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "45"
+      ],
+      "correct": 3,
+      "explanation": "O número 45 não pertence ao grupo porque os outros números são múltiplos de 10.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a lacuna: O número 456 é igual a ___ centenas, ___ dezenas e ___ unidades.",
+      "options": [
+        "4 centenas, 5 dezenas e 6 unidades",
+        "4 centenas, 6 dezenas e 5 unidades",
+        "5 centenas, 4 dezenas e 6 unidades",
+        "6 centenas, 5 dezenas e 4 unidades"
+      ],
+      "correct": 0,
+      "explanation": "O número 456 é igual a 4 centenas, 5 dezenas e 6 unidades.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que o valor posicional é importante?",
+      "options": [
+        "Porque ajuda a entender a ordem dos números",
+        "Porque ajuda a realizar operações matemáticas",
+        "Porque ajuda a entender a posição dos números",
+        "Porque ajuda a realizar cálculos mentais"
+      ],
+      "correct": 1,
+      "explanation": "O valor posicional é importante porque ajuda a realizar operações matemáticas.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando somamos dois números com valor posicional?",
+      "options": [
+        "O valor posicional aumenta",
+        "O valor posicional diminui",
+        "O valor posicional permanece o mesmo",
+        "O valor posicional é somado"
+      ],
+      "correct": 0,
+      "explanation": "O valor posicional aumenta quando somamos dois números com valor posicional.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 456 - 100?",
+      "options": [
+        "356",
+        "346",
+        "356",
+        "366"
+      ],
+      "correct": 0,
+      "explanation": "O resultado de 456 - 100 é 356.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 100, 200, 300, ___",
+      "options": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que aumentam em uma ordem de grandeza.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o valor posicional do dígito 9 no número 987?",
+      "options": [
+        "90",
+        "9",
+        "900",
+        "98"
+      ],
+      "correct": 2,
+      "explanation": "O valor posicional do dígito 9 é 900, pois ele está na posição das centenas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um número de três algarismos?",
+      "options": [
+        "Um número com três dígitos",
+        "Um número com dois dígitos",
+        "Um número com um dígito",
+        "Um número com quatro dígitos"
+      ],
+      "correct": 0,
+      "explanation": "Um número de três algarismos é um número com três dígitos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual número não é um múltiplo de 10?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "45"
+      ],
+      "correct": 3,
+      "explanation": "O número 45 não é um múltiplo de 10.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a lacuna: O número 123 é igual a ___ centenas, ___ dezenas e ___ unidades.",
+      "options": [
+        "1 centena, 2 dezenas e 3 unidades",
+        "1 centena, 3 dezenas e 2 unidades",
+        "2 centenas, 1 dezena e 3 unidades",
+        "3 centenas, 2 dezenas e 1 unidade"
+      ],
+      "correct": 0,
+      "explanation": "O número 123 é igual a 1 centena, 2 dezenas e 3 unidades.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que o valor posicional é importante na vida real?",
+      "options": [
+        "Porque ajuda a entender a ordem dos números",
+        "Porque ajuda a realizar operações matemáticas",
+        "Porque ajuda a entender a posição dos números",
+        "Porque ajuda a realizar cálculos mentais"
+      ],
+      "correct": 1,
+      "explanation": "O valor posicional é importante na vida real porque ajuda a realizar operações matemáticas.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando subtraímos dois números com valor posicional?",
+      "options": [
+        "O valor posicional aumenta",
+        "O valor posicional diminui",
+        "O valor posicional permanece o mesmo",
+        "O valor posicional é subtraído"
+      ],
+      "correct": 1,
+      "explanation": "O valor posicional diminui quando subtraímos dois números com valor posicional.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de 945 - 300?",
+      "options": [
+        "645",
+        "635",
+        "655",
+        "665"
+      ],
+      "correct": 0,
+      "explanation": "O resultado de 945 - 300 é 645.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: 1000, 2000, 3000, ___",
+      "options": [
+        "4000",
+        "5000",
+        "6000",
+        "7000"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que aumentam em uma ordem de grandeza.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o valor posicional do dígito 7 no número 7492?",
+      "options": [
+        "70",
+        "7",
+        "700",
+        "72"
+      ],
+      "correct": 2,
+      "explanation": "O valor posicional do dígito 7 é 7000, mas como o número é 7492, o valor posicional do dígito 7 é 7000.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Adição e Subtração": [
+    {
+      "question": "O que é adição?",
+      "options": [
+        "Subtrair números",
+        "Somar números",
+        "Dividir números",
+        "Multiplicar números"
+      ],
+      "correct": 1,
+      "explanation": "Adição é a operação de somar números.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 5 lápis e meu amigo me dá 2 lápis, quantos lápis eu tenho agora?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "Eu somo os lápis que eu tenho com os lápis que meu amigo me deu: 5 + 2 = 7.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 3 + 1?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "Somando 3 + 1, obtemos 4.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é subtração?",
+      "options": [
+        "Somar números",
+        "Subtrair números",
+        "Dividir números",
+        "Multiplicar números"
+      ],
+      "correct": 1,
+      "explanation": "Subtração é a operação de subtrair números.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 8 canetas e dou 2 canetas para meu irmão, quantas canetas eu tenho agora?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio as canetas que eu dei para meu irmão: 8 - 2 = 6.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 2 + 1 = ___",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Somando 2 + 1, obtemos 3.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 5 bolas e perco 1 bola, quantas bolas eu tenho agora?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio a bola que eu perdi: 5 - 1 = 4.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 5 - 2?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Subtraindo 2 de 5, obtemos 3.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 3 pratos e meu amigo me dá 2 pratos, quantos pratos eu tenho agora?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 1,
+      "explanation": "Eu somo os pratos que eu tenho com os pratos que meu amigo me deu: 3 + 2 = 5.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 1 + 2 = ___",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Somando 1 + 2, obtemos 3.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 9 lápis e dou 3 lápis para meu amigo, quantos lápis eu tenho agora?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio os lápis que eu dei para meu amigo: 9 - 3 = 6.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 7 + 4?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correct": 1,
+      "explanation": "Somando 7 + 4, obtemos 11.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 12 canetas e perco 4 canetas, quantas canetas eu tenho agora?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio as canetas que eu perdi: 12 - 4 = 8.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 5 - 2 = ___",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Subtraindo 2 de 5, obtemos 3.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 15 bolas e dou 5 bolas para meu irmão, quantas bolas eu tenho agora?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio as bolas que eu dei para meu irmão: 15 - 5 = 10.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 9 - 3?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 0,
+      "explanation": "Subtraindo 3 de 9, obtemos 6.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 18 lápis e perco 6 lápis, quantos lápis eu tenho agora?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio os lápis que eu perdi: 18 - 6 = 12.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 8 + 2 = ___",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "Somando 8 + 2, obtemos 10.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 20 canetas e dou 8 canetas para meu amigo, quantas canetas eu tenho agora?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correct": 0,
+      "explanation": "Eu subtraio as canetas que eu dei para meu amigo: 20 - 8 = 12.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de 15 + 9?",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "correct": 1,
+      "explanation": "Somando 15 + 9, obtemos 24.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Porcentagem": [
+    {
+      "question": "O que é porcentagem?",
+      "options": [
+        "Uma fração de um número",
+        "Um número inteiro",
+        "Uma parte de um todo expressa em 100",
+        "Uma operação matemática"
+      ],
+      "correct": 2,
+      "explanation": "Porcentagem é uma forma de expressar uma parte de um todo em relação a 100.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o símbolo usado para representar porcentagem?",
+      "options": [
+        "%",
+        "#",
+        "$",
+        "@"
+      ],
+      "correct": 0,
+      "explanation": "O símbolo % é usado para representar porcentagem.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um produto está com 25% de desconto, isso significa que você paga:",
+      "options": [
+        "75% do preço original",
+        "50% do preço original",
+        "25% do preço original",
+        "100% do preço original"
+      ],
+      "correct": 0,
+      "explanation": "Se um produto está com 25% de desconto, você paga 75% do preço original.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome da operação que consiste em encontrar uma porcentagem de um número?",
+      "options": [
+        "Porcentagem",
+        "Fração",
+        "Desconto",
+        "Porcentagem de um número"
+      ],
+      "correct": 3,
+      "explanation": "A operação que consiste em encontrar uma porcentagem de um número é chamada de porcentagem de um número.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 100 laranjas e come 20%, quantas laranjas você ainda tem?",
+      "options": [
+        "80",
+        "90",
+        "70",
+        "60"
+      ],
+      "correct": 0,
+      "explanation": "Se você come 20% de 100 laranjas, você come 20 laranjas e ainda tem 80 laranjas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma forma de expressar porcentagem?",
+      "options": [
+        "Fração",
+        "Decimal",
+        "Número inteiro",
+        "Porcentagem de um número"
+      ],
+      "correct": 2,
+      "explanation": "Um número inteiro não é uma forma de expressar porcentagem.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: 10% de 50 é igual a ___",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct": 0,
+      "explanation": "10% de 50 é igual a 5.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um produto está com 50% de desconto, isso significa que você paga:",
+      "options": [
+        "100% do preço original",
+        "50% do preço original",
+        "25% do preço original",
+        "0% do preço original"
+      ],
+      "correct": 1,
+      "explanation": "Se um produto está com 50% de desconto, você paga 50% do preço original.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que é importante saber calcular porcentagens?",
+      "options": [
+        "Para resolver problemas de matemática",
+        "Para entender descontos e aumentos de preços",
+        "Para calcular áreas e volumes",
+        "Para resolver problemas de física"
+      ],
+      "correct": 1,
+      "explanation": "É importante saber calcular porcentagens para entender descontos e aumentos de preços.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem 200 reais e gasta 15% em um presente, quantos reais você gastou?",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "correct": 0,
+      "explanation": "Se você gasta 15% de 200 reais, você gasta 30 reais.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de aumentar um número em 25% e depois diminuir em 25%?",
+      "options": [
+        "O número original",
+        "Um número maior que o original",
+        "Um número menor que o original",
+        "Um número igual ao dobro do original"
+      ],
+      "correct": 0,
+      "explanation": "Aumentar um número em 25% e depois diminuir em 25% resulta no número original.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: 25% de 80 é igual a ___",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "correct": 0,
+      "explanation": "25% de 80 é igual a 20.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um produto está com 10% de desconto, isso significa que você paga:",
+      "options": [
+        "90% do preço original",
+        "80% do preço original",
+        "70% do preço original",
+        "60% do preço original"
+      ],
+      "correct": 0,
+      "explanation": "Se um produto está com 10% de desconto, você paga 90% do preço original.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um exemplo de porcentagem?",
+      "options": [
+        "Desconto em um produto",
+        "Aumento de salário",
+        "Número de laranjas em uma caixa",
+        "Quantidade de chuva em um mês"
+      ],
+      "correct": 2,
+      "explanation": "Número de laranjas em uma caixa não é um exemplo de porcentagem.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem 150 reais e gasta 20% em um presente, quantos reais você gastou?",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "correct": 1,
+      "explanation": "Se você gasta 20% de 150 reais, você gasta 30 reais.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a frase: 50% de 120 é igual a ___",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "correct": 0,
+      "explanation": "50% de 120 é igual a 60.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se um produto está com 5% de desconto, isso significa que você paga:",
+      "options": [
+        "95% do preço original",
+        "90% do preço original",
+        "85% do preço original",
+        "80% do preço original"
+      ],
+      "correct": 0,
+      "explanation": "Se um produto está com 5% de desconto, você paga 95% do preço original.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de aumentar um número em 10% e depois aumentar em mais 10%?",
+      "options": [
+        "Um número 20% maior que o original",
+        "Um número 21% maior que o original",
+        "Um número 10% maior que o original",
+        "Um número igual ao dobro do original"
+      ],
+      "correct": 1,
+      "explanation": "Aumentar um número em 10% e depois aumentar em mais 10% resulta em um número 21% maior que o original.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem 80 reais e gasta 12,5% em um presente, quantos reais você gastou?",
+      "options": [
+        "10",
+        "12,5",
+        "15",
+        "20"
+      ],
+      "correct": 1,
+      "explanation": "Se você gasta 12,5% de 80 reais, você gasta 10 reais.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a frase: 37,5% de 160 é igual a ___",
+      "options": [
+        "60",
+        "65",
+        "70",
+        "75"
+      ],
+      "correct": 0,
+      "explanation": "37,5% de 160 é igual a 60.",
+      "type": "completar",
+      "difficulty": "dificil"
+    }
+  ],
+  "Sistema Monetário": [
+    {
+      "question": "O que é dinheiro?",
+      "options": [
+        "Um objeto que compramos",
+        "Um meio de troca para obter coisas",
+        "Um brinquedo para jogar",
+        "Um tipo de comida"
+      ],
+      "correct": 1,
+      "explanation": "Dinheiro é um meio de troca que usamos para comprar coisas que precisamos ou queremos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a unidade básica do sistema monetário no Brasil?",
+      "options": [
+        "Dólar",
+        "Euro",
+        "Real",
+        "Peso"
+      ],
+      "correct": 2,
+      "explanation": "No Brasil, a unidade básica do sistema monetário é o Real.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem R$ 10 e compra um brinquedo por R$ 5, quanto dinheiro você tem agora?",
+      "options": [
+        "R$ 5",
+        "R$ 10",
+        "R$ 15",
+        "R$ 20"
+      ],
+      "correct": 0,
+      "explanation": "Se você gasta R$ 5 de R$ 10, você fica com R$ 10 - R$ 5 = R$ 5.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma forma comum de pagamento?",
+      "options": [
+        "Dinheiro",
+        "Cartão de crédito",
+        "Cheque",
+        "Troca de brinquedos"
+      ],
+      "correct": 3,
+      "explanation": "Troca de brinquedos não é uma forma comum de pagamento em lojas ou serviços.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: O Real é dividido em ______.",
+      "options": [
+        "100 centavos",
+        "1000 centavos",
+        "10 centavos",
+        "50 centavos"
+      ],
+      "correct": 0,
+      "explanation": "O Real é dividido em 100 centavos.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que usamos dinheiro?",
+      "options": [
+        "Para jogar",
+        "Para comer",
+        "Para comprar coisas",
+        "Para dormir"
+      ],
+      "correct": 2,
+      "explanation": "Usamos dinheiro para comprar coisas que precisamos ou queremos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem R$ 20 e quer comprar um lanche que custa R$ 5, quantos lanches você pode comprar?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 3,
+      "explanation": "Com R$ 20, você pode comprar R$ 20 / R$ 5 = 4 lanches.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome da moeda que tem o valor de R$ 0,10?",
+      "options": [
+        "Real",
+        "Centavo",
+        "Dízimo",
+        "Dez centavos"
+      ],
+      "correct": 3,
+      "explanation": "A moeda de R$ 0,10 é chamada de dez centavos.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem R$ 15 e gasta R$ 3, quanto dinheiro você tem agora?",
+      "options": [
+        "R$ 12",
+        "R$ 15",
+        "R$ 18",
+        "R$ 20"
+      ],
+      "correct": 0,
+      "explanation": "Se você gasta R$ 3 de R$ 15, você fica com R$ 15 - R$ 3 = R$ 12.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual afirmação sobre o sistema monetário é falsa?",
+      "options": [
+        "O Real é a moeda oficial do Brasil",
+        "O Dólar é a moeda oficial do Brasil",
+        "O sistema monetário é usado para comprar coisas",
+        "O sistema monetário é usado para trocar coisas"
+      ],
+      "correct": 1,
+      "explanation": "O Dólar não é a moeda oficial do Brasil, o Real é.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Se você tem R$ 5 e quer comprar um brinquedo que custa R$ 3, você pode comprar ______.",
+      "options": [
+        "1 brinquedo e ter R$ 2 sobrando",
+        "2 brinquedos e ter R$ 1 sobrando",
+        "1 brinquedo e ter R$ 1 sobrando",
+        "2 brinquedos e ter R$ 2 sobrando"
+      ],
+      "correct": 0,
+      "explanation": "Com R$ 5, você pode comprar 1 brinquedo de R$ 3 e ter R$ 5 - R$ 3 = R$ 2 sobrando.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem R$ 10 e quer comprar um lanche que custa R$ 2, quantos lanches você pode comprar?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "Com R$ 10, você pode comprar R$ 10 / R$ 2 = 5 lanches.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que é importante ter dinheiro?",
+      "options": [
+        "Para jogar",
+        "Para comer",
+        "Para comprar coisas que precisamos ou queremos",
+        "Para dormir"
+      ],
+      "correct": 2,
+      "explanation": "É importante ter dinheiro para comprar coisas que precisamos ou queremos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem R$ 25 e gasta R$ 10, quanto dinheiro você tem agora?",
+      "options": [
+        "R$ 15",
+        "R$ 20",
+        "R$ 25",
+        "R$ 30"
+      ],
+      "correct": 0,
+      "explanation": "Se você gasta R$ 10 de R$ 25, você fica com R$ 25 - R$ 10 = R$ 15.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o nome da moeda que tem o valor de R$ 1,00?",
+      "options": [
+        "Real",
+        "Centavo",
+        "Dízimo",
+        "Um real"
+      ],
+      "correct": 3,
+      "explanation": "A moeda de R$ 1,00 é chamada de um real.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem R$ 30 e quer comprar um brinquedo que custa R$ 10, quantos brinquedos você pode comprar?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "Com R$ 30, você pode comprar R$ 30 / R$ 10 = 3 brinquedos.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual afirmação sobre o sistema monetário é verdadeira?",
+      "options": [
+        "O sistema monetário é usado apenas para comprar coisas caras",
+        "O sistema monetário é usado apenas para trocar coisas",
+        "O sistema monetário é usado para comprar e trocar coisas",
+        "O sistema monetário é usado apenas para jogar"
+      ],
+      "correct": 2,
+      "explanation": "O sistema monetário é usado para comprar e trocar coisas.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: Se você tem R$ 20 e quer comprar um lanche que custa R$ 4, você pode comprar ______.",
+      "options": [
+        "4 lanches e ter R$ 4 sobrando",
+        "5 lanches e ter R$ 0 sobrando",
+        "4 lanches e ter R$ 0 sobrando",
+        "5 lanches e ter R$ 0 sobrando"
+      ],
+      "correct": 2,
+      "explanation": "Com R$ 20, você pode comprar R$ 20 / R$ 4 = 5 lanches e ter R$ 0 sobrando.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem R$ 40 e gasta R$ 20, quanto dinheiro você tem agora?",
+      "options": [
+        "R$ 20",
+        "R$ 30",
+        "R$ 40",
+        "R$ 50"
+      ],
+      "correct": 0,
+      "explanation": "Se você gasta R$ 20 de R$ 40, você fica com R$ 40 - R$ 20 = R$ 20.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que é importante saber como usar o dinheiro?",
+      "options": [
+        "Para jogar",
+        "Para comer",
+        "Para tomar decisões sobre como gastar o dinheiro",
+        "Para dormir"
+      ],
+      "correct": 2,
+      "explanation": "É importante saber como usar o dinheiro para tomar decisões sobre como gastá-lo.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Multiplicação": [
+    {
+      "question": "O que é multiplicação?",
+      "options": [
+        "Adição de números",
+        "Subtração de números",
+        "Repetição de adições",
+        "Divisão de números"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação é uma operação matemática que representa a repetição de adições.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 3 grupos de 4 lápis, quantos lápis eu tenho ao todo?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 3,
+      "explanation": "Para encontrar o total de lápis, multiplicamos o número de grupos pelo número de lápis em cada grupo: 3 x 4 = 12.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 2 x 5?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "correct": 1,
+      "explanation": "O resultado de 2 x 5 é 10, pois estamos adicionando 2 cinco vezes.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 2, 4, 6, 8, ___",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada adicionando 2 a cada número, então o próximo número é 10.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 5 filas de 3 cadeiras, quantas cadeiras eu tenho ao todo?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "Para encontrar o total de cadeiras, multiplicamos o número de filas pelo número de cadeiras em cada fila: 5 x 3 = 15.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que não é um exemplo de multiplicação?",
+      "options": [
+        "3 x 4",
+        "2 + 2",
+        "5 x 1",
+        "4 x 6"
+      ],
+      "correct": 1,
+      "explanation": "A adição de números (2 + 2) não é um exemplo de multiplicação.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 2 caixas de 6 lápis, quantos lápis eu tenho ao todo?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct": 2,
+      "explanation": "Para encontrar o total de lápis, multiplicamos o número de caixas pelo número de lápis em cada caixa: 2 x 6 = 12.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 5, 10, 15, 20, ___",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada adicionando 5 a cada número, então o próximo número é 25.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 4 grupos de 5 bolas, quantas bolas eu tenho ao todo?",
+      "options": [
+        "15",
+        "16",
+        "18",
+        "20"
+      ],
+      "correct": 3,
+      "explanation": "Para encontrar o total de bolas, multiplicamos o número de grupos pelo número de bolas em cada grupo: 4 x 5 = 20.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 6 x 3?",
+      "options": [
+        "15",
+        "16",
+        "18",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "O resultado de 6 x 3 é 18, pois estamos adicionando 6 três vezes.",
+      "type": "definicao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 3 filas de 4 cadeiras e mais 2 filas de 3 cadeiras, quantas cadeiras eu tenho ao todo?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "correct": 1,
+      "explanation": "Para encontrar o total de cadeiras, multiplicamos o número de filas pelo número de cadeiras em cada fila e somamos os resultados: (3 x 4) + (2 x 3) = 12 + 6 = 18.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 2, 6, 12, 20, ___",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "32"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada adicionando 4, 6, 8, ... a cada número, então o próximo número é 30.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 5 caixas de 6 lápis e mais 2 caixas de 4 lápis, quantos lápis eu tenho ao todo?",
+      "options": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "correct": 1,
+      "explanation": "Para encontrar o total de lápis, multiplicamos o número de caixas pelo número de lápis em cada caixa e somamos os resultados: (5 x 6) + (2 x 4) = 30 + 8 = 38.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é um exemplo de multiplicação?",
+      "options": [
+        "3 x 4",
+        "2 + 2",
+        "5 x 1",
+        "4 x 6"
+      ],
+      "correct": 1,
+      "explanation": "A adição de números (2 + 2) não é um exemplo de multiplicação.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 6 grupos de 3 bolas, quantas bolas eu tenho ao todo?",
+      "options": [
+        "15",
+        "16",
+        "18",
+        "20"
+      ],
+      "correct": 2,
+      "explanation": "Para encontrar o total de bolas, multiplicamos o número de grupos pelo número de bolas em cada grupo: 6 x 3 = 18.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 3, 9, 15, 21, ___",
+      "options": [
+        "25",
+        "27",
+        "30",
+        "33"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada adicionando 6 a cada número, então o próximo número é 27.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 4 filas de 5 cadeiras e mais 3 filas de 4 cadeiras, quantas cadeiras eu tenho ao todo?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "correct": 3,
+      "explanation": "Para encontrar o total de cadeiras, multiplicamos o número de filas pelo número de cadeiras em cada fila e somamos os resultados: (4 x 5) + (3 x 4) = 20 + 12 = 32.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de 9 x 6?",
+      "options": [
+        "48",
+        "50",
+        "54",
+        "60"
+      ],
+      "correct": 2,
+      "explanation": "O resultado de 9 x 6 é 54, pois estamos adicionando 9 seis vezes.",
+      "type": "definicao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu tenho 6 caixas de 8 lápis e mais 2 caixas de 6 lápis, quantos lápis eu tenho ao todo?",
+      "options": [
+        "48",
+        "50",
+        "54",
+        "60"
+      ],
+      "correct": 2,
+      "explanation": "Para encontrar o total de lápis, multiplicamos o número de caixas pelo número de lápis em cada caixa e somamos os resultados: (6 x 8) + (2 x 6) = 48 + 12 = 60.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: 4, 12, 24, 40, ___",
+      "options": [
+        "56",
+        "60",
+        "64",
+        "68"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada adicionando 8, 12, 16, ... a cada número, então o próximo número é 60.",
+      "type": "completar",
+      "difficulty": "dificil"
+    }
+  ],
+  "Divisão": [
+    {
+      "question": "O que é divisão?",
+      "options": [
+        "Adição de números",
+        "Subtração de números",
+        "Partir algo em partes iguais",
+        "Multiplicação de números"
+      ],
+      "correct": 2,
+      "explanation": "A divisão é uma operação matemática que representa a partilha de um conjunto de objetos em grupos menores.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 12 lápis e quero dividi-los igualmente entre 4 amigos, quantos lápis cada amigo receberá?",
+      "options": [
+        "2 lápis",
+        "3 lápis",
+        "4 lápis",
+        "6 lápis"
+      ],
+      "correct": 1,
+      "explanation": "Para dividir os lápis igualmente, dividimos o total de lápis (12) pelo número de amigos (4), resultando em 3 lápis por amigo.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do sinal usado para representar a divisão?",
+      "options": [
+        "+",
+        "-",
+        "x",
+        "÷"
+      ],
+      "correct": 3,
+      "explanation": "O sinal ÷ é usado para representar a divisão em matemática.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma caixa contém 18 bolinhas e elas forem divididas em grupos de 3, quantos grupos podemos formar?",
+      "options": [
+        "4 grupos",
+        "5 grupos",
+        "6 grupos",
+        "9 grupos"
+      ],
+      "correct": 2,
+      "explanation": "Dividindo o total de bolinhas (18) pelo tamanho de cada grupo (3), encontramos que podemos formar 6 grupos.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual das seguintes operações NÃO é uma divisão?",
+      "options": [
+        "12 ÷ 4",
+        "7 x 3",
+        "15 ÷ 5",
+        "20 ÷ 2"
+      ],
+      "correct": 1,
+      "explanation": "A operação 7 x 3 é uma multiplicação, não uma divisão.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 12 ÷ 2 = ___, 12 ÷ 3 = ___, 12 ÷ 4 = ___",
+      "options": [
+        "6, 4, 2",
+        "6, 4, 3",
+        "4, 3, 2",
+        "8, 6, 4"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada realizando as divisões: 12 ÷ 2 = 6, 12 ÷ 3 = 4, 12 ÷ 4 = 3.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que a divisão é importante no dia a dia?",
+      "options": [
+        "Porque ajuda a somar números",
+        "Porque ajuda a dividir coisas igualmente",
+        "Porque é usada apenas em matemática",
+        "Porque é usada apenas em ciências"
+      ],
+      "correct": 1,
+      "explanation": "A divisão é importante porque nos ajuda a dividir coisas de forma justa e igual, como dividir brinquedos ou comida entre amigos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem 16 crayons e quer colocá-los em caixas que cabem 4 crayons cada, quantas caixas você precisará?",
+      "options": [
+        "2 caixas",
+        "3 caixas",
+        "4 caixas",
+        "6 caixas"
+      ],
+      "correct": 2,
+      "explanation": "Dividindo o total de crayons (16) pelo número que cada caixa pode conter (4), encontramos que são necessárias 4 caixas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando você divide um número por 1?",
+      "options": [
+        "O número aumenta",
+        "O número diminui",
+        "O número permanece o mesmo",
+        "O número some"
+      ],
+      "correct": 2,
+      "explanation": "Quando você divide um número por 1, o resultado é o próprio número, pois dividir por 1 não altera o valor.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual das seguintes afirmações sobre divisão é FALSA?",
+      "options": [
+        "A divisão é o oposto da multiplicação",
+        "A divisão sempre resulta em um número inteiro",
+        "A divisão pode ser usada para dividir objetos em grupos",
+        "A divisão é usada para encontrar quantas vezes um número cabe em outro"
+      ],
+      "correct": 1,
+      "explanation": "A afirmação 'A divisão sempre resulta em um número inteiro' é falsa, pois a divisão pode resultar em números fracionários ou decimais.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a lacuna: Se 24 ÷ 4 = 6, então 24 ÷ ___ = 8",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "Se 24 ÷ 4 = 6, então para encontrar o divisor que resulte em 8, calculamos 24 ÷ 8 = 3, pois 24 ÷ 3 = 8.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem 25 figuras para montar e quer dividi-las igualmente entre 5 prateleiras, quantas figuras cada prateleira pode ter?",
+      "options": [
+        "3 figuras",
+        "4 figuras",
+        "5 figuras",
+        "6 figuras"
+      ],
+      "correct": 2,
+      "explanation": "Dividindo o total de figuras (25) pelo número de prateleiras (5), encontramos que cada prateleira pode ter 5 figuras.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que é importante saber dividir números?",
+      "options": [
+        "Para somar números",
+        "Para subtrair números",
+        "Para resolver problemas do dia a dia",
+        "Para multiplicar números"
+      ],
+      "correct": 2,
+      "explanation": "Saber dividir números é importante porque nos ajuda a resolver problemas do dia a dia, como dividir objetos ou quantidades de forma justa.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma loja tem 48 bolos para vender e quer embalá-los em caixas de 6 bolos cada, quantas caixas podem ser preparadas?",
+      "options": [
+        "6 caixas",
+        "7 caixas",
+        "8 caixas",
+        "9 caixas"
+      ],
+      "correct": 2,
+      "explanation": "Dividindo o total de bolos (48) pelo número de bolos por caixa (6), encontramos que podem ser preparadas 8 caixas.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 9 ÷ 3?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 1,
+      "explanation": "O resultado de 9 ÷ 3 é 3, pois 3 grupos de 3 são necessários para fazer 9.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 20 canetas e quer dividi-las igualmente entre 4 amigos, mas 2 amigos não querem canetas, quantas canetas cada um dos 2 amigos restantes receberá?",
+      "options": [
+        "4 canetas",
+        "5 canetas",
+        "6 canetas",
+        "10 canetas"
+      ],
+      "correct": 3,
+      "explanation": "Primeiro, dividimos as canetas entre os 4 amigos: 20 ÷ 4 = 5 canetas por amigo. Como 2 amigos não querem canetas, os 2 amigos restantes receberão as canetas dos outros 2, então 10 canetas cada.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que acontece quando você divide um número por outro número que é maior do que ele?",
+      "options": [
+        "O resultado é sempre um número inteiro",
+        "O resultado é sempre um número fracionário",
+        "O resultado é 0",
+        "O resultado é um número negativo"
+      ],
+      "correct": 1,
+      "explanation": "Quando você divide um número por outro número que é maior, o resultado é um número fracionário, pois o divisor não cabe inteiramente no dividendo.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete a sequência: 18 ÷ 3 = 6, 18 ÷ 6 = ___, 18 ÷ 9 = ___",
+      "options": [
+        "3, 2",
+        "2, 1",
+        "4, 3",
+        "6, 4"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada realizando as divisões: 18 ÷ 3 = 6, 18 ÷ 6 = 3, 18 ÷ 9 = 2.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem 50 livros para organizar em prateleiras que cabem 10 livros cada, mas 10 livros são muito grandes e precisam de uma prateleira especial que cabe apenas 5 livros, quantas prateleiras normais você precisará para os livros restantes?",
+      "options": [
+        "3 prateleiras",
+        "4 prateleiras",
+        "5 prateleiras",
+        "6 prateleiras"
+      ],
+      "correct": 2,
+      "explanation": "Primeiro, retire os 10 livros grandes: 50 - 10 = 40 livros. Como a prateleira especial para os livros grandes cabe 5 livros, os 5 livros restantes grandes precisarão de outra prateleira especial, mas isso não afeta o cálculo das prateleiras normais. Dividindo os 40 livros restantes pelos 10 que cada prateleira normal pode conter: 40 ÷ 10 = 4 prateleiras.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de 24 ÷ 0?",
+      "options": [
+        "0",
+        "1",
+        "Indefinido",
+        "Um número muito grande"
+      ],
+      "correct": 2,
+      "explanation": "A divisão por zero é indefinida, pois não há um número que possa ser multiplicado por zero para dar um resultado diferente de zero.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Tabuada": [
+    {
+      "question": "O que é a tabuada?",
+      "options": [
+        "Uma tabela de multiplicação",
+        "Uma lista de números",
+        "Um jogo de matemática",
+        "Um tipo de fração"
+      ],
+      "correct": 0,
+      "explanation": "A tabuada é uma tabela que ajuda a lembrar os resultados da multiplicação.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 2 x 3?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação de 2 por 3 é igual a 6.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um múltiplo de 5?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "23"
+      ],
+      "correct": 3,
+      "explanation": "23 não é um múltiplo de 5.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 2, 4, ___, 8",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "10"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada pelos múltiplos de 2.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante saber a tabuada?",
+      "options": [
+        "Para resolver problemas de matemática",
+        "Para jogar jogos de azar",
+        "Para ler livros de matemática",
+        "Para fazer exercícios físicos"
+      ],
+      "correct": 0,
+      "explanation": "A tabuada ajuda a resolver problemas de matemática de forma mais rápida e eficiente.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 5 x 6?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação de 5 por 6 é igual a 30.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando multiplicamos um número por 1?",
+      "options": [
+        "O número aumenta",
+        "O número diminui",
+        "O número permanece o mesmo",
+        "O número some"
+      ],
+      "correct": 2,
+      "explanation": "Quando multiplicamos um número por 1, o resultado é o mesmo número.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 10, 20, ___, 40",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "30"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é formada pelos múltiplos de 10.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a definição de multiplicação?",
+      "options": [
+        "Adição de números",
+        "Subtração de números",
+        "Divisão de números",
+        "Repetição de adições"
+      ],
+      "correct": 3,
+      "explanation": "A multiplicação é a repetição de adições.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é um uso da tabuada?",
+      "options": [
+        "Resolver problemas de matemática",
+        "Jogar jogos de azar",
+        "Ler livros de matemática",
+        "Fazer exercícios físicos"
+      ],
+      "correct": 3,
+      "explanation": "A tabuada não é usada para fazer exercícios físicos.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se 3 x 4 = 12, qual é o resultado de 4 x 3?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação é comutativa, então 4 x 3 = 3 x 4 = 12.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 5, 10, ___, 20",
+      "options": [
+        "12",
+        "15",
+        "16",
+        "15"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é formada pelos múltiplos de 5.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 2 x 9?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação de 2 por 9 é igual a 18.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que acontece quando multiplicamos um número por 0?",
+      "options": [
+        "O número aumenta",
+        "O número diminui",
+        "O número permanece o mesmo",
+        "O número some"
+      ],
+      "correct": 3,
+      "explanation": "Quando multiplicamos um número por 0, o resultado é 0.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a definição de múltiplo?",
+      "options": [
+        "Um número que é resultado de uma adição",
+        "Um número que é resultado de uma subtração",
+        "Um número que é resultado de uma multiplicação",
+        "Um número que é resultado de uma divisão"
+      ],
+      "correct": 2,
+      "explanation": "Um múltiplo é um número que é resultado de uma multiplicação.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 3, 6, ___, 12",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é formada pelos múltiplos de 3.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 4 x 9?",
+      "options": [
+        "32",
+        "33",
+        "36",
+        "37"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação de 4 por 9 é igual a 36.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se 2 x 6 = 12, qual é o resultado de 6 x 2?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correct": 2,
+      "explanation": "A multiplicação é comutativa, então 6 x 2 = 2 x 6 = 12.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um múltiplo de 3?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "23"
+      ],
+      "correct": 3,
+      "explanation": "23 não é um múltiplo de 3.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 2, 6, ___, 14",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é formada pelos múltiplos de 2 e 3, mas não é uma sequência simples de múltiplos.",
+      "type": "completar",
+      "difficulty": "dificil"
+    }
+  ],
+  "Frações": [
+    {
+      "question": "O que é uma fração?",
+      "options": [
+        "Uma parte de um todo",
+        "Um número inteiro",
+        "Uma operação matemática",
+        "Um símbolo"
+      ],
+      "correct": 0,
+      "explanation": "Uma fração representa uma parte de um todo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome da parte de cima de uma fração?",
+      "options": [
+        "Denominador",
+        "Numerador",
+        "Fração",
+        "Parte"
+      ],
+      "correct": 1,
+      "explanation": "O numerador é a parte de cima de uma fração.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria comeu 1/4 de um bolo. Qual parte do bolo ela comeu?",
+      "options": [
+        "Um quarto",
+        "Metade",
+        "Três quartos",
+        "Todo o bolo"
+      ],
+      "correct": 0,
+      "explanation": "Maria comeu um quarto do bolo.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual fração é equivalente a 2/4?",
+      "options": [
+        "1/2",
+        "3/4",
+        "1/4",
+        "3/6"
+      ],
+      "correct": 0,
+      "explanation": "1/2 é equivalente a 2/4.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome da parte de baixo de uma fração?",
+      "options": [
+        "Numerador",
+        "Denominador",
+        "Fração",
+        "Parte"
+      ],
+      "correct": 1,
+      "explanation": "O denominador é a parte de baixo de uma fração.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "João tem 3/6 de um pacote de balas. Qual fração é equivalente?",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/3"
+      ],
+      "correct": 0,
+      "explanation": "1/2 é equivalente a 3/6.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual fração é maior: 1/2 ou 1/3?",
+      "options": [
+        "1/2",
+        "1/3",
+        "Igual",
+        "Não sei"
+      ],
+      "correct": 0,
+      "explanation": "1/2 é maior que 1/3.",
+      "type": "comparacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se uma pizza é dividida em 8 partes iguais e você come 2 partes, qual fração da pizza você comeu?",
+      "options": [
+        "1/4",
+        "1/8",
+        "2/8",
+        "3/8"
+      ],
+      "correct": 2,
+      "explanation": "Você comeu 2/8 da pizza, que é equivalente a 1/4.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual fração não é equivalente a 1/2?",
+      "options": [
+        "2/4",
+        "3/6",
+        "1/3",
+        "4/8"
+      ],
+      "correct": 2,
+      "explanation": "1/3 não é equivalente a 1/2.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 1/2, 1/4, 1/8, ___",
+      "options": [
+        "1/16",
+        "1/12",
+        "1/10",
+        "1/6"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é de frações que diminuem pela metade.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se você tem 3/4 de um litro de água e bebe 1/4, qual fração de água você tem agora?",
+      "options": [
+        "1/2",
+        "3/4",
+        "1/4",
+        "2/4"
+      ],
+      "correct": 2,
+      "explanation": "Você tem 1/2 do litro de água agora.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de somar 1/2 e 1/4?",
+      "options": [
+        "3/4",
+        "2/4",
+        "1/4",
+        "3/8"
+      ],
+      "correct": 0,
+      "explanation": "Para somar frações, precisamos ter o mesmo denominador.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se uma caixa tem 12 bolinhos e você come 1/4 deles, quantos bolinhos você comeu?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": 3,
+      "explanation": "1/4 de 12 é 3.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual fração é maior: 2/3 ou 3/4?",
+      "options": [
+        "2/3",
+        "3/4",
+        "Igual",
+        "Não sei"
+      ],
+      "correct": 1,
+      "explanation": "Para comparar frações, precisamos ter o mesmo denominador.",
+      "type": "comparacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem 2/3 de um pacote de pipoca e come mais 1/6, qual fração de pipoca você tem agora?",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/2",
+        "3/6"
+      ],
+      "correct": 0,
+      "explanation": "Para somar frações, precisamos ter o mesmo denominador.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de subtrair 1/4 de 3/4?",
+      "options": [
+        "1/2",
+        "2/4",
+        "1/4",
+        "3/8"
+      ],
+      "correct": 1,
+      "explanation": "Para subtrair frações, precisamos ter o mesmo denominador.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se uma garrafa tem 1 litro de água e você bebe 3/4, qual fração de água você bebeu?",
+      "options": [
+        "1/4",
+        "2/4",
+        "3/4",
+        "1/2"
+      ],
+      "correct": 2,
+      "explanation": "Você bebeu 3/4 do litro de água.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual fração não é uma fração equivalente a 2/4?",
+      "options": [
+        "1/2",
+        "3/6",
+        "2/8",
+        "1/3"
+      ],
+      "correct": 3,
+      "explanation": "1/3 não é equivalente a 2/4.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete a sequência: 2/4, 4/8, 6/12, ___",
+      "options": [
+        "8/16",
+        "10/20",
+        "12/24",
+        "14/28"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é de frações que aumentam em partes iguais.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se você tem 1/2 de um pacote de biscoitos e come mais 1/4, qual fração de biscoitos você tem agora?",
+      "options": [
+        "3/4",
+        "2/4",
+        "1/4",
+        "3/8"
+      ],
+      "correct": 0,
+      "explanation": "Para somar frações, precisamos ter o mesmo denominador.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "Números Decimais": [
+    {
+      "question": "O que é um número decimal?",
+      "options": [
+        "Um número inteiro",
+        "Um número fracionário",
+        "Um número com parte inteira e parte decimal",
+        "Um número negativo"
+      ],
+      "correct": 2,
+      "explanation": "Um número decimal é um número que tem parte inteira e parte decimal, como 3,5 ou 2,8.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do sinal que separa a parte inteira da parte decimal?",
+      "options": [
+        "Vírgula",
+        "Ponto",
+        "Hífen",
+        "Barra"
+      ],
+      "correct": 1,
+      "explanation": "O sinal que separa a parte inteira da parte decimal é o ponto.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 2,5 + 1,8 = ___",
+      "options": [
+        "3,3",
+        "4,3",
+        "4,5",
+        "5,3"
+      ],
+      "correct": 1,
+      "explanation": "Para somar números decimais, basta somar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 4,2 - 2,1?",
+      "options": [
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3"
+      ],
+      "correct": 1,
+      "explanation": "Para subtrair números decimais, basta subtrair as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um número decimal com apenas uma casa decimal?",
+      "options": [
+        "Um número inteiro",
+        "Um número fracionário",
+        "Um número com duas casas decimais",
+        "Um número com uma casa decimal"
+      ],
+      "correct": 3,
+      "explanation": "Um número decimal com apenas uma casa decimal é um número que tem apenas uma casa decimal, como 3,4 ou 2,9.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o valor de 3,5 + 2,2?",
+      "options": [
+        "5,5",
+        "5,7",
+        "5,9",
+        "6,1"
+      ],
+      "correct": 1,
+      "explanation": "Para somar números decimais, basta somar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 1,8 - 0,9 = ___",
+      "options": [
+        "0,8",
+        "0,9",
+        "1,0",
+        "1,1"
+      ],
+      "correct": 1,
+      "explanation": "Para subtrair números decimais, basta subtrair as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o resultado de 2,4 x 3?",
+      "options": [
+        "6,8",
+        "7,2",
+        "7,6",
+        "8,0"
+      ],
+      "correct": 2,
+      "explanation": "Para multiplicar números decimais, basta multiplicar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 4,2 ÷ 2 = ___",
+      "options": [
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3"
+      ],
+      "correct": 1,
+      "explanation": "Para dividir números decimais, basta dividir as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o valor de 1,5 + 2,8?",
+      "options": [
+        "3,3",
+        "4,3",
+        "4,5",
+        "5,3"
+      ],
+      "correct": 2,
+      "explanation": "Para somar números decimais, basta somar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que não é um número decimal?",
+      "options": [
+        "3,5",
+        "2,8",
+        "4",
+        "5,2"
+      ],
+      "correct": 2,
+      "explanation": "Um número inteiro não é um número decimal.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 3,9 - 2,1 = ___",
+      "options": [
+        "1,7",
+        "1,8",
+        "1,9",
+        "2,0"
+      ],
+      "correct": 1,
+      "explanation": "Para subtrair números decimais, basta subtrair as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o resultado de 2,5 x 4?",
+      "options": [
+        "9,0",
+        "10,0",
+        "10,5",
+        "11,0"
+      ],
+      "correct": 2,
+      "explanation": "Para multiplicar números decimais, basta multiplicar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 1,2 + 3,4 = ___",
+      "options": [
+        "4,5",
+        "4,6",
+        "4,7",
+        "4,8"
+      ],
+      "correct": 2,
+      "explanation": "Para somar números decimais, basta somar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é o valor de 4,8 - 2,2?",
+      "options": [
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8"
+      ],
+      "correct": 2,
+      "explanation": "Para subtrair números decimais, basta subtrair as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 2,9 ÷ 3 = ___",
+      "options": [
+        "0,9",
+        "0,95",
+        "0,96",
+        "0,97"
+      ],
+      "correct": 1,
+      "explanation": "Para dividir números decimais, basta dividir as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o resultado de 3,7 x 2,5?",
+      "options": [
+        "9,2",
+        "9,25",
+        "9,3",
+        "9,35"
+      ],
+      "correct": 1,
+      "explanation": "Para multiplicar números decimais, basta multiplicar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 1,8 + 2,9 = ___",
+      "options": [
+        "4,6",
+        "4,7",
+        "4,8",
+        "4,9"
+      ],
+      "correct": 2,
+      "explanation": "Para somar números decimais, basta somar as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é o valor de 5,6 - 3,2?",
+      "options": [
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6"
+      ],
+      "correct": 3,
+      "explanation": "Para subtrair números decimais, basta subtrair as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 4,5 ÷ 1,5 = ___",
+      "options": [
+        "2,9",
+        "3,0",
+        "3,1",
+        "3,2"
+      ],
+      "correct": 1,
+      "explanation": "Para dividir números decimais, basta dividir as partes inteiras e as partes decimais separadamente.",
+      "type": "completar",
+      "difficulty": "dificil"
+    }
+  ],
+  "Geometria Plana": [
+    {
+      "question": "O que é um ponto na geometria?",
+      "options": [
+        "Um objeto tridimensional",
+        "Um objeto bidimensional",
+        "Uma posição exata no espaço",
+        "Um objeto com comprimento e largura"
+      ],
+      "correct": 2,
+      "explanation": "Um ponto é uma posição exata no espaço, representada por uma marcação ou coordenada.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o nome do quadrilátero com todos os lados iguais?",
+      "options": [
+        "Retângulo",
+        "Quadrado",
+        "Triângulo",
+        "Círculo"
+      ],
+      "correct": 1,
+      "explanation": "Um quadrado é um quadrilátero com todos os lados iguais.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se uma figura tem 4 lados e todos os ângulos são retos, qual é o nome dessa figura?",
+      "options": [
+        "Quadrado",
+        "Retângulo",
+        "Triângulo",
+        "Círculo"
+      ],
+      "correct": 0,
+      "explanation": "Um quadrado é um quadrilátero com todos os lados iguais e todos os ângulos são retos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um tipo de ângulo?",
+      "options": [
+        "Agudo",
+        "Retto",
+        "Obtuso",
+        "Triângulo"
+      ],
+      "correct": 3,
+      "explanation": "Um triângulo é uma figura geométrica, não um tipo de ângulo.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um círculo é uma figura geométrica que tem _______ lados.",
+      "options": [
+        "3",
+        "4",
+        "0",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "Um círculo é uma figura geométrica que não tem lados.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem um quadrado e o divide em 4 partes iguais, qual é o nome de cada parte?",
+      "options": [
+        "Triângulo",
+        "Quadrado",
+        "Retângulo",
+        "Quadrante"
+      ],
+      "correct": 3,
+      "explanation": "Cada parte de um quadrado dividido em 4 partes iguais é chamada de quadrante.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que um triângulo tem 3 lados?",
+      "options": [
+        "Porque é uma figura geométrica",
+        "Porque é um quadrilátero",
+        "Porque é uma figura com 3 vértices",
+        "Porque é uma figura com 4 ângulos"
+      ],
+      "correct": 2,
+      "explanation": "Um triângulo tem 3 lados porque é uma figura com 3 vértices.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um diâmetro de um círculo?",
+      "options": [
+        "Um raio",
+        "Um diâmetro",
+        "Um comprimento",
+        "Um perímetro"
+      ],
+      "correct": 1,
+      "explanation": "Um diâmetro é um segmento de reta que passa pelo centro de um círculo e tem os extremos na circunferência.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem um retângulo com 6 cm de comprimento e 4 cm de largura, qual é o perímetro?",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "16 cm",
+        "20 cm"
+      ],
+      "correct": 3,
+      "explanation": "O perímetro de um retângulo é a soma dos comprimentos de todos os lados, que é 2*(comprimento + largura).",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma característica de um quadrado?",
+      "options": [
+        "Todos os lados são iguais",
+        "Todos os ângulos são retos",
+        "O perímetro é igual ao comprimento de um lado",
+        "O comprimento de um lado é igual ao diâmetro de um círculo"
+      ],
+      "correct": 3,
+      "explanation": "O comprimento de um lado de um quadrado não é igual ao diâmetro de um círculo.",
+      "type": "negacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: Um ângulo reto é um ângulo que mede _______ graus.",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "120"
+      ],
+      "correct": 2,
+      "explanation": "Um ângulo reto é um ângulo que mede 90 graus.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem um triângulo com 2 lados iguais, qual é o nome desse triângulo?",
+      "options": [
+        "Isósceles",
+        "Equilátero",
+        "Retângulo",
+        "Obtuso"
+      ],
+      "correct": 0,
+      "explanation": "Um triângulo com 2 lados iguais é chamado de isósceles.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que um círculo é uma figura geométrica simétrica?",
+      "options": [
+        "Porque é uma figura com 4 lados",
+        "Porque é uma figura com 3 vértices",
+        "Porque é uma figura com um centro",
+        "Porque é uma figura com um perímetro"
+      ],
+      "correct": 2,
+      "explanation": "Um círculo é uma figura geométrica simétrica porque é uma figura com um centro.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um raio de um círculo?",
+      "options": [
+        "Um diâmetro",
+        "Um raio",
+        "Um comprimento",
+        "Um perímetro"
+      ],
+      "correct": 1,
+      "explanation": "Um raio é um segmento de reta que tem um extremo no centro de um círculo e o outro extremo na circunferência.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem um quadrado com 5 cm de lado, qual é o perímetro?",
+      "options": [
+        "10 cm",
+        "15 cm",
+        "20 cm",
+        "25 cm"
+      ],
+      "correct": 2,
+      "explanation": "O perímetro de um quadrado é a soma dos comprimentos de todos os lados, que é 4*sides.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma característica de um triângulo?",
+      "options": [
+        "Tem 3 lados",
+        "Tem 3 vértices",
+        "Tem 4 ângulos",
+        "Tem 3 ângulos"
+      ],
+      "correct": 2,
+      "explanation": "Um triângulo tem 3 ângulos, não 4.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: Um retângulo é uma figura geométrica que tem _______ lados.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1,
+      "explanation": "Um retângulo é uma figura geométrica que tem 4 lados.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem um círculo com 4 cm de raio, qual é o diâmetro?",
+      "options": [
+        "2 cm",
+        "4 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correct": 3,
+      "explanation": "O diâmetro de um círculo é o dobro do raio.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que um quadrilátero é uma figura geométrica com 4 lados?",
+      "options": [
+        "Porque é uma figura com 3 vértices",
+        "Porque é uma figura com 4 vértices",
+        "Porque é uma figura com 4 lados",
+        "Porque é uma figura com 5 lados"
+      ],
+      "correct": 2,
+      "explanation": "Um quadrilátero é uma figura geométrica com 4 lados.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um ângulo agudo?",
+      "options": [
+        "Um ângulo reto",
+        "Um ângulo obtuso",
+        "Um ângulo agudo",
+        "Um ângulo côncavo"
+      ],
+      "correct": 2,
+      "explanation": "Um ângulo agudo é um ângulo que mede menos de 90 graus.",
+      "type": "definicao",
+      "difficulty": "facil"
+    }
+  ],
+  "Medidas de Massa e Capacidade": [
+    {
+      "question": "O que é uma unidade de medida de massa?",
+      "options": [
+        "Um tipo de fruta",
+        "Um tipo de medida de comprimento",
+        "Um tipo de medida de peso",
+        "Um tipo de medida de tempo"
+      ],
+      "correct": 2,
+      "explanation": "Uma unidade de medida de massa é um padrão para medir o peso de objetos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem 3/4 de kg de pão. João tem 1/2 de kg de pão. Quem tem mais pão?",
+      "options": [
+        "Maria",
+        "João",
+        "Eles têm o mesmo",
+        "Não é possível saber"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem mais pão porque 3/4 é maior do que 1/2.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual NÃO é uma unidade de medida de massa?",
+      "options": [
+        "Kilograma",
+        "Litro",
+        "Metro",
+        "Quilograma"
+      ],
+      "correct": 2,
+      "explanation": "O litro é uma unidade de medida de capacidade, não de massa.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 1, 2, ___ , 8. Qual é o próximo número?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 3,
+      "explanation": "A sequência é de números que dobram a cada vez.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que é importante usar unidades de medida de massa para medir o peso de objetos?",
+      "options": [
+        "Para saber o tempo que leva para medir",
+        "Para saber o comprimento do objeto",
+        "Para saber o peso do objeto",
+        "Para saber a capacidade do objeto"
+      ],
+      "correct": 2,
+      "explanation": "As unidades de medida de massa nos permitem saber o peso dos objetos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é um quilograma?",
+      "options": [
+        "Um tipo de fruta",
+        "Um tipo de medida de comprimento",
+        "Um tipo de medida de peso",
+        "Um tipo de medida de tempo"
+      ],
+      "correct": 2,
+      "explanation": "Um quilograma é uma unidade de medida de massa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se Maria tem 2 kg de pão e João tem 1 kg de pão, quem tem mais pão?",
+      "options": [
+        "Maria",
+        "João",
+        "Eles têm o mesmo",
+        "Não é possível saber"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem mais pão porque 2 kg é maior do que 1 kg.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre uma unidade de medida de massa e uma unidade de medida de capacidade?",
+      "options": [
+        "Uma é para medir o peso e a outra é para medir o tempo",
+        "Uma é para medir o peso e a outra é para medir o comprimento",
+        "Uma é para medir o peso e a outra é para medir a capacidade",
+        "Uma é para medir o tempo e a outra é para medir o comprimento"
+      ],
+      "correct": 2,
+      "explanation": "Uma unidade de medida de massa é para medir o peso, enquanto uma unidade de medida de capacidade é para medir a capacidade.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 4, 8, ___ , 32. Qual é o próximo número?",
+      "options": [
+        "10",
+        "12",
+        "16",
+        "20"
+      ],
+      "correct": 3,
+      "explanation": "A sequência é de números que dobram a cada vez.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a unidade de medida de massa mais comum usada no Brasil?",
+      "options": [
+        "Kilograma",
+        "Grama",
+        "Litro",
+        "Metro"
+      ],
+      "correct": 0,
+      "explanation": "O quilograma é a unidade de medida de massa mais comum usada no Brasil.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se Maria tem 1/2 de kg de pão e João tem 1/4 de kg de pão, quem tem mais pão?",
+      "options": [
+        "Maria",
+        "João",
+        "Eles têm o mesmo",
+        "Não é possível saber"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem mais pão porque 1/2 é maior do que 1/4.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a diferença entre um grama e um quilograma?",
+      "options": [
+        "Um grama é 10 vezes maior do que um quilograma",
+        "Um quilograma é 10 vezes maior do que um grama",
+        "Um grama é igual a um quilograma",
+        "Um quilograma é igual a 1000 gramas"
+      ],
+      "correct": 3,
+      "explanation": "Um quilograma é igual a 1000 gramas.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 1, 2, 4, ___ , 16. Qual é o próximo número?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 3,
+      "explanation": "A sequência é de números que dobram a cada vez.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma unidade de medida de massa usada no Brasil?",
+      "options": [
+        "Kilograma",
+        "Grama",
+        "Litro",
+        "Metro"
+      ],
+      "correct": 2,
+      "explanation": "O litro é uma unidade de medida de capacidade, não de massa.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se Maria tem 3 kg de pão e João tem 2 kg de pão, quem tem mais pão?",
+      "options": [
+        "Maria",
+        "João",
+        "Eles têm o mesmo",
+        "Não é possível saber"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem mais pão porque 3 kg é maior do que 2 kg.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um grama?",
+      "options": [
+        "Um tipo de fruta",
+        "Um tipo de medida de comprimento",
+        "Um tipo de medida de peso",
+        "Um tipo de medida de tempo"
+      ],
+      "correct": 2,
+      "explanation": "Um grama é uma unidade de medida de massa.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se Maria tem 1 kg de pão e João tem 1/2 kg de pão, quem tem mais pão?",
+      "options": [
+        "Maria",
+        "João",
+        "Eles têm o mesmo",
+        "Não é possível saber"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem mais pão porque 1 kg é maior do que 1/2 kg.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a razão pela qual é importante usar unidades de medida de massa para medir o peso de objetos?",
+      "options": [
+        "Para saber o tempo que leva para medir",
+        "Para saber o comprimento do objeto",
+        "Para saber o peso do objeto",
+        "Para saber a capacidade do objeto"
+      ],
+      "correct": 2,
+      "explanation": "As unidades de medida de massa nos permitem saber o peso dos objetos.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 2, 4, 8, ___ , 32. Qual é o próximo número?",
+      "options": [
+        "10",
+        "12",
+        "16",
+        "20"
+      ],
+      "correct": 3,
+      "explanation": "A sequência é de números que dobram a cada vez.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um quilograma e um litro?",
+      "options": [
+        "Um quilograma é 10 vezes maior do que um litro",
+        "Um litro é 10 vezes maior do que um quilograma",
+        "Um quilograma é igual a um litro",
+        "Um litro é igual a 1000 quilogramas"
+      ],
+      "correct": 3,
+      "explanation": "Um litro é igual a 1000 gramas, ou 1 kg.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Medidas de Tempo": [
+    {
+      "question": "O que é um minuto?",
+      "options": [
+        "Um dia inteiro",
+        "Uma hora",
+        "Um período de 60 segundos",
+        "Um mês"
+      ],
+      "correct": 2,
+      "explanation": "Um minuto é um período de 60 segundos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria está assistindo TV e o programa dura 30 minutos. Se ela assistir por 15 minutos, quantos minutos restam?",
+      "options": [
+        "5 minutos",
+        "10 minutos",
+        "15 minutos",
+        "20 minutos"
+      ],
+      "correct": 0,
+      "explanation": "Se o programa dura 30 minutos e Maria assistiu por 15 minutos, restam 30 - 15 = 15 minutos.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é uma medida de tempo?",
+      "options": [
+        "Minuto",
+        "Segundo",
+        "Metro",
+        "Hora"
+      ],
+      "correct": 2,
+      "explanation": "O metro é uma medida de comprimento, não de tempo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 1, 2, 4, 8, ___",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que dobram a cada passo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que um minuto é igual a 60 segundos?",
+      "options": [
+        "Porque é um número mágico",
+        "Porque é igual a um dia",
+        "Porque é a quantidade de segundos em um minuto",
+        "Porque é um número aleatório"
+      ],
+      "correct": 2,
+      "explanation": "Um minuto é igual a 60 segundos porque é a quantidade de segundos em um minuto.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando você adiciona 30 segundos a 1 hora?",
+      "options": [
+        "Você adiciona 1 minuto",
+        "Você adiciona 30 minutos",
+        "Você adiciona 1 hora e 30 segundos",
+        "Você adiciona 1 hora"
+      ],
+      "correct": 2,
+      "explanation": "Adicionar 30 segundos a 1 hora é o mesmo que adicionar 1 minuto.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um segundo?",
+      "options": [
+        "Um período de 60 minutos",
+        "Um período de 60 segundos",
+        "Um período de 1 segundo",
+        "Um mês"
+      ],
+      "correct": 2,
+      "explanation": "Um segundo é um período de 1 segundo.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 2 horas e 30 minutos e adiciona 45 minutos, quantas horas e minutos você terá?",
+      "options": [
+        "3 horas e 15 minutos",
+        "2 horas e 45 minutos",
+        "3 horas e 45 minutos",
+        "2 horas e 15 minutos"
+      ],
+      "correct": 0,
+      "explanation": "Adicionar 45 minutos a 2 horas e 30 minutos é o mesmo que adicionar 3/4 de hora, resultando em 3 horas e 15 minutos.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um tipo de medida de tempo?",
+      "options": [
+        "Minuto",
+        "Segundo",
+        "Metro",
+        "Dia"
+      ],
+      "correct": 2,
+      "explanation": "O metro é uma medida de comprimento, não de tempo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 5, 10, 15, 20, ___",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que aumentam em 5 a cada passo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 1 hora e 15 minutos e adiciona 30 minutos, quantas horas e minutos você terá?",
+      "options": [
+        "1 hora e 45 minutos",
+        "2 horas e 15 minutos",
+        "1 hora e 30 minutos",
+        "2 horas"
+      ],
+      "correct": 0,
+      "explanation": "Adicionar 30 minutos a 1 hora e 15 minutos é o mesmo que adicionar 1/2 de hora, resultando em 1 hora e 45 minutos.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que um dia é igual a 24 horas?",
+      "options": [
+        "Porque é um número mágico",
+        "Porque é igual a um ano",
+        "Porque é a quantidade de horas em um dia",
+        "Porque é um número aleatório"
+      ],
+      "correct": 2,
+      "explanation": "Um dia é igual a 24 horas porque é a quantidade de horas em um dia.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que acontece quando você subtrai 30 minutos de 2 horas?",
+      "options": [
+        "Você subtrai 1 hora",
+        "Você subtrai 30 minutos",
+        "Você subtrai 1 hora e 30 minutos",
+        "Você subtrai 2 horas"
+      ],
+      "correct": 2,
+      "explanation": "Subtrair 30 minutos de 2 horas é o mesmo que subtrair 1/2 de hora, resultando em 1 hora e 30 minutos.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é uma hora?",
+      "options": [
+        "Um período de 60 minutos",
+        "Um período de 1 hora",
+        "Um mês",
+        "Um ano"
+      ],
+      "correct": 1,
+      "explanation": "Uma hora é um período de 1 hora.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 3 horas e 45 minutos e adiciona 1 hora e 15 minutos, quantas horas e minutos você terá?",
+      "options": [
+        "5 horas e 0 minutos",
+        "5 horas e 60 minutos",
+        "5 horas e 30 minutos",
+        "5 horas"
+      ],
+      "correct": 0,
+      "explanation": "Adicionar 1 hora e 15 minutos a 3 horas e 45 minutos é o mesmo que adicionar 4/4 de hora, resultando em 5 horas.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual não é um tipo de medida de tempo?",
+      "options": [
+        "Minuto",
+        "Segundo",
+        "Dia",
+        "Metro"
+      ],
+      "correct": 3,
+      "explanation": "O metro é uma medida de comprimento, não de tempo.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete a sequência: 3, 6, 9, 12, ___",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "24"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por números que aumentam em 3 a cada passo.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se você tem 1 hora e adiciona 45 minutos, quantas horas e minutos você terá?",
+      "options": [
+        "1 hora e 45 minutos",
+        "2 horas e 15 minutos",
+        "1 hora e 30 minutos",
+        "2 horas"
+      ],
+      "correct": 0,
+      "explanation": "Adicionar 45 minutos a 1 hora é o mesmo que adicionar 3/4 de hora, resultando em 1 hora e 45 minutos.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Por que um segundo é igual a 1 segundo?",
+      "options": [
+        "Porque é um número mágico",
+        "Porque é igual a um minuto",
+        "Porque é a quantidade de segundos em um segundo",
+        "Porque é um número aleatório"
+      ],
+      "correct": 2,
+      "explanation": "Um segundo é igual a 1 segundo porque é a quantidade de segundos em um segundo.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    }
+  ],
+  "Área e Perímetro": [
+    {
+      "question": "O que é a área de um retângulo?",
+      "options": [
+        "A medida do lado mais longo",
+        "A medida do lado mais curto",
+        "A medida do produto dos lados",
+        "A medida da base e altura"
+      ],
+      "correct": 3,
+      "explanation": "A área de um retângulo é calculada multiplicando a base e a altura.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem um quadrado com 5 cm de lado. Qual é a área do quadrado?",
+      "options": [
+        "10 cm²",
+        "15 cm²",
+        "20 cm²",
+        "25 cm²"
+      ],
+      "correct": 3,
+      "explanation": "A área de um quadrado é calculada multiplicando o lado por si mesmo.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual não é uma medida que define o perímetro de um retângulo?",
+      "options": [
+        "Lado mais longo",
+        "Lado mais curto",
+        "Base e altura",
+        "Todos os lados"
+      ],
+      "correct": 2,
+      "explanation": "O perímetro de um retângulo é calculado somando todos os lados.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 2, 4, ___, 16. Qual é a sequência?",
+      "options": [
+        "2, 4, 6, 8",
+        "2, 4, 8, 16",
+        "2, 6, 8, 16",
+        "4, 6, 8, 16"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é formada por números que são multiplicados por 2.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o perímetro de um quadrado é igual a quatro vezes o lado?",
+      "options": [
+        "Porque o quadrado tem quatro lados",
+        "Porque o quadrado tem uma base e uma altura",
+        "Porque o quadrado tem uma diagonal",
+        "Porque o quadrado tem quatro lados iguais"
+      ],
+      "correct": 3,
+      "explanation": "O perímetro de um quadrado é igual a quatro vezes o lado porque todos os lados são iguais.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o perímetro de um retângulo é 20 cm, e um dos lados é 5 cm, qual é a medida do outro lado?",
+      "options": [
+        "3 cm",
+        "4 cm",
+        "5 cm",
+        "10 cm"
+      ],
+      "correct": 1,
+      "explanation": "Se o perímetro é 20 cm e um dos lados é 5 cm, podemos calcular a medida do outro lado subtraindo 5 cm de 20 cm.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a área de um retângulo com base 6 cm e altura 4 cm?",
+      "options": [
+        "20 cm²",
+        "24 cm²",
+        "30 cm²",
+        "36 cm²"
+      ],
+      "correct": 1,
+      "explanation": "A área de um retângulo é calculada multiplicando a base e a altura.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual não é um tipo de polígono que tem área e perímetro?",
+      "options": [
+        "Triângulo",
+        "Quadrado",
+        "Círculo",
+        "Pentágono"
+      ],
+      "correct": 2,
+      "explanation": "O círculo não é um polígono, pois não tem lados.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 3, 6, ___, 18. Qual é a sequência?",
+      "options": [
+        "3, 6, 9, 12",
+        "3, 6, 9, 18",
+        "3, 9, 12, 18",
+        "6, 9, 12, 18"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é formada por números que são multiplicados por 2 e adicionados 3.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se o perímetro de um quadrado é 24 cm, qual é a medida do lado?",
+      "options": [
+        "4 cm",
+        "6 cm",
+        "8 cm",
+        "10 cm"
+      ],
+      "correct": 1,
+      "explanation": "O perímetro de um quadrado é igual a quatro vezes o lado, então podemos calcular a medida do lado dividindo o perímetro por 4.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a área de um retângulo com base 8 cm e altura 5 cm?",
+      "options": [
+        "30 cm²",
+        "40 cm²",
+        "50 cm²",
+        "60 cm²"
+      ],
+      "correct": 2,
+      "explanation": "A área de um retângulo é calculada multiplicando a base e a altura.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se o perímetro de um retângulo é 30 cm, e um dos lados é 6 cm, qual é a medida do outro lado?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "10 cm"
+      ],
+      "correct": 1,
+      "explanation": "Se o perímetro é 30 cm e um dos lados é 6 cm, podemos calcular a medida do outro lado subtraindo 6 cm de 30 cm.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a sequência de áreas de retângulos com base 2 cm e altura 3 cm, 4 cm e 6 cm, 6 cm e 9 cm, e 8 cm e 12 cm?",
+      "options": [
+        "6, 24, 54, 96",
+        "12, 24, 36, 48",
+        "18, 36, 54, 72",
+        "24, 36, 48, 60"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por áreas de retângulos com base e altura multiplicados.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se o perímetro de um quadrado é 36 cm, qual é a medida do lado?",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "9 cm",
+        "10 cm"
+      ],
+      "correct": 2,
+      "explanation": "O perímetro de um quadrado é igual a quatro vezes o lado, então podemos calcular a medida do lado dividindo o perímetro por 4.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a área de um retângulo com base 10 cm e altura 8 cm?",
+      "options": [
+        "60 cm²",
+        "80 cm²",
+        "100 cm²",
+        "120 cm²"
+      ],
+      "correct": 1,
+      "explanation": "A área de um retângulo é calculada multiplicando a base e a altura.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se o perímetro de um retângulo é 40 cm, e um dos lados é 8 cm, qual é a medida do outro lado?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correct": 1,
+      "explanation": "Se o perímetro é 40 cm e um dos lados é 8 cm, podemos calcular a medida do outro lado subtraindo 8 cm de 40 cm.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a sequência de áreas de retângulos com base 4 cm e altura 6 cm, 6 cm e 9 cm, 8 cm e 12 cm, e 10 cm e 15 cm?",
+      "options": [
+        "24, 54, 96, 150",
+        "36, 54, 72, 90",
+        "48, 72, 96, 120",
+        "60, 90, 120, 150"
+      ],
+      "correct": 0,
+      "explanation": "A sequência é formada por áreas de retângulos com base e altura multiplicados.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se o perímetro de um quadrado é 48 cm, qual é a medida do lado?",
+      "options": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "correct": 2,
+      "explanation": "O perímetro de um quadrado é igual a quatro vezes o lado, então podemos calcular a medida do lado dividindo o perímetro por 4.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a área de um retângulo com base 12 cm e altura 9 cm?",
+      "options": [
+        "108 cm²",
+        "120 cm²",
+        "132 cm²",
+        "144 cm²"
+      ],
+      "correct": 1,
+      "explanation": "A área de um retângulo é calculada multiplicando a base e a altura.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se o perímetro de um retângulo é 60 cm, e um dos lados é 12 cm, qual é a medida do outro lado?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "12 cm"
+      ],
+      "correct": 1,
+      "explanation": "Se o perímetro é 60 cm e um dos lados é 12 cm, podemos calcular a medida do outro lado subtraindo 12 cm de 60 cm.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ],
+  "MMC e MDC": [
+    {
+      "question": "O que é o MDC (Máximo Divisor Comum)?",
+      "options": [
+        "O maior número que divide dois números sem resto",
+        "O menor número que é múltiplo de dois números",
+        "O produto dos fatores primos comuns de dois números",
+        "O resultado da divisão de dois números"
+      ],
+      "correct": 0,
+      "explanation": "O MDC é o maior número que divide dois números sem resto.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o MDC de 12 e 8?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "O MDC de 12 e 8 é 4 porque 4 divide 12 e 8 sem resto.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria comprou 3/4 de kg de frutas e João comprou 1/2 de kg de frutas. Quem comprou mais?",
+      "options": [
+        "Maria",
+        "João",
+        "Igual",
+        "Não é possível dizer"
+      ],
+      "correct": 2,
+      "explanation": "Não é possível dizer quem comprou mais porque os pedidos são diferentes.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que NÃO é um MDC?",
+      "options": [
+        "O maior número que divide dois números sem resto",
+        "O menor número que é múltiplo de dois números",
+        "O produto dos fatores primos comuns de dois números",
+        "O resultado da soma de dois números"
+      ],
+      "correct": 3,
+      "explanation": "O resultado da soma de dois números não é um MDC.",
+      "type": "negacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 2, 4, ___, 16",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "explanation": "A sequência é de números pares, então o próximo número é 8.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que o MDC é importante?",
+      "options": [
+        "Porque é fácil de calcular",
+        "Porque é útil para resolver problemas de divisão",
+        "Porque é necessário para encontrar o MMC",
+        "Porque é um conceito básico da matemática"
+      ],
+      "correct": 2,
+      "explanation": "O MDC é importante porque é útil para resolver problemas de divisão e encontrar o MMC.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MMC (Mínimo Múltiplo Comum)?",
+      "options": [
+        "O maior número que é múltiplo de dois números",
+        "O menor número que divide dois números sem resto",
+        "O produto dos fatores primos comuns de dois números",
+        "O resultado da divisão de dois números"
+      ],
+      "correct": 0,
+      "explanation": "O MMC é o menor número que é múltiplo de dois números.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é o MMC de 4 e 6?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct": 3,
+      "explanation": "O MMC de 4 e 6 é 12 porque 12 é o menor número que é múltiplo de 4 e 6.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MDC de dois números é 2, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 2",
+        "Eles são divisíveis por 2",
+        "Eles são iguais a 2",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são divisíveis por 2.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MMC de 8 e 12?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "correct": 3,
+      "explanation": "O MMC de 8 e 12 é 24 porque 24 é o menor número que é múltiplo de 8 e 12.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MDC de dois números é 4, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 4",
+        "Eles são divisíveis por 4",
+        "Eles são iguais a 4",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são divisíveis por 4.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MDC de 15 e 20?",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "15"
+      ],
+      "correct": 2,
+      "explanation": "O MDC de 15 e 20 é 5 porque 5 divide 15 e 20 sem resto.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MMC de dois números é 24, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 24",
+        "Eles são divisíveis por 24",
+        "Eles são iguais a 24",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são múltiplos de 24.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MMC de 9 e 12?",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "36"
+      ],
+      "correct": 3,
+      "explanation": "O MMC de 9 e 12 é 36 porque 36 é o menor número que é múltiplo de 9 e 12.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MDC de dois números é 6, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 6",
+        "Eles são divisíveis por 6",
+        "Eles são iguais a 6",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são divisíveis por 6.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MMC de 6 e 8?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "correct": 2,
+      "explanation": "O MMC de 6 e 8 é 24 porque 24 é o menor número que é múltiplo de 6 e 8.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MMC de dois números é 36, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 36",
+        "Eles são divisíveis por 36",
+        "Eles são iguais a 36",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são múltiplos de 36.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "O que é o MDC de 10 e 15?",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "15"
+      ],
+      "correct": 1,
+      "explanation": "O MDC de 10 e 15 é 5 porque 5 divide 10 e 15 sem resto.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se o MDC de dois números é 10, o que podemos dizer sobre esses números?",
+      "options": [
+        "Eles são múltiplos de 10",
+        "Eles são divisíveis por 10",
+        "Eles são iguais a 10",
+        "Não podemos dizer nada"
+      ],
+      "correct": 1,
+      "explanation": "Podemos dizer que os números são divisíveis por 10.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    }
+  ],
+  "Medidas de Comprimento": [
+    {
+      "question": "O que é uma medida de comprimento?",
+      "options": [
+        "Uma medida de tempo",
+        "Uma medida de peso",
+        "Uma medida de comprimento",
+        "Uma medida de temperatura"
+      ],
+      "correct": 2,
+      "explanation": "Uma medida de comprimento é usada para medir a distância entre dois pontos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem 5 metros de corda. Ela corta 2 metros. Quanto tem agora?",
+      "options": [
+        "3 metros",
+        "5 metros",
+        "7 metros",
+        "10 metros"
+      ],
+      "correct": 0,
+      "explanation": "Maria tem 3 metros de corda agora, pois cortou 2 metros.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma medida de comprimento?",
+      "options": [
+        "Metro",
+        "Quilograma",
+        "Litro",
+        "Centímetro"
+      ],
+      "correct": 1,
+      "explanation": "Quilograma é uma medida de peso, não de comprimento.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 1, 2, ___",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é de números inteiros consecutivos.",
+      "type": "completar",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Por que podemos usar um metro para medir a distância entre dois pontos?",
+      "options": [
+        "Porque é um objeto grande",
+        "Porque é um objeto pequeno",
+        "Porque é uma unidade de medida padrão",
+        "Porque é um objeto pesado"
+      ],
+      "correct": 2,
+      "explanation": "Um metro é uma unidade de medida padrão para medir a distância entre dois pontos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "O que é um centímetro?",
+      "options": [
+        "Uma medida de tempo",
+        "Uma medida de peso",
+        "Uma medida de comprimento",
+        "Uma medida de temperatura"
+      ],
+      "correct": 2,
+      "explanation": "Um centímetro é uma medida de comprimento, sendo 1/100 de um metro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "João tem 3 metros de corda. Ele corta 1 metro. Quanto tem agora?",
+      "options": [
+        "2 metros",
+        "3 metros",
+        "4 metros",
+        "5 metros"
+      ],
+      "correct": 1,
+      "explanation": "João tem 3 metros de corda agora, pois cortou 1 metro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um metro e um centímetro?",
+      "options": [
+        "Um metro é maior que um centímetro",
+        "Um centímetro é maior que um metro",
+        "Um metro é igual a um centímetro",
+        "Um metro é menor que um centímetro"
+      ],
+      "correct": 0,
+      "explanation": "Um metro é maior que um centímetro, pois um metro é igual a 100 centímetros.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Complete: 2, 4, ___, 16",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é de números inteiros consecutivos multiplicados por 2.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Se eu tenho 5 metros de corda e corto 2 metros, quanto tenho agora?",
+      "options": [
+        "3 metros",
+        "5 metros",
+        "7 metros",
+        "10 metros"
+      ],
+      "correct": 0,
+      "explanation": "Tenho 3 metros de corda agora, pois cortei 2 metros.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Qual é a definição de um metro?",
+      "options": [
+        "Uma medida de tempo",
+        "Uma medida de peso",
+        "Uma medida de comprimento",
+        "Uma medida de temperatura"
+      ],
+      "correct": 2,
+      "explanation": "Um metro é uma medida de comprimento, sendo a unidade padrão para medir a distância entre dois pontos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem 2 metros de corda. Ela corta 1 metro. Quanto tem agora?",
+      "options": [
+        "1 metro",
+        "2 metros",
+        "3 metros",
+        "4 metros"
+      ],
+      "correct": 1,
+      "explanation": "Maria tem 2 metros de corda agora, pois cortou 1 metro.",
+      "type": "aplicacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Complete: 1, 2, 4, ___",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é de números inteiros consecutivos multiplicados por 2.",
+      "type": "completar",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Por que podemos usar um centímetro para medir a distância entre dois pontos?",
+      "options": [
+        "Porque é um objeto grande",
+        "Porque é um objeto pequeno",
+        "Porque é uma unidade de medida padrão",
+        "Porque é um objeto pesado"
+      ],
+      "correct": 2,
+      "explanation": "Um centímetro é uma unidade de medida padrão para medir a distância entre dois pontos.",
+      "type": "raciocinio",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual NÃO é uma medida de comprimento?",
+      "options": [
+        "Metro",
+        "Quilograma",
+        "Litro",
+        "Centímetro"
+      ],
+      "correct": 1,
+      "explanation": "Quilograma é uma medida de peso, não de comprimento.",
+      "type": "negacao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Se eu tenho 3 metros de corda e corto 1 metro, quanto tenho agora?",
+      "options": [
+        "2 metros",
+        "3 metros",
+        "4 metros",
+        "5 metros"
+      ],
+      "correct": 1,
+      "explanation": "Tenho 3 metros de corda agora, pois cortei 1 metro.",
+      "type": "raciocinio",
+      "difficulty": "medio"
+    },
+    {
+      "question": "O que é um metro?",
+      "options": [
+        "Uma medida de tempo",
+        "Uma medida de peso",
+        "Uma medida de comprimento",
+        "Uma medida de temperatura"
+      ],
+      "correct": 2,
+      "explanation": "Um metro é uma medida de comprimento, sendo a unidade padrão para medir a distância entre dois pontos.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Qual é a diferença entre um metro e um centímetro?",
+      "options": [
+        "Um metro é maior que um centímetro",
+        "Um centímetro é maior que um metro",
+        "Um metro é igual a um centímetro",
+        "Um metro é menor que um centímetro"
+      ],
+      "correct": 0,
+      "explanation": "Um metro é maior que um centímetro, pois um metro é igual a 100 centímetros.",
+      "type": "aplicacao",
+      "difficulty": "medio"
+    },
+    {
+      "question": "Maria tem 1 metro de corda. Ela corta 0,5 metro. Quanto tem agora?",
+      "options": [
+        "0,5 metro",
+        "1 metro",
+        "1,5 metro",
+        "2 metros"
+      ],
+      "correct": 1,
+      "explanation": "Maria tem 1 metro de corda agora, pois cortou 0,5 metro.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Complete: 2, 4, 8, ___",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "correct": 2,
+      "explanation": "A sequência é de números inteiros consecutivos multiplicados por 2.",
+      "type": "completar",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Se eu tenho 2 metros de corda e corto 1 metro, quanto tenho agora?",
+      "options": [
+        "1 metro",
+        "2 metros",
+        "3 metros",
+        "4 metros"
+      ],
+      "correct": 1,
+      "explanation": "Tenho 2 metros de corda agora, pois cortei 1 metro.",
+      "type": "raciocinio",
+      "difficulty": "dificil"
+    },
+    {
+      "question": "Qual é a definição de um centímetro?",
+      "options": [
+        "Uma medida de tempo",
+        "Uma medida de peso",
+        "Uma medida de comprimento",
+        "Uma medida de temperatura"
+      ],
+      "correct": 2,
+      "explanation": "Um centímetro é uma medida de comprimento, sendo 1/100 de um metro.",
+      "type": "definicao",
+      "difficulty": "facil"
+    },
+    {
+      "question": "Maria tem 3 metros de corda. Ela corta 2 metros. Quanto tem agora?",
+      "options": [
+        "1 metro",
+        "2 metros",
+        "3 metros",
+        "4 metros"
+      ],
+      "correct": 1,
+      "explanation": "Maria tem 1 metro de corda agora, pois cortou 2 metros.",
+      "type": "aplicacao",
+      "difficulty": "dificil"
+    }
+  ]
+}
