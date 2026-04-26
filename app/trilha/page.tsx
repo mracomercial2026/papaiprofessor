@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
@@ -194,7 +194,20 @@ function HpBar({ current, max, color }: { current: number; max: number; color: s
   );
 }
 
+// Wrapper com Suspense — obrigatório no App Router quando useSearchParams é usado
 export default function TrilhaPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen stars-bg flex items-center justify-center">
+        <div className="font-pixel text-purple-400 text-xs animate-blink">CARREGANDO...</div>
+      </div>
+    }>
+      <TrilhaContent />
+    </Suspense>
+  );
+}
+
+function TrilhaContent() {
   const searchParams = useSearchParams();
   const playSound = useGameSounds();
 

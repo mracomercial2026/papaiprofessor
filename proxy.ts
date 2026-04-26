@@ -41,7 +41,7 @@ setInterval(() => {
   }
 }, 5 * 60_000);
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // ── Rate limiting nas APIs ───────────────────────────────────────────────
@@ -83,7 +83,7 @@ export function middleware(req: NextRequest) {
 
   const res = NextResponse.next();
 
-  // ── Headers de segurança adicionais via middleware ───────────────────────
+  // ── Headers de segurança adicionais via proxy ────────────────────────────
   res.headers.set("X-Content-Type-Options", "nosniff");
   res.headers.set("X-Frame-Options", "SAMEORIGIN");
 
