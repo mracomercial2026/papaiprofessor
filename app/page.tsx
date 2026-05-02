@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 
 // ── Tipos ─────────────────────────────────────────────────────────────────────
-type NavId = "inicio" | "funcionalidades" | "precos" | "faq";
+type NavId = "inicio" | "como-funciona" | "precos" | "faq";
 
 // ── Dados ─────────────────────────────────────────────────────────────────────
 const FEATURES = [
@@ -14,17 +14,17 @@ const FEATURES = [
     accent: "#a78bfa",
     href: "/aprender",
     badge: "IA",
-    desc: "Nossa inteligência artificial explica qualquer conteúdo do Fundamental 1 em linguagem simples. Você aprende em minutos e ensina com confiança.",
-    cta: "Experimentar grátis",
+    desc: "Digita a dúvida do seu filho e a IA te explica em português simples — sem jargão de professor. Em 5 minutos você sabe o suficiente para ensinar com confiança.",
+    cta: "Aprender agora",
   },
   {
     icon: "🗺️",
-    title: "Trilha Interativa",
+    title: "Trilha do Conhecimento",
     accent: "#34d399",
     href: "/trilha",
     badge: "Jogo",
-    desc: "Pai e filho jogam juntos em uma trilha de perguntas. Matemática, Português, Ciências, Geografia e História de forma divertida.",
-    cta: "Jogar agora",
+    desc: "Depois de estudar, pai e filho jogam juntos uma trilha de batalhas com perguntas. A tarefa chata vira duelo de monstros — e o conteúdo gruda de verdade.",
+    cta: "Jogar com meu filho",
   },
   {
     icon: "📸",
@@ -32,29 +32,29 @@ const FEATURES = [
     accent: "#f59e0b",
     href: "/analisar",
     badge: "Novo",
-    desc: "Tire foto da tarefa e a IA analisa cada questão — explicando o conceito e como você pode ensinar sem dar a resposta direta.",
-    cta: "Tirar foto",
+    desc: "Tira foto da tarefa e a IA analisa cada questão — explica o conceito e te diz como guiar seu filho sem dar a resposta. Ele aprende, você vira o professor.",
+    cta: "Tirar foto agora",
   },
 ];
 
 const STEPS = [
   {
     num: "1",
-    icon: "😅",
-    title: "A tarefa chega",
-    desc: "Seu filho traz uma tarefa de frações ou análise sintática e você não lembra mais como fazer.",
+    icon: "😰",
+    title: "Seu filho chega com a tarefa",
+    desc: "São 19h. Tem exercício de fração, análise sintática ou \"o que é bioma\". Você quer ajudar — mas faz 20 anos que não vê esse conteúdo.",
   },
   {
     num: "2",
-    icon: "🤖",
-    title: "A IA te ensina",
-    desc: "Em 5 minutos o Papai Professor explica o conteúdo em linguagem simples — do seu jeito, para você repassar.",
+    icon: "🤙",
+    title: "Você abre e pergunta",
+    desc: "Digita a dúvida com suas palavras — \"como eu explico fração pra criança de 9 anos?\" — e a IA responde do seu jeito, em 3 minutos, sem parecer livro didático.",
   },
   {
     num: "3",
     icon: "🏆",
-    title: "Vocês aprendem juntos",
-    desc: "Pai e filho jogam a trilha para fixar o conteúdo. A tarefa vira diversão e a confiança volta.",
+    title: "Você explica. Ele entende. Vocês comemoram.",
+    desc: "Seu filho te olha como quem olha pra um herói. E no final ainda jogam a Trilha juntos pra fixar. A tarefa virou o momento mais divertido do dia.",
   },
 ];
 
@@ -64,7 +64,6 @@ const SUBJECTS = [
   { icon: "🌍", label: "Geografia",  color: "#34d399" },
   { icon: "🔬", label: "Ciências",   color: "#fb923c" },
   { icon: "📜", label: "História",   color: "#f87171" },
-  { icon: "🎨", label: "Artes",      color: "#c084fc" },
 ];
 
 const TESTIMONIALS = [
@@ -72,42 +71,46 @@ const TESTIMONIALS = [
     initials: "RS",
     name: "Roberto S.",
     city: "São Paulo – SP",
-    text: "Meu filho estava reprovando em matemática. Com o Papai Professor aprendi a explicar fração de um jeito que ele entendeu na hora!",
+    text: "Meu filho de 9 anos trouxe tarefa de MMC e MDC. Eu nunca fui bom em math. Em 4 minutos o app me explicou tudo. Ensinei meu filho e ele ficou me chamando de gênio o resto do dia.",
   },
   {
     initials: "CM",
     name: "Camila M.",
     city: "Belo Horizonte – MG",
-    text: "A análise de foto é incrível. Tirei uma foto da tarefa, a IA me explicou o conteúdo e ainda sugeriu como ensinar sem fazer por ele.",
+    text: "Tirei foto da tarefa de Português e a IA me disse exatamente como perguntar pra ele pensar sozinho, sem eu dar a resposta. Ele acertou tudo. Fiquei mais orgulhosa do que ele.",
   },
   {
     initials: "AT",
     name: "André T.",
     city: "Fortaleza – CE",
-    text: "Minha filha passou a pedir para estudar. A trilha é divertida — ela e eu ficamos disputando quem acerta mais!",
+    text: "Minha filha me via como alguém que não sabia de nada na escola dela. Hoje ela me pede ajuda. A Trilha virou ritual: todo dia depois da tarefa a gente batalha junto.",
   },
 ];
 
 const FAQS = [
   {
-    q: "Preciso ter conhecimento em tecnologia?",
-    a: "Não. O app foi pensado para qualquer pai ou mãe. Basta abrir, digitar a dúvida ou tirar uma foto e a IA cuida do resto.",
+    q: "E se meu filho perceber que aprendi pelo app antes de ensinar?",
+    a: "Isso é ser um bom pai — você pesquisou, se preparou, e foi lá ensinar. Não existe diferença entre estudar no app ou em qualquer outro lugar. O que importa é que você estava lá.",
+  },
+  {
+    q: "Precisa entender de tecnologia?",
+    a: "Não. Se você sabe mandar mensagem no WhatsApp, sabe usar o Papai Professor. É só digitar a dúvida ou tirar uma foto — o resto é automático.",
   },
   {
     q: "Para qual faixa de idade é indicado?",
     a: "Todo o Ensino Fundamental 1 — do 1º ao 5º ano — com linguagem adaptada para cada série.",
   },
   {
+    q: "Tenho 15 minutos por dia. Dá pra usar?",
+    a: "É exatamente pra isso que foi feito. Você não precisa virar professor. Precisa de 5 minutos pra aprender o suficiente pra estar do lado do seu filho.",
+  },
+  {
     q: "O plano gratuito tem limite?",
-    a: "O plano gratuito dá acesso completo ao Modo Pai Aprende e à Trilha. O plano Pro desbloqueia a análise de fotos ilimitada e respostas prioritárias da IA.",
+    a: "O plano gratuito dá acesso completo ao Modo Pai Aprende e à Trilha, sem limite. O plano Pro desbloqueia análise de fotos ilimitada e respostas prioritárias da IA.",
   },
   {
     q: "Como funciona o pagamento?",
-    a: "Em breve! Quem se cadastrar agora na lista VIP ganha 1 mês grátis no lançamento do plano Pro.",
-  },
-  {
-    q: "Funciona no celular?",
-    a: "Sim. O app é totalmente responsivo. No celular você ainda pode usar a câmera para analisar a tarefa na hora.",
+    a: "Em breve! Quem entrar na lista VIP agora ganha 1 mês grátis no lançamento do plano Pro.",
   },
 ];
 
@@ -138,7 +141,7 @@ export default function Home() {
   const [menuOpen, setMenuOpen]   = useState(false);
 
   const heroRef    = useRef<HTMLElement>(null);
-  const featRef    = useRef<HTMLElement>(null);
+  const howRef     = useRef<HTMLElement>(null);
   const pricingRef = useRef<HTMLElement>(null);
   const faqRef     = useRef<HTMLElement>(null);
 
@@ -148,10 +151,10 @@ export default function Home() {
   useEffect(() => {
     if (!mounted) return;
     const map: [NavId, React.RefObject<HTMLElement | null>][] = [
-      ["inicio",          heroRef],
-      ["funcionalidades", featRef],
-      ["precos",          pricingRef],
-      ["faq",             faqRef],
+      ["inicio",        heroRef],
+      ["como-funciona", howRef],
+      ["precos",        pricingRef],
+      ["faq",           faqRef],
     ];
     const obs = map.map(([id, ref]) => {
       const o = new IntersectionObserver(
@@ -170,10 +173,10 @@ export default function Home() {
   }
 
   const navLinks: [NavId, string, React.RefObject<HTMLElement | null>][] = [
-    ["inicio",          "Início",           heroRef],
-    ["funcionalidades", "Funcionalidades",   featRef],
-    ["precos",          "Preços",            pricingRef],
-    ["faq",             "FAQ",               faqRef],
+    ["inicio",        "Início",         heroRef],
+    ["como-funciona", "Como funciona",  howRef],
+    ["precos",        "Preços",         pricingRef],
+    ["faq",           "FAQ",            faqRef],
   ];
 
   return (
@@ -256,7 +259,7 @@ export default function Home() {
               style={{
                 background: "none", border: "1px solid rgba(167,139,250,0.3)", borderRadius: 8,
                 color: "#94a3b8", fontSize: 14, padding: "8px 18px", cursor: "pointer",
-                fontFamily: SANS, fontWeight: 500, transition: "border-color 0.2s, color 0.2s",
+                fontFamily: SANS, fontWeight: 500,
               }}
               className="hidden-mobile"
             >
@@ -269,7 +272,6 @@ export default function Home() {
                 color: "#fff", borderRadius: 8, fontSize: 14, fontWeight: 600,
                 padding: "9px 20px", textDecoration: "none", fontFamily: SANS,
                 boxShadow: "0 4px 14px rgba(124,58,237,0.4)",
-                transition: "box-shadow 0.2s",
               }}
             >
               Jogar grátis
@@ -327,7 +329,7 @@ export default function Home() {
       <section
         ref={heroRef}
         id="inicio"
-        style={{ position: "relative", zIndex: 1, maxWidth: 800, margin: "0 auto", padding: "100px 24px 80px", textAlign: "center" }}
+        style={{ position: "relative", zIndex: 1, maxWidth: 820, margin: "0 auto", padding: "100px 24px 80px", textAlign: "center" }}
       >
         {/* Badge */}
         <div style={{
@@ -344,85 +346,152 @@ export default function Home() {
         {/* Headline */}
         <h1 style={{
           fontFamily: SANS,
-          fontSize: "clamp(36px, 6vw, 64px)",
+          fontSize: "clamp(32px, 5.5vw, 62px)",
           fontWeight: 800,
-          lineHeight: 1.15,
-          marginBottom: 24,
-          letterSpacing: "-1px",
-          background: "linear-gradient(135deg, #f8fafc 30%, #a78bfa 100%)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          backgroundClip: "text",
+          lineHeight: 1.12,
+          marginBottom: 28,
+          letterSpacing: "-1.5px",
         }}>
-          Acabe com o estresse<br />na hora da tarefa
+          <span style={{
+            background: "linear-gradient(135deg, #f8fafc 30%, #c4b5fd 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+          }}>
+            Seu filho trouxe tarefa de fração.
+          </span>
+          <br />
+          <span style={{
+            background: "linear-gradient(135deg, #a78bfa 0%, #818cf8 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+          }}>
+            Você foi reprovado em matemática.
+          </span>
+          <br />
+          <span style={{
+            background: "linear-gradient(135deg, #f8fafc 50%, #a78bfa 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+          }}>
+            E agora? 🤔
+          </span>
         </h1>
 
         <p style={{
-          fontFamily: SANS, fontSize: "clamp(16px, 2.5vw, 20px)",
-          color: "#94a3b8", lineHeight: 1.7, maxWidth: 560, margin: "0 auto 48px",
+          fontFamily: SANS, fontSize: "clamp(17px, 2.5vw, 21px)",
+          color: "#94a3b8", lineHeight: 1.7, maxWidth: 600, margin: "0 auto 48px",
         }}>
-          Inteligência artificial que explica o conteúdo escolar para você,
-          e depois transforma a revisão em um jogo para fazer com seu filho. 🎮
+          O <strong style={{ color: "#c4b5fd" }}>Papai Professor</strong> te ensina o conteúdo em 5 minutos —
+          no seu jeito, sem jargão de livro — e depois transforma a revisão em um jogo
+          que você e seu filho jogam juntos. 🎮
         </p>
 
         {/* CTAs */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "center", marginBottom: 60 }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "center", marginBottom: 64 }}>
           <Link
             href="/jogar"
             style={{
               background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
               color: "#fff", borderRadius: 10, fontSize: 16, fontWeight: 700,
-              padding: "14px 32px", textDecoration: "none", fontFamily: SANS,
-              boxShadow: "0 6px 20px rgba(124,58,237,0.45)",
+              padding: "15px 36px", textDecoration: "none", fontFamily: SANS,
+              boxShadow: "0 6px 24px rgba(124,58,237,0.5)",
               display: "inline-block",
             }}
           >
-            Começar grátis
+            Começar grátis agora
           </Link>
           <button
-            onClick={() => scrollTo(pricingRef)}
+            onClick={() => scrollTo(howRef)}
             style={{
               background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.15)",
               color: "#e2e8f0", borderRadius: 10, fontSize: 16, fontWeight: 600,
-              padding: "14px 32px", cursor: "pointer", fontFamily: SANS,
+              padding: "15px 32px", cursor: "pointer", fontFamily: SANS,
             }}
           >
-            Ver planos →
+            Ver como funciona →
           </button>
         </div>
 
-        {/* Stats */}
-        <div style={{ display: "flex", justifyContent: "center", gap: 0, flexWrap: "wrap" }}>
+        {/* Prova social rápida */}
+        <div style={{
+          display: "flex", justifyContent: "center", gap: 0, flexWrap: "wrap",
+          padding: "28px 0",
+          borderTop: "1px solid rgba(167,139,250,0.1)",
+          borderBottom: "1px solid rgba(167,139,250,0.1)",
+        }}>
           {[
-            { num: "5", label: "matérias" },
-            { num: "66+", label: "tópicos" },
-            { num: "1.400+", label: "questões" },
+            { num: "3 min", label: "pra aprender um conteúdo" },
+            { num: "5", label: "matérias do EF1" },
+            { num: "1.400+", label: "questões no banco" },
           ].map((s, i) => (
             <div key={i} style={{
               display: "flex", flexDirection: "column", alignItems: "center",
-              padding: "16px 32px",
-              borderRight: i < 2 ? "1px solid rgba(167,139,250,0.15)" : undefined,
+              padding: "12px 32px",
+              borderRight: i < 2 ? "1px solid rgba(167,139,250,0.12)" : undefined,
             }}>
               <span style={{ fontFamily: SANS, fontSize: 28, fontWeight: 800, color: "#a78bfa" }}>{s.num}</span>
-              <span style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", marginTop: 4 }}>{s.label}</span>
+              <span style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", marginTop: 4, textAlign: "center", maxWidth: 120 }}>{s.label}</span>
             </div>
           ))}
         </div>
       </section>
 
+      {/* ── A DOR REAL ─────────────────────────────────────────────────────────── */}
+      <section style={{ position: "relative", zIndex: 1, maxWidth: 800, margin: "0 auto", padding: "0 24px 80px" }}>
+        <div style={{
+          ...glass,
+          padding: "40px 40px",
+          borderColor: "rgba(167,139,250,0.2)",
+          background: "rgba(124,58,237,0.06)",
+        }}>
+          <div style={{ fontSize: 36, marginBottom: 16, textAlign: "center" }}>😓</div>
+          <p style={{
+            fontFamily: SANS, fontSize: "clamp(17px, 2.5vw, 20px)",
+            color: "#e2e8f0", lineHeight: 1.75, textAlign: "center", margin: 0,
+            fontStyle: "italic",
+          }}>
+            &ldquo;Eu quero tanto estar presente na vida escolar do meu filho.
+            Mas quando ele traz a tarefa e eu não sei explicar...
+            dá uma vergonha que eu nem consigo descrever.&rdquo;
+          </p>
+          <p style={{
+            fontFamily: SANS, fontSize: 14, color: "#64748b",
+            textAlign: "center", marginTop: 20, fontWeight: 600,
+          }}>
+            — A maioria dos pais sente isso. Não é falta de amor. É falta de uma ferramenta.
+          </p>
+        </div>
+      </section>
+
       {/* ── COMO FUNCIONA ─────────────────────────────────────────────────────── */}
-      <section style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "80px 24px" }}>
-        <SectionLabel>Como funciona</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, color: "#f1f5f9", textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
-          Três passos para nunca mais travar na tarefa
+      <section ref={howRef} id="como-funciona" style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "40px 24px 80px" }}>
+        <SectionLabel>Como vai ser sua noite</SectionLabel>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,38px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 16, letterSpacing: "-0.5px" }}>
+          De &ldquo;não sei explicar&rdquo; para<br />
+          <span style={{ color: "#a78bfa" }}>&ldquo;Pai, você manja tudo!&rdquo;</span>
         </h2>
+        <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 56 }}>
+          Em menos de 10 minutos.
+        </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 24 }}>
-          {STEPS.map((step) => (
-            <div key={step.num} style={{ ...glass, padding: 32, display: "flex", flexDirection: "column", gap: 16 }}>
+          {STEPS.map((step, i) => (
+            <div key={step.num} style={{ ...glass, padding: 32, display: "flex", flexDirection: "column", gap: 16, position: "relative" }}>
+              {/* Conector */}
+              {i < STEPS.length - 1 && (
+                <div className="hidden-mobile" style={{
+                  position: "absolute", right: -13, top: "50%", transform: "translateY(-50%)",
+                  color: "#4c1d95", fontSize: 20, zIndex: 2,
+                }}>→</div>
+              )}
               <div style={{
                 width: 40, height: 40, borderRadius: 10,
-                background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
+                background: i === 2
+                  ? "linear-gradient(135deg,#059669,#10b981)"
+                  : "linear-gradient(135deg,#7c3aed,#4f46e5)",
                 display: "flex", alignItems: "center", justifyContent: "center",
                 fontFamily: SANS, fontSize: 16, fontWeight: 800, color: "#fff",
               }}>
@@ -430,18 +499,21 @@ export default function Home() {
               </div>
               <div style={{ fontSize: 36 }}>{step.icon}</div>
               <h3 style={{ fontFamily: SANS, fontSize: 17, fontWeight: 700, color: "#f1f5f9", margin: 0 }}>{step.title}</h3>
-              <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.7, margin: 0 }}>{step.desc}</p>
+              <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.75, margin: 0 }}>{step.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* ── FUNCIONALIDADES ────────────────────────────────────────────────────── */}
-      <section ref={featRef} id="funcionalidades" style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "80px 24px" }}>
-        <SectionLabel>Funcionalidades</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, color: "#f1f5f9", textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
-          Tudo que você precisa em um lugar só
+      <section style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "40px 24px 80px" }}>
+        <SectionLabel>O que você vai usar</SectionLabel>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
+          Três ferramentas. Uma missão.
         </h2>
+        <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 52 }}>
+          Estar do lado do seu filho quando ele mais precisa.
+        </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(290px,1fr))", gap: 24 }}>
           {FEATURES.map((f) => (
@@ -452,10 +524,9 @@ export default function Home() {
                 cursor: "pointer", transition: "border-color 0.2s, transform 0.2s",
                 borderColor: `${f.accent}30`,
               }}
-                onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.transform = "translateY(-4px)"; (e.currentTarget as HTMLDivElement).style.borderColor = `${f.accent}60`; }}
+                onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.transform = "translateY(-4px)"; (e.currentTarget as HTMLDivElement).style.borderColor = `${f.accent}70`; }}
                 onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.transform = ""; (e.currentTarget as HTMLDivElement).style.borderColor = `${f.accent}30`; }}
               >
-                {/* Icon + badge */}
                 <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between" }}>
                   <div style={{
                     width: 56, height: 56, borderRadius: 14,
@@ -478,7 +549,7 @@ export default function Home() {
 
                 <div>
                   <h3 style={{ fontFamily: SANS, fontSize: 18, fontWeight: 700, color: "#f1f5f9", marginBottom: 10 }}>{f.title}</h3>
-                  <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.7, margin: 0 }}>{f.desc}</p>
+                  <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.75, margin: 0 }}>{f.desc}</p>
                 </div>
 
                 <div style={{ marginTop: "auto", display: "flex", alignItems: "center", gap: 6, color: f.accent, fontFamily: SANS, fontSize: 14, fontWeight: 600 }}>
@@ -490,9 +561,9 @@ export default function Home() {
         </div>
 
         {/* Matérias */}
-        <div style={{ marginTop: 64 }}>
-          <p style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", textAlign: "center", marginBottom: 24, textTransform: "uppercase", letterSpacing: 1.5, fontWeight: 600 }}>
-            Matérias disponíveis
+        <div style={{ marginTop: 56 }}>
+          <p style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", textAlign: "center", marginBottom: 20, textTransform: "uppercase", letterSpacing: 1.5, fontWeight: 600 }}>
+            Matérias do Ensino Fundamental 1
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12, justifyContent: "center" }}>
             {SUBJECTS.map((s) => (
@@ -510,10 +581,10 @@ export default function Home() {
       </section>
 
       {/* ── DEPOIMENTOS ────────────────────────────────────────────────────────── */}
-      <section style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "80px 24px" }}>
-        <SectionLabel>Depoimentos</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, color: "#f1f5f9", textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
-          O que as famílias dizem
+      <section style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "40px 24px 80px" }}>
+        <SectionLabel>Pais reais, histórias reais</SectionLabel>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
+          O que mudou em casa
         </h2>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(270px,1fr))", gap: 24 }}>
@@ -524,8 +595,8 @@ export default function Home() {
                   <span key={i} style={{ color: "#f59e0b", fontSize: 16 }}>{s}</span>
                 ))}
               </div>
-              <p style={{ fontFamily: SANS, fontSize: 14, color: "#cbd5e1", lineHeight: 1.75, margin: 0, flex: 1 }}>
-                "{t.text}"
+              <p style={{ fontFamily: SANS, fontSize: 14, color: "#cbd5e1", lineHeight: 1.8, margin: 0, flex: 1 }}>
+                &ldquo;{t.text}&rdquo;
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
                 <div style={{
@@ -548,13 +619,13 @@ export default function Home() {
       </section>
 
       {/* ── PREÇOS ─────────────────────────────────────────────────────────────── */}
-      <section ref={pricingRef} id="precos" style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "80px 24px" }}>
+      <section ref={pricingRef} id="precos" style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>Preços</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, color: "#f1f5f9", textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
-          Comece grátis. Faça upgrade quando quiser.
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
+          Comece grátis — sem culpa.
         </h2>
         <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 52 }}>
-          Sem fidelidade. Cancele quando quiser.
+          Você não paga nada pra estar do lado do seu filho. O Pro é só pra quem quer mais.
         </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))", gap: 24, alignItems: "start" }}>
@@ -566,15 +637,18 @@ export default function Home() {
                 <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: "#f1f5f9" }}>R$0</span>
                 <span style={{ fontFamily: SANS, fontSize: 14, color: "#64748b" }}>/mês</span>
               </div>
+              <p style={{ fontFamily: SANS, fontSize: 13, color: "#475569", marginTop: 8 }}>
+                Já dá pra ser o herói da tarefa.
+              </p>
             </div>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 12 }}>
               {[
-                [true, "Modo Pai Aprende (ilimitado)"],
-                [true, "Trilha interativa"],
-                [true, "5 matérias e 66 tópicos"],
-                [true, "1.400+ questões no banco"],
-                [false, "Análise de foto (5/dia)"],
-                [false, "Suporte prioritário"],
+                [true,  "Modo Pai Aprende (ilimitado)"],
+                [true,  "Trilha do Conhecimento"],
+                [true,  "5 matérias, 66 tópicos"],
+                [true,  "1.400+ questões no banco"],
+                [false, "Foto da Tarefa (análise por IA)"],
+                [false, "Respostas prioritárias"],
               ].map(([ok, text], i) => (
                 <li key={i} style={{ display: "flex", alignItems: "center", gap: 10 }}>
                   <span style={{ color: ok ? "#34d399" : "#334155", fontSize: 16, flexShrink: 0 }}>{ok ? "✓" : "○"}</span>
@@ -583,13 +657,12 @@ export default function Home() {
               ))}
             </ul>
             <Link
-              href="/aprender"
+              href="/jogar"
               style={{
                 display: "block", textAlign: "center",
                 border: "1px solid rgba(167,139,250,0.3)", borderRadius: 10,
                 color: "#a78bfa", fontFamily: SANS, fontSize: 15, fontWeight: 600,
                 padding: "13px", textDecoration: "none",
-                transition: "background 0.2s",
               }}
             >
               Começar grátis
@@ -604,7 +677,6 @@ export default function Home() {
             boxShadow: "0 0 0 1px rgba(124,58,237,0.3), 0 20px 60px rgba(124,58,237,0.2)",
             position: "relative",
           }}>
-            {/* Badge popular */}
             <div style={{
               position: "absolute", top: -14, left: "50%", transform: "translateX(-50%)",
               background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
@@ -622,16 +694,18 @@ export default function Home() {
                 <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: "#f1f5f9" }}>,90</span>
                 <span style={{ fontFamily: SANS, fontSize: 14, color: "#64748b" }}>/mês</span>
               </div>
-              <p style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", margin: 0 }}>Uso ilimitado para toda a família</p>
+              <p style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", margin: 0 }}>
+                Uso ilimitado pra toda a família — menos de R$1 por dia.
+              </p>
             </div>
 
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 12 }}>
               {[
                 "Tudo do plano gratuito",
-                "Análise de foto ilimitada",
+                "Foto da Tarefa ilimitada",
                 "Respostas de IA prioritárias",
-                "Histórico de aprendizado",
-                "Novos tópicos em primeira mão",
+                "Histórico de aprendizado do filho",
+                "Novos conteúdos em primeira mão",
                 "Suporte por WhatsApp",
               ].map((text, i) => (
                 <li key={i} style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -669,20 +743,20 @@ export default function Home() {
             🎁 LISTA VIP
           </div>
           <h3 style={{ fontFamily: SANS, fontSize: 20, fontWeight: 700, color: "#f1f5f9", marginBottom: 10 }}>
-            Ganhe 1 mês grátis no lançamento
+            1 mês de Pro grátis no lançamento
           </h3>
           <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", marginBottom: 28, lineHeight: 1.6 }}>
-            Cadastre seu e-mail e seja avisado assim que o plano Pro abrir — com 1 mês cortesia.
+            Deixa seu e-mail e a gente avisa você antes de todo mundo — com 1 mês cortesia.
           </p>
           <VipForm />
         </div>
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────────── */}
-      <section ref={faqRef} id="faq" style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto", padding: "80px 24px" }}>
-        <SectionLabel>FAQ</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 700, color: "#f1f5f9", textAlign: "center", marginBottom: 48, letterSpacing: "-0.5px" }}>
-          Dúvidas frequentes
+      <section ref={faqRef} id="faq" style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto", padding: "40px 24px 80px" }}>
+        <SectionLabel>Perguntas que todo pai faz</SectionLabel>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 48, letterSpacing: "-0.5px" }}>
+          Tire sua dúvida antes de começar
         </h2>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -702,13 +776,13 @@ export default function Home() {
                   background: openFaq === i ? "rgba(167,139,250,0.2)" : "rgba(255,255,255,0.05)",
                   border: "1px solid rgba(167,139,250,0.2)",
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  color: "#a78bfa", fontSize: 13, flexShrink: 0, transition: "background 0.2s",
+                  color: "#a78bfa", fontSize: 13, flexShrink: 0,
                 }}>
                   {openFaq === i ? "−" : "+"}
                 </span>
               </button>
               {openFaq === i && (
-                <div style={{ padding: "0 24px 20px", fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.75, borderTop: "1px solid rgba(167,139,250,0.1)" }}>
+                <div style={{ padding: "0 24px 20px", fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.8, borderTop: "1px solid rgba(167,139,250,0.1)" }}>
                   <div style={{ paddingTop: 16 }}>{faq.a}</div>
                 </div>
               )}
@@ -718,42 +792,35 @@ export default function Home() {
       </section>
 
       {/* ── CTA FINAL ────────────────────────────────────────────────────────── */}
-      <section style={{ position: "relative", zIndex: 1, maxWidth: 700, margin: "0 auto", padding: "40px 24px 100px" }}>
+      <section style={{ position: "relative", zIndex: 1, maxWidth: 720, margin: "0 auto", padding: "20px 24px 100px" }}>
         <div style={{
-          background: "linear-gradient(135deg,rgba(124,58,237,0.25),rgba(79,70,229,0.15))",
+          background: "linear-gradient(135deg,rgba(124,58,237,0.22),rgba(79,70,229,0.12))",
           border: "1px solid rgba(167,139,250,0.25)", borderRadius: 24,
-          padding: "60px 40px", textAlign: "center",
+          padding: "64px 40px", textAlign: "center",
         }}>
-          <h2 style={{ fontFamily: SANS, fontSize: "clamp(22px,4vw,32px)", fontWeight: 800, color: "#f1f5f9", marginBottom: 14, letterSpacing: "-0.5px" }}>
-            Pronto para a próxima tarefa?
+          <div style={{ fontSize: 48, marginBottom: 20 }}>👨‍👦</div>
+          <h2 style={{ fontFamily: SANS, fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, color: "#f1f5f9", marginBottom: 14, letterSpacing: "-0.5px" }}>
+            A próxima tarefa chega hoje à noite.
           </h2>
-          <p style={{ fontFamily: SANS, fontSize: 16, color: "#94a3b8", marginBottom: 36, lineHeight: 1.6 }}>
-            Junte-se a famílias que transformaram o momento da tarefa em algo divertido — e gratuito para começar.
+          <p style={{ fontFamily: SANS, fontSize: 17, color: "#94a3b8", marginBottom: 40, lineHeight: 1.7 }}>
+            Em 5 minutos você vai saber explicar. E o seu filho vai olhar pra você diferente.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
             <Link
-              href="/aprender"
+              href="/jogar"
               style={{
                 background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
                 color: "#fff", borderRadius: 10, fontSize: 16, fontWeight: 700,
-                padding: "14px 32px", textDecoration: "none", fontFamily: SANS,
-                boxShadow: "0 6px 20px rgba(124,58,237,0.45)", display: "inline-block",
+                padding: "15px 36px", textDecoration: "none", fontFamily: SANS,
+                boxShadow: "0 6px 24px rgba(124,58,237,0.5)", display: "inline-block",
               }}
             >
-              Começar grátis
-            </Link>
-
-            <Link
-              href="/trilha"
-              style={{
-                background: "rgba(52,211,153,0.12)", border: "1px solid rgba(52,211,153,0.3)",
-                color: "#34d399", borderRadius: 10, fontSize: 16, fontWeight: 600,
-                padding: "14px 32px", textDecoration: "none", fontFamily: SANS, display: "inline-block",
-              }}
-            >
-              Ver a trilha →
+              Eu quero ser esse pai →
             </Link>
           </div>
+          <p style={{ fontFamily: SANS, fontSize: 13, color: "#475569", marginTop: 20 }}>
+            Grátis. Sem cadastro. Abre agora.
+          </p>
         </div>
       </section>
 
@@ -774,7 +841,7 @@ export default function Home() {
                 </span>
               </div>
               <p style={{ fontFamily: SANS, fontSize: 13, color: "#475569", lineHeight: 1.6, margin: 0 }}>
-                Aprender junto é a maior aventura que um pai pode ter com o filho.
+                Nenhum pai deveria sentir vergonha de não saber uma matéria da escola do filho.
               </p>
             </div>
 
@@ -782,7 +849,7 @@ export default function Home() {
             <div>
               <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, color: "#475569", textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 16 }}>Navegar</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {[["Funcionalidades", "#funcionalidades"], ["Preços", "#precos"], ["FAQ", "#faq"]].map(([l, h]) => (
+                {[["Como funciona", "#como-funciona"], ["Preços", "#precos"], ["FAQ", "#faq"]].map(([l, h]) => (
                   <a key={l} href={h} style={{ fontFamily: SANS, fontSize: 14, color: "#64748b", textDecoration: "none" }}>{l}</a>
                 ))}
               </div>
@@ -794,7 +861,7 @@ export default function Home() {
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {[
                   ["🧠 Modo Pai Aprende", "/aprender"],
-                  ["🗺️ Trilha Interativa", "/trilha"],
+                  ["🗺️ Trilha do Conhecimento", "/trilha"],
                   ["📸 Foto da Tarefa", "/analisar"],
                 ].map(([l, h]) => (
                   <Link key={l as string} href={h as string} style={{ fontFamily: SANS, fontSize: 14, color: "#64748b", textDecoration: "none" }}>{l}</Link>
@@ -820,7 +887,7 @@ export default function Home() {
 
           <div style={{ borderTop: "1px solid rgba(167,139,250,0.08)", paddingTop: 24, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
             <p style={{ fontFamily: SANS, fontSize: 13, color: "#334155", margin: 0 }}>
-              © 2025 Papai Professor — Feito com ❤️ para famílias brasileiras
+              © 2025 Papai Professor — Feito com ❤️ para pais que querem estar presentes
             </p>
             <button
               onClick={() => alert("Em breve! Cadastre-se na lista VIP acima.")}
@@ -832,7 +899,7 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Overrides globais de CSS que afetam só esta página */}
+      {/* Overrides globais de CSS */}
       <style>{`
         @media (max-width: 768px) {
           .hidden-mobile { display: none !important; }
@@ -916,7 +983,7 @@ function VipForm() {
           opacity: loading ? 0.7 : 1,
         }}
       >
-        {loading ? "..." : "Entrar na lista"}
+        {loading ? "..." : "Quero entrar"}
       </button>
     </form>
   );
