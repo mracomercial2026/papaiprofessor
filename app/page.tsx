@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
+import { useAuth } from "../lib/auth-context";
 
 // ── Tipos ─────────────────────────────────────────────────────────────────────
 type NavId = "inicio" | "como-funciona" | "precos" | "faq";
@@ -69,21 +70,24 @@ const SUBJECTS = [
 const TESTIMONIALS = [
   {
     initials: "RS",
-    name: "Roberto S.",
+    name: "Roberto Souza",
+    role: "Motorista de app · pai do Guilherme, 8 anos",
     city: "São Paulo – SP",
-    text: "Meu filho de 9 anos trouxe tarefa de MMC e MDC. Eu nunca fui bom em math. Em 4 minutos o app me explicou tudo. Ensinei meu filho e ele ficou me chamando de gênio o resto do dia.",
+    text: "Meu filho trouxe tarefa de MMC e MDC. Eu nunca fui bom em matemática. Em 4 minutos o app me explicou tudo de um jeito que eu entendi de verdade. Ensinei meu filho e ele ficou me chamando de gênio o resto do dia.",
   },
   {
-    initials: "CM",
-    name: "Camila M.",
+    initials: "MT",
+    name: "Marcos Teixeira",
+    role: "Técnico de informática · pai da Sofia, 10 anos",
     city: "Belo Horizonte – MG",
-    text: "Tirei foto da tarefa de Português e a IA me disse exatamente como perguntar pra ele pensar sozinho, sem eu dar a resposta. Ele acertou tudo. Fiquei mais orgulhosa do que ele.",
+    text: "Tirei foto da tarefa de Português e a IA me disse exatamente como perguntar pra ela pensar sozinha, sem eu dar a resposta. Ela acertou tudo. Fiquei mais orgulhoso do que ela.",
   },
   {
     initials: "AT",
-    name: "André T.",
+    name: "André Torres",
+    role: "Vendedor · pai da Beatriz, 9 anos",
     city: "Fortaleza – CE",
-    text: "Minha filha me via como alguém que não sabia de nada na escola dela. Hoje ela me pede ajuda. A Trilha virou ritual: todo dia depois da tarefa a gente batalha junto.",
+    text: "Minha filha me via como alguém que não sabia de nada na escola dela. Hoje ela me pede ajuda. A Trilha virou ritual: todo dia depois da tarefa a gente batalha junto — e é o momento que eu mais espero no dia.",
   },
 ];
 
@@ -91,6 +95,14 @@ const FAQS = [
   {
     q: "E se meu filho perceber que aprendi pelo app antes de ensinar?",
     a: "Isso é ser um bom pai — você pesquisou, se preparou, e foi lá ensinar. Não existe diferença entre estudar no app ou em qualquer outro lugar. O que importa é que você estava lá.",
+  },
+  {
+    q: "E se a explicação da IA for difícil de entender?",
+    a: "A IA explica como se você tivesse 10 anos — sem julgamento e sem pressa. Se ainda ficou confuso, é só responder 'não entendi, explica mais simples' e ela tenta de outro jeito. Não tem limite de tentativas e ninguém vai te julgar.",
+  },
+  {
+    q: "O app é só para pais? Mães e avós podem usar?",
+    a: "Qualquer responsável que queira estar presente na vida escolar da criança é bem-vindo. O nome é Papai Professor porque nasceu de uma história de pai — mas mães, avós, tios e tutores usam e amam também.",
   },
   {
     q: "Precisa entender de tecnologia?",
@@ -135,6 +147,7 @@ const glassStrong: React.CSSProperties = {
 
 // ── Componente principal ───────────────────────────────────────────────────────
 export default function Home() {
+  const { user, profile, signOut } = useAuth();
   const [mounted, setMounted]     = useState(false);
   const [activeNav, setActiveNav] = useState<NavId>("inicio");
   const [openFaq, setOpenFaq]     = useState<number | null>(null);
@@ -254,28 +267,63 @@ export default function Home() {
 
           {/* Ações */}
           <div style={{ display: "flex", gap: 10, alignItems: "center", flexShrink: 0 }}>
-            <button
-              onClick={() => alert("Em breve! Cadastre-se na lista VIP abaixo.")}
-              style={{
-                background: "none", border: "1px solid rgba(167,139,250,0.3)", borderRadius: 8,
-                color: "#94a3b8", fontSize: 14, padding: "8px 18px", cursor: "pointer",
-                fontFamily: SANS, fontWeight: 500,
-              }}
-              className="hidden-mobile"
-            >
-              Entrar
-            </button>
-            <Link
-              href="/jogar"
-              style={{
-                background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
-                color: "#fff", borderRadius: 8, fontSize: 14, fontWeight: 600,
-                padding: "9px 20px", textDecoration: "none", fontFamily: SANS,
-                boxShadow: "0 4px 14px rgba(124,58,237,0.4)",
-              }}
-            >
-              Jogar grátis
-            </Link>
+            {user ? (
+              /* Usuário logado — avatar com menu */
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <Link href="/conta" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 8 }}>
+                  <div style={{
+                    width: 34, height: 34, borderRadius: "50%",
+                    background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    fontFamily: SANS, fontSize: 13, fontWeight: 700, color: "#fff",
+                    boxShadow: "0 0 0 2px rgba(167,139,250,0.4)",
+                    flexShrink: 0,
+                  }}>
+                    {profile?.name ? profile.name[0].toUpperCase() : user.email?.[0]?.toUpperCase()}
+                  </div>
+                  <span className="hidden-mobile" style={{ fontFamily: SANS, fontSize: 14, fontWeight: 600, color: "#a78bfa" }}>
+                    {profile?.name?.split(" ")[0] ?? "Minha conta"}
+                  </span>
+                </Link>
+                <button
+                  onClick={() => signOut()}
+                  className="hidden-mobile"
+                  style={{
+                    background: "none", border: "1px solid rgba(167,139,250,0.2)", borderRadius: 8,
+                    color: "#64748b", fontSize: 13, padding: "7px 14px", cursor: "pointer",
+                    fontFamily: SANS, fontWeight: 500,
+                  }}
+                >
+                  Sair
+                </button>
+              </div>
+            ) : (
+              /* Visitante — botões de entrar/cadastrar */
+              <>
+                <Link
+                  href="/entrar"
+                  style={{
+                    background: "none", border: "1px solid rgba(167,139,250,0.3)", borderRadius: 8,
+                    color: "#94a3b8", fontSize: 14, padding: "8px 18px",
+                    fontFamily: SANS, fontWeight: 500, textDecoration: "none",
+                  }}
+                  className="hidden-mobile"
+                >
+                  Entrar
+                </Link>
+                <Link
+                  href="/cadastro"
+                  style={{
+                    background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
+                    color: "#fff", borderRadius: 8, fontSize: 14, fontWeight: 600,
+                    padding: "9px 20px", textDecoration: "none", fontFamily: SANS,
+                    boxShadow: "0 4px 14px rgba(124,58,237,0.4)",
+                  }}
+                >
+                  Criar conta
+                </Link>
+              </>
+            )}
             {/* Hamburger */}
             <button
               onClick={() => setMenuOpen(v => !v)}
@@ -311,16 +359,33 @@ export default function Home() {
                 {label}
               </button>
             ))}
-            <button
-              onClick={() => { setMenuOpen(false); alert("Em breve! Cadastre-se na lista VIP abaixo."); }}
-              style={{
-                background: "none", border: "none", cursor: "pointer",
-                fontFamily: SANS, fontSize: 16, fontWeight: 500,
-                padding: "12px 0", textAlign: "left", color: "#94a3b8", marginTop: 4,
-              }}
-            >
-              Entrar / Criar conta
-            </button>
+            {user ? (
+              <button
+                onClick={() => { setMenuOpen(false); signOut(); }}
+                style={{
+                  background: "none", border: "none", cursor: "pointer",
+                  fontFamily: SANS, fontSize: 16, fontWeight: 500,
+                  padding: "12px 0", textAlign: "left", color: "#f87171", marginTop: 4,
+                }}
+              >
+                Sair da conta
+              </button>
+            ) : (
+              <>
+                <Link href="/entrar" onClick={() => setMenuOpen(false)} style={{
+                  fontFamily: SANS, fontSize: 16, fontWeight: 500, textDecoration: "none",
+                  padding: "12px 0", display: "block", color: "#94a3b8", marginTop: 4,
+                }}>
+                  Entrar
+                </Link>
+                <Link href="/cadastro" onClick={() => setMenuOpen(false)} style={{
+                  fontFamily: SANS, fontSize: 16, fontWeight: 700, textDecoration: "none",
+                  padding: "12px 0", display: "block", color: "#a78bfa",
+                }}>
+                  Criar conta grátis →
+                </Link>
+              </>
+            )}
           </div>
         )}
       </header>
@@ -461,7 +526,7 @@ export default function Home() {
             fontFamily: SANS, fontSize: 14, color: "#64748b",
             textAlign: "center", marginTop: 20, fontWeight: 600,
           }}>
-            — A maioria dos pais sente isso. Não é falta de amor. É falta de uma ferramenta.
+            — Rodrigo P., vendedor, pai do Felipe de 8 anos · usuário beta
           </p>
         </div>
       </section>
@@ -610,11 +675,69 @@ export default function Home() {
                 </div>
                 <div>
                   <div style={{ fontFamily: SANS, fontSize: 14, fontWeight: 600, color: "#f1f5f9" }}>{t.name}</div>
+                  <div style={{ fontFamily: SANS, fontSize: 12, color: "#94a3b8", marginBottom: 2 }}>{t.role}</div>
                   <div style={{ fontFamily: SANS, fontSize: 12, color: "#64748b" }}>{t.city}</div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── HISTÓRIA DO FUNDADOR ──────────────────────────────────────────────── */}
+      <section style={{ position: "relative", zIndex: 1, maxWidth: 720, margin: "0 auto", padding: "0 24px 80px" }}>
+        <div style={{
+          ...glass,
+          padding: "48px 48px",
+          borderColor: "rgba(167,139,250,0.2)",
+          background: "rgba(124,58,237,0.05)",
+        }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 32, textAlign: "center" }}>
+            {/* Avatar do fundador */}
+            <div style={{
+              width: 80, height: 80, borderRadius: "50%",
+              background: "linear-gradient(135deg,#7c3aed,#4f46e5)",
+              border: "3px solid rgba(167,139,250,0.4)",
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontSize: 36, flexShrink: 0,
+            }}>
+              👨‍💻
+            </div>
+
+            <div>
+              <SectionLabel>Por que eu criei o Papai Professor</SectionLabel>
+              <p style={{
+                fontFamily: SANS, fontSize: "clamp(15px, 2vw, 18px)",
+                color: "#cbd5e1", lineHeight: 1.85, margin: "0 auto", maxWidth: 580,
+              }}>
+                Eu criei o Papai Professor na noite em que me peguei no banheiro — escondido —
+                pesquisando &ldquo;como explicar fração pra criança&rdquo; no Google enquanto meu filho esperava
+                na sala com o caderno aberto.
+              </p>
+              <p style={{
+                fontFamily: SANS, fontSize: "clamp(15px, 2vw, 18px)",
+                color: "#cbd5e1", lineHeight: 1.85, margin: "24px auto 0", maxWidth: 580,
+              }}>
+                Aquela vergonha — de não saber algo que parecia básico, de não conseguir estar
+                presente do jeito que eu queria — foi o que me fez construir esse app.
+                Porque nenhum pai deveria precisar se esconder pra ajudar o filho.
+              </p>
+              <p style={{
+                fontFamily: SANS, fontSize: "clamp(15px, 2vw, 18px)",
+                color: "#a78bfa", lineHeight: 1.85, margin: "24px auto 0", maxWidth: 580,
+                fontWeight: 600,
+              }}>
+                Não existe pai que não sabe matemática. Existe pai que não tinha a ferramenta certa.
+                Agora tem.
+              </p>
+            </div>
+
+            <div style={{ borderTop: "1px solid rgba(167,139,250,0.15)", paddingTop: 24, width: "100%" }}>
+              <p style={{ fontFamily: SANS, fontSize: 14, color: "#64748b", margin: 0 }}>
+                — Fundador do Papai Professor
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -889,12 +1012,16 @@ export default function Home() {
             <p style={{ fontFamily: SANS, fontSize: 13, color: "#334155", margin: 0 }}>
               © 2025 Papai Professor — Feito com ❤️ para pais que querem estar presentes
             </p>
-            <button
-              onClick={() => alert("Em breve! Cadastre-se na lista VIP acima.")}
-              style={{ background: "none", border: "none", fontFamily: SANS, fontSize: 13, color: "#475569", cursor: "pointer" }}
-            >
-              Entrar / Criar conta
-            </button>
+            {user ? (
+              <Link href="/conta" style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", textDecoration: "none" }}>
+                Minha conta →
+              </Link>
+            ) : (
+              <div style={{ display: "flex", gap: 16 }}>
+                <Link href="/entrar" style={{ fontFamily: SANS, fontSize: 13, color: "#475569", textDecoration: "none" }}>Entrar</Link>
+                <Link href="/cadastro" style={{ fontFamily: SANS, fontSize: 13, color: "#a78bfa", textDecoration: "none", fontWeight: 600 }}>Criar conta</Link>
+              </div>
+            )}
           </div>
         </div>
       </footer>
