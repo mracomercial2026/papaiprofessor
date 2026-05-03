@@ -14,6 +14,40 @@ interface GameButton {
   tema: string;
 }
 
+interface SavedConversation {
+  id: string;
+  title: string;
+  subject: string;
+  gradeLevel: string;
+  date: string;       // ISO string
+  messages: Message[];
+}
+
+const HISTORY_KEY = "pprofessor_history";
+const MAX_HISTORY = 20;
+
+function loadHistory(): SavedConversation[] {
+  try {
+    return JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "[]");
+  } catch { return []; }
+}
+
+function saveHistory(list: SavedConversation[]) {
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(list.slice(0, MAX_HISTORY)));
+  } catch { /* ignore quota */ }
+}
+
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  const now = new Date();
+  const diffDays = Math.floor((now.getTime() - d.getTime()) / 86400000);
+  if (diffDays === 0) return d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+  if (diffDays === 1) return "ontem";
+  if (diffDays < 7)  return `${diffDays} dias atrás`;
+  return d.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" });
+}
+
 const SUBJECTS = [
   { icon: "➕", label: "Matemática", color: "#e8a000" },
   { icon: "📖", label: "Português", color: "#2d8a00" },
@@ -101,8 +135,26 @@ export default function AprenderPage() {
   const [gradeLevel, setGradeLevel] = useState("");
   const [coins, setCoins] = useState(0);
   const [coinPop, setCoinPop] = useState(false);
+  const [history, setHistory] = useState<SavedConversation[]>([]);
+  const [currentId, setCurrentId] = useState<string | null>(null);
   const chatEndRef = useRef<HTMLDivElement>(null);
   const coinPopTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const messagesRef = useRef<Message[]>([]);
+
+  // Mantém messagesRef sincronizado para uso no cleanup
+  useEffect(() => { messagesRef.current = messages; }, [messages]);
+
+  // Carrega histórico ao montar
+  useEffect(() => { setHistory(loadHistory()); }, []);
+
+  // Salva conversa atual ao desmontar (navegar para fora)
+  useEffect(() => {
+    return () => {
+      const msgs = messagesRef.current;
+      if (msgs.length >= 2) persistConversation(msgs);
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Cleanup timers on unmount
   useEffect(() => {
@@ -110,6 +162,57 @@ export default function AprenderPage() {
       if (coinPopTimer.current) clearTimeout(coinPopTimer.current);
     };
   }, []);
+
+  // ── Histórico ────────────────────────────────────────────────────────────────
+
+  function persistConversation(msgs: Message[], id?: string | null, subj?: string, grade?: string) {
+    if (msgs.length < 2) return;
+    const existing = loadHistory();
+    const convId = id ?? currentId ?? `conv_${Date.now()}`;
+    const title = msgs.find(m => m.role === "user")?.content.slice(0, 60) ?? "Conversa";
+    const updated: SavedConversation = {
+      id: convId,
+      title,
+      subject: subj ?? subject,
+      gradeLevel: grade ?? gradeLevel,
+      date: new Date().toISOString(),
+      messages: msgs,
+    };
+    const filtered = existing.filter(c => c.id !== convId);
+    const newList = [updated, ...filtered];
+    saveHistory(newList);
+    setHistory(newList);
+    return convId;
+  }
+
+  function startNewConversation() {
+    if (messages.length >= 2) persistConversation(messages);
+    setMessages([]);
+    setGameButtons({});
+    setCurrentId(`conv_${Date.now()}`);
+    setInput("");
+  }
+
+  function loadConversation(conv: SavedConversation) {
+    if (messages.length >= 2) persistConversation(messages);
+    setMessages(conv.messages);
+    setGameButtons({});
+    setCurrentId(conv.id);
+    setSubject(conv.subject);
+    setGradeLevel(conv.gradeLevel);
+  }
+
+  function deleteConversation(id: string, e: React.MouseEvent) {
+    e.stopPropagation();
+    const updated = history.filter(c => c.id !== id);
+    saveHistory(updated);
+    setHistory(updated);
+    if (currentId === id) {
+      setMessages([]);
+      setGameButtons({});
+      setCurrentId(null);
+    }
+  }
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -164,6 +267,11 @@ export default function AprenderPage() {
         setCoinPop(true);
         if (coinPopTimer.current) clearTimeout(coinPopTimer.current);
         coinPopTimer.current = setTimeout(() => setCoinPop(false), 1500);
+
+        // Auto-salva no histórico após cada resposta completa
+        const finalMessages = [...newMessages, { role: "assistant" as const, content: fullText }];
+        const id = persistConversation(finalMessages);
+        if (id && !currentId) setCurrentId(id);
       } catch {
         setMessages((prev) => [
           ...prev,
@@ -670,6 +778,93 @@ export default function AprenderPage() {
           color: rgba(255,248,220,0.5);
           margin-top: 6px;
         }
+
+        /* ===== HISTÓRICO ===== */
+        .new-conv-btn {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          width: calc(100% - 24px);
+          margin: 10px 12px 4px;
+          padding: 7px 10px;
+          background: linear-gradient(135deg, #2d8a00, #1a5c00);
+          border: 2px solid #4aaa00;
+          border-radius: 4px;
+          color: #ffd700;
+          font-family: 'Press Start 2P', cursive;
+          font-size: 6px;
+          cursor: pointer;
+          letter-spacing: 0.5px;
+          transition: all 0.15s;
+          box-shadow: 2px 2px 0 #0a2800;
+        }
+        .new-conv-btn:hover { background: linear-gradient(135deg, #3aaa00, #2d8a00); transform: translate(-1px,-1px); box-shadow: 3px 3px 0 #0a2800; }
+        .new-conv-btn:active { transform: translate(1px,1px); box-shadow: 1px 1px 0 #0a2800; }
+
+        .history-list { display: flex; flex-direction: column; gap: 2px; }
+
+        .history-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 6px;
+          width: 100%;
+          padding: 7px 10px;
+          background: rgba(0,0,0,0.25);
+          border: 1px solid rgba(74,170,0,0.2);
+          border-left: 3px solid transparent;
+          border-radius: 0 4px 4px 0;
+          cursor: pointer;
+          text-align: left;
+          transition: all 0.15s;
+        }
+        .history-item:hover { background: rgba(45,138,0,0.3); border-left-color: #4aaa00; }
+        .history-item.active { background: rgba(45,138,0,0.35); border-left-color: #ffd700; }
+
+        .history-item-body { flex: 1; min-width: 0; }
+        .history-title {
+          font-family: system-ui, -apple-system, sans-serif;
+          font-size: 11px;
+          color: #a8e07a;
+          line-height: 1.4;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-weight: 500;
+        }
+        .history-item.active .history-title { color: #ffd700; }
+        .history-meta {
+          font-family: 'VT323', monospace;
+          font-size: 12px;
+          color: #4aaa00;
+          margin-top: 2px;
+          display: flex;
+          gap: 6px;
+          align-items: center;
+        }
+        .history-delete {
+          background: none;
+          border: none;
+          cursor: pointer;
+          color: rgba(255,100,100,0.5);
+          font-size: 13px;
+          padding: 1px 3px;
+          border-radius: 2px;
+          flex-shrink: 0;
+          line-height: 1;
+          transition: color 0.15s;
+          margin-top: 1px;
+        }
+        .history-delete:hover { color: #ff6060; }
+
+        .history-empty {
+          font-family: 'VT323', monospace;
+          font-size: 14px;
+          color: #3a6a20;
+          text-align: center;
+          padding: 8px 4px;
+          line-height: 1.5;
+        }
       `}</style>
 
       {/* ===== HEADER ===== */}
@@ -678,9 +873,29 @@ export default function AprenderPage() {
           <Link href="/" className="header-back">← VOLTAR</Link>
           <div className="header-logo">👨‍🏫 PAI PROFESSOR</div>
         </div>
-        <div className="coin-counter">
-          🪙 {coins}
-          {coinPop && <span className="coin-pop">+5 🪙</span>}
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <button
+            onClick={startNewConversation}
+            style={{
+              fontFamily: "'Press Start 2P', cursive",
+              fontSize: 6,
+              color: "#ffd700",
+              background: "rgba(0,0,0,0.35)",
+              border: "2px solid rgba(255,215,0,0.3)",
+              borderRadius: 3,
+              padding: "5px 10px",
+              cursor: "pointer",
+              letterSpacing: 0.5,
+              transition: "background 0.15s",
+            }}
+            title="Nova conversa"
+          >
+            ✏️ NOVA
+          </button>
+          <div className="coin-counter">
+            🪙 {coins}
+            {coinPop && <span className="coin-pop">+5 🪙</span>}
+          </div>
         </div>
       </header>
 
@@ -688,6 +903,47 @@ export default function AprenderPage() {
         {/* ===== SIDEBAR ===== */}
         <aside className="mario-sidebar">
           <div className="sidebar-pipe-top" />
+
+          {/* NOVA CONVERSA */}
+          <button className="new-conv-btn" onClick={startNewConversation}>
+            <span>✏️</span> NOVA CONVERSA
+          </button>
+
+          {/* HISTÓRICO */}
+          <div className="sidebar-section">
+            <div className="sidebar-label">HISTÓRICO</div>
+            <div className="history-list">
+              {history.length === 0 ? (
+                <div className="history-empty">
+                  Suas conversas<br />aparecem aqui
+                </div>
+              ) : (
+                history.map((conv) => (
+                  <button
+                    key={conv.id}
+                    className={`history-item ${currentId === conv.id ? "active" : ""}`}
+                    onClick={() => loadConversation(conv)}
+                    title={conv.title}
+                  >
+                    <div className="history-item-body">
+                      <div className="history-title">{conv.title}</div>
+                      <div className="history-meta">
+                        {conv.subject && <span>{conv.subject}</span>}
+                        <span>{fmtDate(conv.date)}</span>
+                      </div>
+                    </div>
+                    <button
+                      className="history-delete"
+                      onClick={(e) => deleteConversation(conv.id, e)}
+                      title="Apagar"
+                    >✕</button>
+                  </button>
+                ))
+              )}
+            </div>
+          </div>
+
+          <div className="sidebar-divider" />
 
           <div className="sidebar-section">
             <div className="sidebar-label">MATÉRIA</div>
