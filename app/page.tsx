@@ -129,20 +129,32 @@ const FAQS = [
 // ── Estilos base reutilizáveis ─────────────────────────────────────────────────
 const SANS = "'Inter','Segoe UI',system-ui,-apple-system,sans-serif";
 
+// ── Paleta light ───────────────────────────────────────────────────────────────
+const C = {
+  bg:      "linear-gradient(160deg,#faf9ff 0%,#f0ebff 50%,#faf9ff 100%)",
+  text:    "#0f172a",
+  sub:     "#475569",
+  muted:   "#94a3b8",
+  accent:  "#7c3aed",
+  accentL: "#a78bfa",
+};
+
 const glass: React.CSSProperties = {
-  background: "rgba(255,255,255,0.04)",
+  background: "rgba(255,255,255,0.82)",
   backdropFilter: "blur(12px)",
   WebkitBackdropFilter: "blur(12px)",
-  border: "1px solid rgba(167,139,250,0.15)",
+  border: "1px solid rgba(124,58,237,0.12)",
   borderRadius: 16,
+  boxShadow: "0 2px 20px rgba(124,58,237,0.06)",
 };
 
 const glassStrong: React.CSSProperties = {
-  background: "rgba(255,255,255,0.06)",
+  background: "rgba(255,255,255,0.92)",
   backdropFilter: "blur(16px)",
   WebkitBackdropFilter: "blur(16px)",
-  border: "1px solid rgba(167,139,250,0.25)",
+  border: "1px solid rgba(124,58,237,0.2)",
   borderRadius: 20,
+  boxShadow: "0 4px 32px rgba(124,58,237,0.1)",
 };
 
 // ── Componente principal ───────────────────────────────────────────────────────
@@ -196,11 +208,11 @@ export default function Home() {
     <main
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(160deg,#0c0a1a 0%,#120d2a 50%,#0c0a1a 100%)",
+        background: C.bg,
         fontFamily: SANS,
         imageRendering: "auto",
         overflowX: "hidden",
-        color: "#f1f5f9",
+        color: C.text,
       }}
     >
       {/* Blob de fundo decorativo */}
@@ -209,17 +221,17 @@ export default function Home() {
           <div style={{
             position: "absolute", top: "-10%", left: "-5%",
             width: 600, height: 600, borderRadius: "50%",
-            background: "radial-gradient(circle,rgba(124,58,237,0.18) 0%,transparent 70%)",
+            background: "radial-gradient(circle,rgba(124,58,237,0.10) 0%,transparent 70%)",
           }} />
           <div style={{
             position: "absolute", bottom: "10%", right: "-5%",
             width: 500, height: 500, borderRadius: "50%",
-            background: "radial-gradient(circle,rgba(37,99,235,0.12) 0%,transparent 70%)",
+            background: "radial-gradient(circle,rgba(79,70,229,0.07) 0%,transparent 70%)",
           }} />
           <div style={{
             position: "absolute", top: "40%", left: "55%",
             width: 400, height: 400, borderRadius: "50%",
-            background: "radial-gradient(circle,rgba(245,158,11,0.07) 0%,transparent 70%)",
+            background: "radial-gradient(circle,rgba(245,158,11,0.05) 0%,transparent 70%)",
           }} />
         </div>
       )}
@@ -227,10 +239,10 @@ export default function Home() {
       {/* ── HEADER ───────────────────────────────────────────────────────────── */}
       <header style={{
         position: "sticky", top: 0, zIndex: 50,
-        background: "rgba(12,10,26,0.85)",
+        background: "rgba(255,255,255,0.90)",
         backdropFilter: "blur(20px)",
         WebkitBackdropFilter: "blur(20px)",
-        borderBottom: "1px solid rgba(167,139,250,0.12)",
+        borderBottom: "1px solid rgba(124,58,237,0.12)",
       }}>
         <div style={{
           maxWidth: 1100, margin: "0 auto",
@@ -256,7 +268,7 @@ export default function Home() {
                   background: "none", border: "none", cursor: "pointer",
                   fontFamily: SANS, fontSize: 15, fontWeight: 500,
                   padding: "8px 16px", borderRadius: 8,
-                  color: activeNav === id ? "#a78bfa" : "#94a3b8",
+                  color: activeNav === id ? C.accent : C.sub,
                   transition: "color 0.2s",
                 }}
               >
@@ -290,7 +302,7 @@ export default function Home() {
                   className="hidden-mobile"
                   style={{
                     background: "none", border: "1px solid rgba(167,139,250,0.2)", borderRadius: 8,
-                    color: "#64748b", fontSize: 13, padding: "7px 14px", cursor: "pointer",
+                    color: C.sub, fontSize: 13, padding: "7px 14px", cursor: "pointer",
                     fontFamily: SANS, fontWeight: 500,
                   }}
                 >
@@ -303,8 +315,8 @@ export default function Home() {
                 <Link
                   href="/entrar"
                   style={{
-                    background: "none", border: "1px solid rgba(167,139,250,0.3)", borderRadius: 8,
-                    color: "#94a3b8", fontSize: 14, padding: "8px 18px",
+                    background: "none", border: `1px solid rgba(124,58,237,0.25)`, borderRadius: 8,
+                    color: C.sub, fontSize: 14, padding: "8px 18px",
                     fontFamily: SANS, fontWeight: 500, textDecoration: "none",
                   }}
                   className="hidden-mobile"
@@ -327,7 +339,7 @@ export default function Home() {
             {/* Hamburger */}
             <button
               onClick={() => setMenuOpen(v => !v)}
-              style={{ background: "none", border: "none", cursor: "pointer", fontSize: 22, color: "#94a3b8", lineHeight: 1 }}
+              style={{ background: "none", border: "none", cursor: "pointer", fontSize: 22, color: C.sub, lineHeight: 1 }}
               className="show-mobile"
               aria-label="Menu"
             >
@@ -339,8 +351,8 @@ export default function Home() {
         {/* Drawer mobile */}
         {menuOpen && (
           <div style={{
-            background: "rgba(12,10,26,0.98)",
-            borderTop: "1px solid rgba(167,139,250,0.12)",
+            background: "rgba(255,255,255,0.98)",
+            borderTop: "1px solid rgba(124,58,237,0.12)",
             padding: "12px 24px 20px",
             display: "flex", flexDirection: "column", gap: 4,
           }}>
@@ -352,8 +364,8 @@ export default function Home() {
                   background: "none", border: "none", cursor: "pointer",
                   fontFamily: SANS, fontSize: 16, fontWeight: 500,
                   padding: "12px 0", textAlign: "left",
-                  color: activeNav === id ? "#a78bfa" : "#cbd5e1",
-                  borderBottom: "1px solid rgba(167,139,250,0.08)",
+                  color: activeNav === id ? C.accent : C.text,
+                  borderBottom: "1px solid rgba(124,58,237,0.08)",
                 }}
               >
                 {label}
@@ -365,7 +377,7 @@ export default function Home() {
                 style={{
                   background: "none", border: "none", cursor: "pointer",
                   fontFamily: SANS, fontSize: 16, fontWeight: 500,
-                  padding: "12px 0", textAlign: "left", color: "#f87171", marginTop: 4,
+                  padding: "12px 0", textAlign: "left", color: "#dc2626", marginTop: 4,
                 }}
               >
                 Sair da conta
@@ -374,7 +386,7 @@ export default function Home() {
               <>
                 <Link href="/entrar" onClick={() => setMenuOpen(false)} style={{
                   fontFamily: SANS, fontSize: 16, fontWeight: 500, textDecoration: "none",
-                  padding: "12px 0", display: "block", color: "#94a3b8", marginTop: 4,
+                  padding: "12px 0", display: "block", color: C.sub, marginTop: 4,
                 }}>
                   Entrar
                 </Link>
@@ -403,7 +415,7 @@ export default function Home() {
           borderRadius: 100, padding: "6px 16px", marginBottom: 32,
         }}>
           <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#a78bfa", display: "inline-block" }} />
-          <span style={{ fontFamily: SANS, fontSize: 13, color: "#c4b5fd", fontWeight: 500 }}>
+          <span style={{ fontFamily: SANS, fontSize: 13, color: C.accent, fontWeight: 500 }}>
             Grátis para começar — sem cartão de crédito
           </span>
         </div>
@@ -417,17 +429,12 @@ export default function Home() {
           marginBottom: 28,
           letterSpacing: "-1.5px",
         }}>
-          <span style={{
-            background: "linear-gradient(135deg, #f8fafc 30%, #c4b5fd 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}>
+          <span style={{ color: C.text }}>
             Seu filho trouxe tarefa de fração.
           </span>
           <br />
           <span style={{
-            background: "linear-gradient(135deg, #a78bfa 0%, #818cf8 100%)",
+            background: "linear-gradient(135deg,#7c3aed 0%,#4f46e5 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",
@@ -435,21 +442,16 @@ export default function Home() {
             Você foi reprovado em matemática.
           </span>
           <br />
-          <span style={{
-            background: "linear-gradient(135deg, #f8fafc 50%, #a78bfa 100%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}>
+          <span style={{ color: C.text }}>
             E agora? 🤔
           </span>
         </h1>
 
         <p style={{
           fontFamily: SANS, fontSize: "clamp(17px, 2.5vw, 21px)",
-          color: "#94a3b8", lineHeight: 1.7, maxWidth: 600, margin: "0 auto 48px",
+          color: C.sub, lineHeight: 1.7, maxWidth: 600, margin: "0 auto 48px",
         }}>
-          O <strong style={{ color: "#c4b5fd" }}>Papai Professor</strong> te ensina o conteúdo em 5 minutos —
+          O <strong style={{ color: C.accent }}>Papai Professor</strong> te ensina o conteúdo em 5 minutos —
           no seu jeito, sem jargão de livro — e depois transforma a revisão em um jogo
           que você e seu filho jogam juntos. 🎮
         </p>
@@ -471,8 +473,8 @@ export default function Home() {
           <button
             onClick={() => scrollTo(howRef)}
             style={{
-              background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.15)",
-              color: "#e2e8f0", borderRadius: 10, fontSize: 16, fontWeight: 600,
+              background: "rgba(124,58,237,0.06)", border: "1px solid rgba(124,58,237,0.2)",
+              color: C.accent, borderRadius: 10, fontSize: 16, fontWeight: 600,
               padding: "15px 32px", cursor: "pointer", fontFamily: SANS,
             }}
           >
@@ -495,10 +497,10 @@ export default function Home() {
             <div key={i} style={{
               display: "flex", flexDirection: "column", alignItems: "center",
               padding: "12px 32px",
-              borderRight: i < 2 ? "1px solid rgba(167,139,250,0.12)" : undefined,
+              borderRight: i < 2 ? "1px solid rgba(124,58,237,0.12)" : undefined,
             }}>
-              <span style={{ fontFamily: SANS, fontSize: 28, fontWeight: 800, color: "#a78bfa" }}>{s.num}</span>
-              <span style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", marginTop: 4, textAlign: "center", maxWidth: 120 }}>{s.label}</span>
+              <span style={{ fontFamily: SANS, fontSize: 28, fontWeight: 800, color: C.accent }}>{s.num}</span>
+              <span style={{ fontFamily: SANS, fontSize: 13, color: C.sub, marginTop: 4, textAlign: "center", maxWidth: 120 }}>{s.label}</span>
             </div>
           ))}
         </div>
@@ -515,7 +517,7 @@ export default function Home() {
           <div style={{ fontSize: 36, marginBottom: 16, textAlign: "center" }}>😓</div>
           <p style={{
             fontFamily: SANS, fontSize: "clamp(17px, 2.5vw, 20px)",
-            color: "#e2e8f0", lineHeight: 1.75, textAlign: "center", margin: 0,
+            color: C.text, lineHeight: 1.75, textAlign: "center", margin: 0,
             fontStyle: "italic",
           }}>
             &ldquo;Eu quero tanto estar presente na vida escolar do meu filho.
@@ -534,11 +536,11 @@ export default function Home() {
       {/* ── COMO FUNCIONA ─────────────────────────────────────────────────────── */}
       <section ref={howRef} id="como-funciona" style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>Como vai ser sua noite</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,38px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 16, letterSpacing: "-0.5px" }}>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,38px)", fontWeight: 800, color: C.text, textAlign: "center", marginBottom: 16, letterSpacing: "-0.5px" }}>
           De &ldquo;não sei explicar&rdquo; para<br />
-          <span style={{ color: "#a78bfa" }}>&ldquo;Pai, você manja tudo!&rdquo;</span>
+          <span style={{ color: C.accent }}>&ldquo;Pai, você manja tudo!&rdquo;</span>
         </h2>
-        <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 56 }}>
+        <p style={{ fontFamily: SANS, fontSize: 16, color: C.sub, textAlign: "center", marginBottom: 56 }}>
           Em menos de 10 minutos.
         </p>
 
@@ -549,7 +551,7 @@ export default function Home() {
               {i < STEPS.length - 1 && (
                 <div className="hidden-mobile" style={{
                   position: "absolute", right: -13, top: "50%", transform: "translateY(-50%)",
-                  color: "#4c1d95", fontSize: 20, zIndex: 2,
+                  color: C.accentL, fontSize: 20, zIndex: 2,
                 }}>→</div>
               )}
               <div style={{
@@ -563,8 +565,8 @@ export default function Home() {
                 {step.num}
               </div>
               <div style={{ fontSize: 36 }}>{step.icon}</div>
-              <h3 style={{ fontFamily: SANS, fontSize: 17, fontWeight: 700, color: "#f1f5f9", margin: 0 }}>{step.title}</h3>
-              <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.75, margin: 0 }}>{step.desc}</p>
+              <h3 style={{ fontFamily: SANS, fontSize: 17, fontWeight: 700, color: C.text, margin: 0 }}>{step.title}</h3>
+              <p style={{ fontFamily: SANS, fontSize: 14, color: C.sub, lineHeight: 1.75, margin: 0 }}>{step.desc}</p>
             </div>
           ))}
         </div>
@@ -573,10 +575,10 @@ export default function Home() {
       {/* ── FUNCIONALIDADES ────────────────────────────────────────────────────── */}
       <section style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>O que você vai usar</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: C.text, textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
           Três ferramentas. Uma missão.
         </h2>
-        <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 52 }}>
+        <p style={{ fontFamily: SANS, fontSize: 16, color: C.sub, textAlign: "center", marginBottom: 52 }}>
           Estar do lado do seu filho quando ele mais precisa.
         </p>
 
@@ -613,8 +615,8 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <h3 style={{ fontFamily: SANS, fontSize: 18, fontWeight: 700, color: "#f1f5f9", marginBottom: 10 }}>{f.title}</h3>
-                  <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.75, margin: 0 }}>{f.desc}</p>
+                  <h3 style={{ fontFamily: SANS, fontSize: 18, fontWeight: 700, color: C.text, marginBottom: 10 }}>{f.title}</h3>
+                  <p style={{ fontFamily: SANS, fontSize: 14, color: C.sub, lineHeight: 1.75, margin: 0 }}>{f.desc}</p>
                 </div>
 
                 <div style={{ marginTop: "auto", display: "flex", alignItems: "center", gap: 6, color: f.accent, fontFamily: SANS, fontSize: 14, fontWeight: 600 }}>
@@ -648,7 +650,7 @@ export default function Home() {
       {/* ── DEPOIMENTOS ────────────────────────────────────────────────────────── */}
       <section style={{ position: "relative", zIndex: 1, maxWidth: 1100, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>Pais reais, histórias reais</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: C.text, textAlign: "center", marginBottom: 56, letterSpacing: "-0.5px" }}>
           O que mudou em casa
         </h2>
 
@@ -660,7 +662,7 @@ export default function Home() {
                   <span key={i} style={{ color: "#f59e0b", fontSize: 16 }}>{s}</span>
                 ))}
               </div>
-              <p style={{ fontFamily: SANS, fontSize: 14, color: "#cbd5e1", lineHeight: 1.8, margin: 0, flex: 1 }}>
+              <p style={{ fontFamily: SANS, fontSize: 14, color: C.sub, lineHeight: 1.8, margin: 0, flex: 1 }}>
                 &ldquo;{t.text}&rdquo;
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
@@ -674,9 +676,9 @@ export default function Home() {
                   {t.initials}
                 </div>
                 <div>
-                  <div style={{ fontFamily: SANS, fontSize: 14, fontWeight: 600, color: "#f1f5f9" }}>{t.name}</div>
-                  <div style={{ fontFamily: SANS, fontSize: 12, color: "#94a3b8", marginBottom: 2 }}>{t.role}</div>
-                  <div style={{ fontFamily: SANS, fontSize: 12, color: "#64748b" }}>{t.city}</div>
+                  <div style={{ fontFamily: SANS, fontSize: 14, fontWeight: 600, color: C.text }}>{t.name}</div>
+                  <div style={{ fontFamily: SANS, fontSize: 12, color: C.sub, marginBottom: 2 }}>{t.role}</div>
+                  <div style={{ fontFamily: SANS, fontSize: 12, color: C.muted }}>{t.city}</div>
                 </div>
               </div>
             </div>
@@ -708,7 +710,7 @@ export default function Home() {
               <SectionLabel>Por que eu criei o Papai Professor</SectionLabel>
               <p style={{
                 fontFamily: SANS, fontSize: "clamp(15px, 2vw, 18px)",
-                color: "#cbd5e1", lineHeight: 1.85, margin: "0 auto", maxWidth: 580,
+                color: C.sub, lineHeight: 1.85, margin: "0 auto", maxWidth: 580,
               }}>
                 Eu criei o Papai Professor na noite em que me peguei no banheiro — escondido —
                 pesquisando &ldquo;como explicar fração pra criança&rdquo; no Google enquanto meu filho esperava
@@ -716,7 +718,7 @@ export default function Home() {
               </p>
               <p style={{
                 fontFamily: SANS, fontSize: "clamp(15px, 2vw, 18px)",
-                color: "#cbd5e1", lineHeight: 1.85, margin: "24px auto 0", maxWidth: 580,
+                color: C.sub, lineHeight: 1.85, margin: "24px auto 0", maxWidth: 580,
               }}>
                 Aquela vergonha — de não saber algo que parecia básico, de não conseguir estar
                 presente do jeito que eu queria — foi o que me fez construir esse app.
@@ -744,10 +746,10 @@ export default function Home() {
       {/* ── PREÇOS ─────────────────────────────────────────────────────────────── */}
       <section ref={pricingRef} id="precos" style={{ position: "relative", zIndex: 1, maxWidth: 900, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>Preços</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: C.text, textAlign: "center", marginBottom: 12, letterSpacing: "-0.5px" }}>
           Comece grátis — sem culpa.
         </h2>
-        <p style={{ fontFamily: SANS, fontSize: 16, color: "#64748b", textAlign: "center", marginBottom: 52 }}>
+        <p style={{ fontFamily: SANS, fontSize: 16, color: C.sub, textAlign: "center", marginBottom: 52 }}>
           Você não paga nada pra estar do lado do seu filho. O Pro é só pra quem quer mais.
         </p>
 
@@ -757,8 +759,8 @@ export default function Home() {
             <div>
               <div style={{ fontFamily: SANS, fontSize: 13, fontWeight: 700, color: "#64748b", textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 16 }}>Gratuito</div>
               <div style={{ display: "flex", alignItems: "baseline", gap: 4 }}>
-                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: "#f1f5f9" }}>R$0</span>
-                <span style={{ fontFamily: SANS, fontSize: 14, color: "#64748b" }}>/mês</span>
+                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: C.text }}>R$0</span>
+                <span style={{ fontFamily: SANS, fontSize: 14, color: C.sub }}>/mês</span>
               </div>
               <p style={{ fontFamily: SANS, fontSize: 13, color: "#475569", marginTop: 8 }}>
                 Já dá pra ser o herói da tarefa.
@@ -774,8 +776,8 @@ export default function Home() {
                 [false, "Respostas prioritárias"],
               ].map(([ok, text], i) => (
                 <li key={i} style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                  <span style={{ color: ok ? "#34d399" : "#334155", fontSize: 16, flexShrink: 0 }}>{ok ? "✓" : "○"}</span>
-                  <span style={{ fontFamily: SANS, fontSize: 14, color: ok ? "#cbd5e1" : "#475569" }}>{text as string}</span>
+                  <span style={{ color: ok ? "#059669" : C.muted, fontSize: 16, flexShrink: 0 }}>{ok ? "✓" : "○"}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 14, color: ok ? C.text : C.muted }}>{text as string}</span>
                 </li>
               ))}
             </ul>
@@ -813,11 +815,11 @@ export default function Home() {
             <div>
               <div style={{ fontFamily: SANS, fontSize: 13, fontWeight: 700, color: "#a78bfa", textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 16 }}>Pro</div>
               <div style={{ display: "flex", alignItems: "baseline", gap: 4, marginBottom: 4 }}>
-                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: "#f1f5f9" }}>R$29</span>
-                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: "#f1f5f9" }}>,90</span>
-                <span style={{ fontFamily: SANS, fontSize: 14, color: "#64748b" }}>/mês</span>
+                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: C.text }}>R$29</span>
+                <span style={{ fontFamily: SANS, fontSize: 42, fontWeight: 800, color: C.text }}>,90</span>
+                <span style={{ fontFamily: SANS, fontSize: 14, color: C.sub }}>/mês</span>
               </div>
-              <p style={{ fontFamily: SANS, fontSize: 13, color: "#64748b", margin: 0 }}>
+              <p style={{ fontFamily: SANS, fontSize: 13, color: C.sub, margin: 0 }}>
                 Uso ilimitado pra toda a família — menos de R$1 por dia.
               </p>
             </div>
@@ -833,7 +835,7 @@ export default function Home() {
               ].map((text, i) => (
                 <li key={i} style={{ display: "flex", alignItems: "center", gap: 10 }}>
                   <span style={{ color: "#a78bfa", fontSize: 16, flexShrink: 0 }}>✓</span>
-                  <span style={{ fontFamily: SANS, fontSize: 14, color: "#e2e8f0" }}>{text}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 14, color: C.text }}>{text}</span>
                 </li>
               ))}
             </ul>
@@ -865,10 +867,10 @@ export default function Home() {
           }}>
             🎁 LISTA VIP
           </div>
-          <h3 style={{ fontFamily: SANS, fontSize: 20, fontWeight: 700, color: "#f1f5f9", marginBottom: 10 }}>
+          <h3 style={{ fontFamily: SANS, fontSize: 20, fontWeight: 700, color: C.text, marginBottom: 10 }}>
             1 mês de Pro grátis no lançamento
           </h3>
-          <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", marginBottom: 28, lineHeight: 1.6 }}>
+          <p style={{ fontFamily: SANS, fontSize: 14, color: C.sub, marginBottom: 28, lineHeight: 1.6 }}>
             Deixa seu e-mail e a gente avisa você antes de todo mundo — com 1 mês cortesia.
           </p>
           <VipForm />
@@ -878,7 +880,7 @@ export default function Home() {
       {/* ── FAQ ──────────────────────────────────────────────────────────────── */}
       <section ref={faqRef} id="faq" style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto", padding: "40px 24px 80px" }}>
         <SectionLabel>Perguntas que todo pai faz</SectionLabel>
-        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: "#f1f5f9", textAlign: "center", marginBottom: 48, letterSpacing: "-0.5px" }}>
+        <h2 style={{ fontFamily: SANS, fontSize: "clamp(24px,4vw,36px)", fontWeight: 800, color: C.text, textAlign: "center", marginBottom: 48, letterSpacing: "-0.5px" }}>
           Tire sua dúvida antes de começar
         </h2>
 
@@ -893,10 +895,10 @@ export default function Home() {
                   textAlign: "left",
                 }}
               >
-                <span style={{ fontFamily: SANS, fontSize: 15, fontWeight: 600, color: "#e2e8f0", lineHeight: 1.5 }}>{faq.q}</span>
+                <span style={{ fontFamily: SANS, fontSize: 15, fontWeight: 600, color: C.text, lineHeight: 1.5 }}>{faq.q}</span>
                 <span style={{
                   width: 24, height: 24, borderRadius: "50%",
-                  background: openFaq === i ? "rgba(167,139,250,0.2)" : "rgba(255,255,255,0.05)",
+                  background: openFaq === i ? "rgba(124,58,237,0.15)" : "rgba(124,58,237,0.06)",
                   border: "1px solid rgba(167,139,250,0.2)",
                   display: "flex", alignItems: "center", justifyContent: "center",
                   color: "#a78bfa", fontSize: 13, flexShrink: 0,
@@ -905,7 +907,7 @@ export default function Home() {
                 </span>
               </button>
               {openFaq === i && (
-                <div style={{ padding: "0 24px 20px", fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.8, borderTop: "1px solid rgba(167,139,250,0.1)" }}>
+                <div style={{ padding: "0 24px 20px", fontFamily: SANS, fontSize: 14, color: C.sub, lineHeight: 1.8, borderTop: "1px solid rgba(167,139,250,0.1)" }}>
                   <div style={{ paddingTop: 16 }}>{faq.a}</div>
                 </div>
               )}
@@ -922,10 +924,10 @@ export default function Home() {
           padding: "64px 40px", textAlign: "center",
         }}>
           <div style={{ fontSize: 48, marginBottom: 20 }}>👨‍👦</div>
-          <h2 style={{ fontFamily: SANS, fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, color: "#f1f5f9", marginBottom: 14, letterSpacing: "-0.5px" }}>
+          <h2 style={{ fontFamily: SANS, fontSize: "clamp(22px,4vw,34px)", fontWeight: 800, color: C.text, marginBottom: 14, letterSpacing: "-0.5px" }}>
             A próxima tarefa chega hoje à noite.
           </h2>
-          <p style={{ fontFamily: SANS, fontSize: 17, color: "#94a3b8", marginBottom: 40, lineHeight: 1.7 }}>
+          <p style={{ fontFamily: SANS, fontSize: 17, color: C.sub, marginBottom: 40, lineHeight: 1.7 }}>
             Em 5 minutos você vai saber explicar. E o seu filho vai olhar pra você diferente.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
@@ -941,7 +943,7 @@ export default function Home() {
               Eu quero ser esse pai →
             </Link>
           </div>
-          <p style={{ fontFamily: SANS, fontSize: 13, color: "#475569", marginTop: 20 }}>
+          <p style={{ fontFamily: SANS, fontSize: 13, color: C.sub, marginTop: 20 }}>
             Grátis. Sem cadastro. Abre agora.
           </p>
         </div>
@@ -1078,7 +1080,7 @@ function VipForm() {
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 36, marginBottom: 12 }}>🎉</div>
         <p style={{ fontFamily: SANS, fontSize: 16, fontWeight: 700, color: "#a78bfa", marginBottom: 6 }}>Você está na lista!</p>
-        <p style={{ fontFamily: SANS, fontSize: 14, color: "#64748b" }}>Avisaremos em <strong style={{ color: "#e2e8f0" }}>{email}</strong> quando o plano Pro abrir.</p>
+        <p style={{ fontFamily: SANS, fontSize: 14, color: "#475569" }}>Avisaremos em <strong style={{ color: "#0f172a" }}>{email}</strong> quando o plano Pro abrir.</p>
       </div>
     );
   }
@@ -1094,8 +1096,8 @@ function VipForm() {
         style={{
           fontFamily: SANS, fontSize: 15,
           padding: "12px 18px", flex: "1 1 200px", minWidth: 0,
-          background: "rgba(255,255,255,0.04)", border: "1px solid rgba(167,139,250,0.25)",
-          borderRadius: 10, color: "#f1f5f9", outline: "none",
+          background: "rgba(255,255,255,0.7)", border: "1px solid rgba(124,58,237,0.25)",
+          borderRadius: 10, color: "#0f172a", outline: "none",
         }}
       />
       <button
