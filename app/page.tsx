@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { useAuth } from "../lib/auth-context";
 
 // ── Tipos ─────────────────────────────────────────────────────────────────────
@@ -159,6 +160,7 @@ const glassStrong: React.CSSProperties = {
 
 // ── Componente principal ───────────────────────────────────────────────────────
 export default function Home() {
+  const router = useRouter();
   const { user, profile, signOut } = useAuth();
   const [mounted, setMounted]     = useState(false);
   const [activeNav, setActiveNav] = useState<NavId>("inicio");
@@ -171,6 +173,11 @@ export default function Home() {
   const faqRef     = useRef<HTMLElement>(null);
 
   useEffect(() => setMounted(true), []);
+
+  // Usuário logado não vê a LP — vai direto pro app
+  useEffect(() => {
+    if (mounted && user) router.replace("/dashboard");
+  }, [mounted, user, router]);
 
   // Seção ativa no scroll
   useEffect(() => {

@@ -51,7 +51,7 @@ export default function EntrarPage() {
       return;
     }
 
-    router.push("/jogar");
+    router.push("/dashboard");
   }
 
   return (
