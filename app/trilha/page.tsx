@@ -245,6 +245,16 @@ function TrilhaContent() {
   const [monsterEnter, setMonsterEnter] = useState(false);
   const [showEffect, setShowEffect] = useState<string | null>(null);
 
+  // ── Map 2D animation ────────────────────────────────────────────────────────
+  const [walkFrame, setWalkFrame] = useState(0);
+  const walkIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (screen !== "map") return;
+    walkIntervalRef.current = setInterval(() => setWalkFrame(f => (f + 1) % 2), 350);
+    return () => { if (walkIntervalRef.current) clearInterval(walkIntervalRef.current); };
+  }, [screen]);
+
   // Imersão extra
   const [combo, setCombo] = useState(0);
   const [feedbackOverlay, setFeedbackOverlay] = useState<null | "correct" | "wrong">(null);
@@ -597,93 +607,382 @@ function TrilhaContent() {
     );
   }
 
-  // ─── MAP ─────────────────────────────────────────────────────────────────────
+  // ─── MAP 2D ──────────────────────────────────────────────────────────────────
   if (screen === "map") {
     const mapMonsters = getMonsters(subject!);
+    const N = mapMonsters.length;
+
+    // World coordinates
+    const WORLD_W    = 1900;
+    const WORLD_H    = 230;
+    const GROUND_H   = 52;
+    const SEGMENT_W  = Math.floor((WORLD_W - 200) / N); // ~425px each for 4 monsters
+
+    // Monster x positions (center of each segment)
+    const MONSTER_X = mapMonsters.map((_, i) => 180 + i * SEGMENT_W + SEGMENT_W * 0.65);
+
+    // Hero x: starts at 60, moves past each defeated monster
+    const heroX = clearedMonsters.length === 0
+      ? 60
+      : clearedMonsters.length >= N
+      ? MONSTER_X[N - 1] + 200
+      : MONSTER_X[clearedMonsters.length - 1] + 110;
+
+    // Camera offset: keep hero near left quarter of viewport
+    const CAM_HERO_PX = 140; // hero appears this far from left edge
+    const cameraX     = Math.max(0, heroX - CAM_HERO_PX);
+
+    // Decorative positions
+    const clouds = [
+      { x: 120, y: 18, s: 1.4 }, { x: 420, y: 32, s: 1.0 },
+      { x: 700, y: 12, s: 1.6 }, { x: 1000, y: 28, s: 0.9 },
+      { x: 1300, y: 16, s: 1.3 }, { x: 1600, y: 36, s: 1.1 },
+    ];
+    const qBlocks = [
+      { x: 200, y: 100 }, { x: 220, y: 100 }, { x: 490, y: 82 },
+      { x: 750, y: 95 }, { x: 770, y: 95 }, { x: 1020, y: 86 },
+      { x: 1300, y: 90 }, { x: 1320, y: 90 },
+    ];
+    const pipes = [
+      { x: 340, h: 64 }, { x: 620, h: 48 }, { x: 900, h: 72 }, { x: 1180, h: 56 },
+    ];
+    const coins  = [{ x: 205, y: 68 }, { x: 755, y: 62 }, { x: 1305, y: 66 }];
+
+    const nextIdx = nextMonsterIdx;
+
     return (
-      <div className="min-h-screen stars-bg flex flex-col">
-        <header className="border-b border-purple-900/50 px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <button onClick={() => setScreen("select-subject")}
-              className="font-pixel text-purple-400 text-[8px] hover:text-yellow-400">← SAIR</button>
+      <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: "#1a1035", fontFamily: "system-ui,sans-serif" }}>
+
+        {/* ── Estilos da cena ── */}
+        <style>{`
+          @keyframes heroWalk { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+          @keyframes monsterFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+          @keyframes coinSpin { 0% { transform: scaleX(1); } 50% { transform: scaleX(0.2); } 100% { transform: scaleX(1); } }
+          @keyframes qPulse { 0%,100% { background: #e8a000; } 50% { background: #ffd700; } }
+          @keyframes cloudDrift { 0% { transform: translateX(0); } 100% { transform: translateX(12px); } }
+          @keyframes pathDot { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
+          @keyframes bossGlow { 0%,100% { filter: drop-shadow(0 0 12px #dc2626); } 50% { filter: drop-shadow(0 0 28px #ff6060); } }
+          @keyframes worldEnter { from { opacity:0; transform: scale(0.97); } to { opacity:1; transform: scale(1); } }
+          .map-world { animation: worldEnter 0.4s ease-out; }
+          .hero-walk { animation: heroWalk 0.35s ease-in-out infinite; }
+          .monster-float { animation: monsterFloat 2.2s ease-in-out infinite; }
+          .coin-spin { animation: coinSpin 1.2s ease-in-out infinite; }
+          .q-pulse { animation: qPulse 1.8s ease-in-out infinite; }
+          .cloud-drift { animation: cloudDrift 4s ease-in-out infinite alternate; }
+          .boss-glow { animation: bossGlow 1.5s ease-in-out infinite; }
+        `}</style>
+
+        {/* ── HUD ── */}
+        <header style={{
+          background: "repeating-linear-gradient(90deg,#c84a00 0,#c84a00 32px,#8b3200 32px,#8b3200 64px)",
+          borderBottom: "4px solid #5a1e00",
+          padding: "0 16px", height: 52,
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+          flexShrink: 0, position: "relative", zIndex: 10,
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <button
+              onClick={() => setScreen("select-subject")}
+              style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7, color: "#fff8dc",
+                background: "rgba(0,0,0,0.3)", border: "2px solid rgba(255,255,255,0.2)",
+                borderRadius: 3, padding: "5px 10px", cursor: "pointer" }}
+            >← SAIR</button>
             <div>
-              <div className="font-pixel text-[8px]" style={{ color: subjectColor }}>{subject}</div>
-              <div className="font-retro text-purple-400 text-sm">{topic} · {gradeLevel}</div>
+              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7, color: subjectColor }}>{subject}</div>
+              <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 12, color: "#a78bfa", marginTop: 1 }}>{topic}</div>
             </div>
           </div>
-          <div className="flex items-center gap-4">
-            <div className="flex gap-1">
-              {Array.from({length:6}).map((_,h)=>(
-                <span key={h} className="text-base transition-all" style={{opacity:h<playerHp?1:0.2}}>❤️</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <div style={{ display: "flex", gap: 3 }}>
+              {Array.from({ length: 6 }).map((_, h) => (
+                <span key={h} style={{ fontSize: 14, opacity: h < playerHp ? 1 : 0.2, transition: "opacity 0.3s" }}>❤️</span>
               ))}
             </div>
-            <span className="font-pixel text-yellow-400 text-[8px]">⭐{totalXp}</span>
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 8, color: "#ffd700",
+              background: "rgba(0,0,0,0.3)", border: "2px solid rgba(255,215,0,0.3)",
+              borderRadius: 3, padding: "5px 12px" }}>
+              ⭐ {totalXp}
+            </div>
           </div>
         </header>
 
-        <div className="flex-1 overflow-auto p-4 max-w-2xl mx-auto w-full">
-          <div className="font-pixel text-[7px] text-purple-500 text-center mb-6">
-            MAPA DA AVENTURA — {topic?.toUpperCase()}
-          </div>
+        {/* ── Viewport 2D ── */}
+        <div style={{ overflow: "hidden", height: WORLD_H, flexShrink: 0, position: "relative", background: "#87ceeb" }}>
 
-          <div className="flex flex-col gap-3">
+          {/* World inner (scrolls with camera) */}
+          <div
+            className="map-world"
+            style={{
+              position: "relative",
+              width: WORLD_W,
+              height: WORLD_H,
+              transform: `translateX(-${cameraX}px)`,
+              transition: "transform 0.7s cubic-bezier(0.4,0,0.2,1)",
+            }}
+          >
+            {/* Sky gradient */}
+            <div style={{
+              position: "absolute", inset: 0,
+              background: "linear-gradient(180deg,#4ec3e0 0%,#87ceeb 55%,#b0e8f8 100%)",
+            }} />
+
+            {/* Clouds */}
+            {clouds.map((c, i) => (
+              <div key={i} className="cloud-drift"
+                style={{ position: "absolute", left: c.x, top: c.y, fontSize: 28 * c.s,
+                  animationDelay: `${i * 0.7}s`, animationDuration: `${3 + i * 0.5}s` }}>
+                ☁️
+              </div>
+            ))}
+
+            {/* Question blocks */}
+            {qBlocks.map((b, i) => (
+              <div key={i} className="q-pulse"
+                style={{ position: "absolute", left: b.x, top: b.y,
+                  width: 24, height: 24, borderRadius: 3,
+                  background: "#e8a000", border: "3px solid #8b5e00",
+                  boxShadow: "2px 2px 0 #5a3a00",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  fontFamily: "'Press Start 2P',cursive", fontSize: 8, color: "#fff",
+                  animationDelay: `${i * 0.2}s` }}>
+                ?
+              </div>
+            ))}
+
+            {/* Coins */}
+            {coins.map((c, i) => (
+              <div key={i} className="coin-spin"
+                style={{ position: "absolute", left: c.x, top: c.y,
+                  fontSize: 14, animationDelay: `${i * 0.4}s` }}>
+                🪙
+              </div>
+            ))}
+
+            {/* Pipes */}
+            {pipes.map((p, i) => (
+              <div key={i} style={{ position: "absolute", left: p.x, bottom: GROUND_H - 4 }}>
+                {/* Pipe cap */}
+                <div style={{ width: 36, height: 12, background: "#2d8a00",
+                  border: "3px solid #1a5c00", borderRadius: "3px 3px 0 0",
+                  marginLeft: -4, boxShadow: "inset 0 2px 0 #4aaa00" }} />
+                {/* Pipe body */}
+                <div style={{ width: 28, height: p.h, background: "#1a6600",
+                  border: "3px solid #0f4000", borderLeft: "3px solid #0f4000",
+                  margin: "0 auto", boxShadow: "inset 2px 0 0 #2d8a00" }} />
+              </div>
+            ))}
+
+            {/* Path dots on ground */}
+            {nextIdx !== null && Array.from({ length: 12 }).map((_, i) => {
+              const startX = heroX + 30;
+              const endX   = MONSTER_X[nextIdx] - 50;
+              const dotX   = startX + ((endX - startX) / 12) * i;
+              if (dotX <= startX || dotX >= endX) return null;
+              return (
+                <div key={i} className="pathDot"
+                  style={{ position: "absolute", left: dotX, bottom: GROUND_H + 6,
+                    width: 6, height: 6, borderRadius: "50%", background: "#ffd700",
+                    opacity: 0.5, animationDelay: `${i * 0.12}s`,
+                    animation: "pathDot 1s ease-in-out infinite" }} />
+              );
+            })}
+
+            {/* Monsters */}
             {mapMonsters.map((m, idx) => {
               const cleared = clearedMonsters.includes(idx);
-              const isNext = idx === nextMonsterIdx;
-              const boss = idx === mapMonsters.length - 1;
+              const isNext  = idx === nextIdx;
+              const isBoss  = idx === N - 1;
+              const locked  = !cleared && !isNext;
+              const mx      = MONSTER_X[idx];
+
               return (
-                <div key={idx} className="relative">
-                  {idx > 0 && (
-                    <div className="flex justify-center mb-0">
-                      <div className="w-1 h-6 rounded-full"
-                        style={{ background: clearedMonsters.includes(idx-1) ? "#059669" : "#4c1d95" }} />
+                <div key={idx} style={{ position: "absolute", left: mx, bottom: GROUND_H,
+                  display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
+                  {/* Monster emoji */}
+                  <div
+                    className={isNext ? (isBoss ? "boss-glow" : "monster-float") : ""}
+                    style={{
+                      fontSize: isBoss ? "clamp(40px,8vw,64px)" : "clamp(32px,7vw,52px)",
+                      opacity: locked ? 0.35 : 1,
+                      filter: cleared ? "grayscale(1) opacity(0.4)" : undefined,
+                      transform: cleared ? "scaleY(-1)" : undefined,
+                      transition: "all 0.4s",
+                    }}
+                  >
+                    {cleared ? m.emoji : locked ? "🔒" : m.emoji}
+                  </div>
+
+                  {/* Monster name */}
+                  <div style={{
+                    fontFamily: "'Press Start 2P',cursive", fontSize: 6,
+                    color: cleared ? "#059669" : locked ? "#4c1d95" : m.color,
+                    textAlign: "center", maxWidth: 80, lineHeight: 1.4,
+                    textShadow: isNext ? `0 0 8px ${m.color}` : undefined,
+                  }}>
+                    {cleared ? "✓ VENCIDO" : locked ? "???" : m.name.replace("BOSS: ", "")}
+                    {isBoss && !cleared && !locked && " 👑"}
+                  </div>
+
+                  {/* HP pip indicators */}
+                  {!cleared && !locked && (
+                    <div style={{ display: "flex", gap: 2, marginTop: 2 }}>
+                      {Array.from({ length: m.hp }).map((_, i) => (
+                        <div key={i} style={{
+                          width: 8, height: 8, borderRadius: 2,
+                          background: i < (idx === currentMonsterIdx ? monsterHp : m.hp) ? m.color : "#1a0a2e",
+                          boxShadow: i < m.hp ? `0 0 3px ${m.color}` : undefined,
+                        }} />
+                      ))}
                     </div>
                   )}
-                  <div className={`flex items-center gap-4 pixel-card p-4 transition-all
-                    ${isNext ? "scale-105" : ""}
-                    ${!cleared && !isNext ? "opacity-50" : ""}
-                    ${boss ? "border-red-500" : ""}`}
-                    style={{
-                      borderColor: cleared ? "#059669" : isNext ? m.color : "#4c1d95",
-                      boxShadow: isNext ? `0 0 20px ${m.color}44` : undefined,
-                    }}>
-                    <div className="font-pixel text-[8px] text-purple-500 w-4 shrink-0">{idx+1}</div>
-                    <div className={`text-4xl shrink-0 ${isNext?"animate-float":""}`}
-                      style={{ filter: isNext ? `drop-shadow(0 0 8px ${m.color})` : undefined }}>
-                      {cleared ? "✅" : isNext ? m.emoji : "🔒"}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="font-pixel text-[7px] mb-1"
-                        style={{ color: cleared?"#059669":isNext?m.color:"#4c1d95" }}>
-                        {m.name}{boss?" 👑":""}
-                      </div>
-                      <div className="flex gap-1 mb-1">
-                        {Array.from({length:m.hp}).map((_,i)=>(
-                          <div key={i} className="w-3 h-3 rounded-sm"
-                            style={{ background: cleared?"#059669":isNext?m.color:"#4c1d95" }} />
-                        ))}
-                        <span className="font-retro text-purple-500 text-xs ml-1">{m.hp} HP</span>
-                      </div>
-                      {isNext && <div className="font-retro text-purple-300 text-sm">Responda certo para atacar!</div>}
-                      {cleared && <div className="font-retro text-green-400 text-sm">Derrotado! +{boss?100:50} XP</div>}
-                    </div>
-                    {isNext && !cleared && (
-                      <button onClick={() => startBattle(idx)}
-                        className="pixel-btn pixel-btn-primary shrink-0 text-[8px] px-3 py-2">
-                        ⚔️ LUTAR
-                      </button>
-                    )}
-                  </div>
+
+                  {/* Ataque button above monster */}
+                  {isNext && (
+                    <button
+                      onClick={() => { playSound("levelup"); startBattle(idx); }}
+                      style={{
+                        fontFamily: "'Press Start 2P',cursive", fontSize: 7,
+                        marginTop: 6, padding: "6px 10px",
+                        background: isBoss
+                          ? "linear-gradient(135deg,#dc2626,#991b1b)"
+                          : "linear-gradient(135deg,#e8a000,#c67c00)",
+                        border: `3px solid ${isBoss ? "#fca5a5" : "#ffd700"}`,
+                        borderRadius: 4, color: "#fff", cursor: "pointer",
+                        boxShadow: `3px 3px 0 ${isBoss ? "#7a0000" : "#7a5000"}`,
+                        animation: "qPulse 1.5s ease-in-out infinite",
+                        whiteSpace: "nowrap",
+                      }}
+                    >
+                      ⚔️ LUTAR
+                    </button>
+                  )}
                 </div>
               );
             })}
-          </div>
 
-          <div className="mt-6 text-center">
-            <Link href="/aprender" className="font-retro text-purple-500 text-lg hover:text-yellow-400">
-              🧠 Ir ao Modo Pai Aprende →
-            </Link>
+            {/* Hero character */}
+            <div style={{ position: "absolute", left: heroX, bottom: GROUND_H,
+              display: "flex", flexDirection: "column", alignItems: "center",
+              transition: "left 0.7s cubic-bezier(0.4,0,0.2,1)", zIndex: 5 }}>
+              <div className="hero-walk"
+                style={{ fontSize: "clamp(36px,8vw,52px)",
+                  filter: "drop-shadow(0 4px 8px rgba(5,150,105,0.7))" }}>
+                👨‍🏫
+              </div>
+              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 5,
+                color: "#10b981", textShadow: "0 0 6px #059669" }}>
+                PAI HERÓI
+              </div>
+            </div>
+
+            {/* Ground */}
+            <div style={{
+              position: "absolute", bottom: 0, left: 0, width: WORLD_W, height: GROUND_H,
+              background: "repeating-linear-gradient(90deg,#8b4513 0,#8b4513 31px,#6b3410 31px,#6b3410 32px)",
+              borderTop: "4px solid #c97a3a",
+            }}>
+              {/* Ground top highlight row */}
+              <div style={{ height: 6, background: "repeating-linear-gradient(90deg,#a05820 0,#a05820 31px,#8b4513 31px,#8b4513 32px)" }} />
+            </div>
+
+            {/* World end flag */}
+            <div style={{ position: "absolute", right: 60, bottom: GROUND_H }}>
+              <div style={{ width: 4, height: 80, background: "#888", margin: "0 auto" }} />
+              <div style={{ width: 32, height: 20, background: "#e84040",
+                position: "absolute", top: 0, left: 4,
+                clipPath: "polygon(0 0, 100% 50%, 0 100%)" }} />
+            </div>
           </div>
+        </div>
+
+        {/* ── Info panel abaixo do mundo ── */}
+        <div style={{ background: "rgba(0,0,0,0.6)", borderTop: "3px solid #4c1d95",
+          padding: "14px 20px", flexShrink: 0 }}>
+
+          {nextIdx !== null ? (
+            <div style={{ maxWidth: 640, margin: "0 auto", display: "flex",
+              alignItems: "center", gap: 16, flexWrap: "wrap" }}>
+              {/* Monster info */}
+              <div style={{ flex: 1, minWidth: 200 }}>
+                <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 8,
+                  color: mapMonsters[nextIdx].color, marginBottom: 4 }}>
+                  {nextIdx === N - 1 ? "👑 CHEFE FINAL!" : `⚔️ PRÓXIMO INIMIGO`}
+                </div>
+                <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 15,
+                  color: "#e2e8f0", fontWeight: 600 }}>
+                  {mapMonsters[nextIdx].name.replace("BOSS: ", "")}
+                </div>
+                <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 13, color: "#94a3b8", marginTop: 4 }}>
+                  Responda certo para atacar · {mapMonsters[nextIdx].hp} HP
+                </div>
+              </div>
+
+              {/* Big fight button */}
+              <button
+                onClick={() => { playSound("levelup"); startBattle(nextIdx); }}
+                style={{
+                  fontFamily: "'Press Start 2P',cursive", fontSize: 9,
+                  padding: "14px 28px",
+                  background: nextIdx === N - 1
+                    ? "linear-gradient(135deg,#dc2626,#991b1b)"
+                    : "linear-gradient(135deg,#7c3aed,#4f46e5)",
+                  border: `3px solid ${nextIdx === N - 1 ? "#fca5a5" : "#a78bfa"}`,
+                  borderRadius: 6, color: "#fff", cursor: "pointer",
+                  boxShadow: `4px 4px 0 ${nextIdx === N - 1 ? "#7a0000" : "#2d1a6e"}`,
+                  letterSpacing: 1, transition: "transform 0.1s",
+                  flexShrink: 0,
+                }}
+                onMouseEnter={e => (e.currentTarget.style.transform = "translate(-2px,-2px)")}
+                onMouseLeave={e => (e.currentTarget.style.transform = "")}
+                onMouseDown={e  => (e.currentTarget.style.transform = "translate(2px,2px)")}
+                onMouseUp={e    => (e.currentTarget.style.transform = "translate(-2px,-2px)")}
+              >
+                ⚔️ BATALHAR!
+              </button>
+            </div>
+          ) : (
+            <div style={{ textAlign: "center", color: "#10b981",
+              fontFamily: "'Press Start 2P',cursive", fontSize: 9 }}>
+              🏆 TODOS OS MONSTROS DERROTADOS!
+            </div>
+          )}
+        </div>
+
+        {/* ── Progress da trilha ── */}
+        <div style={{ background: "rgba(0,0,0,0.4)", borderTop: "1px solid rgba(124,58,237,0.2)",
+          padding: "10px 20px", flexShrink: 0 }}>
+          <div style={{ maxWidth: 640, margin: "0 auto", display: "flex", alignItems: "center", gap: 12 }}>
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 6, color: "#6d28d9", minWidth: 60 }}>
+              PROGRESSO
+            </div>
+            <div style={{ flex: 1, height: 10, background: "rgba(255,255,255,0.06)",
+              border: "2px solid #4c1d95", borderRadius: 100, overflow: "hidden" }}>
+              <div style={{
+                height: "100%", borderRadius: 100,
+                background: "linear-gradient(90deg,#7c3aed,#a78bfa)",
+                width: `${(clearedMonsters.length / N) * 100}%`,
+                transition: "width 0.6s ease", boxShadow: "0 0 8px rgba(167,139,250,0.5)",
+              }} />
+            </div>
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 6, color: "#a78bfa", minWidth: 50 }}>
+              {clearedMonsters.length}/{N}
+            </div>
+          </div>
+        </div>
+
+        {/* ── Quick links ── */}
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
+          padding: "16px 20px", gap: 20, flexWrap: "wrap" }}>
+          <Link href="/aprender"
+            style={{ fontFamily: "system-ui,sans-serif", fontSize: 14, color: "#94a3b8",
+              textDecoration: "none", display: "flex", alignItems: "center", gap: 6 }}>
+            🧠 Modo Pai Aprende →
+          </Link>
+          <button onClick={() => setScreen("select-subject")}
+            style={{ fontFamily: "system-ui,sans-serif", fontSize: 14, color: "#64748b",
+              background: "none", border: "none", cursor: "pointer" }}>
+            🗺️ Trocar matéria
+          </button>
         </div>
       </div>
     );
