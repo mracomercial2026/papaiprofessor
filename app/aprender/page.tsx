@@ -50,16 +50,10 @@ function fmtDate(iso: string): string {
 
 const SUBJECTS = [
   { icon: "➕", label: "Matemática", color: "#e8a000" },
-  { icon: "📖", label: "Português", color: "#2d8a00" },
-  { icon: "🌍", label: "Geografia", color: "#1a6ed8" },
-  { icon: "🔬", label: "Ciências", color: "#9b59b6" },
-  { icon: "📜", label: "História", color: "#c84a00" },
-  { icon: "🎵", label: "Artes", color: "#e84040" },
-];
-
-const GRADE_LEVELS = [
-  "1º ano", "2º ano", "3º ano", "4º ano", "5º ano",
-  "6º ano", "7º ano", "8º ano", "9º ano",
+  { icon: "📖", label: "Português",  color: "#2d8a00" },
+  { icon: "🌍", label: "Geografia",  color: "#1a6ed8" },
+  { icon: "🔬", label: "Ciências",   color: "#9b59b6" },
+  { icon: "📜", label: "História",   color: "#c84a00" },
 ];
 
 const QUICK_QUESTIONS = [
@@ -132,7 +126,6 @@ export default function AprenderPage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [subject, setSubject] = useState("");
-  const [gradeLevel, setGradeLevel] = useState("");
   const [coins, setCoins] = useState(0);
   const [coinPop, setCoinPop] = useState(false);
   const [history, setHistory] = useState<SavedConversation[]>([]);
@@ -165,7 +158,7 @@ export default function AprenderPage() {
 
   // ── Histórico ────────────────────────────────────────────────────────────────
 
-  function persistConversation(msgs: Message[], id?: string | null, subj?: string, grade?: string) {
+  function persistConversation(msgs: Message[], id?: string | null) {
     if (msgs.length < 2) return;
     const existing = loadHistory();
     const convId = id ?? currentId ?? `conv_${Date.now()}`;
@@ -173,8 +166,8 @@ export default function AprenderPage() {
     const updated: SavedConversation = {
       id: convId,
       title,
-      subject: subj ?? subject,
-      gradeLevel: grade ?? gradeLevel,
+      subject,
+      gradeLevel: "",
       date: new Date().toISOString(),
       messages: msgs,
     };
@@ -199,7 +192,6 @@ export default function AprenderPage() {
     setGameButtons({});
     setCurrentId(conv.id);
     setSubject(conv.subject);
-    setGradeLevel(conv.gradeLevel);
   }
 
   function deleteConversation(id: string, e: React.MouseEvent) {
@@ -237,7 +229,7 @@ export default function AprenderPage() {
         const res = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ messages: newMessages, subject, gradeLevel }),
+          body: JSON.stringify({ messages: newMessages, subject }),
         });
 
         if (!res.ok) throw new Error("erro");
@@ -281,7 +273,7 @@ export default function AprenderPage() {
         setLoading(false);
       }
     },
-    [input, loading, messages, subject, gradeLevel]
+    [input, loading, messages, subject]
   );
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -449,40 +441,6 @@ export default function AprenderPage() {
         }
         .subject-btn:hover { background: rgba(45,138,0,0.4); border-color: #4aaa00; color: #fff; }
         .subject-btn.active { background: #2d8a00; border-color: #4aaa00; color: #ffd700; font-weight: 600; }
-
-        .grade-btn {
-          font-family: 'VT323', monospace;
-          font-size: 16px;
-          color: #6aaa40;
-          background: rgba(0,0,0,0.2);
-          border: 1px solid rgba(74,170,0,0.2);
-          border-radius: 3px;
-          padding: 2px 7px;
-          cursor: pointer;
-          margin: 2px;
-          transition: all 0.15s;
-        }
-        .grade-btn:hover { color: #fff; border-color: #4aaa00; }
-        .grade-btn.active { background: #2d8a00; color: #ffd700; border-color: #4aaa00; }
-
-        .quick-btn {
-          display: block;
-          width: 100%;
-          text-align: left;
-          padding: 7px 10px;
-          background: rgba(0,0,0,0.25);
-          border: 1px solid rgba(74,170,0,0.25);
-          border-left: 3px solid #2d8a00;
-          border-radius: 0 4px 4px 0;
-          color: #a8e07a;
-          font-family: system-ui, -apple-system, sans-serif;
-          font-size: 12px;
-          cursor: pointer;
-          margin-bottom: 4px;
-          transition: all 0.15s;
-          line-height: 1.3;
-        }
-        .quick-btn:hover { background: rgba(45,138,0,0.35); color: #fff; }
 
         .sidebar-divider {
           height: 3px;
@@ -959,33 +917,6 @@ export default function AprenderPage() {
             ))}
           </div>
 
-          <div className="sidebar-divider" />
-
-          <div className="sidebar-section">
-            <div className="sidebar-label">ANO ESCOLAR</div>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
-              {GRADE_LEVELS.map((g) => (
-                <button
-                  key={g}
-                  onClick={() => setGradeLevel(g === gradeLevel ? "" : g)}
-                  className={`grade-btn ${gradeLevel === g ? "active" : ""}`}
-                >
-                  {g}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="sidebar-divider" />
-
-          <div className="sidebar-section">
-            <div className="sidebar-label">ATALHOS</div>
-            {QUICK_QUESTIONS.map((q) => (
-              <button key={q} onClick={() => sendMessage(q)} className="quick-btn">
-                {q}
-              </button>
-            ))}
-          </div>
         </aside>
 
         {/* ===== CHAT ===== */}
@@ -1091,7 +1022,6 @@ export default function AprenderPage() {
             <div className="input-hint">
               Enter para enviar · Shift+Enter nova linha
               {subject && ` · ${subject}`}
-              {gradeLevel && ` · ${gradeLevel}`}
             </div>
           </div>
         </div>
