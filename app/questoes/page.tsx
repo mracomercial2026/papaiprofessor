@@ -102,7 +102,10 @@ export default function QuestoesPage() {
   }
 
   function handlePrint() {
-    window.print();
+    // Garante que o gabarito esteja visível ao imprimir
+    setShowKey(true);
+    // Aguarda o re-render antes de chamar o print
+    setTimeout(() => window.print(), 80);
   }
 
   return (
@@ -288,7 +291,7 @@ export default function QuestoesPage() {
 
         {/* ── RESULTADO ────────────────────────────────────────────────────────── */}
         {result && (
-          <div ref={printRef}>
+          <div ref={printRef} id="print-area">
 
             {/* Cabeçalho da lista */}
             <div style={{
@@ -305,7 +308,7 @@ export default function QuestoesPage() {
                     {result.subtitle} · {new Date().toLocaleDateString("pt-BR")}
                   </p>
                 </div>
-                <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+                <div className="no-print" style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
                   <button
                     onClick={() => { setResult(null); setShowKey(false); }}
                     style={{
@@ -426,6 +429,7 @@ export default function QuestoesPage() {
             <div style={{ ...card, overflow: "hidden", borderColor: "rgba(245,158,11,0.2)" }}>
               <button
                 onClick={() => setShowKey(!showKey)}
+                className="no-print"
                 style={{
                   width: "100%", padding: "18px 24px",
                   display: "flex", alignItems: "center", justifyContent: "space-between",
@@ -479,14 +483,89 @@ export default function QuestoesPage() {
       {/* ── CSS de impressão ─────────────────────────────────────────────────────── */}
       <style>{`
         @media print {
-          header, .no-print { display: none !important; }
-          main { background: white !important; }
-          body { background: white; color: #000; }
-          * { color: #000 !important; border-color: #ccc !important; background: white !important; box-shadow: none !important; }
-          h1, h2 { color: #000 !important; }
-          p, span, div { color: #222 !important; }
-          [style*="border-radius"] { border-radius: 0 !important; }
+          @page { size: A4; margin: 18mm 16mm; }
+
+          html, body {
+            background: #fff !important;
+            color: #000 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+
+          /* Esconde tudo */
+          body * { visibility: hidden !important; }
+
+          /* Mostra somente a área de impressão */
+          #print-area, #print-area * { visibility: visible !important; }
+
+          /* Reposiciona a área de impressão */
+          #print-area {
+            position: absolute !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: #fff !important;
+          }
+
+          /* Botões e elementos não-imprimíveis */
+          .no-print, .no-print * { display: none !important; }
+
+          /* Limpa estilos escuros no print */
+          #print-area * {
+            background: #fff !important;
+            color: #000 !important;
+            box-shadow: none !important;
+            backdrop-filter: none !important;
+            -webkit-backdrop-filter: none !important;
+          }
+
+          /* Bordas suaves para os cards */
+          #print-area > div {
+            border: 1px solid #999 !important;
+            border-radius: 6px !important;
+            margin-bottom: 12px !important;
+            page-break-inside: avoid;
+          }
+
+          /* Números das questões em destaque */
+          #print-area [style*="background: rgba(236,72,153,0.15)"],
+          #print-area [style*="border-radius: 10"] {
+            border: 1.5px solid #000 !important;
+          }
+
+          /* Alternativas */
+          #print-area [style*="rgba(255,255,255,0.03)"] {
+            border: 1px solid #bbb !important;
+            background: #fff !important;
+          }
+
+          /* Linhas de resposta para questões abertas — visíveis */
+          #print-area [style*="height: 1px"] {
+            background: #333 !important;
+            height: 1px !important;
+            visibility: visible !important;
+          }
+
+          /* Campo de nome/data/nota */
+          #print-area span[style*="border-bottom"] {
+            border-bottom: 1px solid #333 !important;
+          }
+
+          /* Gabarito sempre visível na impressão */
+          #print-area button[class*="no-print"] { display: none !important; }
+
+          /* Headings */
+          #print-area h1, #print-area h2, #print-area h3 {
+            color: #000 !important;
+            page-break-after: avoid;
+          }
+
+          /* Cada questão tenta ficar inteira em uma página */
+          #print-area > div > div { page-break-inside: avoid; }
         }
+
         @media (max-width: 600px) {
           div[style*="grid-template-columns: 1fr 1fr"] {
             grid-template-columns: 1fr !important;
