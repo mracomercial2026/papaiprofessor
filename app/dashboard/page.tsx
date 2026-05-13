@@ -50,6 +50,16 @@ const FEATURES = [
     badge: "NOVO",
     cta: "Tirar foto →",
   },
+  {
+    icon: "📝",
+    label: "Lista de Questões",
+    desc: "Gere uma lista personalizada para seu filho estudar em casa e imprima em segundos",
+    href: "/questoes",
+    accent: "#ec4899",
+    glow: "rgba(236,72,153,0.15)",
+    badge: "PDF",
+    cta: "Gerar lista →",
+  },
 ];
 
 // ── Saudação por horário ──────────────────────────────────────────────────────
@@ -128,7 +138,7 @@ export default function DashboardPage() {
           {/* Logo */}
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <span style={{ fontSize: 22 }}>🎮</span>
-            <span style={{ fontFamily: PIXEL, fontSize: 8, color: "#a78bfa", letterSpacing: 1 }}>
+            <span style={{ fontFamily: PIXEL, fontSize: 11, color: "#a78bfa", letterSpacing: 1 }}>
               PAPAI PROFESSOR
             </span>
           </div>
@@ -142,7 +152,7 @@ export default function DashboardPage() {
               borderRadius: 100, padding: "5px 14px",
             }}>
               <span style={{ fontSize: 14 }}>🪙</span>
-              <span style={{ fontFamily: PIXEL, fontSize: 8, color: "#f59e0b" }}>{xp}</span>
+              <span style={{ fontFamily: PIXEL, fontSize: 11, color: "#f59e0b" }}>{xp}</span>
             </div>
 
             {/* Avatar → conta */}
@@ -240,7 +250,7 @@ export default function DashboardPage() {
                     {f.icon}
                   </div>
                   <span style={{
-                    fontFamily: PIXEL, fontSize: 7,
+                    fontFamily: PIXEL, fontSize: 9,
                     background: `${f.accent}20`, color: f.accent,
                     border: `1px solid ${f.accent}40`,
                     borderRadius: 100, padding: "4px 10px",
@@ -330,7 +340,7 @@ export default function DashboardPage() {
         }}>
           <span style={{ fontSize: 32, flexShrink: 0 }}>💡</span>
           <div>
-            <p style={{ fontFamily: PIXEL, fontSize: 8, color: "#f59e0b", margin: "0 0 6px", letterSpacing: 0.5 }}>
+            <p style={{ fontFamily: PIXEL, fontSize: 11, color: "#f59e0b", margin: "0 0 6px", letterSpacing: 0.5 }}>
               DICA DO DIA
             </p>
             <p style={{ fontFamily: SANS, fontSize: 14, color: "#94a3b8", lineHeight: 1.7, margin: 0 }}>

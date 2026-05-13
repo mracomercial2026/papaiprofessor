@@ -493,7 +493,7 @@ function TrilhaContent() {
   // ─── SELECT SUBJECT ──────────────────────────────────────────────────────────
   if (screen === "select-subject") return (
     <div className="min-h-screen stars-bg flex flex-col items-center justify-center p-6 gap-6">
-      <Link href="/" className="font-pixel text-purple-400 text-[8px] hover:text-yellow-400 self-start">← VOLTAR</Link>
+      <Link href="/" className="font-pixel text-purple-400 text-[11px] hover:text-yellow-400 self-start">← VOLTAR</Link>
       <div className="text-6xl animate-float">⚔️</div>
       <h1 className="font-pixel text-yellow-400 text-lg glow-yellow text-center">AVENTURA DO CONHECIMENTO</h1>
       <p className="font-retro text-purple-200 text-xl text-center max-w-md">
@@ -507,13 +507,13 @@ function TrilhaContent() {
             <button key={g} onClick={() => setGradeLevel(g)}
               className={`pixel-card p-2 text-center cursor-pointer hover:scale-105 transition-all ${gradeLevel===g?"border-yellow-400":""}`}
               style={gradeLevel===g?{borderColor:"#FFD700"}:{}}>
-              <span className="font-pixel text-[7px] text-purple-300">{g}</span>
+              <span className="font-pixel text-[10px] text-purple-300">{g}</span>
             </button>
           ))}
         </div>
       </div>
 
-      <div className="font-pixel text-[8px] text-purple-400">1️⃣ ESCOLHA A DISCIPLINA</div>
+      <div className="font-pixel text-[11px] text-purple-400">1️⃣ ESCOLHA A DISCIPLINA</div>
       <div className="grid grid-cols-3 gap-3 w-full max-w-lg">
         {SUBJECTS.map((s) => (
           <button key={s}
@@ -521,7 +521,7 @@ function TrilhaContent() {
             className="pixel-card p-3 flex flex-col items-center gap-2 cursor-pointer active:scale-95 hover:scale-105 transition-transform"
             style={{ borderColor: SUBJECT_COLORS[s] ?? "#FFD700", boxShadow: `3px 3px 0 ${(SUBJECT_COLORS[s] ?? "#FFD700")}44` }}>
             <span className="text-3xl animate-float">{SUBJECT_ICONS[s] ?? "📚"}</span>
-            <span className="font-pixel text-center leading-tight" style={{ fontSize: 6, color: SUBJECT_COLORS[s] ?? "#FFD700" }}>
+            <span className="font-pixel text-center leading-tight" style={{ fontSize: 10, color: SUBJECT_COLORS[s] ?? "#FFD700" }}>
               {s.toUpperCase()}
             </span>
           </button>
@@ -683,12 +683,12 @@ function TrilhaContent() {
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <button
               onClick={() => setScreen("select-subject")}
-              style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7, color: "#fff8dc",
+              style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 10, color: "#fff8dc",
                 background: "rgba(0,0,0,0.3)", border: "2px solid rgba(255,255,255,0.2)",
                 borderRadius: 3, padding: "5px 10px", cursor: "pointer" }}
             >← SAIR</button>
             <div>
-              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7, color: subjectColor }}>{subject}</div>
+              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 10, color: subjectColor }}>{subject}</div>
               <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 12, color: "#a78bfa", marginTop: 1 }}>{topic}</div>
             </div>
           </div>
@@ -698,7 +698,7 @@ function TrilhaContent() {
                 <span key={h} style={{ fontSize: 14, opacity: h < playerHp ? 1 : 0.2, transition: "opacity 0.3s" }}>❤️</span>
               ))}
             </div>
-            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 8, color: "#ffd700",
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 11, color: "#ffd700",
               background: "rgba(0,0,0,0.3)", border: "2px solid rgba(255,215,0,0.3)",
               borderRadius: 3, padding: "5px 12px" }}>
               ⭐ {totalXp}
@@ -814,7 +814,7 @@ function TrilhaContent() {
 
                   {/* Monster name */}
                   <div style={{
-                    fontFamily: "'Press Start 2P',cursive", fontSize: 6,
+                    fontFamily: "'Press Start 2P',cursive", fontSize: 9,
                     color: cleared ? "#059669" : locked ? "#4c1d95" : m.color,
                     textAlign: "center", maxWidth: 80, lineHeight: 1.4,
                     textShadow: isNext ? `0 0 8px ${m.color}` : undefined,
@@ -841,7 +841,7 @@ function TrilhaContent() {
                     <button
                       onClick={() => { playSound("levelup"); startBattle(idx); }}
                       style={{
-                        fontFamily: "'Press Start 2P',cursive", fontSize: 7,
+                        fontFamily: "'Press Start 2P',cursive", fontSize: 9,
                         marginTop: 6, padding: "6px 10px",
                         background: isBoss
                           ? "linear-gradient(135deg,#dc2626,#991b1b)"
@@ -869,7 +869,7 @@ function TrilhaContent() {
                   filter: "drop-shadow(0 4px 8px rgba(5,150,105,0.7))" }}>
                 👨‍🏫
               </div>
-              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 5,
+              <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 8,
                 color: "#10b981", textShadow: "0 0 6px #059669" }}>
                 PAI HERÓI
               </div>
@@ -906,7 +906,7 @@ function TrilhaContent() {
               <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
                 <div style={{ fontSize: 28 }}>{mapMonsters[nextIdx].emoji}</div>
                 <div>
-                  <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7,
+                  <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 10,
                     color: mapMonsters[nextIdx].color, marginBottom: 3 }}>
                     {nextIdx === N - 1 ? "👑 CHEFE FINAL!" : "⚔️ PRÓXIMO INIMIGO"}
                   </div>
@@ -944,7 +944,7 @@ function TrilhaContent() {
             </div>
           ) : (
             <div style={{ textAlign: "center", color: "#10b981",
-              fontFamily: "'Press Start 2P',cursive", fontSize: 9 }}>
+              fontFamily: "'Press Start 2P',cursive", fontSize: 11 }}>
               🏆 TODOS OS MONSTROS DERROTADOS!
             </div>
           )}
@@ -954,7 +954,7 @@ function TrilhaContent() {
         <div style={{ background: "rgba(0,0,0,0.4)", borderTop: "1px solid rgba(124,58,237,0.2)",
           padding: "10px 20px", flexShrink: 0 }}>
           <div style={{ maxWidth: 640, margin: "0 auto", display: "flex", alignItems: "center", gap: 12 }}>
-            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 6, color: "#6d28d9", minWidth: 60 }}>
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 9, color: "#6d28d9", minWidth: 60 }}>
               PROGRESSO
             </div>
             <div style={{ flex: 1, height: 10, background: "rgba(255,255,255,0.06)",
@@ -966,7 +966,7 @@ function TrilhaContent() {
                 transition: "width 0.6s ease", boxShadow: "0 0 8px rgba(167,139,250,0.5)",
               }} />
             </div>
-            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 6, color: "#a78bfa", minWidth: 50 }}>
+            <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 9, color: "#a78bfa", minWidth: 50 }}>
               {clearedMonsters.length}/{N}
             </div>
           </div>
@@ -1202,7 +1202,7 @@ function TrilhaContent() {
                   boxShadow: `0 0 20px ${currentMonster.color}22`,
                 }}
               >
-                <div className="font-pixel mb-3 text-center" style={{ fontSize: 7, color: currentMonster.color, letterSpacing: 1 }}>
+                <div className="font-pixel mb-3 text-center" style={{ fontSize: 10, color: currentMonster.color, letterSpacing: 1 }}>
                   ❓ RESPONDA PARA ATACAR
                 </div>
                 <p className="font-retro text-white leading-snug text-center" style={{ fontSize: "clamp(17px,3.5vw,22px)" }}>
@@ -1241,7 +1241,7 @@ function TrilhaContent() {
                     <span
                       className="font-pixel shrink-0 flex items-center justify-center rounded-md"
                       style={{
-                        fontSize: 8, width: 32, height: 32,
+                        fontSize: 11, width: 32, height: 32,
                         background: `${currentMonster.color}22`,
                         border: `1px solid ${currentMonster.color}55`,
                         color: currentMonster.color,
@@ -1270,13 +1270,13 @@ function TrilhaContent() {
                   boxShadow: `0 0 24px ${lastCorrect ? "rgba(5,150,105,0.3)" : "rgba(185,28,28,0.3)"}`,
                 }}
               >
-                <div className="font-pixel mb-1" style={{ fontSize: 9, color: lastCorrect ? "#10b981" : "#f87171" }}>
+                <div className="font-pixel mb-1" style={{ fontSize: 11, color: lastCorrect ? "#10b981" : "#f87171" }}>
                   {lastCorrect
                     ? `⚔️ ATAQUE CERTEIRO! ${currentMonster.name.replace("BOSS: ", "")} perdeu 1 HP!`
                     : `${currentMonster.attackEmoji} Monstro contra-atacou! Você perdeu 1 HP!`}
                 </div>
                 {lastCorrect && combo > 1 && (
-                  <div className="font-pixel text-yellow-400 animate-blink" style={{ fontSize: 7 }}>🔥 COMBO x{combo}!</div>
+                  <div className="font-pixel text-yellow-400 animate-blink" style={{ fontSize: 10 }}>🔥 COMBO x{combo}!</div>
                 )}
               </div>
 
@@ -1294,7 +1294,7 @@ function TrilhaContent() {
                         border: `2px solid ${isCorrect ? "#059669" : isWrong ? "#dc2626" : "rgba(124,58,237,0.2)"}`,
                       }}
                     >
-                      <span className="font-pixel shrink-0" style={{ fontSize: 7, color: isCorrect ? "#10b981" : isWrong ? "#f87171" : "#6d28d9" }}>
+                      <span className="font-pixel shrink-0" style={{ fontSize: 10, color: isCorrect ? "#10b981" : isWrong ? "#f87171" : "#6d28d9" }}>
                         {["A","B","C","D"][idx]}
                       </span>
                       <span className="font-retro text-purple-100 flex-1" style={{ fontSize: "clamp(15px,2.8vw,19px)" }}>{opt}</span>
@@ -1309,7 +1309,7 @@ function TrilhaContent() {
                 className="p-4 rounded-xl"
                 style={{ background: "rgba(0,0,0,0.35)", border: "1px solid rgba(124,58,237,0.2)" }}
               >
-                <div className="font-pixel text-purple-400 mb-2" style={{ fontSize: 6 }}>💡 EXPLICAÇÃO</div>
+                <div className="font-pixel text-purple-400 mb-2" style={{ fontSize: 10 }}>💡 EXPLICAÇÃO</div>
                 <p className="font-retro text-purple-200 leading-relaxed" style={{ fontSize: "clamp(15px,2.8vw,18px)" }}>
                   {currentQ.explanation}
                 </p>

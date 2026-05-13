@@ -853,7 +853,7 @@ export default function AprenderPage() {
             onClick={startNewConversation}
             style={{
               fontFamily: "'Press Start 2P', cursive",
-              fontSize: 6,
+              fontSize: 10,
               color: "#ffd700",
               background: "rgba(0,0,0,0.35)",
               border: "2px solid rgba(255,215,0,0.3)",
