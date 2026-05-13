@@ -673,7 +673,10 @@ export default function AprenderPage() {
           margin-bottom: 10px;
           overflow-x: auto;
           padding-bottom: 4px;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
         }
+        .mobile-subjects::-webkit-scrollbar { display: none; }
         @media (max-width: 768px) { .mobile-subjects { display: flex; } }
 
         .mobile-sub-btn {
@@ -822,6 +825,20 @@ export default function AprenderPage() {
           text-align: center;
           padding: 8px 4px;
           line-height: 1.5;
+        }
+
+        /* ===== MOBILE ===== */
+        @media (max-width: 768px) {
+          .show-mobile { display: block !important; }
+          .mario-quick-item { padding: 14px 10px !important; min-height: 54px; font-size: 12px !important; }
+          .mario-textarea { font-size: 16px !important; } /* evita zoom no iOS */
+          .mario-send-btn { min-width: 72px; padding: 0 12px !important; }
+          .mario-messages { padding: 14px 12px 8px !important; }
+          .mario-speech-bubble { max-width: 320px; }
+          .mario-quick-grid { grid-template-columns: 1fr 1fr !important; max-width: 360px; }
+        }
+        @media (min-width: 769px) {
+          .show-mobile { display: none !important; }
         }
       `}</style>
 
@@ -989,16 +1006,24 @@ export default function AprenderPage() {
 
           {/* ===== INPUT ===== */}
           <div className="mario-input-area">
-            <div className="mobile-subjects">
-              {SUBJECTS.map((s) => (
-                <button
-                  key={s.label}
-                  onClick={() => setSubject(s.label === subject ? "" : s.label)}
-                  className={`mobile-sub-btn ${subject === s.label ? "active" : ""}`}
-                >
-                  {s.icon} {s.label}
-                </button>
-              ))}
+            <div style={{ position: "relative" }}>
+              <div className="mobile-subjects">
+                {SUBJECTS.map((s) => (
+                  <button
+                    key={s.label}
+                    onClick={() => setSubject(s.label === subject ? "" : s.label)}
+                    className={`mobile-sub-btn ${subject === s.label ? "active" : ""}`}
+                  >
+                    {s.icon} {s.label}
+                  </button>
+                ))}
+              </div>
+              {/* Fade hint → mais matérias à direita */}
+              <div style={{
+                position: "absolute", right: 0, top: 0, bottom: 4,
+                width: 32, pointerEvents: "none",
+                background: "linear-gradient(90deg,transparent,rgba(139,69,19,0.95))",
+              }} className="show-mobile" />
             </div>
 
             <div className="input-row">

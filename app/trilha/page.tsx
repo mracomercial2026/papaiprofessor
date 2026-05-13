@@ -514,14 +514,14 @@ function TrilhaContent() {
       </div>
 
       <div className="font-pixel text-[8px] text-purple-400">1️⃣ ESCOLHA A DISCIPLINA</div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-2xl">
+      <div className="grid grid-cols-3 gap-3 w-full max-w-lg">
         {SUBJECTS.map((s) => (
           <button key={s}
             onClick={() => { setSubject(s); setScreen("select-topic"); setQuestionsError(""); }}
-            className="pixel-card p-5 flex flex-col items-center gap-3 cursor-pointer hover:scale-110 transition-transform"
-            style={{ borderColor: SUBJECT_COLORS[s] ?? "#FFD700", boxShadow: `4px 4px 0 ${(SUBJECT_COLORS[s] ?? "#FFD700")}44` }}>
-            <span className="text-5xl animate-float">{SUBJECT_ICONS[s] ?? "📚"}</span>
-            <span className="font-pixel text-[8px] text-center" style={{ color: SUBJECT_COLORS[s] ?? "#FFD700" }}>
+            className="pixel-card p-3 flex flex-col items-center gap-2 cursor-pointer active:scale-95 hover:scale-105 transition-transform"
+            style={{ borderColor: SUBJECT_COLORS[s] ?? "#FFD700", boxShadow: `3px 3px 0 ${(SUBJECT_COLORS[s] ?? "#FFD700")}44` }}>
+            <span className="text-3xl animate-float">{SUBJECT_ICONS[s] ?? "📚"}</span>
+            <span className="font-pixel text-center leading-tight" style={{ fontSize: 6, color: SUBJECT_COLORS[s] ?? "#FFD700" }}>
               {s.toUpperCase()}
             </span>
           </button>
@@ -897,45 +897,47 @@ function TrilhaContent() {
 
         {/* ── Info panel abaixo do mundo ── */}
         <div style={{ background: "rgba(0,0,0,0.6)", borderTop: "3px solid #4c1d95",
-          padding: "14px 20px", flexShrink: 0 }}>
+          padding: "12px 16px", flexShrink: 0 }}>
 
           {nextIdx !== null ? (
             <div style={{ maxWidth: 640, margin: "0 auto", display: "flex",
-              alignItems: "center", gap: 16, flexWrap: "wrap" }}>
+              flexDirection: "column", gap: 10 }}>
               {/* Monster info */}
-              <div style={{ flex: 1, minWidth: 200 }}>
-                <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 8,
-                  color: mapMonsters[nextIdx].color, marginBottom: 4 }}>
-                  {nextIdx === N - 1 ? "👑 CHEFE FINAL!" : `⚔️ PRÓXIMO INIMIGO`}
-                </div>
-                <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 15,
-                  color: "#e2e8f0", fontWeight: 600 }}>
-                  {mapMonsters[nextIdx].name.replace("BOSS: ", "")}
-                </div>
-                <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 13, color: "#94a3b8", marginTop: 4 }}>
-                  Responda certo para atacar · {mapMonsters[nextIdx].hp} HP
+              <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <div style={{ fontSize: 28 }}>{mapMonsters[nextIdx].emoji}</div>
+                <div>
+                  <div style={{ fontFamily: "'Press Start 2P',cursive", fontSize: 7,
+                    color: mapMonsters[nextIdx].color, marginBottom: 3 }}>
+                    {nextIdx === N - 1 ? "👑 CHEFE FINAL!" : "⚔️ PRÓXIMO INIMIGO"}
+                  </div>
+                  <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 14,
+                    color: "#e2e8f0", fontWeight: 700 }}>
+                    {mapMonsters[nextIdx].name.replace("BOSS: ", "")}
+                  </div>
+                  <div style={{ fontFamily: "system-ui,sans-serif", fontSize: 12, color: "#94a3b8", marginTop: 2 }}>
+                    Responda certo para atacar · {mapMonsters[nextIdx].hp} HP
+                  </div>
                 </div>
               </div>
 
-              {/* Big fight button */}
+              {/* Big fight button — full width */}
               <button
                 onClick={() => { playSound("levelup"); startBattle(nextIdx); }}
                 style={{
-                  fontFamily: "'Press Start 2P',cursive", fontSize: 9,
-                  padding: "14px 28px",
+                  fontFamily: "'Press Start 2P',cursive", fontSize: 10,
+                  padding: "16px", width: "100%",
                   background: nextIdx === N - 1
                     ? "linear-gradient(135deg,#dc2626,#991b1b)"
                     : "linear-gradient(135deg,#7c3aed,#4f46e5)",
                   border: `3px solid ${nextIdx === N - 1 ? "#fca5a5" : "#a78bfa"}`,
-                  borderRadius: 6, color: "#fff", cursor: "pointer",
+                  borderRadius: 8, color: "#fff", cursor: "pointer",
                   boxShadow: `4px 4px 0 ${nextIdx === N - 1 ? "#7a0000" : "#2d1a6e"}`,
-                  letterSpacing: 1, transition: "transform 0.1s",
-                  flexShrink: 0,
+                  letterSpacing: 1,
                 }}
-                onMouseEnter={e => (e.currentTarget.style.transform = "translate(-2px,-2px)")}
-                onMouseLeave={e => (e.currentTarget.style.transform = "")}
                 onMouseDown={e  => (e.currentTarget.style.transform = "translate(2px,2px)")}
-                onMouseUp={e    => (e.currentTarget.style.transform = "translate(-2px,-2px)")}
+                onMouseUp={e    => (e.currentTarget.style.transform = "")}
+                onTouchStart={e => (e.currentTarget.style.transform = "translate(2px,2px)")}
+                onTouchEnd={e   => (e.currentTarget.style.transform = "")}
               >
                 ⚔️ BATALHAR!
               </button>
@@ -971,8 +973,8 @@ function TrilhaContent() {
         </div>
 
         {/* ── Quick links ── */}
-        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center",
-          padding: "16px 20px", gap: 20, flexWrap: "wrap" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center",
+          padding: "12px 20px", gap: 20, flexWrap: "wrap", flexShrink: 0 }}>
           <Link href="/aprender"
             style={{ fontFamily: "system-ui,sans-serif", fontSize: 14, color: "#94a3b8",
               textDecoration: "none", display: "flex", alignItems: "center", gap: 6 }}>

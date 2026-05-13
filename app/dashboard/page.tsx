@@ -200,9 +200,9 @@ export default function DashboardPage() {
         {/* ── Cards de funcionalidades ─────────────────────────────────────── */}
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-          gap: 20,
-          marginBottom: 48,
+          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+          gap: 16,
+          marginBottom: 40,
         }}>
           {FEATURES.map((f) => (
             <Link key={f.label} href={f.href} style={{ textDecoration: "none" }}>
