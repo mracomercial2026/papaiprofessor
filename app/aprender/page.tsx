@@ -14,6 +14,71 @@ interface GameButton {
   tema: string;
 }
 
+// ── Limpa markdown para texto puro (cópia / compartilhamento) ────────────────
+function stripMarkdown(s: string): string {
+  return s
+    .replace(/\[JOGAR_AGORA:[^\]]*\]/g, "")
+    .replace(/^#{1,6}\s+/gm, "")
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .replace(/\*(.+?)\*/g, "$1")
+    .replace(/`(.+?)`/g, "$1")
+    .replace(/^>\s+/gm, "")
+    .replace(/^▸\s+/gm, "• ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+// ── Botões de ação abaixo da mensagem da IA ───────────────────────────────────
+function MessageActions({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+  const clean = stripMarkdown(text);
+
+  async function handleCopy() {
+    try {
+      await navigator.clipboard.writeText(clean);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // fallback
+      const ta = document.createElement("textarea");
+      ta.value = clean;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch {}
+      document.body.removeChild(ta);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  }
+
+  async function handleShare() {
+    const shareText = clean.slice(0, 1500);
+    if (typeof navigator.share === "function") {
+      try {
+        await navigator.share({
+          title: "Papai Professor — Professor Pixel",
+          text: shareText,
+        });
+        return;
+      } catch {
+        // user cancelled or share unavailable, fallback to copy
+      }
+    }
+    handleCopy();
+  }
+
+  return (
+    <div className="msg-actions">
+      <button className="msg-action-btn" onClick={handleCopy} title="Copiar texto">
+        {copied ? "✓ COPIADO" : "📋 COPIAR"}
+      </button>
+      <button className="msg-action-btn" onClick={handleShare} title="Compartilhar">
+        🔗 COMPARTILHAR
+      </button>
+    </div>
+  );
+}
+
 interface SavedConversation {
   id: string;
   title: string;
@@ -553,11 +618,40 @@ export default function AprenderPage() {
 
         .msg-ai-label {
           font-family: 'Press Start 2P', cursive;
-          font-size: 6px;
+          font-size: 10px;
           color: #4aaa00;
-          margin-bottom: 5px;
+          margin-bottom: 6px;
           padding-left: 2px;
           letter-spacing: 0.5px;
+        }
+
+        /* ===== AÇÕES DA MENSAGEM (copiar / compartilhar) ===== */
+        .msg-actions {
+          display: flex;
+          gap: 8px;
+          margin-top: 8px;
+          padding-left: 2px;
+          flex-wrap: wrap;
+        }
+        .msg-action-btn {
+          font-family: 'Press Start 2P', cursive;
+          font-size: 8px;
+          letter-spacing: 0.5px;
+          background: rgba(8, 40, 8, 0.85);
+          border: 2px solid #2d8a00;
+          color: #b6e4a0;
+          padding: 6px 12px;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.1s;
+        }
+        .msg-action-btn:hover {
+          background: rgba(45,138,0,0.4);
+          color: #fff;
+          border-color: #4aaa00;
+        }
+        .msg-action-btn:active {
+          transform: translateY(1px);
         }
 
         .msg-bubble-ai {
@@ -986,6 +1080,7 @@ export default function AprenderPage() {
                         </div>
                       )}
                     </div>
+                    {msg.content && !loading && <MessageActions text={text} />}
                     {activeGame && (
                       <button className="game-cta" onClick={() => goToGame(activeGame)}>
                         <span className="game-cta-icon">⭐</span>
